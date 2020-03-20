@@ -21,7 +21,7 @@ import 'package:gallery/demos/cupertino/cupertino_slider_demo.dart';
 import 'package:gallery/demos/cupertino/cupertino_switch_demo.dart';
 import 'package:gallery/demos/cupertino/cupertino_tab_bar_demo.dart';
 import 'package:gallery/demos/cupertino/cupertino_text_field_demo.dart';
-import 'package:gallery/demos/material/banner_demo.dart';
+import 'package:gallery/demos/material/banner_demo/main.dart';
 import 'package:gallery/demos/material/bottom_app_bar_demo.dart';
 import 'package:gallery/demos/material/bottom_navigation_demo.dart';
 import 'package:gallery/demos/material/bottom_sheet_demo.dart';
