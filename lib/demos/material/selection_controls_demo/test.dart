@@ -7,7 +7,7 @@ class Example extends StatefulWidget {
 class _ExampleState extends State<Example> {
   Widget _body;
 
-  static const String _title = 'Button Example';
+  static const String _title = 'Material Selection Controls Demonstration';
 
   @override
   void initState() {

@@ -7,7 +7,7 @@ class Example extends StatefulWidget {
 class _ExampleState extends State<Example> {
   Widget _body;
 
-  static const String _title = 'Button Example';
+  static const String _title = 'Material Menu Demonstration';
 
   @override
   void initState() {
@@ -59,7 +59,7 @@ class _ExampleState extends State<Example> {
               icon: const Icon(Icons.looks_4),
               onPressed: () {
                 setState(() {
-                  _body =MenuDemo(
+                  _body = MenuDemo(
                     type: MenuDemoType.simpleMenu,
                   );
                 });

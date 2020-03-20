@@ -51,7 +51,7 @@ class _ExampleState extends State<Example> {
               icon: const Icon(Icons.looks_4),
               onPressed: () {
                 setState(() {
-                  _body = DialogDemo(type: DialogDemoType.fullscreen),
+                  _body = DialogDemo(type: DialogDemoType.fullscreen);
                 });
               },
             ),

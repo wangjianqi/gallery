@@ -51,7 +51,9 @@ class _ExampleState extends State<Example> {
               icon: const Icon(Icons.looks_4),
               onPressed: () {
                 setState(() {
-                  _body = CupertinoAlertDemo(type: AlertDemoType.alertButtonsOnly),
+                  _body = CupertinoAlertDemo(
+                    type: AlertDemoType.alertButtonsOnly,
+                  );
                 });
               },
             ),
