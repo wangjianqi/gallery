@@ -1,4 +1,4 @@
-void main() => runApp(BottomAppBar());
+void main() => runApp(Example());
 
 class Example extends StatefulWidget {
   _ExampleState createState() => _ExampleState();
@@ -7,13 +7,13 @@ class Example extends StatefulWidget {
 class _ExampleState extends State<Example> {
   Widget _body;
 
-  static const String _title = 'Bottom Navigation Example';
+  static const String _title = 'Bottom Sheet Example';
 
   @override
   void initState() {
     super.initState();
-    _body = BottomNavigationDemo(
-      type: BottomNavigationDemoType.withLabels,
+    _body = BottomSheetDemo(
+      type: BottomSheetDemoType.persistent,
     );
   }
 
@@ -29,8 +29,8 @@ class _ExampleState extends State<Example> {
               icon: const Icon(Icons.looks_one),
               onPressed: () {
                 setState(() {
-                  _body = BottomNavigationDemo(
-                    type: BottomNavigationDemoType.withLabels,
+                  _body = BottomSheetDemo(
+                    type: BottomSheetDemoType.persistent,
                   );
                 });
               },
@@ -39,8 +39,8 @@ class _ExampleState extends State<Example> {
               icon: const Icon(Icons.looks_two),
               onPressed: () {
                 setState(() {
-                  _body = BottomNavigationDemo(
-                    type: BottomNavigationDemoType.withoutLabels,
+                  _body =  BottomSheetDemo(
+                    type: BottomSheetDemoType.modal,
                   );
                 });
               },

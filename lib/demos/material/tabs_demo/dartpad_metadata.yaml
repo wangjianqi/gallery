@@ -1,5 +1,5 @@
 
-name: Material Bottom Navigation Demonstration
+name: Material Tabs Demonstration
 mode: flutter
 files:
   - name: main.dart
