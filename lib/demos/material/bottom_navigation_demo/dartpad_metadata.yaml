@@ -1,0 +1,6 @@
+
+name: Material Bottom App Bar Demonstration
+mode: flutter
+files:
+  - name: main.dart
+  - name: test.dart

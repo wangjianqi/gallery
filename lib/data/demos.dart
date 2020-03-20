@@ -23,7 +23,7 @@ import 'package:gallery/demos/cupertino/cupertino_tab_bar_demo.dart';
 import 'package:gallery/demos/cupertino/cupertino_text_field_demo.dart';
 import 'package:gallery/demos/material/banner_demo/main.dart';
 import 'package:gallery/demos/material/bottom_app_bar_demo/main.dart';
-import 'package:gallery/demos/material/bottom_navigation_demo/bottom_navigation_demo.dart';
+import 'package:gallery/demos/material/bottom_navigation_demo/main.dart';
 import 'package:gallery/demos/material/bottom_sheet_demo/bottom_sheet_demo.dart';
 import 'package:gallery/demos/material/button_demo/button_demo.dart';
 import 'package:gallery/demos/material/cards_demo/cards_demo.dart';
