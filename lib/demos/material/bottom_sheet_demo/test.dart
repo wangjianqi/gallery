@@ -39,7 +39,7 @@ class _ExampleState extends State<Example> {
               icon: const Icon(Icons.looks_two),
               onPressed: () {
                 setState(() {
-                  _body =  BottomSheetDemo(
+                  _body = BottomSheetDemo(
                     type: BottomSheetDemoType.modal,
                   );
                 });

@@ -1,4 +1,4 @@
-void main() => runApp(BottomAppBar());
+void main() => runApp(Example());
 
 class Example extends StatefulWidget {
   _ExampleState createState() => _ExampleState();
