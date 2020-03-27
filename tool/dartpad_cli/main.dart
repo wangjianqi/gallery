@@ -55,6 +55,7 @@ List<String> generateExecutablesForClass(
 
 /// Replaces GalleryLocalizations Strings with English equivalent.
 String replaceGalleryLocalizations(String fileContent) {
+  fileContent = fileContent.replaceFirst('import \'package:gallery/l10n/gallery_localizations.dart\';', '');
 //  RegExp galleryLocalizationRegExp = RegExp(r'GalleryLocalizations.of\(context\)\.\w*(\(\s*.*\s*\))?,?');
 //  RegExp galleryLocalizationRegExp = RegExp(r'GalleryLocalizations.of\(context\)\.\w*(\(\s*.*\s*\))?,?');
   RegExp galleryLocalizationRegExp =

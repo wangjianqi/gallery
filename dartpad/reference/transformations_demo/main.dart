@@ -4,7 +4,7 @@
 
 import 'dart:ui' show Vertices;
 import 'package:flutter/material.dart';
-import 'package:gallery/l10n/gallery_localizations.dart';
+
 import 'transformations_demo_board.dart';
 import 'transformations_demo_edit_board_point.dart';
 import 'transformations_demo_gesture_transformable.dart';
