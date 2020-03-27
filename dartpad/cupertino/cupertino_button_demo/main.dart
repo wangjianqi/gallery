@@ -15,7 +15,8 @@ class CupertinoButtonDemo extends StatelessWidget {
     return CupertinoPageScaffold(
       navigationBar: CupertinoNavigationBar(
         automaticallyImplyLeading: false,
-        middle: Text('Buttons'),
+        middle:
+            Text('Buttons'),
       ),
       child: Center(
         child: Column(
@@ -43,10 +44,10 @@ class CupertinoButtonDemo extends StatelessWidget {
 
 // END
 void main() {
-  runApp(
-    MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: CupertinoButtonDemo(),
-    ),
-  );
+	runApp(
+		MaterialApp(
+			debugShowCheckedModeBanner: false,
+			home: CupertinoButtonDemo(),
+		),
+	);
 }

@@ -550,10 +550,10 @@ class _DessertDataSource extends DataTableSource {
 
 // END
 void main() {
-  runApp(
-    MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: DataTableDemo(),
-    ),
-  );
+	runApp(
+		MaterialApp(
+			debugShowCheckedModeBanner: false,
+			home: DataTableDemo(),
+		),
+	);
 }

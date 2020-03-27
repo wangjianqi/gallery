@@ -51,7 +51,8 @@ class DialogDemo extends StatelessWidget {
     if (value != null && value is String) {
       _scaffoldKey.currentState.hideCurrentSnackBar();
       _scaffoldKey.currentState.showSnackBar(SnackBar(
-        content: Text('You selected'(value)),
+        content:
+            Text('You selected'(value)),
       ));
     }
   }
@@ -285,64 +286,64 @@ class _FullScreenDialogDemo extends StatelessWidget {
 void main() => runApp(Example());
 
 class Example extends StatefulWidget {
-  _ExampleState createState() => _ExampleState();
+	 _ExampleState createState() => _ExampleState();
 }
 
 class _ExampleState extends State<Example> {
-  Widget _body;
+	Widget _body;
 
-  static const String _title = 'Dialog Demonstration';
+	static const String _title = 'Dialog Demonstration';
 
-  @override
-  void initState() {
-    super.initState();
-    _body = DialogDemo(type: DialogDemoType.alert);
-  }
+	@override
+	void initState() {
+		super.initState();
+		_body = DialogDemo(type:DialogDemoType.alert);
+	}
 
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: _title,
-      home: Scaffold(
-        appBar: AppBar(
-          title: const Text(_title),
-          actions: <Widget>[
-            IconButton(
-              icon: const Icon(Icons.looks_one),
-              onPressed: () {
-                setState(() {
-                  _body = DialogDemo(type: DialogDemoType.alert);
-                });
-              },
-            ),
-            IconButton(
-              icon: const Icon(Icons.looks_two),
-              onPressed: () {
-                setState(() {
-                  _body = DialogDemo(type: DialogDemoType.alertTitle);
-                });
-              },
-            ),
-            IconButton(
-              icon: const Icon(Icons.looks_3),
-              onPressed: () {
-                setState(() {
-                  _body = DialogDemo(type: DialogDemoType.simple);
-                });
-              },
-            ),
-            IconButton(
-              icon: const Icon(Icons.looks_4),
-              onPressed: () {
-                setState(() {
-                  _body = DialogDemo(type: DialogDemoType.fullscreen);
-                });
-              },
-            ),
-          ],
-        ),
-        body: _body,
-      ),
-    );
-  }
+	@override
+	Widget build(BuildContext context) {
+		return MaterialApp(
+			title: _title,
+			home: Scaffold(
+				appBar: AppBar(
+					title: const Text(_title),
+					actions: <Widget>[
+						IconButton(
+							icon: const Icon(Icons.looks_one),
+							onPressed: () {
+								setState(() {
+									_body = DialogDemo(type:DialogDemoType.alert);
+								});
+							},
+						),
+						IconButton(
+							icon: const Icon(Icons.looks_two),
+							onPressed: () {
+								setState(() {
+									_body = DialogDemo(type:DialogDemoType.alertTitle);
+								});
+							},
+						),
+						IconButton(
+							icon: const Icon(Icons.looks_3),
+							onPressed: () {
+								setState(() {
+									_body = DialogDemo(type:DialogDemoType.simple);
+								});
+							},
+						),
+						IconButton(
+							icon: const Icon(Icons.looks_4),
+							onPressed: () {
+								setState(() {
+									_body = DialogDemo(type:DialogDemoType.fullscreen);
+								});
+							},
+						),
+					],
+				),
+				body: _body,
+			),
+		);
+	}
 }

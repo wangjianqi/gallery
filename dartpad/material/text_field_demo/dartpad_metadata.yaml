@@ -1,4 +1,4 @@
 name: Text Field Demonstration
 mode: flutter
 files:
-	- name: main.dart
+  - name: main.dart

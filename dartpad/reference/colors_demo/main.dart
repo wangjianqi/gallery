@@ -264,10 +264,10 @@ class ColorsDemo extends StatelessWidget {
 
 // END
 void main() {
-  runApp(
-    MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: ColorsDemo(),
-    ),
-  );
+	runApp(
+		MaterialApp(
+			debugShowCheckedModeBanner: false,
+			home: ColorsDemo(),
+		),
+	);
 }

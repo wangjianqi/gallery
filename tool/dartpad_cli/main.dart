@@ -16,7 +16,7 @@ void generateDartpadMetadata(String fileDirectory, String fileName) {
       'name: ${toTitleCase(fileName.replaceAll('_', ' ')).replaceAll('Demo.dart', '')}Demonstration\n'
       'mode: flutter\n'
       'files:\n'
-      '\t- name: main.dart\n');
+      '  - name: main.dart\n');
 }
 
 /// Method generates list of classes that will be the executable within the

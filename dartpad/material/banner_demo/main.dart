@@ -85,18 +85,21 @@ class _BannerDemoState extends State<BannerDemo> {
             itemBuilder: (context) => <PopupMenuEntry<BannerDemoAction>>[
               PopupMenuItem<BannerDemoAction>(
                 value: BannerDemoAction.reset,
-                child: Text('Reset the banner'),
+                child:
+                    Text('Reset the banner'),
               ),
               const PopupMenuDivider(),
               CheckedPopupMenuItem<BannerDemoAction>(
                 value: BannerDemoAction.showMultipleActions,
                 checked: _showMultipleActions,
-                child: Text('Multiple actions'),
+                child: Text(
+                    'Multiple actions'),
               ),
               CheckedPopupMenuItem<BannerDemoAction>(
                 value: BannerDemoAction.showLeading,
                 checked: _showLeading,
-                child: Text('Leading Icon'),
+                child: Text(
+                    'Leading Icon'),
               ),
             ],
           ),
@@ -121,10 +124,10 @@ class _BannerDemoState extends State<BannerDemo> {
 
 // END
 void main() {
-  runApp(
-    MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: BannerDemo(),
-    ),
-  );
+	runApp(
+		MaterialApp(
+			debugShowCheckedModeBanner: false,
+			home: BannerDemo(),
+		),
+	);
 }

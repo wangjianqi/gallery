@@ -1,4 +1,4 @@
 name: Cupertino Alert Demonstration
 mode: flutter
 files:
-	- name: main.dart
+  - name: main.dart

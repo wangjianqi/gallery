@@ -66,10 +66,10 @@ class CupertinoTextFieldDemo extends StatelessWidget {
 
 // END
 void main() {
-  runApp(
-    MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: CupertinoTextFieldDemo(),
-    ),
-  );
+	runApp(
+		MaterialApp(
+			debugShowCheckedModeBanner: false,
+			home: CupertinoTextFieldDemo(),
+		),
+	);
 }

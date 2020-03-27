@@ -113,7 +113,8 @@ class _ContextMenuDemo extends StatelessWidget {
             ),
           ),
           PopupMenuItem<String>(
-            value: 'Context menu item three',
+            value:
+                'Context menu item three',
             child: Text(
               'Context menu item three',
             ),
@@ -139,10 +140,12 @@ class _SectionedMenuDemo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ListTile(
-      title: Text('An item with a sectioned menu'),
+      title: Text(
+          'An item with a sectioned menu'),
       trailing: PopupMenuButton<String>(
         padding: EdgeInsets.zero,
-        onSelected: (value) => showInSnackBar('Selected'(value)),
+        onSelected: (value) => showInSnackBar(
+            'Selected'(value)),
         itemBuilder: (context) => <PopupMenuEntry<String>>[
           PopupMenuItem<String>(
             value: 'Preview',
@@ -219,7 +222,8 @@ class _SimpleMenuDemoState extends State<_SimpleMenuDemo> {
   String simpleValueToString(BuildContext context, SimpleValue value) => {
         SimpleValue.one: 'Menu item one',
         SimpleValue.two: 'Menu item two',
-        SimpleValue.three: 'Menu item three',
+        SimpleValue.three:
+            'Menu item three',
       }[value];
 
   @override
@@ -235,7 +239,8 @@ class _SimpleMenuDemoState extends State<_SimpleMenuDemo> {
       initialValue: _simpleValue,
       onSelected: (value) => showAndSetMenuSelection(context, value),
       child: ListTile(
-        title: Text('An item with a simple menu'),
+        title: Text(
+            'An item with a simple menu'),
         subtitle: Text(simpleValueToString(context, _simpleValue)),
       ),
       itemBuilder: (context) => <PopupMenuItem<SimpleValue>>[
@@ -319,7 +324,8 @@ class _ChecklistMenuDemoState extends State<_ChecklistMenuDemo> {
   @override
   Widget build(BuildContext context) {
     return ListTile(
-      title: Text('An item with a checklist menu'),
+      title: Text(
+          'An item with a checklist menu'),
       trailing: PopupMenuButton<CheckedValue>(
         padding: EdgeInsets.zero,
         onSelected: (value) => showCheckedMenuSelections(context, value),
@@ -363,74 +369,64 @@ class _ChecklistMenuDemoState extends State<_ChecklistMenuDemo> {
 void main() => runApp(Example());
 
 class Example extends StatefulWidget {
-  _ExampleState createState() => _ExampleState();
+	 _ExampleState createState() => _ExampleState();
 }
 
 class _ExampleState extends State<Example> {
-  Widget _body;
+	Widget _body;
 
-  static const String _title = 'Menu Demonstration';
+	static const String _title = 'Menu Demonstration';
 
-  @override
-  void initState() {
-    super.initState();
-    _body = MenuDemo(
-      type: MenuDemoType.contextMenu,
-    );
-  }
+	@override
+	void initState() {
+		super.initState();
+		_body = MenuDemo(type:MenuDemoType.contextMenu,);
+	}
 
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: _title,
-      home: Scaffold(
-        appBar: AppBar(
-          title: const Text(_title),
-          actions: <Widget>[
-            IconButton(
-              icon: const Icon(Icons.looks_one),
-              onPressed: () {
-                setState(() {
-                  _body = MenuDemo(
-                    type: MenuDemoType.contextMenu,
-                  );
-                });
-              },
-            ),
-            IconButton(
-              icon: const Icon(Icons.looks_two),
-              onPressed: () {
-                setState(() {
-                  _body = MenuDemo(
-                    type: MenuDemoType.sectionedMenu,
-                  );
-                });
-              },
-            ),
-            IconButton(
-              icon: const Icon(Icons.looks_3),
-              onPressed: () {
-                setState(() {
-                  _body = MenuDemo(
-                    type: MenuDemoType.checklistMenu,
-                  );
-                });
-              },
-            ),
-            IconButton(
-              icon: const Icon(Icons.looks_4),
-              onPressed: () {
-                setState(() {
-                  _body = MenuDemo(
-                    type: MenuDemoType.simpleMenu,
-                  );
-                });
-              },
-            ),
-          ],
-        ),
-        body: _body,
-      ),
-    );
-  }
+	@override
+	Widget build(BuildContext context) {
+		return MaterialApp(
+			title: _title,
+			home: Scaffold(
+				appBar: AppBar(
+					title: const Text(_title),
+					actions: <Widget>[
+						IconButton(
+							icon: const Icon(Icons.looks_one),
+							onPressed: () {
+								setState(() {
+									_body = MenuDemo(type:MenuDemoType.contextMenu,);
+								});
+							},
+						),
+						IconButton(
+							icon: const Icon(Icons.looks_two),
+							onPressed: () {
+								setState(() {
+									_body = MenuDemo(type:MenuDemoType.sectionedMenu,);
+								});
+							},
+						),
+						IconButton(
+							icon: const Icon(Icons.looks_3),
+							onPressed: () {
+								setState(() {
+									_body = MenuDemo(type:MenuDemoType.checklistMenu,);
+								});
+							},
+						),
+						IconButton(
+							icon: const Icon(Icons.looks_4),
+							onPressed: () {
+								setState(() {
+									_body = MenuDemo(type:MenuDemoType.simpleMenu,);
+								});
+							},
+						),
+					],
+				),
+				body: _body,
+			),
+		);
+	}
 }

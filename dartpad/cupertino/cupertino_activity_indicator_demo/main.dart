@@ -27,10 +27,10 @@ class CupertinoProgressIndicatorDemo extends StatelessWidget {
 
 // END
 void main() {
-  runApp(
-    MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: CupertinoProgressIndicatorDemo(),
-    ),
-  );
+	runApp(
+		MaterialApp(
+			debugShowCheckedModeBanner: false,
+			home: CupertinoProgressIndicatorDemo(),
+		),
+	);
 }

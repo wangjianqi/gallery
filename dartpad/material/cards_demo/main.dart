@@ -45,7 +45,8 @@ List<TravelDestination> destinations(BuildContext context) => [
       TravelDestination(
         assetName: 'places/india_thanjavur_market.png',
         assetPackage: _kGalleryAssetsPackage,
-        title: 'Top 10 Cities to Visit in Tamil Nadu',
+        title:
+            'Top 10 Cities to Visit in Tamil Nadu',
         description: GalleryLocalizations.of(context)
             .cardsDemoTravelDestinationDescription1,
         city: 'Thanjavur',
@@ -55,7 +56,8 @@ List<TravelDestination> destinations(BuildContext context) => [
       TravelDestination(
         assetName: 'places/india_chettinad_silk_maker.png',
         assetPackage: _kGalleryAssetsPackage,
-        title: 'Artisans of Southern India',
+        title:
+            'Artisans of Southern India',
         description: GalleryLocalizations.of(context)
             .cardsDemoTravelDestinationDescription2,
         city: 'Chettinad',
@@ -66,7 +68,8 @@ List<TravelDestination> destinations(BuildContext context) => [
       TravelDestination(
         assetName: 'places/india_tanjore_thanjavur_temple.png',
         assetPackage: _kGalleryAssetsPackage,
-        title: 'Brihadisvara Temple',
+        title:
+            'Brihadisvara Temple',
         description: GalleryLocalizations.of(context)
             .cardsDemoTravelDestinationDescription3,
         city: 'Thanjavur',
@@ -95,7 +98,9 @@ class TravelDestinationItem extends StatelessWidget {
         padding: const EdgeInsets.all(8),
         child: Column(
           children: [
-            SectionTitle(title: 'Normal'),
+            SectionTitle(
+                title:
+                    'Normal'),
             SizedBox(
               height: height,
               child: Card(
@@ -132,7 +137,8 @@ class TappableTravelDestinationItem extends StatelessWidget {
         padding: const EdgeInsets.all(8),
         child: Column(
           children: [
-            SectionTitle(title: 'Tappable'),
+            SectionTitle(
+                title: 'Tappable'),
             SizedBox(
               height: height,
               child: Card(
@@ -190,7 +196,8 @@ class _SelectableTravelDestinationItemState
         padding: const EdgeInsets.all(8),
         child: Column(
           children: [
-            SectionTitle(title: 'Selectable '),
+            SectionTitle(
+                title: 'Selectable '),
             SizedBox(
               height: height,
               child: Card(
@@ -405,10 +412,10 @@ class _CardsDemoState extends State<CardsDemo> {
 
 // END
 void main() {
-  runApp(
-    MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: CardsDemo(),
-    ),
-  );
+	runApp(
+		MaterialApp(
+			debugShowCheckedModeBanner: false,
+			home: CardsDemo(),
+		),
+	);
 }

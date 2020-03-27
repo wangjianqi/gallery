@@ -81,10 +81,10 @@ class _NoAnimationCupertinoPageRoute<T> extends CupertinoPageRoute<T> {
 
 // END
 void main() {
-  runApp(
-    MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: CupertinoNavigationBarDemo(),
-    ),
-  );
+	runApp(
+		MaterialApp(
+			debugShowCheckedModeBanner: false,
+			home: CupertinoNavigationBarDemo(),
+		),
+	);
 }

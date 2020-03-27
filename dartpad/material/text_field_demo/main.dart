@@ -191,7 +191,8 @@ class TextFormFieldDemoState extends State<TextFormFieldDemo> {
                     icon: Icon(Icons.person),
                     hintText: GalleryLocalizations.of(context)
                         .demoTextFieldWhatDoPeopleCallYou,
-                    labelText: 'Name',
+                    labelText:
+                        'Name',
                   ),
                   onSaved: (value) {
                     person.name = value;
@@ -232,7 +233,8 @@ class TextFormFieldDemoState extends State<TextFormFieldDemo> {
                     icon: Icon(Icons.email),
                     hintText: GalleryLocalizations.of(context)
                         .demoTextFieldYourEmailAddress,
-                    labelText: 'Email',
+                    labelText:
+                        'Email',
                   ),
                   keyboardType: TextInputType.emailAddress,
                   onSaved: (value) {
@@ -248,7 +250,8 @@ class TextFormFieldDemoState extends State<TextFormFieldDemo> {
                         .demoTextFieldTellUsAboutYourself,
                     helperText: GalleryLocalizations.of(context)
                         .demoTextFieldKeepItShort,
-                    labelText: 'Life story',
+                    labelText:
+                        'Life story',
                   ),
                   maxLines: 3,
                 ),
@@ -258,16 +261,20 @@ class TextFormFieldDemoState extends State<TextFormFieldDemo> {
                   keyboardType: TextInputType.number,
                   decoration: InputDecoration(
                     border: OutlineInputBorder(),
-                    labelText: 'Salary',
-                    suffixText: 'USD',
+                    labelText:
+                        'Salary',
+                    suffixText:
+                        'USD',
                   ),
                   maxLines: 1,
                 ),
                 sizedBoxSpace,
                 PasswordField(
                   fieldKey: _passwordFieldKey,
-                  helperText: 'No more than 8 characters',
-                  labelText: 'Password',
+                  helperText:
+                      'No more than 8 characters',
+                  labelText:
+                      'Password',
                   onFieldSubmitted: (value) {
                     setState(() {
                       person.password = value;
@@ -289,7 +296,8 @@ class TextFormFieldDemoState extends State<TextFormFieldDemo> {
                 sizedBoxSpace,
                 Center(
                   child: RaisedButton(
-                    child: Text('SUBMIT'),
+                    child: Text(
+                        'SUBMIT'),
                     onPressed: _handleSubmitted,
                   ),
                 ),
@@ -348,10 +356,10 @@ class _UsNumberTextInputFormatter extends TextInputFormatter {
 
 // END
 void main() {
-  runApp(
-    MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: TextFieldDemo(),
-    ),
-  );
+	runApp(
+		MaterialApp(
+			debugShowCheckedModeBanner: false,
+			home: TextFieldDemo(),
+		),
+	);
 }

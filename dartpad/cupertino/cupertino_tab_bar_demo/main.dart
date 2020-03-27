@@ -88,10 +88,10 @@ class _CupertinoDemoTab extends StatelessWidget {
 
 // END
 void main() {
-  runApp(
-    MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: CupertinoTabBarDemo(),
-    ),
-  );
+	runApp(
+		MaterialApp(
+			debugShowCheckedModeBanner: false,
+			home: CupertinoTabBarDemo(),
+		),
+	);
 }

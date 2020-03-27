@@ -21,7 +21,8 @@ class SnackbarsDemo extends StatelessWidget {
         builder: (context) {
           return Center(
             child: RaisedButton(
-              child: Text('SHOW A SNACKBAR'),
+              child: Text(
+                  'SHOW A SNACKBAR'),
               onPressed: () {
                 Scaffold.of(context).hideCurrentSnackBar();
                 Scaffold.of(context).showSnackBar(SnackBar(
@@ -52,10 +53,10 @@ class SnackbarsDemo extends StatelessWidget {
 
 // END
 void main() {
-  runApp(
-    MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: SnackbarsDemo(),
-    ),
-  );
+	runApp(
+		MaterialApp(
+			debugShowCheckedModeBanner: false,
+			home: SnackbarsDemo(),
+		),
+	);
 }

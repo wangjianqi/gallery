@@ -27,7 +27,8 @@ class TooltipDemo extends StatelessWidget {
               ),
               SizedBox(height: 16),
               Tooltip(
-                message: 'Search',
+                message:
+                    'Search',
                 child: IconButton(
                   color: Theme.of(context).colorScheme.primary,
                   onPressed: () {},
@@ -44,10 +45,10 @@ class TooltipDemo extends StatelessWidget {
 
 // END
 void main() {
-  runApp(
-    MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: TooltipDemo(),
-    ),
-  );
+	runApp(
+		MaterialApp(
+			debugShowCheckedModeBanner: false,
+			home: TooltipDemo(),
+		),
+	);
 }

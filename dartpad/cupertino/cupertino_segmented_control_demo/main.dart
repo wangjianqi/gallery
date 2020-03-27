@@ -86,10 +86,10 @@ class _CupertinoSegmentedControlDemoState
 
 // END
 void main() {
-  runApp(
-    MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: CupertinoSegmentedControlDemo(),
-    ),
-  );
+	runApp(
+		MaterialApp(
+			debugShowCheckedModeBanner: false,
+			home: CupertinoSegmentedControlDemo(),
+		),
+	);
 }

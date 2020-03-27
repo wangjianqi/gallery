@@ -73,10 +73,10 @@ class _CupertinoRefreshControlDemoState
 
 // END
 void main() {
-  runApp(
-    MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: CupertinoRefreshControlDemo(),
-    ),
-  );
+	runApp(
+		MaterialApp(
+			debugShowCheckedModeBanner: false,
+			home: CupertinoRefreshControlDemo(),
+		),
+	);
 }

@@ -29,7 +29,8 @@ class _CupertinoSwitchDemoState extends State<CupertinoSwitchDemo> {
       child: Center(
         child: Semantics(
           container: true,
-          label: 'Switch',
+          label:
+              'Switch',
           child: CupertinoSwitch(
             value: _switchValue,
             onChanged: (value) {
@@ -46,10 +47,10 @@ class _CupertinoSwitchDemoState extends State<CupertinoSwitchDemo> {
 
 // END
 void main() {
-  runApp(
-    MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: CupertinoSwitchDemo(),
-    ),
-  );
+	runApp(
+		MaterialApp(
+			debugShowCheckedModeBanner: false,
+			home: CupertinoSwitchDemo(),
+		),
+	);
 }

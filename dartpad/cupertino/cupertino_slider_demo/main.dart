@@ -94,10 +94,10 @@ class _CupertinoSliderDemoState extends State<CupertinoSliderDemo> {
 
 // END
 void main() {
-  runApp(
-    MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: CupertinoSliderDemo(),
-    ),
-  );
+	runApp(
+		MaterialApp(
+			debugShowCheckedModeBanner: false,
+			home: CupertinoSliderDemo(),
+		),
+	);
 }

@@ -152,7 +152,8 @@ class _DemoBottomAppBar extends StatelessWidget {
               },
             ),
             IconButton(
-              tooltip: 'Favorite',
+              tooltip:
+                  'Favorite',
               icon: const Icon(Icons.favorite),
               onPressed: () {
                 print('Favorite button pressed');
@@ -167,10 +168,10 @@ class _DemoBottomAppBar extends StatelessWidget {
 
 // END
 void main() {
-  runApp(
-    MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: BottomAppBarDemo(),
-    ),
-  );
+	runApp(
+		MaterialApp(
+			debugShowCheckedModeBanner: false,
+			home: BottomAppBarDemo(),
+		),
+	);
 }

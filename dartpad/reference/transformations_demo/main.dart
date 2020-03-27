@@ -45,7 +45,8 @@ class _TransformationsDemoState extends State<TransformationsDemo> {
       backgroundColor: Theme.of(context).colorScheme.primary,
       appBar: AppBar(
         automaticallyImplyLeading: false,
-        title: Text('2D transformations'),
+        title:
+            Text('2D transformations'),
       ),
       body: Container(
         color: backgroundColor,
@@ -92,7 +93,8 @@ class _TransformationsDemoState extends State<TransformationsDemo> {
           _reset = true;
         });
       },
-      tooltip: 'Reset transformations',
+      tooltip:
+          'Reset transformations',
       color: Theme.of(context).colorScheme.surface,
       icon: const Icon(Icons.replay),
     );
@@ -124,7 +126,8 @@ class _TransformationsDemoState extends State<TransformationsDemo> {
               );
             });
       },
-      tooltip: 'Edit tile',
+      tooltip:
+          'Edit tile',
       color: Theme.of(context).colorScheme.surface,
       icon: const Icon(Icons.edit),
     );
@@ -171,10 +174,10 @@ class BoardPainter extends CustomPainter {
 
 // END
 void main() {
-  runApp(
-    MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: TransformationsDemo(),
-    ),
-  );
+	runApp(
+		MaterialApp(
+			debugShowCheckedModeBanner: false,
+			home: TransformationsDemo(),
+		),
+	);
 }

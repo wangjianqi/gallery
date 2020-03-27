@@ -1,4 +1,4 @@
 name: Bottom Navigation Demonstration
 mode: flutter
 files:
-	- name: main.dart
+  - name: main.dart

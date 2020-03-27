@@ -1,4 +1,4 @@
 name: Tabs Demonstration
 mode: flutter
 files:
-	- name: main.dart
+  - name: main.dart
