@@ -1,0 +1,4 @@
+name: Cupertino Switch Demonstration
+mode: flutter
+files:
+	- name: main.dart

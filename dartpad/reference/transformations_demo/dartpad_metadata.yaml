@@ -1,0 +1,4 @@
+name: Transformations Demonstration
+mode: flutter
+files:
+	- name: main.dart
