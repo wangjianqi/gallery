@@ -7,7 +7,6 @@ import 'package:flutter/material.dart';
 import 'package:gallery/l10n/gallery_localizations.dart';
 import 'transformations_demo_board.dart';
 import 'transformations_demo_edit_board_point.dart';
-import 'transformations_demo_gesture_transformable.dart';
 
 // BEGIN transformationsDemo#1
 
@@ -18,7 +17,7 @@ class TransformationsDemo extends StatefulWidget {
   _TransformationsDemoState createState() => _TransformationsDemoState();
 }
 
-class _TransformationsDemoState extends State<TransformationsDemo> {
+class _TransformationsDemoState extends State<TransformationsDemo> with TickerProviderStateMixin {
   // The radius of a hexagon tile in pixels.
   static const _kHexagonRadius = 32.0;
   // The margin between hexagons.
@@ -26,21 +25,85 @@ class _TransformationsDemoState extends State<TransformationsDemo> {
   // The radius of the entire board in hexagons, not including the center.
   static const _kBoardRadius = 12;
 
-  bool _reset = false;
   Board _board = Board(
     boardRadius: _kBoardRadius,
     hexagonRadius: _kHexagonRadius,
     hexagonMargin: _kHexagonMargin,
   );
 
+  Matrix4 _homeTransformation;
+  final ValueNotifier<Matrix4> _transformationController = ValueNotifier<Matrix4>(null);
+  Animation<Matrix4> _animationReset;
+  AnimationController _controllerReset;
+
+  // Handle reset to home transform animation.
+  void _onAnimateReset() {
+    setState(() {
+      _transformationController.value = _animationReset.value;
+    });
+    if (!_controllerReset.isAnimating) {
+      _animationReset?.removeListener(_onAnimateReset);
+      _animationReset = null;
+      _controllerReset.reset();
+    }
+  }
+
+  // Initialize the reset to home transform animation.
+  void _animateResetInitialize() {
+    _controllerReset.reset();
+    _animationReset = Matrix4Tween(
+      begin: _transformationController.value,
+      end: _homeTransformation,
+    ).animate(_controllerReset);
+    _controllerReset.duration = const Duration(milliseconds: 400);
+    _animationReset.addListener(_onAnimateReset);
+    _controllerReset.forward();
+  }
+
+  // Stop a running reset to home transform animation.
+  void _animateResetStop() {
+    _controllerReset.stop();
+    _animationReset?.removeListener(_onAnimateReset);
+    _animationReset = null;
+    _controllerReset.reset();
+  }
+
+  void _onScaleStart(ScaleStartDetails details) {
+    // If the user tries to cause a transformation while the reset animation is
+    // running, cancel the reset animation.
+    if (_controllerReset.status == AnimationStatus.forward) {
+      _animateResetStop();
+    }
+  }
+
+  void _onTapUp(TapUpDetails details) {
+    final Offset scenePoint = details.globalPosition;
+    final BoardPoint boardPoint = _board.pointToBoardPoint(scenePoint);
+    setState(() {
+      _board = _board.copyWithSelected(boardPoint);
+    });
+  }
+
+  void initState() {
+    super.initState();
+    _controllerReset = AnimationController(
+      vsync: this,
+    );
+  }
+
+  @override
+  void didUpdateWidget(TransformationsDemo oldWidget) {
+    super.didUpdateWidget(oldWidget);
+  }
+
   @override
   Widget build(BuildContext context) {
-    final BoardPainter painter = BoardPainter(
+    final _BoardPainter painter = _BoardPainter(
       board: _board,
     );
 
     // The scene is drawn by a CustomPaint, but user interaction is handled by
-    // the GestureTransformable parent widget.
+    // the InteractiveViewer parent widget.
     return Scaffold(
       backgroundColor: Theme.of(context).colorScheme.primary,
       appBar: AppBar(
@@ -54,30 +117,46 @@ class _TransformationsDemoState extends State<TransformationsDemo> {
           builder: (context, constraints) {
             // Draw the scene as big as is available, but allow the user to
             // translate beyond that to a visibleSize that's a bit bigger.
-            final Size size = Size(constraints.maxWidth, constraints.maxHeight);
-            final Size visibleSize = Size(size.width * 3, size.height * 2);
-            return GestureTransformable(
-              reset: _reset,
-              onResetEnd: () {
-                setState(() {
-                  _reset = false;
-                });
-              },
-              child: CustomPaint(
-                painter: painter,
+            final Size viewportSize = Size(
+              constraints.maxWidth,
+              constraints.maxHeight,
+            );
+
+            // The board is drawn centered at the origin, which is the top left
+            // corner in InteractiveViewer, so shift it to the center of the
+            // viewport initially.
+            if (_transformationController.value == null) {
+              _homeTransformation = Matrix4.identity()..translate(
+                viewportSize.width / 2,
+                viewportSize.height / 2,
+              );
+              _transformationController.value = _homeTransformation;
+            }
+
+            return InteractiveViewer(
+              transformationController: _transformationController,
+              // boundaryMargin also takes into consideration the fact that the
+              // board is centered at the origin. These values provide a nice
+              // amount of space for typical interaction.
+              boundaryMargin: const EdgeInsets.fromLTRB(
+                840.0,
+                840.0,
+                -100.0,
+                0,
               ),
-              boundaryRect: Rect.fromLTWH(
-                -visibleSize.width / 2,
-                -visibleSize.height / 2,
-                visibleSize.width,
-                visibleSize.height,
-              ),
-              // Center the board in the middle of the screen. It's drawn centered
-              // at the origin, which is the top left corner of the
-              // GestureTransformable.
-              initialTranslation: Offset(size.width / 2, size.height / 2),
+              onScaleStart: _onScaleStart,
               onTapUp: _onTapUp,
-              size: size,
+              child: CustomPaint(
+                size: _board.size,
+                painter: _BoardPainter(
+                  board: _board,
+                ),
+                // This child gives the CustomPaint an intrinsic size.
+                child: SizedBox(
+                  width: _board.size.width,
+                  height: _board.size.height,
+                ),
+              ),
             );
           },
         ),
@@ -90,7 +169,7 @@ class _TransformationsDemoState extends State<TransformationsDemo> {
     return IconButton(
       onPressed: () {
         setState(() {
-          _reset = true;
+          _animateResetInitialize();
         });
       },
       tooltip:
@@ -133,19 +212,17 @@ class _TransformationsDemoState extends State<TransformationsDemo> {
     );
   }
 
-  void _onTapUp(TapUpDetails details) {
-    final Offset scenePoint = details.globalPosition;
-    final BoardPoint boardPoint = _board.pointToBoardPoint(scenePoint);
-    setState(() {
-      _board = _board.copyWithSelected(boardPoint);
-    });
+  @override
+  void dispose() {
+    _controllerReset.dispose();
+    super.dispose();
   }
 }
 
 // CustomPainter is what is passed to CustomPaint and actually draws the scene
 // when its `paint` method is called.
-class BoardPainter extends CustomPainter {
-  const BoardPainter({
+class _BoardPainter extends CustomPainter {
+  const _BoardPainter({
     this.board,
   });
 
@@ -167,7 +244,7 @@ class BoardPainter extends CustomPainter {
 
   // We should repaint whenever the board changes, such as board.selected.
   @override
-  bool shouldRepaint(BoardPainter oldDelegate) {
+  bool shouldRepaint(_BoardPainter oldDelegate) {
     return oldDelegate.board != board;
   }
 }
