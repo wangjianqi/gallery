@@ -1,7 +1,7 @@
 self.$__dart_deferred_initializers__=self.$__dart_deferred_initializers__||Object.create(null)
 $__dart_deferred_initializers__.current=function(a,b,c,$){var C,H,J,P,W,U,Y,L,M,N,R,B,A,G,V,S,T={
-aYH:function(){return new T.vS(T.ad("lv"))},
-vS:function vS(d){this.a=d}},D,Z,E,K,O,Q,X,F
+aYW:function(){return new T.vT(T.ad("lv"))},
+vT:function vT(d){this.a=d}},D,Z,E,K,O,Q,X,F
 a.setFunctionNamesIfNecessary([T])
 C=c[0]
 H=c[1]
@@ -28,7 +28,7 @@ O=c[21]
 Q=c[22]
 X=c[23]
 F=c[24]
-T.vS.prototype={
+T.vT.prototype={
 cB:function(d){return d+" GitHub kr\u0101tuve"},
 e5:function(d){return"Lai skat\u012btu \u0161\u012bs lietotnes pirmkodu, l\u016bdzu, apmekl\u0113jiet: "+d+"."},
 ge_:function(){return"PIERAKST\u012aTIES"},
@@ -693,8 +693,8 @@ gkE:function(){return"Dizaineri izmanto tehnolo\u0123ijas, lai rad\u012btu fut\u
 gkF:function(){return"Feministes k\u013c\u016bst par partiz\u0101n\u0113m"},
 gkD:function(){return"Saimniec\u012bb\u0101s tr\u016bkst bi\u0161u"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(T.vS,X.O)})()
-H.b9(b.typeUniverse,JSON.parse('{"bc":"C","bm":"C","be":"aY","bd":"m","bt":"m","bv":"m","bb":"D","bn":"D","bz":"aW","bf":"M","br":"M","bw":"F","bl":"F","bo":"aU","by":"aQ","bh":"aX","bk":"aT","bg":"Z","bx":"Z","bs":"b1","bq":"b0","bp":"b_","bi":"av","bj":"aR","vS":{"O":[]}}'))
+y(T.vT,X.O)})()
+H.bb(b.typeUniverse,JSON.parse('{"be":"C","bo":"C","bg":"aY","bf":"m","bv":"m","bx":"m","bd":"D","bp":"D","bB":"aW","bh":"M","bt":"M","by":"F","bn":"F","bq":"aU","bA":"aQ","bj":"aX","bm":"aT","bi":"Z","bz":"Z","bu":"b1","bs":"b0","br":"b_","bk":"av","bl":"aR","vT":{"O":[]}}'))
 0}
-$__dart_deferred_initializers__["32RCLh29lwyN14mh81xmKANOaWA="] = $__dart_deferred_initializers__.current
+$__dart_deferred_initializers__["kIpLnErsWQXTg2F22X1mqAwdjNA="] = $__dart_deferred_initializers__.current
 //# sourceMappingURL=main.dart.js_46.part.js.map

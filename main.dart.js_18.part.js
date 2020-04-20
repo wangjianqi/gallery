@@ -1,7 +1,7 @@
 self.$__dart_deferred_initializers__=self.$__dart_deferred_initializers__||Object.create(null)
 $__dart_deferred_initializers__.current=function(a,b,c,$){var C,H,J,P,W,U,Y,L,M,N,R,B,A,G,V,S,T,D,Z,E,K,O={
-aXG:function(){return new O.uV(T.ad("cs"))},
-uV:function uV(d){this.a=d}},Q,X,F
+aXV:function(){return new O.uW(T.ad("cs"))},
+uW:function uW(d){this.a=d}},Q,X,F
 a.setFunctionNamesIfNecessary([O])
 C=c[0]
 H=c[1]
@@ -28,7 +28,7 @@ O=a.updateHolder(c[21],O)
 Q=c[22]
 X=c[23]
 F=c[24]
-O.uV.prototype={
+O.uW.prototype={
 cB:function(d){return"Repozit\xe1\u0159 GitHub "+d},
 e5:function(d){return"Chcete-li zobrazit zdrojov\xfd k\xf3d t\xe9to aplikace, p\u0159ejd\u011bte na "+d+"."},
 ge_:function(){return"P\u0158IHL\xc1SIT SE"},
@@ -692,8 +692,8 @@ gkE:function(){return"Design\xe9\u0159i vyu\u017e\xedvaj\xed technologie k\xa0vy
 gkF:function(){return"Feministky broj\xed proti p\u0159edpojatosti"},
 gkD:function(){return"N\xedzk\xe9 stavy v\u010delstev pro opylov\xe1n\xed zem\u011bd\u011blsk\xfdch plodin"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(O.uV,X.O)})()
-H.b9(b.typeUniverse,JSON.parse('{"bc":"C","bm":"C","be":"aY","bd":"m","bt":"m","bv":"m","bb":"D","bn":"D","bz":"aW","bf":"M","br":"M","bw":"F","bl":"F","bo":"aU","by":"aQ","bh":"aX","bk":"aT","bg":"Z","bx":"Z","bs":"b1","bq":"b0","bp":"b_","bi":"av","bj":"aR","uV":{"O":[]}}'))
+y(O.uW,X.O)})()
+H.bb(b.typeUniverse,JSON.parse('{"be":"C","bo":"C","bg":"aY","bf":"m","bv":"m","bx":"m","bd":"D","bp":"D","bB":"aW","bh":"M","bt":"M","by":"F","bn":"F","bq":"aU","bA":"aQ","bj":"aX","bm":"aT","bi":"Z","bz":"Z","bu":"b1","bs":"b0","br":"b_","bk":"av","bl":"aR","uW":{"O":[]}}'))
 0}
-$__dart_deferred_initializers__["hR5QXnSW7BUoO0tJRmn2vgr9T6E="] = $__dart_deferred_initializers__.current
+$__dart_deferred_initializers__["JLaFPAhUuPKp1gKxosGpXV45ku8="] = $__dart_deferred_initializers__.current
 //# sourceMappingURL=main.dart.js_18.part.js.map

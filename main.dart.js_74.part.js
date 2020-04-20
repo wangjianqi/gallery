@@ -1,7 +1,7 @@
 self.$__dart_deferred_initializers__=self.$__dart_deferred_initializers__||Object.create(null)
 $__dart_deferred_initializers__.current=function(a,b,c,$){var C,H,J,P,W,U,Y,L,M,N,R,B,A,G,V,S,T={
-aZd:function(){return new T.wm(T.ad("uz"))},
-wm:function wm(d){this.a=d}},D,Z,E,K,O,Q,X,F
+aZs:function(){return new T.wn(T.ad("uz"))},
+wn:function wn(d){this.a=d}},D,Z,E,K,O,Q,X,F
 a.setFunctionNamesIfNecessary([T])
 C=c[0]
 H=c[1]
@@ -28,7 +28,7 @@ O=c[21]
 Q=c[22]
 X=c[23]
 F=c[24]
-T.wm.prototype={
+T.wn.prototype={
 cB:function(d){return d+" GitHub repozitoriysi"},
 e5:function(d){return"Bu ilovaning manba kodini ko\u02bbrish uchun bu yerga kiring: "+d+"."},
 ge_:function(){return"KIRISH"},
@@ -693,8 +693,8 @@ gkE:function(){return"Dizaynerlar futuristik liboslar yaratishda foydalanadigan 
 gkF:function(){return"Feministlar partizanlikka o\u02bbtmoqda"},
 gkD:function(){return"Fermalardagi arilar ta\u02bcminoti yetishmayapti"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(T.wm,X.O)})()
-H.b9(b.typeUniverse,JSON.parse('{"bc":"C","bm":"C","be":"aY","bd":"m","bt":"m","bv":"m","bb":"D","bn":"D","bz":"aW","bf":"M","br":"M","bw":"F","bl":"F","bo":"aU","by":"aQ","bh":"aX","bk":"aT","bg":"Z","bx":"Z","bs":"b1","bq":"b0","bp":"b_","bi":"av","bj":"aR","wm":{"O":[]}}'))
+y(T.wn,X.O)})()
+H.bb(b.typeUniverse,JSON.parse('{"be":"C","bo":"C","bg":"aY","bf":"m","bv":"m","bx":"m","bd":"D","bp":"D","bB":"aW","bh":"M","bt":"M","by":"F","bn":"F","bq":"aU","bA":"aQ","bj":"aX","bm":"aT","bi":"Z","bz":"Z","bu":"b1","bs":"b0","br":"b_","bk":"av","bl":"aR","wn":{"O":[]}}'))
 0}
-$__dart_deferred_initializers__["HlCHGZlF2bhDKhd+lmS07m94qi0="] = $__dart_deferred_initializers__.current
+$__dart_deferred_initializers__["wPyLpm+v9NBE3ud1c3QkAkBOE/U="] = $__dart_deferred_initializers__.current
 //# sourceMappingURL=main.dart.js_74.part.js.map

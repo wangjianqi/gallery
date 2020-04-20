@@ -1,11 +1,11 @@
 self.$__dart_deferred_initializers__=self.$__dart_deferred_initializers__||Object.create(null)
 $__dart_deferred_initializers__.current=function(a,b,c,$){var C,H,J,P,W,U,Y,L,M={
-aYk:function(d){return new M.qc(T.ad(d))},
-aYl:function(){return new M.vw(T.ad("fr_CA"))},
-aYm:function(){return new M.vx(T.ad("fr_CH"))},
-qc:function qc(d){this.a=d},
-vw:function vw(d){this.a=d},
-vx:function vx(d){this.a=d}},N,R,B,A,G,V,S,T,D,Z,E,K,O,Q,X,F
+aYz:function(d){return new M.qd(T.ad(d))},
+aYA:function(){return new M.vx(T.ad("fr_CA"))},
+aYB:function(){return new M.vy(T.ad("fr_CH"))},
+qd:function qd(d){this.a=d},
+vx:function vx(d){this.a=d},
+vy:function vy(d){this.a=d}},N,R,B,A,G,V,S,T,D,Z,E,K,O,Q,X,F
 a.setFunctionNamesIfNecessary([M])
 C=c[0]
 H=c[1]
@@ -32,7 +32,7 @@ O=c[21]
 Q=c[22]
 X=c[23]
 F=c[24]
-M.qc.prototype={
+M.qd.prototype={
 cB:function(d){return"d\xe9p\xf4t GitHub "+d},
 e5:function(d){return"Pour voir le code source de cette application, veuillez consulter le "+d+"."},
 ge_:function(){return"CONNEXION"},
@@ -696,7 +696,7 @@ gkI:function(){return"As Stocks Stagnate, Many Look To Currency (La Bourse stagn
 gkE:function(){return"Designers Use Tech To Make Futuristic Fabrics (Les designers s'appuient sur les technologies pour cr\xe9er les tissus du futur)"},
 gkF:function(){return"Feminists Take On Partisanship (Les f\xe9ministes ne sont plus impartiaux)"},
 gkD:function(){return"Farmland Bees In Short Supply (Les abeilles d\xe9sertent les terres agricoles)"}}
-M.vw.prototype={
+M.vx.prototype={
 cB:function(d){return"r\xe9f\xe9rentiel GitHub "+d},
 e5:function(d){return"Pour voir le code source de cette application, veuillez consulter le "+d+"."},
 ge_:function(){return"CONNEXION"},
@@ -1360,7 +1360,7 @@ gkI:function(){return"Alors que la Bourse stagne, beaucoup d'investisseurs se to
 gkE:function(){return"Les concepteurs de mode s'appuient sur les technologies pour cr\xe9er les tissus de l'avenir"},
 gkF:function(){return"Les f\xe9ministes contre la partisanerie"},
 gkD:function(){return"Les abeilles d\xe9sertent les terres agricoles"}}
-M.vx.prototype={
+M.vy.prototype={
 cB:function(d){return"d\xe9p\xf4t GitHub "+d},
 e5:function(d){return"Pour voir le code source de cette application, veuillez consulter le "+d+"."},
 ge_:function(){return"CONNEXION"},
@@ -2025,9 +2025,9 @@ gkE:function(){return"Designers Use Tech To Make Futuristic Fabrics (Les designe
 gkF:function(){return"Feminists Take On Partisanship (Les f\xe9ministes ne sont plus impartiaux)"},
 gkD:function(){return"Farmland Bees In Short Supply (Les abeilles d\xe9sertent les terres agricoles)"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit,x=a.inheritMany
-y(M.qc,X.O)
-x(M.qc,[M.vw,M.vx])})()
-H.b9(b.typeUniverse,JSON.parse('{"bc":"C","bm":"C","be":"aY","bd":"m","bt":"m","bv":"m","bb":"D","bn":"D","bz":"aW","bf":"M","br":"M","bw":"F","bl":"F","bo":"aU","by":"aQ","bh":"aX","bk":"aT","bg":"Z","bx":"Z","bs":"b1","bq":"b0","bp":"b_","bi":"av","bj":"aR","qc":{"O":[]},"vw":{"O":[]},"vx":{"O":[]}}'))
+y(M.qd,X.O)
+x(M.qd,[M.vx,M.vy])})()
+H.bb(b.typeUniverse,JSON.parse('{"be":"C","bo":"C","bg":"aY","bf":"m","bv":"m","bx":"m","bd":"D","bp":"D","bB":"aW","bh":"M","bt":"M","by":"F","bn":"F","bq":"aU","bA":"aQ","bj":"aX","bm":"aT","bi":"Z","bz":"Z","bu":"b1","bs":"b0","br":"b_","bk":"av","bl":"aR","qd":{"O":[]},"vx":{"O":[]},"vy":{"O":[]}}'))
 0}
-$__dart_deferred_initializers__["pRfdqL3PGDP2ACIt/Ug09hnHR4c="] = $__dart_deferred_initializers__.current
+$__dart_deferred_initializers__["9aHl4E5Pa4LRDVRviciqFAoxO4s="] = $__dart_deferred_initializers__.current
 //# sourceMappingURL=main.dart.js_6.part.js.map

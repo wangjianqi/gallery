@@ -1,7 +1,7 @@
 self.$__dart_deferred_initializers__=self.$__dart_deferred_initializers__||Object.create(null)
 $__dart_deferred_initializers__.current=function(a,b,c,$){var C,H,J,P,W,U,Y,L,M,N={
-aYG:function(){return new N.vR(T.ad("lt"))},
-vR:function vR(d){this.a=d}},R,B,A,G,V,S,T,D,Z,E,K,O,Q,X,F
+aYV:function(){return new N.vS(T.ad("lt"))},
+vS:function vS(d){this.a=d}},R,B,A,G,V,S,T,D,Z,E,K,O,Q,X,F
 a.setFunctionNamesIfNecessary([N])
 C=c[0]
 H=c[1]
@@ -28,7 +28,7 @@ O=c[21]
 Q=c[22]
 X=c[23]
 F=c[24]
-N.vR.prototype={
+N.vS.prototype={
 cB:function(d){return"\u201e"+d+"\u201c: \u201eGitHub\u201c saugykla"},
 e5:function(d){return"Nor\u0117dami per\u017ei\u016br\u0117ti \u0161ios programos \u0161altinio kod\u0105 apsilankykite adresu "+d+"."},
 ge_:function(){return"PRISIJUNGTI"},
@@ -693,8 +693,8 @@ gkE:function(){return"Dizaineriai kuria futuristinius audinius pasitelk\u0119 te
 gkF:function(){return"Feministai lieka \u0161ali\u0161ki"},
 gkD:function(){return"Bi\u010di\u0173 \u016bkiams tr\u016bksta i\u0161tekli\u0173"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(N.vR,X.O)})()
-H.b9(b.typeUniverse,JSON.parse('{"bc":"C","bm":"C","be":"aY","bd":"m","bt":"m","bv":"m","bb":"D","bn":"D","bz":"aW","bf":"M","br":"M","bw":"F","bl":"F","bo":"aU","by":"aQ","bh":"aX","bk":"aT","bg":"Z","bx":"Z","bs":"b1","bq":"b0","bp":"b_","bi":"av","bj":"aR","vR":{"O":[]}}'))
+y(N.vS,X.O)})()
+H.bb(b.typeUniverse,JSON.parse('{"be":"C","bo":"C","bg":"aY","bf":"m","bv":"m","bx":"m","bd":"D","bp":"D","bB":"aW","bh":"M","bt":"M","by":"F","bn":"F","bq":"aU","bA":"aQ","bj":"aX","bm":"aT","bi":"Z","bz":"Z","bu":"b1","bs":"b0","br":"b_","bk":"av","bl":"aR","vS":{"O":[]}}'))
 0}
-$__dart_deferred_initializers__["JNfyz+gQn5C0FD4j/keSrNyVuBM="] = $__dart_deferred_initializers__.current
+$__dart_deferred_initializers__["KI2Yzc2+klV3COSwRCXDGnKbVrI="] = $__dart_deferred_initializers__.current
 //# sourceMappingURL=main.dart.js_45.part.js.map

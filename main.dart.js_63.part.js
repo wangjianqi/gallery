@@ -1,7 +1,7 @@
 self.$__dart_deferred_initializers__=self.$__dart_deferred_initializers__||Object.create(null)
 $__dart_deferred_initializers__.current=function(a,b,c,$){var C,H,J,P,W,U,Y,L,M,N,R,B,A,G,V,S,T,D={
-aZ0:function(){return new D.wa(T.ad("sl"))},
-wa:function wa(d){this.a=d}},Z,E,K,O,Q,X,F
+aZf:function(){return new D.wb(T.ad("sl"))},
+wb:function wb(d){this.a=d}},Z,E,K,O,Q,X,F
 a.setFunctionNamesIfNecessary([D])
 C=c[0]
 H=c[1]
@@ -28,7 +28,7 @@ O=c[21]
 Q=c[22]
 X=c[23]
 F=c[24]
-D.wa.prototype={
+D.wb.prototype={
 cB:function(d){return"shrambo "+d+" v GitHubu"},
 e5:function(d){return"\u010ce si \u017eelite ogledati izvorno kodo za to aplikacijo, odprite "+d+"."},
 ge_:function(){return"PRIJAVA"},
@@ -692,8 +692,8 @@ gkE:function(){return"Oblikovalci si s tehnologijo pomagajo do tkanin prihodnost
 gkF:function(){return"Feministke nad strankarstvo"},
 gkD:function(){return"Primanjkljaj \u010debel na de\u017eeli"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(D.wa,X.O)})()
-H.b9(b.typeUniverse,JSON.parse('{"bc":"C","bm":"C","be":"aY","bd":"m","bt":"m","bv":"m","bb":"D","bn":"D","bz":"aW","bf":"M","br":"M","bw":"F","bl":"F","bo":"aU","by":"aQ","bh":"aX","bk":"aT","bg":"Z","bx":"Z","bs":"b1","bq":"b0","bp":"b_","bi":"av","bj":"aR","wa":{"O":[]}}'))
+y(D.wb,X.O)})()
+H.bb(b.typeUniverse,JSON.parse('{"be":"C","bo":"C","bg":"aY","bf":"m","bv":"m","bx":"m","bd":"D","bp":"D","bB":"aW","bh":"M","bt":"M","by":"F","bn":"F","bq":"aU","bA":"aQ","bj":"aX","bm":"aT","bi":"Z","bz":"Z","bu":"b1","bs":"b0","br":"b_","bk":"av","bl":"aR","wb":{"O":[]}}'))
 0}
-$__dart_deferred_initializers__["pO4gOUeD4YqJ/OWbZA/XARXCzSo="] = $__dart_deferred_initializers__.current
+$__dart_deferred_initializers__["WqnfwTivRTsPoOA1xlgygBXcwjM="] = $__dart_deferred_initializers__.current
 //# sourceMappingURL=main.dart.js_63.part.js.map

@@ -1,9 +1,9 @@
 self.$__dart_deferred_initializers__=self.$__dart_deferred_initializers__||Object.create(null)
 $__dart_deferred_initializers__.current=function(a,b,c,$){var C,H,J,P,W,U,Y,L,M,N,R,B,A,G,V={
-aZ2:function(d){return new V.qe(T.ad(d))},
-aZ3:function(){return new V.wc(T.ad("sr_Latn"))},
-qe:function qe(d){this.a=d},
-wc:function wc(d){this.a=d}},S,T,D,Z,E,K,O,Q,X,F
+aZh:function(d){return new V.qf(T.ad(d))},
+aZi:function(){return new V.wd(T.ad("sr_Latn"))},
+qf:function qf(d){this.a=d},
+wd:function wd(d){this.a=d}},S,T,D,Z,E,K,O,Q,X,F
 a.setFunctionNamesIfNecessary([V])
 C=c[0]
 H=c[1]
@@ -30,7 +30,7 @@ O=c[21]
 Q=c[22]
 X=c[23]
 F=c[24]
-V.qe.prototype={
+V.qf.prototype={
 cB:function(d){return d+" GitHub \u0441\u043a\u043b\u0430\u0434\u0438\u0448\u0442\u0435"},
 e5:function(d){return"\u0414\u0430 \u0431\u0438\u0441\u0442\u0435 \u0432\u0438\u0434\u0435\u043b\u0438 \u0438\u0437\u0432\u043e\u0440\u043d\u0438 \u043a\xf4\u0434 \u0437\u0430 \u043e\u0432\u0443 \u0430\u043f\u043b\u0438\u043a\u0430\u0446\u0438\u0458\u0443, \u043f\u043e\u0441\u0435\u0442\u0438\u0442\u0435 "+d+"."},
 ge_:function(){return"\u041f\u0420\u0418\u0408\u0410\u0412\u0418\u0422\u0415 \u0421\u0415"},
@@ -693,7 +693,7 @@ gkI:function(){return"\u0414\u043e\u043a \u0430\u043a\u0446\u0438\u0458\u0435 \u
 gkE:function(){return"\u0414\u0438\u0437\u0430\u0458\u043d\u0435\u0440\u0438 \u043a\u043e\u0440\u0438\u0441\u0442\u0435 \u0442\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0438\u0458\u0443 \u0434\u0430 \u0431\u0438 \u043f\u0440\u0430\u0432\u0438\u043b\u0438 \u0444\u0443\u0442\u0443\u0440\u0438\u0441\u0442\u0438\u0447\u043a\u0435 \u0442\u043a\u0430\u043d\u0438\u043d\u0435"},
 gkF:function(){return"\u0424\u0435\u043c\u0438\u043d\u0438\u0441\u0442\u043a\u0438\u045a\u0435 \u0441\u0435 \u0431\u0430\u0432\u0435 \u043f\u043e\u043b\u0438\u0442\u0438\u043a\u043e\u043c"},
 gkD:function(){return"\u041d\u0435\u0434\u043e\u0441\u0442\u0430\u0458\u0443 \u043f\u0447\u0435\u043b\u0435 \u0437\u0430 \u0444\u0430\u0440\u043c\u0435"}}
-V.wc.prototype={
+V.wd.prototype={
 cB:function(d){return d+" GitHub skladi\u0161te"},
 e5:function(d){return"Da biste videli izvorni k\xf4d za ovu aplikaciju, posetite "+d+"."},
 ge_:function(){return"PRIJAVITE SE"},
@@ -1357,9 +1357,9 @@ gkE:function(){return"Dizajneri koriste tehnologiju da bi pravili futuristi\u010
 gkF:function(){return"Feministkinje se bave politikom"},
 gkD:function(){return"Nedostaju p\u010dele za farme"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(V.qe,X.O)
-y(V.wc,V.qe)})()
-H.b9(b.typeUniverse,JSON.parse('{"bc":"C","bm":"C","be":"aY","bd":"m","bt":"m","bv":"m","bb":"D","bn":"D","bz":"aW","bf":"M","br":"M","bw":"F","bl":"F","bo":"aU","by":"aQ","bh":"aX","bk":"aT","bg":"Z","bx":"Z","bs":"b1","bq":"b0","bp":"b_","bi":"av","bj":"aR","qe":{"O":[]},"wc":{"O":[]}}'))
+y(V.qf,X.O)
+y(V.wd,V.qf)})()
+H.bb(b.typeUniverse,JSON.parse('{"be":"C","bo":"C","bg":"aY","bf":"m","bv":"m","bx":"m","bd":"D","bp":"D","bB":"aW","bh":"M","bt":"M","by":"F","bn":"F","bq":"aU","bA":"aQ","bj":"aX","bm":"aT","bi":"Z","bz":"Z","bu":"b1","bs":"b0","br":"b_","bk":"av","bl":"aR","qf":{"O":[]},"wd":{"O":[]}}'))
 0}
-$__dart_deferred_initializers__["f1V0qOSqRiwauMzucqckpTLjiu0="] = $__dart_deferred_initializers__.current
+$__dart_deferred_initializers__["6kkcO5L5E5pp5GgyqjVGPvAIlp8="] = $__dart_deferred_initializers__.current
 //# sourceMappingURL=main.dart.js_1.part.js.map

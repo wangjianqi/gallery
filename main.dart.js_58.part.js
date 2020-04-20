@@ -1,7 +1,7 @@
 self.$__dart_deferred_initializers__=self.$__dart_deferred_initializers__||Object.create(null)
 $__dart_deferred_initializers__.current=function(a,b,c,$){var C,H,J,P,W,U,Y,L,M,N,R,B,A,G,V,S,T,D,Z,E,K,O,Q,X,F={
-aYT:function(){return new F.w3(T.ad("pl"))},
-w3:function w3(d){this.a=d}}
+aZ7:function(){return new F.w4(T.ad("pl"))},
+w4:function w4(d){this.a=d}}
 a.setFunctionNamesIfNecessary([F])
 C=c[0]
 H=c[1]
@@ -28,7 +28,7 @@ O=c[21]
 Q=c[22]
 X=c[23]
 F=a.updateHolder(c[24],F)
-F.w3.prototype={
+F.w4.prototype={
 cB:function(d){return"repozytorium "+d+" na GitHubie"},
 e5:function(d){return"Aby zobaczy\u0107 kod \u017ar\xf3d\u0142owy tej aplikacji, odwied\u017a "+d+"."},
 ge_:function(){return"ZALOGUJ SI\u0118"},
@@ -691,8 +691,8 @@ gkE:function(){return"Projektanci tworz\u0105 futurystyczne materia\u0142y za po
 gkF:function(){return"Feministki a\xa0stronniczo\u015b\u0107"},
 gkD:function(){return"Coraz mniej pszcz\xf3\u0142 na polach uprawnych"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(F.w3,X.O)})()
-H.b9(b.typeUniverse,JSON.parse('{"bc":"C","bm":"C","be":"aY","bd":"m","bt":"m","bv":"m","bb":"D","bn":"D","bz":"aW","bf":"M","br":"M","bw":"F","bl":"F","bo":"aU","by":"aQ","bh":"aX","bk":"aT","bg":"Z","bx":"Z","bs":"b1","bq":"b0","bp":"b_","bi":"av","bj":"aR","w3":{"O":[]}}'))
+y(F.w4,X.O)})()
+H.bb(b.typeUniverse,JSON.parse('{"be":"C","bo":"C","bg":"aY","bf":"m","bv":"m","bx":"m","bd":"D","bp":"D","bB":"aW","bh":"M","bt":"M","by":"F","bn":"F","bq":"aU","bA":"aQ","bj":"aX","bm":"aT","bi":"Z","bz":"Z","bu":"b1","bs":"b0","br":"b_","bk":"av","bl":"aR","w4":{"O":[]}}'))
 0}
-$__dart_deferred_initializers__["67fUjIvW6y1y5qzLAf3xCGeIa8g="] = $__dart_deferred_initializers__.current
+$__dart_deferred_initializers__["xSr0QHbcpLWk3K2ZV1sQzRH6Tro="] = $__dart_deferred_initializers__.current
 //# sourceMappingURL=main.dart.js_58.part.js.map

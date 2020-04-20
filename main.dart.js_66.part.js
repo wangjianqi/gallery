@@ -1,7 +1,7 @@
 self.$__dart_deferred_initializers__=self.$__dart_deferred_initializers__||Object.create(null)
 $__dart_deferred_initializers__.current=function(a,b,c,$){var C,H,J,P,W,U={
-aZ5:function(){return new U.we(T.ad("sw"))},
-we:function we(d){this.a=d}},Y,L,M,N,R,B,A,G,V,S,T,D,Z,E,K,O,Q,X,F
+aZk:function(){return new U.wf(T.ad("sw"))},
+wf:function wf(d){this.a=d}},Y,L,M,N,R,B,A,G,V,S,T,D,Z,E,K,O,Q,X,F
 a.setFunctionNamesIfNecessary([U])
 C=c[0]
 H=c[1]
@@ -28,7 +28,7 @@ O=c[21]
 Q=c[22]
 X=c[23]
 F=c[24]
-U.we.prototype={
+U.wf.prototype={
 cB:function(d){return d+" Hazina ya GitHub"},
 e5:function(d){return"Ili uangalie msimbo wa programu hii, tafadhali tembelea "+d+"."},
 ge_:function(){return"INGIA KATIKA AKAUNTI"},
@@ -693,8 +693,8 @@ gkE:function(){return"Wanamitindo Wanatumia Teknolojia Kutengeneza Vitambaa vya 
 gkF:function(){return"Watetezi wa Nadharia ya Haki na Usawa wa Wanawake Wanavyopambana na Ubaguzi"},
 gkD:function(){return"Upungufu wa Nyuki wa Shambani"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(U.we,X.O)})()
-H.b9(b.typeUniverse,JSON.parse('{"bc":"C","bm":"C","be":"aY","bd":"m","bt":"m","bv":"m","bb":"D","bn":"D","bz":"aW","bf":"M","br":"M","bw":"F","bl":"F","bo":"aU","by":"aQ","bh":"aX","bk":"aT","bg":"Z","bx":"Z","bs":"b1","bq":"b0","bp":"b_","bi":"av","bj":"aR","we":{"O":[]}}'))
+y(U.wf,X.O)})()
+H.bb(b.typeUniverse,JSON.parse('{"be":"C","bo":"C","bg":"aY","bf":"m","bv":"m","bx":"m","bd":"D","bp":"D","bB":"aW","bh":"M","bt":"M","by":"F","bn":"F","bq":"aU","bA":"aQ","bj":"aX","bm":"aT","bi":"Z","bz":"Z","bu":"b1","bs":"b0","br":"b_","bk":"av","bl":"aR","wf":{"O":[]}}'))
 0}
-$__dart_deferred_initializers__["Xgoax4NsSXLTgb181jBg+iqbOAA="] = $__dart_deferred_initializers__.current
+$__dart_deferred_initializers__["dS+QaoMvfkfwG1I2SDSZR5k782E="] = $__dart_deferred_initializers__.current
 //# sourceMappingURL=main.dart.js_66.part.js.map

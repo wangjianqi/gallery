@@ -1,7 +1,7 @@
 self.$__dart_deferred_initializers__=self.$__dart_deferred_initializers__||Object.create(null)
 $__dart_deferred_initializers__.current=function(a,b,c,$){var C,H,J,P,W,U,Y,L,M,N,R,B={
-aZ_:function(){return new B.w9(T.ad("sk"))},
-w9:function w9(d){this.a=d}},A,G,V,S,T,D,Z,E,K,O,Q,X,F
+aZe:function(){return new B.wa(T.ad("sk"))},
+wa:function wa(d){this.a=d}},A,G,V,S,T,D,Z,E,K,O,Q,X,F
 a.setFunctionNamesIfNecessary([B])
 C=c[0]
 H=c[1]
@@ -28,7 +28,7 @@ O=c[21]
 Q=c[22]
 X=c[23]
 F=c[24]
-B.w9.prototype={
+B.wa.prototype={
 cB:function(d){return"Odkladac\xed priestor GitHub "+d},
 e5:function(d){return"Ak si chcete zobrazi\u0165 zdrojov\xfd k\xf3d tejto aplik\xe1cie, prejdite na "+d+"."},
 ge_:function(){return"PRIHL\xc1SI\u0164 SA"},
@@ -691,8 +691,8 @@ gkE:function(){return"Pomocou technol\xf3gi\xed vyr\xe1baj\xfa n\xe1vrh\xe1ri fu
 gkF:function(){return"Feministky sa vrhli na partiz\xe1nstvo"},
 gkD:function(){return"Nedostatok po\u013enohospod\xe1rskych v\u010diel"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(B.w9,X.O)})()
-H.b9(b.typeUniverse,JSON.parse('{"bc":"C","bm":"C","be":"aY","bd":"m","bt":"m","bv":"m","bb":"D","bn":"D","bz":"aW","bf":"M","br":"M","bw":"F","bl":"F","bo":"aU","by":"aQ","bh":"aX","bk":"aT","bg":"Z","bx":"Z","bs":"b1","bq":"b0","bp":"b_","bi":"av","bj":"aR","w9":{"O":[]}}'))
+y(B.wa,X.O)})()
+H.bb(b.typeUniverse,JSON.parse('{"be":"C","bo":"C","bg":"aY","bf":"m","bv":"m","bx":"m","bd":"D","bp":"D","bB":"aW","bh":"M","bt":"M","by":"F","bn":"F","bq":"aU","bA":"aQ","bj":"aX","bm":"aT","bi":"Z","bz":"Z","bu":"b1","bs":"b0","br":"b_","bk":"av","bl":"aR","wa":{"O":[]}}'))
 0}
-$__dart_deferred_initializers__["6v1ZmMkHSfOT/+K7uaVaR8xRq8Y="] = $__dart_deferred_initializers__.current
+$__dart_deferred_initializers__["EDtBaWDLUCgkIc7dCQDGHeqbVFE="] = $__dart_deferred_initializers__.current
 //# sourceMappingURL=main.dart.js_62.part.js.map

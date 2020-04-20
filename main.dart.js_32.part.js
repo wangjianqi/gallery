@@ -1,7 +1,7 @@
 self.$__dart_deferred_initializers__=self.$__dart_deferred_initializers__||Object.create(null)
 $__dart_deferred_initializers__.current=function(a,b,c,$){var C,H,J,P,W,U,Y={
-aYt:function(){return new Y.vE(T.ad("hu"))},
-vE:function vE(d){this.a=d}},L,M,N,R,B,A,G,V,S,T,D,Z,E,K,O,Q,X,F
+aYI:function(){return new Y.vF(T.ad("hu"))},
+vF:function vF(d){this.a=d}},L,M,N,R,B,A,G,V,S,T,D,Z,E,K,O,Q,X,F
 a.setFunctionNamesIfNecessary([Y])
 C=c[0]
 H=c[1]
@@ -28,7 +28,7 @@ O=c[21]
 Q=c[22]
 X=c[23]
 F=c[24]
-Y.vE.prototype={
+Y.vF.prototype={
 cB:function(d){return d+" GitHub-t\xe1rhely"},
 e5:function(d){return"Az alkalmaz\xe1s forr\xe1sk\xf3dj\xe1nak megtekint\xe9s\xe9hez keresse fel a k\xf6vetkez\u0151t: "+d+"."},
 ge_:function(){return"BEJELENTKEZ\xc9S"},
@@ -693,8 +693,8 @@ gkE:function(){return"A tervez\u0151k a technol\xf3gi\xe1t h\xedvj\xe1k seg\xedt
 gkF:function(){return"A feminist\xe1k p\xe1rtot v\xe1lasztanak"},
 gkD:function(){return"Kev\xe9s a m\xe9h a gazdas\xe1gokban"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(Y.vE,X.O)})()
-H.b9(b.typeUniverse,JSON.parse('{"bc":"C","bm":"C","be":"aY","bd":"m","bt":"m","bv":"m","bb":"D","bn":"D","bz":"aW","bf":"M","br":"M","bw":"F","bl":"F","bo":"aU","by":"aQ","bh":"aX","bk":"aT","bg":"Z","bx":"Z","bs":"b1","bq":"b0","bp":"b_","bi":"av","bj":"aR","vE":{"O":[]}}'))
+y(Y.vF,X.O)})()
+H.bb(b.typeUniverse,JSON.parse('{"be":"C","bo":"C","bg":"aY","bf":"m","bv":"m","bx":"m","bd":"D","bp":"D","bB":"aW","bh":"M","bt":"M","by":"F","bn":"F","bq":"aU","bA":"aQ","bj":"aX","bm":"aT","bi":"Z","bz":"Z","bu":"b1","bs":"b0","br":"b_","bk":"av","bl":"aR","vF":{"O":[]}}'))
 0}
-$__dart_deferred_initializers__["ICqs0jp5NlHDIuoXQ/6yEOBXPLg="] = $__dart_deferred_initializers__.current
+$__dart_deferred_initializers__["XF9jjtw2HB/2yO5Q/lJbkoAtla0="] = $__dart_deferred_initializers__.current
 //# sourceMappingURL=main.dart.js_32.part.js.map

@@ -1,7 +1,7 @@
 self.$__dart_deferred_initializers__=self.$__dart_deferred_initializers__||Object.create(null)
 $__dart_deferred_initializers__.current=function(a,b,c,$){var C,H,J,P,W,U,Y,L={
-aYO:function(){return new L.vZ(T.ad("nb"))},
-vZ:function vZ(d){this.a=d}},M,N,R,B,A,G,V,S,T,D,Z,E,K,O,Q,X,F
+aZ2:function(){return new L.w_(T.ad("nb"))},
+w_:function w_(d){this.a=d}},M,N,R,B,A,G,V,S,T,D,Z,E,K,O,Q,X,F
 a.setFunctionNamesIfNecessary([L])
 C=c[0]
 H=c[1]
@@ -28,7 +28,7 @@ O=c[21]
 Q=c[22]
 X=c[23]
 F=c[24]
-L.vZ.prototype={
+L.w_.prototype={
 cB:function(d){return d+" GitHub-repositorium"},
 e5:function(d){return"For \xe5 se kildekoden for denne appen, g\xe5 til "+d+"."},
 ge_:function(){return"LOGG P\xc5"},
@@ -693,8 +693,8 @@ gkE:function(){return"Designere bruker teknologi til \xe5 lage futuristisk stoff
 gkF:function(){return"Feministers mening om partiskhet"},
 gkD:function(){return"Mangel p\xe5 bier til jordbruket"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(L.vZ,X.O)})()
-H.b9(b.typeUniverse,JSON.parse('{"bc":"C","bm":"C","be":"aY","bd":"m","bt":"m","bv":"m","bb":"D","bn":"D","bz":"aW","bf":"M","br":"M","bw":"F","bl":"F","bo":"aU","by":"aQ","bh":"aX","bk":"aT","bg":"Z","bx":"Z","bs":"b1","bq":"b0","bp":"b_","bi":"av","bj":"aR","vZ":{"O":[]}}'))
+y(L.w_,X.O)})()
+H.bb(b.typeUniverse,JSON.parse('{"be":"C","bo":"C","bg":"aY","bf":"m","bv":"m","bx":"m","bd":"D","bp":"D","bB":"aW","bh":"M","bt":"M","by":"F","bn":"F","bq":"aU","bA":"aQ","bj":"aX","bm":"aT","bi":"Z","bz":"Z","bu":"b1","bs":"b0","br":"b_","bk":"av","bl":"aR","w_":{"O":[]}}'))
 0}
-$__dart_deferred_initializers__["mhD3HfMMzeK4E1bIuPyrSmhI/Uo="] = $__dart_deferred_initializers__.current
+$__dart_deferred_initializers__["M1AQkZbDzZo0FGcCcx3+cCI223U="] = $__dart_deferred_initializers__.current
 //# sourceMappingURL=main.dart.js_53.part.js.map
