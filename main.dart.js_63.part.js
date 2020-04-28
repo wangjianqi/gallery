@@ -1,7 +1,7 @@
 self.$__dart_deferred_initializers__=self.$__dart_deferred_initializers__||Object.create(null)
 $__dart_deferred_initializers__.current=function(a,b,c,$){var C,H,J,P,W,U,Y,L,M,N,R,B,A,G,V,S,T,D={
-aZf:function(){return new D.wb(T.ad("sl"))},
-wb:function wb(d){this.a=d}},Z,E,K,O,Q,X,F
+b_j:function(){return new D.wg(T.ae("sl"))},
+wg:function wg(d){this.a=d}},Z,E,K,O,Q,X,F
 a.setFunctionNamesIfNecessary([D])
 C=c[0]
 H=c[1]
@@ -28,7 +28,7 @@ O=c[21]
 Q=c[22]
 X=c[23]
 F=c[24]
-D.wb.prototype={
+D.wg.prototype={
 cB:function(d){return"shrambo "+d+" v GitHubu"},
 e5:function(d){return"\u010ce si \u017eelite ogledati izvorno kodo za to aplikacijo, odprite "+d+"."},
 ge_:function(){return"PRIJAVA"},
@@ -220,8 +220,8 @@ gaN:function(){return"Lollipop"},
 gaK:function(){return"Honeycomb"},
 gaG:function(){return"Donut"},
 gaE:function(){return"Apple pie"},
-ad:function(d){return d+" s sladkorjem"},
-ac:function(d){return d+" z medom"},
+ac:function(d){return d+" s sladkorjem"},
+ab:function(d){return d+" z medom"},
 giM:function(){return"Pogovorna okna"},
 giL:function(){return"Preprosto, opozorila in celozaslonsko"},
 gbD:function(){return"Opozorilo"},
@@ -254,7 +254,7 @@ gjr:function(){return"Meni z razdelki"},
 gjy:function(){return"Preprosti meni"},
 ghZ:function(){return"Meni s kontrolnim seznamom"},
 gjd:function(){return"Menijski gumbi in preprosti meniji"},
-gav:function(){return"Meni prika\u017ee seznam izbir na za\u010dasni povr\u0161ini. Prika\u017eejo se, ko uporabniki uporabijo gumb, dejanje ali drug kontrolnik."},
+gau:function(){return"Meni prika\u017ee seznam izbir na za\u010dasni povr\u0161ini. Prika\u017eejo se, ko uporabniki uporabijo gumb, dejanje ali drug kontrolnik."},
 gj9:function(){return"Prvi menijski element"},
 gjb:function(){return"Drugi menijski element"},
 gja:function(){return"Tretji menijski element"},
@@ -286,7 +286,7 @@ gih:function(){return"Gumb v slogu iOSa. Vsebuje besedilo in/ali ikono, ki se za
 gig:function(){return"Opozorila"},
 gie:function(){return"Opozorilna pogovorna okna v slogu iOSa"},
 gbR:function(){return"Opozorilo"},
-gau:function(){return"Opozorilno pogovorno okno obve\u0161\u010da uporabnika o primerih, v katerih se zahteva potrditev. Opozorilno pogovorno okno ima izbirni naslov, izbirno vsebino in izbirni seznam dejanj. Naslov je prikazan nad vsebino in dejanja so prikazana pod vsebino."},
+gat:function(){return"Opozorilno pogovorno okno obve\u0161\u010da uporabnika o primerih, v katerih se zahteva potrditev. Opozorilno pogovorno okno ima izbirni naslov, izbirno vsebino in izbirni seznam dejanj. Naslov je prikazan nad vsebino in dejanja so prikazana pod vsebino."},
 gbS:function(){return"Opozorilo z naslovom"},
 gbQ:function(){return"Opozorilo z gumbi"},
 gbP:function(){return"Samo opozorilni gumbi"},
@@ -336,7 +336,7 @@ ghH:function(){return"Premikanje, pove\u010dava/pomanj\u0161ava, sukanje"},
 ghE:function(){return"Dotaknite se, \u010de \u017eelite urejati plo\u0161\u010dice in uporabljati kretnje za pomikanje po prizoru. Vlecite, \u010de se \u017eelite premikati, povlecite s prsti skupaj oz. narazen, \u010de \u017eelite pomanj\u0161ati oziroma pove\u010dati, in sukajte z dvema prstoma. Pritisnite gumb za ponastavitev, \u010de se \u017eelite vrniti v za\u010detni polo\u017eaj."},
 ghG:function(){return"Ponastavitev preoblikovanj"},
 ghF:function(){return"Urejanje plo\u0161\u010dice"},
-gaf:function(){return"GUMB"},
+gag:function(){return"GUMB"},
 ghU:function(){return"List na dnu zaslona"},
 ghT:function(){return"Trajni in modalni listi na dnu zaslona"},
 gbL:function(){return"Trajni list na dnu zaslona"},
@@ -384,7 +384,7 @@ gcd:function(){return"Potrditveno polje"},
 gjs:function(){return"Potrditvena polja omogo\u010dajo uporabniku izbiro ve\u010d mo\u017enosti iz nabora. Obi\u010dajna vrednost potrditvenega polja je True ali False. Vrednost potrditvenega polja za tri stanja je lahko tudi ni\u010delna."},
 gce:function(){return"Izbirni gumb"},
 gjt:function(){return"Z izbirnimi gumbi lahko uporabnik izbere eno mo\u017enost iz nabora. Izbirne gumbe uporabite za izklju\u010dno izbiro, \u010de menite, da mora uporabnik videti vse razpolo\u017eljive mo\u017enosti drugo ob drugi."},
-gae:function(){return"Stikalo"},
+gaf:function(){return"Stikalo"},
 gjv:function(){return"Stikala za vklop/izklop spremenijo stanje posamezne mo\u017enosti nastavitev. Z ustrezno oznako v besedilu mora biti jasno, katero mo\u017enost stikalo upravlja in kak\u0161no je njegovo stanje."},
 gb7:function(){return"Besedilna polja"},
 gkb:function(){return"Vrstica besedila in \u0161tevilk, ki omogo\u010dajo urejanje"},
@@ -449,7 +449,7 @@ gkv:function(){return"SHRANI"},
 gku:function(){return"Predstavitev celozaslonskega pogovornega okna"},
 ghp:function(){return"Gumb"},
 ghq:function(){return"Z ozadjem"},
-gag:function(){return"Prekli\u010di"},
+gah:function(){return"Prekli\u010di"},
 gby:function(){return"Zavrzi"},
 gho:function(){return"Ali \u017eelite Zemljevidom omogo\u010diti dostop do lokacije, ko uporabljate aplikacijo?"},
 ghn:function(){return"Va\u0161a trenutna lokacija bo prikazana na zemljevidu in se bo uporabljala za navodila za pot, rezultate iskanja v bli\u017eini in ocenjen \u010das potovanja."},
@@ -457,26 +457,26 @@ gbv:function(){return"Dovoli"},
 gbz:function(){return"Ne dovoli"},
 gbA:function(){return"Izbira priljubljenega posladka"},
 gbx:function(){return"Na spodnjem seznamu izberite priljubljeno vrsto posladka. Na podlagi va\u0161e izbire bomo prilagodili predlagani seznam okrep\u010devalnic na va\u0161em obmo\u010dju."},
-gas:function(){return"Skutina torta"},
-gat:function(){return"Tiramisu"},
-gar:function(){return"Jabol\u010dna pita"},
+gar:function(){return"Skutina torta"},
+gas:function(){return"Tiramisu"},
+gaq:function(){return"Jabol\u010dna pita"},
 gbw:function(){return"\u010cokoladni brownie"},
 ghr:function(){return"Prika\u017ei opozorilo"},
-gaq:function(){return"RDE\u010cA"},
+gap:function(){return"RDE\u010cA"},
 geS:function(){return"RO\u017dNATA"},
 gaD:function(){return"VIJOLI\u010cNA"},
 geN:function(){return"MO\u010cNO VIJOLI\u010cNA"},
-gao:function(){return"INDIGO"},
+gan:function(){return"INDIGO"},
 gaC:function(){return"MODRA"},
 geP:function(){return"SVETLOMODRA"},
 gbo:function(){return"CIJAN"},
 gbp:function(){return"ZELENOMODRA"},
-gan:function(){return"ZELENA"},
+gam:function(){return"ZELENA"},
 geQ:function(){return"SVETLO ZELENA"},
 geR:function(){return"RUMENOZELENA"},
 geT:function(){return"RUMENA"},
 geJ:function(){return"JANTARNA"},
-gap:function(){return"ORAN\u017dNA"},
+gao:function(){return"ORAN\u017dNA"},
 geM:function(){return"MO\u010cNO ORAN\u017dNA"},
 geL:function(){return"RJAVA"},
 geO:function(){return"SIVA"},
@@ -692,8 +692,8 @@ gkE:function(){return"Oblikovalci si s tehnologijo pomagajo do tkanin prihodnost
 gkF:function(){return"Feministke nad strankarstvo"},
 gkD:function(){return"Primanjkljaj \u010debel na de\u017eeli"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(D.wb,X.O)})()
-H.bb(b.typeUniverse,JSON.parse('{"be":"C","bo":"C","bg":"aY","bf":"m","bv":"m","bx":"m","bd":"D","bp":"D","bB":"aW","bh":"M","bt":"M","by":"F","bn":"F","bq":"aU","bA":"aQ","bj":"aX","bm":"aT","bi":"Z","bz":"Z","bu":"b1","bs":"b0","br":"b_","bk":"av","bl":"aR","wb":{"O":[]}}'))
+y(D.wg,X.P)})()
+H.bc(b.typeUniverse,JSON.parse('{"be":"C","bo":"C","bg":"aZ","bf":"m","bv":"m","bw":"m","bd":"D","bp":"D","bA":"aW","bh":"M","bt":"M","bx":"F","bn":"F","bq":"aU","bz":"aQ","bj":"aX","bm":"aT","bi":"Y","by":"Y","bu":"b2","bs":"b0","br":"b_","bk":"av","bl":"aR","wg":{"P":[]}}'))
 0}
-$__dart_deferred_initializers__["WqnfwTivRTsPoOA1xlgygBXcwjM="] = $__dart_deferred_initializers__.current
+$__dart_deferred_initializers__["3dJ/wKYrfjHzpwnolP8IkaeVXaU="] = $__dart_deferred_initializers__.current
 //# sourceMappingURL=main.dart.js_63.part.js.map

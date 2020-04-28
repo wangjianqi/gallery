@@ -1,7 +1,7 @@
 self.$__dart_deferred_initializers__=self.$__dart_deferred_initializers__||Object.create(null)
 $__dart_deferred_initializers__.current=function(a,b,c,$){var C,H,J,P,W,U,Y,L,M,N,R,B,A,G,V,S,T,D,Z,E,K={
-aZ4:function(){return new K.w1(T.ad("nl"))},
-w1:function w1(d){this.a=d}},O,Q,X,F
+b_8:function(){return new K.w6(T.ae("nl"))},
+w6:function w6(d){this.a=d}},O,Q,X,F
 a.setFunctionNamesIfNecessary([K])
 C=c[0]
 H=c[1]
@@ -28,7 +28,7 @@ O=c[21]
 Q=c[22]
 X=c[23]
 F=c[24]
-K.w1.prototype={
+K.w6.prototype={
 cB:function(d){return"GitHub-opslagplaats "+d},
 e5:function(d){return"Als je de broncode voor deze app wilt bekijken, ga je naar de "+d+"."},
 ge_:function(){return"INLOGGEN"},
@@ -220,8 +220,8 @@ gaN:function(){return"Lolly"},
 gaK:function(){return"Honeycomb"},
 gaG:function(){return"Donut"},
 gaE:function(){return"Appeltaart"},
-ad:function(d){return d+" met suiker"},
-ac:function(d){return d+" met honing"},
+ac:function(d){return d+" met suiker"},
+ab:function(d){return d+" met honing"},
 giM:function(){return"Dialoogvensters"},
 giL:function(){return"Eenvoudig, melding en volledig scherm"},
 gbD:function(){return"Melding"},
@@ -254,7 +254,7 @@ gjr:function(){return"In secties opgesplitst menu"},
 gjy:function(){return"Eenvoudig menu"},
 ghZ:function(){return"Checklistmenu"},
 gjd:function(){return"Menuknoppen en eenvoudige menu's"},
-gav:function(){return"Een menu toont een lijst met keuzes in een tijdelijke weergave. Menu's worden weergegeven als gebruikers interactie hebben met een knop, actie of andere bedieningsoptie."},
+gau:function(){return"Een menu toont een lijst met keuzes in een tijdelijke weergave. Menu's worden weergegeven als gebruikers interactie hebben met een knop, actie of andere bedieningsoptie."},
 gj9:function(){return"Menu-item \xe9\xe9n"},
 gjb:function(){return"Menu-item twee"},
 gja:function(){return"Menu-item drie"},
@@ -286,7 +286,7 @@ gih:function(){return"Een knop in iOS-stijl. Deze bevat tekst en/of een pictogra
 gig:function(){return"Meldingen"},
 gie:function(){return"Dialoogvensters voor meldingen in iOS-stijl"},
 gbR:function(){return"Melding"},
-gau:function(){return"Een dialoogvenster voor meldingen informeert de gebruiker over situaties die aandacht vereisen. Een dialoogvenster voor meldingen heeft een optionele titel, optionele content en een optionele lijst met acties. De titel wordt boven de content weergegeven en de acties worden onder de content weergegeven."},
+gat:function(){return"Een dialoogvenster voor meldingen informeert de gebruiker over situaties die aandacht vereisen. Een dialoogvenster voor meldingen heeft een optionele titel, optionele content en een optionele lijst met acties. De titel wordt boven de content weergegeven en de acties worden onder de content weergegeven."},
 gbS:function(){return"Melding met titel"},
 gbQ:function(){return"Melding met knoppen"},
 gbP:function(){return"Alleen meldingknoppen"},
@@ -336,7 +336,7 @@ ghH:function(){return"Meedraaien, zoomen, draaien"},
 ghE:function(){return"Tik om tegels te bewerken en gebruik gebaren om rond te bewegen in de sc\xe8ne. Sleep om mee te draaien, knijp om te zoomen en draai met twee vingers. Druk op de startknop om weer naar de beginstand te gaan."},
 ghG:function(){return"Transformaties resetten"},
 ghF:function(){return"Tegel bewerken"},
-gaf:function(){return"KNOP"},
+gag:function(){return"KNOP"},
 ghU:function(){return"Blad onderaan"},
 ghT:function(){return"Persistente en modale bladen onderaan"},
 gbL:function(){return"Persistent blad onderaan"},
@@ -384,7 +384,7 @@ gcd:function(){return"Selectievakje"},
 gjs:function(){return"Met selectievakjes kan de gebruiker meerdere opties selecteren uit een set. De waarde voor een normaal selectievakje is 'true' of 'false'. De waarde van een selectievakje met drie statussen kan ook 'null' zijn."},
 gce:function(){return"Radio"},
 gjt:function(){return"Met keuzerondjes kan de gebruiker \xe9\xe9n optie selecteren uit een set. Gebruik keuzerondjes voor exclusieve selectie als de gebruiker alle beschikbare opties op een rij moet kunnen bekijken."},
-gae:function(){return"Schakelaar"},
+gaf:function(){return"Schakelaar"},
 gjv:function(){return"Aan/uit-schakelaars bepalen de status van \xe9\xe9n instellingsoptie. De optie die door de schakelaar wordt beheerd, en de status waarin de schakelaar zich bevindt, moeten duidelijk worden gemaakt via het bijbehorende inline label."},
 gb7:function(){return"TEKSTVELDEN"},
 gkb:function(){return"E\xe9n regel bewerkbare tekst en cijfers"},
@@ -449,7 +449,7 @@ gkv:function(){return"OPSLAAN"},
 gku:function(){return"Een demo van een dialoogvenster op volledig scherm"},
 ghp:function(){return"Knop"},
 ghq:function(){return"Met achtergrond"},
-gag:function(){return"Annuleren"},
+gah:function(){return"Annuleren"},
 gby:function(){return"Niet opslaan"},
 gho:function(){return"Wil je Maps toegang geven tot je locatie als je de app gebruikt?"},
 ghn:function(){return"Je huidige locatie wordt op de kaart weergegeven en gebruikt voor routebeschrijvingen, zoekresultaten in de buurt en geschatte reistijden."},
@@ -457,26 +457,26 @@ gbv:function(){return"Toestaan"},
 gbz:function(){return"Niet toestaan"},
 gbA:function(){return"Selecteer je favoriete toetje"},
 gbx:function(){return"Selecteer hieronder je favoriete soort toetje uit de lijst. Je selectie wordt gebruikt om de voorgestelde lijst met eetgelegenheden in jouw omgeving aan te passen."},
-gas:function(){return"Kwarktaart"},
-gat:function(){return"Tiramisu"},
-gar:function(){return"Appeltaart"},
+gar:function(){return"Kwarktaart"},
+gas:function(){return"Tiramisu"},
+gaq:function(){return"Appeltaart"},
 gbw:function(){return"Chocoladebrownie"},
 ghr:function(){return"Melding weergeven"},
-gaq:function(){return"ROOD"},
+gap:function(){return"ROOD"},
 geS:function(){return"ROZE"},
 gaD:function(){return"PAARS"},
 geN:function(){return"DIEPPAARS"},
-gao:function(){return"INDIGO"},
+gan:function(){return"INDIGO"},
 gaC:function(){return"BLAUW"},
 geP:function(){return"LICHTBLAUW"},
 gbo:function(){return"CYAAN"},
 gbp:function(){return"BLAUWGROEN"},
-gan:function(){return"GROEN"},
+gam:function(){return"GROEN"},
 geQ:function(){return"LICHTGROEN"},
 geR:function(){return"LIMOENGROEN"},
 geT:function(){return"GEEL"},
 geJ:function(){return"GEELBRUIN"},
-gap:function(){return"ORANJE"},
+gao:function(){return"ORANJE"},
 geM:function(){return"DIEPORANJE"},
 geL:function(){return"BRUIN"},
 geO:function(){return"GRIJS"},
@@ -693,8 +693,8 @@ gkE:function(){return"Ontwerpers gebruiken technologie voor futuristische stoffe
 gkF:function(){return"Feministen pakken de partijgeest aan"},
 gkD:function(){return"Bijentekort in landbouwgebied"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(K.w1,X.O)})()
-H.bb(b.typeUniverse,JSON.parse('{"be":"C","bo":"C","bg":"aY","bf":"m","bv":"m","bx":"m","bd":"D","bp":"D","bB":"aW","bh":"M","bt":"M","by":"F","bn":"F","bq":"aU","bA":"aQ","bj":"aX","bm":"aT","bi":"Z","bz":"Z","bu":"b1","bs":"b0","br":"b_","bk":"av","bl":"aR","w1":{"O":[]}}'))
+y(K.w6,X.P)})()
+H.bc(b.typeUniverse,JSON.parse('{"be":"C","bo":"C","bg":"aZ","bf":"m","bv":"m","bw":"m","bd":"D","bp":"D","bA":"aW","bh":"M","bt":"M","bx":"F","bn":"F","bq":"aU","bz":"aQ","bj":"aX","bm":"aT","bi":"Y","by":"Y","bu":"b2","bs":"b0","br":"b_","bk":"av","bl":"aR","w6":{"P":[]}}'))
 0}
-$__dart_deferred_initializers__["SUyS4r7qs33SyBY3LuYt5YuM3Hs="] = $__dart_deferred_initializers__.current
+$__dart_deferred_initializers__["5jQrTTVEiYqAEHRlmFuyxEuUGkA="] = $__dart_deferred_initializers__.current
 //# sourceMappingURL=main.dart.js_55.part.js.map

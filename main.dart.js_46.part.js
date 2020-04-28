@@ -1,7 +1,7 @@
 self.$__dart_deferred_initializers__=self.$__dart_deferred_initializers__||Object.create(null)
 $__dart_deferred_initializers__.current=function(a,b,c,$){var C,H,J,P,W,U,Y,L,M,N,R,B,A,G,V,S,T={
-aYW:function(){return new T.vT(T.ad("lv"))},
-vT:function vT(d){this.a=d}},D,Z,E,K,O,Q,X,F
+b__:function(){return new T.vY(T.ae("lv"))},
+vY:function vY(d){this.a=d}},D,Z,E,K,O,Q,X,F
 a.setFunctionNamesIfNecessary([T])
 C=c[0]
 H=c[1]
@@ -28,7 +28,7 @@ O=c[21]
 Q=c[22]
 X=c[23]
 F=c[24]
-T.vT.prototype={
+T.vY.prototype={
 cB:function(d){return d+" GitHub kr\u0101tuve"},
 e5:function(d){return"Lai skat\u012btu \u0161\u012bs lietotnes pirmkodu, l\u016bdzu, apmekl\u0113jiet: "+d+"."},
 ge_:function(){return"PIERAKST\u012aTIES"},
@@ -220,8 +220,8 @@ gaN:function(){return"Konfekte uz koci\u0146a"},
 gaK:function(){return"Medus k\u0101re"},
 gaG:function(){return"Virtulis"},
 gaE:function(){return"\u0100bolu p\u012br\u0101gs"},
-ad:function(d){return d+" ar cukuru"},
-ac:function(d){return d+" ar medu"},
+ac:function(d){return d+" ar cukuru"},
+ab:function(d){return d+" ar medu"},
 giM:function(){return"Dialoglodzi\u0146i"},
 giL:function(){return"Vienk\u0101r\u0161i, br\u012bdin\u0101juma un pilnekr\u0101na re\u017e\u012bma"},
 gbD:function(){return"Br\u012bdin\u0101jums"},
@@ -254,7 +254,7 @@ gjr:function(){return"Izv\u0113lne ar sada\u013c\u0101m"},
 gjy:function(){return"Vienk\u0101r\u0161a izv\u0113lne"},
 ghZ:function(){return"Kontrolsaraksta izv\u0113lne"},
 gjd:function(){return"Izv\u0113lnes pogas un vienk\u0101r\u0161as izv\u0113lnes"},
-gav:function(){return"Izv\u0113lne \u012bslaic\u012bgaj\u0101 saskarn\u0113 att\u0113lo pieejamo opciju sarakstu. T\u0101s tiek par\u0101d\u012btas, kad lietot\u0101js mijiedarbojas ar pogu vai vad\u012bklu vai veic darb\u012bbu."},
+gau:function(){return"Izv\u0113lne \u012bslaic\u012bgaj\u0101 saskarn\u0113 att\u0113lo pieejamo opciju sarakstu. T\u0101s tiek par\u0101d\u012btas, kad lietot\u0101js mijiedarbojas ar pogu vai vad\u012bklu vai veic darb\u012bbu."},
 gj9:function(){return"Pirmais izv\u0113lnes vienums"},
 gjb:function(){return"Otrais izv\u0113lnes vienums"},
 gja:function(){return"Tre\u0161ais izv\u0113lnes vienums"},
@@ -286,7 +286,7 @@ gih:function(){return"iOS stila poga. Pog\u0101 var ievietot tekstu un/vai ikonu
 gig:function(){return"Br\u012bdin\u0101jumi"},
 gie:function(){return"iOS stila br\u012bdin\u0101juma dialoglodzi\u0146i"},
 gbR:function(){return"Br\u012bdin\u0101jums"},
-gau:function(){return"Br\u012bdin\u0101jumu dialoglodzi\u0146\u0161 inform\u0113 lietot\u0101ju par situ\u0101cij\u0101m, kam nepiecie\u0161ams piev\u0113rst uzman\u012bbu. Br\u012bdin\u0101jumu dialoglodzi\u0146am ir neoblig\u0101ts virsraksts, neoblig\u0101ts saturs un neoblig\u0101tu darb\u012bbu saraksts. Virsraksts tiek par\u0101d\u012bts virs satura, un darb\u012bbas tiek par\u0101d\u012btas zem satura."},
+gat:function(){return"Br\u012bdin\u0101jumu dialoglodzi\u0146\u0161 inform\u0113 lietot\u0101ju par situ\u0101cij\u0101m, kam nepiecie\u0161ams piev\u0113rst uzman\u012bbu. Br\u012bdin\u0101jumu dialoglodzi\u0146am ir neoblig\u0101ts virsraksts, neoblig\u0101ts saturs un neoblig\u0101tu darb\u012bbu saraksts. Virsraksts tiek par\u0101d\u012bts virs satura, un darb\u012bbas tiek par\u0101d\u012btas zem satura."},
 gbS:function(){return"Br\u012bdin\u0101jums ar nosaukumu"},
 gbQ:function(){return"Br\u012bdin\u0101jums ar pog\u0101m"},
 gbP:function(){return"Tikai br\u012bdin\u0101jumu pogas"},
@@ -336,7 +336,7 @@ ghH:function(){return"P\u0101rvieto\u0161ana, t\u0101lummai\u0146a, pagrie\u0161
 ghE:function(){return"Pieskarieties, lai redi\u0123\u0113tu elementus, un izmantojiet \u017eestus, lai p\u0101rvietotos. Velciet, lai izmantotu p\u0101rvieto\u0161anu; savelciet pirkstus, lai izmantotu t\u0101lummai\u0146u; veiciet pagrie\u0161anu ar diviem pirkstiem. Nospiediet atiestat\u012b\u0161anas pogu, lai atgrieztos pie s\u0101kotn\u0113j\u0101 virziena."},
 ghG:function(){return"Atiestat\u012bt p\u0101rveido\u0161anu"},
 ghF:function(){return"Redi\u0123\u0113t elementu"},
-gaf:function(){return"POGA"},
+gag:function(){return"POGA"},
 ghU:function(){return"Ekr\u0101na apak\u0161da\u013cas izkl\u0101jlapa"},
 ghT:function(){return"Past\u0101v\u012bg\u0101 un mod\u0101l\u0101 ekr\u0101na apak\u0161da\u013ca"},
 gbL:function(){return"Past\u0101v\u012bg\u0101 ekr\u0101na apak\u0161da\u013cas izkl\u0101jlapa"},
@@ -384,7 +384,7 @@ gcd:function(){return"Izv\u0113les r\u016bti\u0146a"},
 gjs:function(){return"Izmantojot izv\u0113les r\u016bti\u0146as, lietot\u0101js var atlas\u012bt vair\u0101kas opcijas grup\u0101. Parastas izv\u0113les r\u016bti\u0146as v\u0113rt\u012bba ir \u201ctrue\u201d vai \u201cfalse\u201d. Triju statusu izv\u0113les r\u016bti\u0146as v\u0113rt\u012bba var b\u016bt ar\u012b \u201cnull\u201d."},
 gce:function(){return"Poga"},
 gjt:function(){return"Izmantojot pogas, lietot\u0101js var atlas\u012bt vienu opciju grup\u0101. Izmantojiet pogas vienas opcijas atlasei, ja uzskat\u0101t, ka lietot\u0101jam ir j\u0101redz visas pieejam\u0101s opcijas l\u012bdz\u0101s."},
-gae:function(){return"Sl\u0113dzis"},
+gaf:function(){return"Sl\u0113dzis"},
 gjv:function(){return"Izmantojot iesl\u0113g\u0161anas/izsl\u0113g\u0161anas sl\u0113dzi, var main\u012bt vienas iestat\u012bjumu opcijas statusu. Atbilsto\u0161aj\u0101 iek\u013cautaj\u0101 iez\u012bm\u0113 ir j\u0101b\u016bt skaidri nor\u0101d\u012btam, kuru opciju var p\u0101rsl\u0113gt, izmantojot sl\u0113dzi, un k\u0101d\u0101 status\u0101 t\u0101 ir pa\u0161laik."},
 gb7:function(){return"Teksta lauki"},
 gkb:function(){return"Viena rinda teksta un ciparu redi\u0123\u0113\u0161anai"},
@@ -449,7 +449,7 @@ gkv:function(){return"SAGLAB\u0100T"},
 gku:function(){return"Pilnekr\u0101na re\u017e\u012bma dialoglodzi\u0146a demonstr\u0101cija"},
 ghp:function(){return"Poga"},
 ghq:function(){return"Ar fonu"},
-gag:function(){return"Atcelt"},
+gah:function(){return"Atcelt"},
 gby:function(){return"Atmest"},
 gho:function(){return"Vai \u013caut lietotnei \u201cMaps\u201d piek\u013c\u016bt j\u016bsu atra\u0161an\u0101s vietai, kad izmantojat \u0161o lietotni?"},
 ghn:function(){return"Kart\u0113 tiks att\u0113lota j\u016bsu pa\u0161reiz\u0113j\u0101 atra\u0161an\u0101s vieta, un t\u0101 tiks izmantota, lai sniegtu nor\u0101des, par\u0101d\u012btu tuvum\u0101 eso\u0161us mekl\u0113\u0161anas rezult\u0101tus un noteiktu aptuvenu ce\u013c\u0101 pavad\u0101mo laiku."},
@@ -457,26 +457,26 @@ gbv:function(){return"At\u013caut"},
 gbz:function(){return"Neat\u013caut"},
 gbA:function(){return"Atlasiet iecien\u012bt\u0101ko desertu"},
 gbx:function(){return"L\u016bdzu, t\u0101l\u0101k redzamaj\u0101 sarakst\u0101 atlasiet savu iecien\u012bt\u0101ko desertu. J\u016bsu atlase tiks izmantota, lai piel\u0101gotu j\u016bsu apgabal\u0101 ieteikto restor\u0101nu sarakstu."},
-gas:function(){return"Siera k\u016bka"},
-gat:function(){return"Tiramisu"},
-gar:function(){return"\u0100bolk\u016bka"},
+gar:function(){return"Siera k\u016bka"},
+gas:function(){return"Tiramisu"},
+gaq:function(){return"\u0100bolk\u016bka"},
 gbw:function(){return"\u0160okol\u0101des braunijs"},
 ghr:function(){return"Par\u0101d\u012bt br\u012bdin\u0101jumu"},
-gaq:function(){return"SARKANA"},
+gap:function(){return"SARKANA"},
 geS:function(){return"ROZ\u0100"},
 gaD:function(){return"VIOLETA"},
 geN:function(){return"TUM\u0160I VIOLETA"},
-gao:function(){return"INDIGO"},
+gan:function(){return"INDIGO"},
 gaC:function(){return"ZILA"},
 geP:function(){return"GAI\u0160I ZILA"},
 gbo:function(){return"CI\u0100NZILA"},
 gbp:function(){return"ZILGANZA\u013bA"},
-gan:function(){return"ZA\u013bA"},
+gam:function(){return"ZA\u013bA"},
 geQ:function(){return"GAI\u0160I ZA\u013bA"},
 geR:function(){return"LAIMA ZA\u013bA"},
 geT:function(){return"DZELTENA"},
 geJ:function(){return"DZINTARKR\u0100SA"},
-gap:function(){return"ORAN\u017dA"},
+gao:function(){return"ORAN\u017dA"},
 geM:function(){return"TUM\u0160I ORAN\u017dA"},
 geL:function(){return"BR\u016aNA"},
 geO:function(){return"PEL\u0112KA"},
@@ -693,8 +693,8 @@ gkE:function(){return"Dizaineri izmanto tehnolo\u0123ijas, lai rad\u012btu fut\u
 gkF:function(){return"Feministes k\u013c\u016bst par partiz\u0101n\u0113m"},
 gkD:function(){return"Saimniec\u012bb\u0101s tr\u016bkst bi\u0161u"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(T.vT,X.O)})()
-H.bb(b.typeUniverse,JSON.parse('{"be":"C","bo":"C","bg":"aY","bf":"m","bv":"m","bx":"m","bd":"D","bp":"D","bB":"aW","bh":"M","bt":"M","by":"F","bn":"F","bq":"aU","bA":"aQ","bj":"aX","bm":"aT","bi":"Z","bz":"Z","bu":"b1","bs":"b0","br":"b_","bk":"av","bl":"aR","vT":{"O":[]}}'))
+y(T.vY,X.P)})()
+H.bc(b.typeUniverse,JSON.parse('{"be":"C","bo":"C","bg":"aZ","bf":"m","bv":"m","bw":"m","bd":"D","bp":"D","bA":"aW","bh":"M","bt":"M","bx":"F","bn":"F","bq":"aU","bz":"aQ","bj":"aX","bm":"aT","bi":"Y","by":"Y","bu":"b2","bs":"b0","br":"b_","bk":"av","bl":"aR","vY":{"P":[]}}'))
 0}
-$__dart_deferred_initializers__["kIpLnErsWQXTg2F22X1mqAwdjNA="] = $__dart_deferred_initializers__.current
+$__dart_deferred_initializers__["80kYzBDc5+NDJYnAOKH+mQrzOCU="] = $__dart_deferred_initializers__.current
 //# sourceMappingURL=main.dart.js_46.part.js.map

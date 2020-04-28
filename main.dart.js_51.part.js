@@ -1,7 +1,7 @@
 self.$__dart_deferred_initializers__=self.$__dart_deferred_initializers__||Object.create(null)
 $__dart_deferred_initializers__.current=function(a,b,c,$){var C,H,J,P,W,U={
-aZ0:function(){return new U.vY(T.ad("ms"))},
-vY:function vY(d){this.a=d}},Y,L,M,N,R,B,A,G,V,S,T,D,Z,E,K,O,Q,X,F
+b_4:function(){return new U.w2(T.ae("ms"))},
+w2:function w2(d){this.a=d}},Y,L,M,N,R,B,A,G,V,S,T,D,Z,E,K,O,Q,X,F
 a.setFunctionNamesIfNecessary([U])
 C=c[0]
 H=c[1]
@@ -28,7 +28,7 @@ O=c[21]
 Q=c[22]
 X=c[23]
 F=c[24]
-U.vY.prototype={
+U.w2.prototype={
 cB:function(d){return d+" repositori GitHub"},
 e5:function(d){return"Untuk melihat kod sumber apl ini, sila lawati "+d+"."},
 ge_:function(){return"LOG MASUK"},
@@ -220,8 +220,8 @@ gaN:function(){return"Lollipop"},
 gaK:function(){return"Honeycomb"},
 gaG:function(){return"Donut"},
 gaE:function(){return"Pai epal"},
-ad:function(d){return d+" bergula"},
-ac:function(d){return d+" bermadu"},
+ac:function(d){return d+" bergula"},
+ab:function(d){return d+" bermadu"},
 giM:function(){return"Dialog"},
 giL:function(){return"Ringkas, makluman dan skrin penuh"},
 gbD:function(){return"Makluman"},
@@ -254,7 +254,7 @@ gjr:function(){return"Menu berbahagian"},
 gjy:function(){return"Menu ringkas"},
 ghZ:function(){return"Menu senarai semak"},
 gjd:function(){return"Butang menu dan menu ringkas"},
-gav:function(){return"Menu memaparkan senarai pilihan pada permukaan sementara. Menu ini muncul apabila pengguna berinteraksi dengan butang, tindakan atau kawalan lain."},
+gau:function(){return"Menu memaparkan senarai pilihan pada permukaan sementara. Menu ini muncul apabila pengguna berinteraksi dengan butang, tindakan atau kawalan lain."},
 gj9:function(){return"Item menu pertama"},
 gjb:function(){return"Item menu kedua"},
 gja:function(){return"Item menu ketiga"},
@@ -286,7 +286,7 @@ gih:function(){return"Butang gaya iOS. Butang menggunakan teks dan/atau ikon yan
 gig:function(){return"Makluman"},
 gie:function(){return"Dialog makluman gaya iOS"},
 gbR:function(){return"Makluman"},
-gau:function(){return"Dialog makluman memberitahu pengguna tentang situasi yang memerlukan perakuan. Dialog makluman mempunyai tajuk pilihan, kandungan pilihan dan senarai tindakan pilihan. Tajuk dipaparkan di bahagian atas kandungan manakala tindakan dipaparkan di bahagian bawah kandungan."},
+gat:function(){return"Dialog makluman memberitahu pengguna tentang situasi yang memerlukan perakuan. Dialog makluman mempunyai tajuk pilihan, kandungan pilihan dan senarai tindakan pilihan. Tajuk dipaparkan di bahagian atas kandungan manakala tindakan dipaparkan di bahagian bawah kandungan."},
 gbS:function(){return"Makluman Bertajuk"},
 gbQ:function(){return"Makluman Dengan Butang"},
 gbP:function(){return"Butang Makluman Sahaja"},
@@ -336,7 +336,7 @@ ghH:function(){return"Sorot, zum, putar"},
 ghE:function(){return"Ketik untuk mengedit jubin dan gunakan gerak isyarat untuk bergerak di sekitar latar. Seret untuk menyorot, cubit untuk mengezum, putar menggunakan dua jari. Tekan butang tetapkan semula untuk kembali ke orientasi permulaan."},
 ghG:function(){return"Tetapkan semula transformasi"},
 ghF:function(){return"Edit jubin"},
-gaf:function(){return"BUTANG"},
+gag:function(){return"BUTANG"},
 ghU:function(){return"Helaian bawah"},
 ghT:function(){return"Helaian bawah mod dan berterusan"},
 gbL:function(){return"Helaian bawah berterusan"},
@@ -384,7 +384,7 @@ gcd:function(){return"Kotak pilihan"},
 gjs:function(){return"Kotak pilihan membenarkan pengguna memilih beberapa pilihan daripada satu set. Nilai kotak pilihan biasa adalah benar atau salah dan nilai kotak pilihan tiga keadaan juga boleh menjadi sifar."},
 gce:function(){return"Radio"},
 gjt:function(){return"Butang radio membenarkan pengguna memilih satu pilihan daripada satu set. Gunakan butang radio untuk pemilihan eksklusif jika anda berpendapat bahawa pengguna perlu melihat semua pilihan yang tersedia secara bersebelahan."},
-gae:function(){return"Tukar"},
+gaf:function(){return"Tukar"},
 gjv:function(){return"Suis hidup/mati menogol keadaan pilihan tetapan tunggal. Pilihan kawalan suis serta keadaannya, hendaklah dibuat jelas daripada label sebaris yang sepadan."},
 gb7:function(){return"Medan teks"},
 gkb:function(){return"Teks dan nombor boleh edit bagi garisan tunggal"},
@@ -449,7 +449,7 @@ gkv:function(){return"SIMPAN"},
 gku:function(){return"Demo dialog skrin penuh"},
 ghp:function(){return"Butang"},
 ghq:function(){return"Dengan Latar Belakang"},
-gag:function(){return"Batal"},
+gah:function(){return"Batal"},
 gby:function(){return"Buang"},
 gho:function(){return'Benarkan "Peta" mengakses lokasi anda semasa anda menggunakan apl?'},
 ghn:function(){return"Lokasi semasa anda akan dipaparkan pada peta dan digunakan untuk menunjuk arah, hasil carian tempat berdekatan dan anggaran waktu perjalanan."},
@@ -457,26 +457,26 @@ gbv:function(){return"Benarkan"},
 gbz:function(){return"Jangan Benarkan"},
 gbA:function(){return"Pilih Pencuci Mulut Kegemaran"},
 gbx:function(){return"Sila pilih jenis pencuci mulut kegemaran anda daripada senarai di bawah. Pemilihan anda akan digunakan untuk menyesuaikan senarai kedai makan yang dicadangkan di kawasan anda."},
-gas:function(){return"Kek keju"},
-gat:function(){return"Tiramisu"},
-gar:function(){return"Pai Epal"},
+gar:function(){return"Kek keju"},
+gas:function(){return"Tiramisu"},
+gaq:function(){return"Pai Epal"},
 gbw:function(){return"Brownie Coklat"},
 ghr:function(){return"Tunjukkan Makluman"},
-gaq:function(){return"MERAH"},
+gap:function(){return"MERAH"},
 geS:function(){return"MERAH JAMBU"},
 gaD:function(){return"UNGU"},
 geN:function(){return"UNGU TUA"},
-gao:function(){return"BIRU NILA"},
+gan:function(){return"BIRU NILA"},
 gaC:function(){return"BIRU"},
 geP:function(){return"BIRU MUDA"},
 gbo:function(){return"BIRU KEHIJAUAN"},
 gbp:function(){return"HIJAU KEBIRUAN"},
-gan:function(){return"HIJAU"},
+gam:function(){return"HIJAU"},
 geQ:function(){return"HIJAU CERAH"},
 geR:function(){return"HIJAU LIMAU NIPIS"},
 geT:function(){return"KUNING"},
 geJ:function(){return"KUNING JINGGA"},
-gap:function(){return"JINGGA"},
+gao:function(){return"JINGGA"},
 geM:function(){return"JINGGA TUA"},
 geL:function(){return"COKLAT"},
 geO:function(){return"KELABU"},
@@ -693,8 +693,8 @@ gkE:function(){return"Designers Use Tech To Make Futuristic Fabrics"},
 gkF:function(){return"Feminists Take On Partisanship"},
 gkD:function(){return"Farmland Bees In Short Supply"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(U.vY,X.O)})()
-H.bb(b.typeUniverse,JSON.parse('{"be":"C","bo":"C","bg":"aY","bf":"m","bv":"m","bx":"m","bd":"D","bp":"D","bB":"aW","bh":"M","bt":"M","by":"F","bn":"F","bq":"aU","bA":"aQ","bj":"aX","bm":"aT","bi":"Z","bz":"Z","bu":"b1","bs":"b0","br":"b_","bk":"av","bl":"aR","vY":{"O":[]}}'))
+y(U.w2,X.P)})()
+H.bc(b.typeUniverse,JSON.parse('{"be":"C","bo":"C","bg":"aZ","bf":"m","bv":"m","bw":"m","bd":"D","bp":"D","bA":"aW","bh":"M","bt":"M","bx":"F","bn":"F","bq":"aU","bz":"aQ","bj":"aX","bm":"aT","bi":"Y","by":"Y","bu":"b2","bs":"b0","br":"b_","bk":"av","bl":"aR","w2":{"P":[]}}'))
 0}
-$__dart_deferred_initializers__["5/JF4lLiksTFji9TgyV9qI1xtbk="] = $__dart_deferred_initializers__.current
+$__dart_deferred_initializers__["dzZaIv7EIvc0smtQAlOG18gKSUA="] = $__dart_deferred_initializers__.current
 //# sourceMappingURL=main.dart.js_51.part.js.map

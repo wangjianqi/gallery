@@ -1,7 +1,7 @@
 self.$__dart_deferred_initializers__=self.$__dart_deferred_initializers__||Object.create(null)
 $__dart_deferred_initializers__.current=function(a,b,c,$){var C,H,J,P,W,U,Y,L,M,N,R,B,A,G,V,S,T,D={
-aXW:function(){return new D.uX(T.ad("da"))},
-uX:function uX(d){this.a=d}},Z,E,K,O,Q,X,F
+aZ_:function(){return new D.v1(T.ae("da"))},
+v1:function v1(d){this.a=d}},Z,E,K,O,Q,X,F
 a.setFunctionNamesIfNecessary([D])
 C=c[0]
 H=c[1]
@@ -28,7 +28,7 @@ O=c[21]
 Q=c[22]
 X=c[23]
 F=c[24]
-D.uX.prototype={
+D.v1.prototype={
 cB:function(d){return d+" GitHub-lager"},
 e5:function(d){return"G\xe5 til "+d+". for at se kildekoden for denne app."},
 ge_:function(){return"LOG IND"},
@@ -220,8 +220,8 @@ gaN:function(){return"Slikkepind"},
 gaK:function(){return"Honningkaramel"},
 gaG:function(){return"Donut"},
 gaE:function(){return"\xc6blet\xe6rte"},
-ad:function(d){return d+" med sukker"},
-ac:function(d){return d+" med honning"},
+ac:function(d){return d+" med sukker"},
+ab:function(d){return d+" med honning"},
 giM:function(){return"Dialogbokse"},
 giL:function(){return"Enkel, underretning og fuld sk\xe6rm"},
 gbD:function(){return"Underretning"},
@@ -254,7 +254,7 @@ gjr:function(){return"Menu med sektioner"},
 gjy:function(){return"Enkel menu"},
 ghZ:function(){return"Tjeklistemenu"},
 gjd:function(){return"Menuknapper og enkle menuer"},
-gav:function(){return"En menu viser en liste over valgmuligheder i en midlertidig rude. De vises, n\xe5r brugerne interagerer med en knap, en handling eller en anden funktion."},
+gau:function(){return"En menu viser en liste over valgmuligheder i en midlertidig rude. De vises, n\xe5r brugerne interagerer med en knap, en handling eller en anden funktion."},
 gj9:function(){return"Menupunkt \xe9t"},
 gjb:function(){return"Menupunkt to"},
 gja:function(){return"Menupunkt tre"},
@@ -286,7 +286,7 @@ gih:function(){return"En knap i samme stil som iOS. Tydeligheden af teksten og/e
 gig:function(){return"Underretninger"},
 gie:function(){return"Dialogbokse til underretning i samme stil som iOS"},
 gbR:function(){return"Underretning"},
-gau:function(){return"En underretningsdialogboks oplyser brugeren om situationer, der kr\xe6ver handling. En underretningsdialogboks har en valgfri titel, valgfrit indhold og en valgfri liste med handlinger. Titlen vises oven over indholdet, og handlinger vises under indholdet."},
+gat:function(){return"En underretningsdialogboks oplyser brugeren om situationer, der kr\xe6ver handling. En underretningsdialogboks har en valgfri titel, valgfrit indhold og en valgfri liste med handlinger. Titlen vises oven over indholdet, og handlinger vises under indholdet."},
 gbS:function(){return"Underretning med titel"},
 gbQ:function(){return"Underretning med knapper"},
 gbP:function(){return"Kun underretningsknapper"},
@@ -336,7 +336,7 @@ ghH:function(){return"Panorer, zoom og roter"},
 ghE:function(){return"Tryk for at redigere felter, og brug bev\xe6gelser til at navigere rundt i motivet. Tr\xe6k for at panorere, knib fingrene sammen for at zoome, og roter ved hj\xe6lp af to fingre Tryk p\xe5 knappen til nulstilling for at g\xe5 tilbage til den oprindelige retning."},
 ghG:function(){return"Nulstil transformationer"},
 ghF:function(){return"Rediger felt"},
-gaf:function(){return"KNAP"},
+gag:function(){return"KNAP"},
 ghU:function(){return"Felt i bunden"},
 ghT:function(){return"Faste og modale felter i bunden"},
 gbL:function(){return"Fast felt i bunden"},
@@ -384,7 +384,7 @@ gcd:function(){return"Afkrydsningsfelt"},
 gjs:function(){return"Afkrydsningsfelter giver brugerne mulighed for at v\xe6lge flere valgmuligheder fra et s\xe6t. Et normalt afkrydsningsfelt kan angives til v\xe6rdierne sand eller falsk, og et afkrydsningsfelt med tre v\xe6rdier kan ogs\xe5 angives til nul."},
 gce:function(){return"Alternativknap"},
 gjt:function(){return"Alternativknapper giver brugeren mulighed for at v\xe6lge en valgmulighed fra et s\xe6t. Brug alternativknapper til eksklusivt valg, hvis du mener, at brugeren har brug for at se alle tilg\xe6ngelige valgmuligheder side om side."},
-gae:function(){return"Kontakt"},
+gaf:function(){return"Kontakt"},
 gjv:function(){return"Til/fra-kontakter skifter en indstillings status. Den indstilling, som kontakten styrer, og dens status, b\xf8r tydeligg\xf8res i den tilsvarende indlejrede etiket."},
 gb7:function(){return"Tekstfelter"},
 gkb:function(){return"En enkelt linje med tekst og tal, der kan redigeres"},
@@ -449,7 +449,7 @@ gkv:function(){return"GEM"},
 gku:function(){return"Demonstration af en dialogboks i fuld sk\xe6rm"},
 ghp:function(){return"Knap"},
 ghq:function(){return"Med baggrund"},
-gag:function(){return"Annuller"},
+gah:function(){return"Annuller"},
 gby:function(){return"Kass\xe9r"},
 gho:function(){return'Vil du give "Maps" adgang til din placering, n\xe5r du bruger appen?'},
 ghn:function(){return"Din aktuelle placering vises p\xe5 kortet og bruges til rutevejledning, s\xf8geresultater i n\xe6rheden og til at beregne rejsetider."},
@@ -457,26 +457,26 @@ gbv:function(){return"Tillad"},
 gbz:function(){return"Tillad ikke"},
 gbA:function(){return"V\xe6lg en favoritdessert"},
 gbx:function(){return"V\xe6lg din yndlingsdessert p\xe5 listen nedenfor. Dit valg bruges til at tilpasse den foresl\xe5ede liste over spisesteder i dit omr\xe5de."},
-gas:function(){return"Cheesecake"},
-gat:function(){return"Tiramisu"},
-gar:function(){return"\xc6blet\xe6rte"},
+gar:function(){return"Cheesecake"},
+gas:function(){return"Tiramisu"},
+gaq:function(){return"\xc6blet\xe6rte"},
 gbw:function(){return"Chokoladebrownie"},
 ghr:function(){return"Vis underretning"},
-gaq:function(){return"R\xd8D"},
+gap:function(){return"R\xd8D"},
 geS:function(){return"PINK"},
 gaD:function(){return"LILLA"},
 geN:function(){return"DYB LILLA"},
-gao:function(){return"INDIGO"},
+gan:function(){return"INDIGO"},
 gaC:function(){return"BL\xc5"},
 geP:function(){return"LYSEBL\xc5"},
 gbo:function(){return"CYAN"},
 gbp:function(){return"GR\xd8NBL\xc5"},
-gan:function(){return"GR\xd8N"},
+gam:function(){return"GR\xd8N"},
 geQ:function(){return"LYSEGR\xd8N"},
 geR:function(){return"LIMEGR\xd8N"},
 geT:function(){return"GUL"},
 geJ:function(){return"ORANGEGUL"},
-gap:function(){return"ORANGE"},
+gao:function(){return"ORANGE"},
 geM:function(){return"DYB ORANGE"},
 geL:function(){return"BRUN"},
 geO:function(){return"GR\xc5"},
@@ -693,8 +693,8 @@ gkE:function(){return"Designere fremstiller futuristisk stof ved hj\xe6lp af tek
 gkF:function(){return"Feminister g\xf8r op med partilinjen"},
 gkD:function(){return"Landbruget mangler bier"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(D.uX,X.O)})()
-H.bb(b.typeUniverse,JSON.parse('{"be":"C","bo":"C","bg":"aY","bf":"m","bv":"m","bx":"m","bd":"D","bp":"D","bB":"aW","bh":"M","bt":"M","by":"F","bn":"F","bq":"aU","bA":"aQ","bj":"aX","bm":"aT","bi":"Z","bz":"Z","bu":"b1","bs":"b0","br":"b_","bk":"av","bl":"aR","uX":{"O":[]}}'))
+y(D.v1,X.P)})()
+H.bc(b.typeUniverse,JSON.parse('{"be":"C","bo":"C","bg":"aZ","bf":"m","bv":"m","bw":"m","bd":"D","bp":"D","bA":"aW","bh":"M","bt":"M","bx":"F","bn":"F","bq":"aU","bz":"aQ","bj":"aX","bm":"aT","bi":"Y","by":"Y","bu":"b2","bs":"b0","br":"b_","bk":"av","bl":"aR","v1":{"P":[]}}'))
 0}
-$__dart_deferred_initializers__["LXSovWudfNO+KXjGUrFe+S9TayA="] = $__dart_deferred_initializers__.current
+$__dart_deferred_initializers__["Y9HOpTUZ6aFYU2+nlqyv+lb12qc="] = $__dart_deferred_initializers__.current
 //# sourceMappingURL=main.dart.js_19.part.js.map

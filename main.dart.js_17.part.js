@@ -1,7 +1,7 @@
 self.$__dart_deferred_initializers__=self.$__dart_deferred_initializers__||Object.create(null)
 $__dart_deferred_initializers__.current=function(a,b,c,$){var C,H,J,P,W,U,Y,L,M,N,R,B={
-aXU:function(){return new B.uV(T.ad("ca"))},
-uV:function uV(d){this.a=d}},A,G,V,S,T,D,Z,E,K,O,Q,X,F
+aYY:function(){return new B.v_(T.ae("ca"))},
+v_:function v_(d){this.a=d}},A,G,V,S,T,D,Z,E,K,O,Q,X,F
 a.setFunctionNamesIfNecessary([B])
 C=c[0]
 H=c[1]
@@ -28,7 +28,7 @@ O=c[21]
 Q=c[22]
 X=c[23]
 F=c[24]
-B.uV.prototype={
+B.v_.prototype={
 cB:function(d){return"repositori de GitHub "+d},
 e5:function(d){return"Per consultar el codi font d'aquesta aplicaci\xf3, visita el "+d+"."},
 ge_:function(){return"INICIA LA SESSI\xd3"},
@@ -220,8 +220,8 @@ gaN:function(){return"Piruleta"},
 gaK:function(){return"Bresca"},
 gaG:function(){return"D\xf2nut"},
 gaE:function(){return"Past\xeds de poma"},
-ad:function(d){return d+" amb sucre"},
-ac:function(d){return d+" amb mel"},
+ac:function(d){return d+" amb sucre"},
+ab:function(d){return d+" amb mel"},
 giM:function(){return"Quadres de di\xe0leg"},
 giL:function(){return"Simple, alerta i pantalla completa"},
 gbD:function(){return"Alerta"},
@@ -254,7 +254,7 @@ gjr:function(){return"Men\xfa amb seccions"},
 gjy:function(){return"Men\xfa senzill"},
 ghZ:function(){return"Men\xfa amb llista de comprovaci\xf3"},
 gjd:function(){return"Botons de men\xfa i men\xfas senzills"},
-gav:function(){return"Un men\xfa mostra una llista d'opcions sobre una superf\xedcie temporal. Es mostren quan els usuaris fan determinades accions o interaccionen amb un bot\xf3 o un altre control."},
+gau:function(){return"Un men\xfa mostra una llista d'opcions sobre una superf\xedcie temporal. Es mostren quan els usuaris fan determinades accions o interaccionen amb un bot\xf3 o un altre control."},
 gj9:function(){return"Element de men\xfa u"},
 gjb:function(){return"Element de men\xfa dos"},
 gja:function(){return"Element de men\xfa tres"},
@@ -286,7 +286,7 @@ gih:function(){return"Bot\xf3 d'estil iOS. T\xe9 forma de text o d'icona que s'a
 gig:function(){return"Alertes"},
 gie:function(){return"Quadres de di\xe0leg d'alerta d'estil iOS"},
 gbR:function(){return"Alerta"},
-gau:function(){return"Un quadre de di\xe0leg d'alerta informa l'usuari sobre situacions que requereixen la seva aprovaci\xf3. Inclou un t\xedtol, una llista d'accions i contingut opcionals. El t\xedtol es mostra a sobre del contingut i les accions, a sota."},
+gat:function(){return"Un quadre de di\xe0leg d'alerta informa l'usuari sobre situacions que requereixen la seva aprovaci\xf3. Inclou un t\xedtol, una llista d'accions i contingut opcionals. El t\xedtol es mostra a sobre del contingut i les accions, a sota."},
 gbS:function(){return"Alerta amb el t\xedtol"},
 gbQ:function(){return"Alerta amb botons"},
 gbP:function(){return"Nom\xe9s botons d'alerta"},
@@ -336,7 +336,7 @@ ghH:function(){return"Panor\xe0mica, zoom i rotaci\xf3"},
 ghE:function(){return"Toca per editar mosaics i fes servir gestos per moure't per l'escena. Arrossega per obtenir una panor\xe0mica, pin\xe7a per fer zoom i gira amb dos dits. Prem el bot\xf3 de restabliment per tornar a l'orientaci\xf3 inicial."},
 ghG:function(){return"Restableix les transformacions"},
 ghF:function(){return"Edita el mosaic"},
-gaf:function(){return"BOT\xd3"},
+gag:function(){return"BOT\xd3"},
 ghU:function(){return"P\xe0gina inferior"},
 ghT:function(){return"P\xe0gines modal i persistent inferiors"},
 gbL:function(){return"P\xe0gina persistent inferior"},
@@ -384,7 +384,7 @@ gcd:function(){return"Casella de selecci\xf3"},
 gjs:function(){return"Les caselles de selecci\xf3 permeten que l'usuari seleccioni diverses opcions d'un conjunt. Normalment, el valor d'una casella de selecci\xf3 \xe9s vertader o fals; en cas d'una casella de selecci\xf3 amb tres estats, el tercer valor tamb\xe9 pot ser nul."},
 gce:function(){return"Opci\xf3"},
 gjt:function(){return"Els botons d'opci\xf3 permeten que l'usuari seleccioni una opci\xf3 d'un conjunt. Fes-los servir si vols que l'usuari pugui veure totes les opcions disponibles, per\xf2 nom\xe9s en pugui triar una."},
-gae:function(){return"Interruptor"},
+gaf:function(){return"Interruptor"},
 gjv:function(){return"Els interruptors commuten l'estat d'una \xfanica opci\xf3 de configuraci\xf3. L'etiqueta inserida corresponent ha de descriure l'opci\xf3 que controla l'interruptor i l'estat en qu\xe8 es troba."},
 gb7:function(){return"Camps de text"},
 gkb:function(){return"L\xednia de text i xifres editables"},
@@ -449,7 +449,7 @@ gkv:function(){return"DESA"},
 gku:function(){return"Demostraci\xf3 d'un quadre de di\xe0leg de pantalla completa"},
 ghp:function(){return"Bot\xf3"},
 ghq:function(){return"Amb fons"},
-gag:function(){return"Cancel\xb7la"},
+gah:function(){return"Cancel\xb7la"},
 gby:function(){return"Descarta"},
 gho:function(){return"Vols permetre que Maps accedeixi a la teva ubicaci\xf3 quan utilitzis l'aplicaci\xf3?"},
 ghn:function(){return"La teva ubicaci\xf3 actual es mostrar\xe0 al mapa i s'utilitzar\xe0 per donar indicacions, oferir resultats propers de cerca i indicar la durada estimada dels trajectes."},
@@ -457,26 +457,26 @@ gbv:function(){return"Permet"},
 gbz:function(){return"No permetis"},
 gbA:function(){return"Selecciona les teves postres preferides"},
 gbx:function(){return"Selecciona el teu tipus de postres preferides de la llista que hi ha m\xe9s avall. La teva selecci\xf3 s'utilitzar\xe0 per personalitzar la llista de suggeriments de restaurants de la teva zona."},
-gas:function(){return"Past\xeds de formatge"},
-gat:function(){return"Tiramis\xfa"},
-gar:function(){return"Past\xeds de poma"},
+gar:function(){return"Past\xeds de formatge"},
+gas:function(){return"Tiramis\xfa"},
+gaq:function(){return"Past\xeds de poma"},
 gbw:function(){return"Brownie de xocolata"},
 ghr:function(){return"Mostra l'alerta"},
-gaq:function(){return"VERMELL"},
+gap:function(){return"VERMELL"},
 geS:function(){return"ROSA"},
 gaD:function(){return"PORPRA"},
 geN:function(){return"PORPRA INTENS"},
-gao:function(){return"ANYIL"},
+gan:function(){return"ANYIL"},
 gaC:function(){return"BLAU"},
 geP:function(){return"BLAU CLAR"},
 gbo:function(){return"CIAN"},
 gbp:function(){return"VERD BLAV\xd3S"},
-gan:function(){return"VERD"},
+gam:function(){return"VERD"},
 geQ:function(){return"VERD CLAR"},
 geR:function(){return"VERD LLIMA"},
 geT:function(){return"GROC"},
 geJ:function(){return"AMBRE"},
-gap:function(){return"TARONJA"},
+gao:function(){return"TARONJA"},
 geM:function(){return"TARONJA INTENS"},
 geL:function(){return"MARR\xd3"},
 geO:function(){return"GRIS"},
@@ -693,8 +693,8 @@ gkE:function(){return"Uns dissenyadors creen teixits futuristes utilitzant tecno
 gkF:function(){return"El feminisme pren partit"},
 gkD:function(){return"Escassetat d\u2019abelles de camp"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(B.uV,X.O)})()
-H.bb(b.typeUniverse,JSON.parse('{"be":"C","bo":"C","bg":"aY","bf":"m","bv":"m","bx":"m","bd":"D","bp":"D","bB":"aW","bh":"M","bt":"M","by":"F","bn":"F","bq":"aU","bA":"aQ","bj":"aX","bm":"aT","bi":"Z","bz":"Z","bu":"b1","bs":"b0","br":"b_","bk":"av","bl":"aR","uV":{"O":[]}}'))
+y(B.v_,X.P)})()
+H.bc(b.typeUniverse,JSON.parse('{"be":"C","bo":"C","bg":"aZ","bf":"m","bv":"m","bw":"m","bd":"D","bp":"D","bA":"aW","bh":"M","bt":"M","bx":"F","bn":"F","bq":"aU","bz":"aQ","bj":"aX","bm":"aT","bi":"Y","by":"Y","bu":"b2","bs":"b0","br":"b_","bk":"av","bl":"aR","v_":{"P":[]}}'))
 0}
-$__dart_deferred_initializers__["//DwLZcKUCeqj0vrs89CmUO4oGQ="] = $__dart_deferred_initializers__.current
+$__dart_deferred_initializers__["EHyrZYArgEEeqiayBxM2V6D2hlk="] = $__dart_deferred_initializers__.current
 //# sourceMappingURL=main.dart.js_17.part.js.map

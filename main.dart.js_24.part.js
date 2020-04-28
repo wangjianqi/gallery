@@ -1,7 +1,7 @@
 self.$__dart_deferred_initializers__=self.$__dart_deferred_initializers__||Object.create(null)
 $__dart_deferred_initializers__.current=function(a,b,c,$){var C,H,J,P,W,U,Y,L,M={
-aYx:function(){return new M.vv(T.ad("fi"))},
-vv:function vv(d){this.a=d}},N,R,B,A,G,V,S,T,D,Z,E,K,O,Q,X,F
+aZB:function(){return new M.vA(T.ae("fi"))},
+vA:function vA(d){this.a=d}},N,R,B,A,G,V,S,T,D,Z,E,K,O,Q,X,F
 a.setFunctionNamesIfNecessary([M])
 C=c[0]
 H=c[1]
@@ -28,7 +28,7 @@ O=c[21]
 Q=c[22]
 X=c[23]
 F=c[24]
-M.vv.prototype={
+M.vA.prototype={
 cB:function(d){return"GitHub-datas\xe4il\xf6: "+d},
 e5:function(d){return"Jos haluat n\xe4hd\xe4 t\xe4m\xe4n sovelluksen l\xe4hdekoodin, avaa "+d+"."},
 ge_:function(){return"KIRJAUDU SIS\xc4\xc4N"},
@@ -220,8 +220,8 @@ gaN:function(){return"Tikkari"},
 gaK:function(){return"Hunajamakeinen"},
 gaG:function(){return"Donitsi"},
 gaE:function(){return"Omenapiirakka"},
-ad:function(d){return d+" sokerilla"},
-ac:function(d){return d+" hunajalla"},
+ac:function(d){return d+" sokerilla"},
+ab:function(d){return d+" hunajalla"},
 giM:function(){return"Valintaikkunat"},
 giL:function(){return"Yksinkertainen, ilmoitus ja koko n\xe4ytt\xf6"},
 gbD:function(){return"Ilmoitus"},
@@ -254,7 +254,7 @@ gjr:function(){return"Osioihin jaettu valikko"},
 gjy:function(){return"Yksinkertainen valikko"},
 ghZ:function(){return"Muistilistavalikko"},
 gjd:function(){return"Valikon painikkeet ja yksinkertaiset valikot"},
-gav:function(){return"Valikossa n\xe4ytet\xe4\xe4n lista vaihtoehtoja v\xe4liaikaista taustaa vasten. Ne tulevat n\xe4kyviin, kun k\xe4ytt\xe4j\xe4 valitsee painikkeen, toiminnon tai muun s\xe4\xe4timen."},
+gau:function(){return"Valikossa n\xe4ytet\xe4\xe4n lista vaihtoehtoja v\xe4liaikaista taustaa vasten. Ne tulevat n\xe4kyviin, kun k\xe4ytt\xe4j\xe4 valitsee painikkeen, toiminnon tai muun s\xe4\xe4timen."},
 gj9:function(){return"Ensimm\xe4inen valikon kohta"},
 gjb:function(){return"Toinen valikon kohta"},
 gja:function(){return"Kolmas valikon kohta"},
@@ -286,7 +286,7 @@ gih:function(){return"iOS-tyylinen painike. It takes in text and/or an icon that
 gig:function(){return"Ilmoitukset"},
 gie:function(){return"iOS-tyyliset ilmoitusikkunat"},
 gbR:function(){return"Ilmoitus"},
-gau:function(){return"Ilmoitusikkuna kertoo k\xe4ytt\xe4j\xe4lle tilanteista, jotka vaativat toimia. Ilmoitusikkunassa on valinnainen otsikko, valinnainen sis\xe4lt\xf6 ja valinnainen toimintoluettelo. Otsikko n\xe4kyy sis\xe4ll\xf6n yl\xe4puolella ja toiminnot sis\xe4ll\xf6n alapuolella."},
+gat:function(){return"Ilmoitusikkuna kertoo k\xe4ytt\xe4j\xe4lle tilanteista, jotka vaativat toimia. Ilmoitusikkunassa on valinnainen otsikko, valinnainen sis\xe4lt\xf6 ja valinnainen toimintoluettelo. Otsikko n\xe4kyy sis\xe4ll\xf6n yl\xe4puolella ja toiminnot sis\xe4ll\xf6n alapuolella."},
 gbS:function(){return"Otsikollinen ilmoitus"},
 gbQ:function(){return"Painikkeellinen ilmoitus"},
 gbP:function(){return"Vain ilmoituspainikkeet"},
@@ -336,7 +336,7 @@ ghH:function(){return"Panorointi, zoomaus, kierto"},
 ghE:function(){return"Napauta muokataksesi osia ja liiku kuvassa eleiden avulla. Panoroi vet\xe4m\xe4ll\xe4, zoomaa nipist\xe4m\xe4ll\xe4 ja kierr\xe4 kahdella sormella. Palaa alkuper\xe4iseen n\xe4kym\xe4\xe4n painamalla nollauspainiketta."},
 ghG:function(){return"Nollaa muunnokset"},
 ghF:function(){return"Muokkaa osaa"},
-gaf:function(){return"PAINIKE"},
+gag:function(){return"PAINIKE"},
 ghU:function(){return"Alaosa"},
 ghT:function(){return"N\xe4kyviss\xe4 pysyv\xe4 tai modaalinen alaosa"},
 gbL:function(){return"N\xe4kyviss\xe4 pysyv\xe4 alaosa"},
@@ -384,7 +384,7 @@ gcd:function(){return"Valintaruutu"},
 gjs:function(){return"Valintaruutujen avulla k\xe4ytt\xe4j\xe4 voi valita useita vaihtoehtoja joukosta. Valintaruudun tavalliset arvovaihtoehdot ovat tosi ja ep\xe4tosi, ja kolmisuuntaisen valintaruudun arvo voi my\xf6s olla tyhj\xe4."},
 gce:function(){return"Valintanappi"},
 gjt:function(){return"Valintanapin avulla k\xe4ytt\xe4j\xe4 voi valita yhden vaihtoehdon joukosta. K\xe4yt\xe4 valintanappeja, kun k\xe4ytt\xe4j\xe4 voi valita vain yhden vaihtoehdon ja h\xe4nen pit\xe4\xe4 n\xe4hd\xe4 kaikki vaihtoehdot vierekk\xe4in."},
-gae:function(){return"Valitsin"},
+gaf:function(){return"Valitsin"},
 gjv:function(){return"P\xe4\xe4lle/pois-valitsimet vaihtavat yksitt\xe4isen asetuksen tilan. Valitsimen ohjaama vaihtoehto sek\xe4 sen nykyinen tila pit\xe4isi n\xe4ky\xe4 selke\xe4sti sen tunnuksesta."},
 gb7:function(){return"Tekstikent\xe4t"},
 gkb:function(){return"Yksi rivi muokattavaa teksti\xe4 ja numeroita"},
@@ -449,7 +449,7 @@ gkv:function(){return"TALLENNA"},
 gku:function(){return"Koko n\xe4yt\xf6n valintaikkunan esittely"},
 ghp:function(){return"Painike"},
 ghq:function(){return"Sis\xe4lt\xe4\xe4 taustan"},
-gag:function(){return"Peruuta"},
+gah:function(){return"Peruuta"},
 gby:function(){return"Hylk\xe4\xe4"},
 gho:function(){return"Saako Maps k\xe4ytt\xe4\xe4 sijaintiasi, kun k\xe4yt\xe4t sovellusta?"},
 ghn:function(){return"Nykyinen sijaintisi n\xe4ytet\xe4\xe4n kartalla ja sit\xe4 k\xe4ytet\xe4\xe4n reittiohjeiden, l\xe4hist\xf6n hakutulosten ja arvioitujen matka-aikojen n\xe4ytt\xe4miseen."},
@@ -457,26 +457,26 @@ gbv:function(){return"Salli"},
 gbz:function(){return"\xc4l\xe4 salli"},
 gbA:function(){return"Valitse lempij\xe4lkiruokasi"},
 gbx:function(){return"Valitse mieluisin j\xe4lkiruokatyyppi alla olevasta luettelosta. Valintasi avulla sinulle personoidaan suosituslista alueesi ruokapaikoista."},
-gas:function(){return"Juustokakku"},
-gat:function(){return"Tiramisu"},
-gar:function(){return"Omenapiirakka"},
+gar:function(){return"Juustokakku"},
+gas:function(){return"Tiramisu"},
+gaq:function(){return"Omenapiirakka"},
 gbw:function(){return"Suklaabrownie"},
 ghr:function(){return"N\xe4yt\xe4 ilmoitus"},
-gaq:function(){return"PUNAINEN"},
+gap:function(){return"PUNAINEN"},
 geS:function(){return"VAALEANPUNAINEN"},
 gaD:function(){return"VIOLETTI"},
 geN:function(){return"TUMMANVIOLETTI"},
-gao:function(){return"INDIGO"},
+gan:function(){return"INDIGO"},
 gaC:function(){return"SININEN"},
 geP:function(){return"VAALEANSININEN"},
 gbo:function(){return"SYAANI"},
 gbp:function(){return"TURKOOSI"},
-gan:function(){return"VIHRE\xc4"},
+gam:function(){return"VIHRE\xc4"},
 geQ:function(){return"VAALEANVIHRE\xc4"},
 geR:function(){return"LIMETINVIHRE\xc4"},
 geT:function(){return"KELTAINEN"},
 geJ:function(){return"KULLANRUSKEA"},
-gap:function(){return"ORANSSI"},
+gao:function(){return"ORANSSI"},
 geM:function(){return"SYV\xc4 ORANSSI"},
 geL:function(){return"RUSKEA"},
 geO:function(){return"HARMAA"},
@@ -693,8 +693,8 @@ gkE:function(){return"Tulevaisuuden kankaita kehitet\xe4\xe4n teknologian avulla
 gkF:function(){return"Feministit kyseenalaistavat puolueellisuuden"},
 gkD:function(){return"Maaseudun mehil\xe4iskato"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(M.vv,X.O)})()
-H.bb(b.typeUniverse,JSON.parse('{"be":"C","bo":"C","bg":"aY","bf":"m","bv":"m","bx":"m","bd":"D","bp":"D","bB":"aW","bh":"M","bt":"M","by":"F","bn":"F","bq":"aU","bA":"aQ","bj":"aX","bm":"aT","bi":"Z","bz":"Z","bu":"b1","bs":"b0","br":"b_","bk":"av","bl":"aR","vv":{"O":[]}}'))
+y(M.vA,X.P)})()
+H.bc(b.typeUniverse,JSON.parse('{"be":"C","bo":"C","bg":"aZ","bf":"m","bv":"m","bw":"m","bd":"D","bp":"D","bA":"aW","bh":"M","bt":"M","bx":"F","bn":"F","bq":"aU","bz":"aQ","bj":"aX","bm":"aT","bi":"Y","by":"Y","bu":"b2","bs":"b0","br":"b_","bk":"av","bl":"aR","vA":{"P":[]}}'))
 0}
-$__dart_deferred_initializers__["VOAVjps00ywkkmqysO+ERFxIZCk="] = $__dart_deferred_initializers__.current
+$__dart_deferred_initializers__["FZaBvqSyZTdGiQVTBCaxqqpzrkM="] = $__dart_deferred_initializers__.current
 //# sourceMappingURL=main.dart.js_24.part.js.map

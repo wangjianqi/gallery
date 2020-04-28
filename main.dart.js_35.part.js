@@ -1,7 +1,7 @@
 self.$__dart_deferred_initializers__=self.$__dart_deferred_initializers__||Object.create(null)
 $__dart_deferred_initializers__.current=function(a,b,c,$){var C,H,J,P,W,U,Y,L,M,N,R,B,A,G,V,S={
-aYL:function(){return new S.vI(T.ad("is"))},
-vI:function vI(d){this.a=d}},T,D,Z,E,K,O,Q,X,F
+aZP:function(){return new S.vN(T.ae("is"))},
+vN:function vN(d){this.a=d}},T,D,Z,E,K,O,Q,X,F
 a.setFunctionNamesIfNecessary([S])
 C=c[0]
 H=c[1]
@@ -28,7 +28,7 @@ O=c[21]
 Q=c[22]
 X=c[23]
 F=c[24]
-S.vI.prototype={
+S.vN.prototype={
 cB:function(d){return d+" GitHub geymsla"},
 e5:function(d){return"Far\xf0u \xe1 "+d+" til a\xf0 sj\xe1 upprunak\xf3\xf0a \xfeessa forrits."},
 ge_:function(){return"SKR\xc1 INN"},
@@ -220,8 +220,8 @@ gaN:function(){return"Sleikipinni"},
 gaK:function(){return"Vaxkaka"},
 gaG:function(){return"Kleinuhringur"},
 gaE:function(){return"Eplabaka"},
-ad:function(d){return d+" me\xf0 sykri"},
-ac:function(d){return d+" me\xf0 hunangi"},
+ac:function(d){return d+" me\xf0 sykri"},
+ab:function(d){return d+" me\xf0 hunangi"},
 giM:function(){return"Gluggar"},
 giL:function(){return"Einfaldur, tilkynning og allur skj\xe1rinn"},
 gbD:function(){return"Vi\xf0v\xf6run"},
@@ -254,7 +254,7 @@ gjr:function(){return"Hlutavalmynd"},
 gjy:function(){return"Einf\xf6ld valmynd"},
 ghZ:function(){return"G\xe1tlistavalmynd"},
 gjd:function(){return"Valmyndarhnappar og einfaldar valmyndir"},
-gav:function(){return"Valmynd birtir vallista \xe1 yfirbor\xf0i sem svo hverfur. Listar hverfa \xfeegar notandi velur hnapp, a\xf0ger\xf0 e\xf0a a\xf0rar st\xfdringar."},
+gau:function(){return"Valmynd birtir vallista \xe1 yfirbor\xf0i sem svo hverfur. Listar hverfa \xfeegar notandi velur hnapp, a\xf0ger\xf0 e\xf0a a\xf0rar st\xfdringar."},
 gj9:function(){return"Valmyndaratri\xf0i eitt"},
 gjb:function(){return"Valmyndaratri\xf0i tv\xf6"},
 gja:function(){return"Valmyndaratri\xf0i \xferj\xfa"},
@@ -286,7 +286,7 @@ gih:function(){return"Hnappur \xed iOS-st\xedl. Hann tekur me\xf0 s\xe9r texta o
 gig:function(){return"Vi\xf0varanir"},
 gie:function(){return"Vi\xf0v\xf6runargluggar \xed iOS-st\xedl"},
 gbR:function(){return"Tilkynning"},
-gau:function(){return"Vi\xf0v\xf6runargluggi uppl\xfdsir notanda um a\xf0st\xe6\xf0ur sem krefjast sta\xf0festingar. Vi\xf0v\xf6runargluggi getur haft titil, efni og lista yfir a\xf0ger\xf0ir. Titillinn birtist fyrir ofan efni\xf0 og a\xf0ger\xf0irnar birtast fyrir ne\xf0an efni\xf0."},
+gat:function(){return"Vi\xf0v\xf6runargluggi uppl\xfdsir notanda um a\xf0st\xe6\xf0ur sem krefjast sta\xf0festingar. Vi\xf0v\xf6runargluggi getur haft titil, efni og lista yfir a\xf0ger\xf0ir. Titillinn birtist fyrir ofan efni\xf0 og a\xf0ger\xf0irnar birtast fyrir ne\xf0an efni\xf0."},
 gbS:function(){return"Tilkynning me\xf0 titli"},
 gbQ:function(){return"Vi\xf0v\xf6run me\xf0 hn\xf6ppum"},
 gbP:function(){return"A\xf0eins vi\xf0v\xf6runarhnappar"},
@@ -336,7 +336,7 @@ ghH:function(){return"Hli\xf0run, a\xf0dr\xe1ttur, sn\xfaningur"},
 ghE:function(){return"\xddttu til a\xf0 breyta fl\xedsum og nota\xf0u bendingar til a\xf0 f\xe6ra \xfeig til \xed umhverfinu. Drag\xf0u til a\xf0 skima, f\xe6r\xf0u fingur saman til a\xf0 nota a\xf0dr\xe1tt og sn\xfa\xf0u me\xf0 tveimur fingrum. \xddttu \xe1 endurstillingarhnappinn til a\xf0 fara aftur \xed upphaflega stefnu."},
 ghG:function(){return"Endurstilla umbreytingar"},
 ghF:function(){return"Breyta fl\xeds"},
-gaf:function(){return"HNAPPUR"},
+gag:function(){return"HNAPPUR"},
 ghU:function(){return"Bla\xf0 ne\xf0st"},
 ghT:function(){return"F\xf6st bl\xf6\xf0 og gluggabl\xf6\xf0 ne\xf0st"},
 gbL:function(){return"Fast bla\xf0 ne\xf0st"},
@@ -384,7 +384,7 @@ gcd:function(){return"G\xe1treitur"},
 gjs:function(){return"G\xe1treitir gera notanda kleift a\xf0 velja marga valkosti \xfar mengi. Gildi venjulegs g\xe1treits er r\xe9tt e\xf0a rangt og eitt af gildum g\xe1treits me\xf0 \xferj\xfa gildi getur einnig veri\xf0 n\xfall."},
 gce:function(){return"Val"},
 gjt:function(){return"Valhnappar sem gera notandanum kleift a\xf0 velja einn valkost af nokkrum. Nota \xe6tti valhnappa fyrir einkv\xe6mt val ef \xfe\xf6rf er talin \xe1 a\xf0 notandinn \xfeurfi a\xf0 sj\xe1 alla valkosti \xed einu."},
-gae:function(){return"Rofi"},
+gaf:function(){return"Rofi"},
 gjv:function(){return"Rofar til a\xf0 kveikja/sl\xf6kkva skipta \xe1 milli tveggja stillinga. Gera \xe6tti valkostinn sem rofinn stj\xf3rnar, sem og st\xf6\xf0u hans, sk\xfdran \xed samsvarandi innskotsmerki."},
 gb7:function(){return"Textareitir"},
 gkb:function(){return"Ein l\xedna me\xf0 texta og t\xf6lum sem h\xe6gt er a\xf0 breyta"},
@@ -449,7 +449,7 @@ gkv:function(){return"VISTA"},
 gku:function(){return"Kynningargluggi \xe1 \xf6llum skj\xe1num"},
 ghp:function(){return"Hnappur"},
 ghq:function(){return"Me\xf0 bakgrunni"},
-gag:function(){return"H\xe6tta vi\xf0"},
+gah:function(){return"H\xe6tta vi\xf0"},
 gby:function(){return"Fleygja"},
 gho:function(){return"Viltu leyfa \u201eKort\u201c a\xf0 f\xe1 a\xf0gang a\xf0 sta\xf0setningu \xfeinni \xe1 me\xf0an \xfe\xfa notar forriti\xf0?"},
 ghn:function(){return"N\xfaverandi sta\xf0setning \xfe\xedn ver\xf0ur birt \xe1 kortinu og notu\xf0 fyrir lei\xf0arl\xfdsingu, leitarni\xf0urst\xf6\xf0ur fyrir n\xe1grenni\xf0 og \xe1\xe6tla\xf0an fer\xf0at\xedma."},
@@ -457,26 +457,26 @@ gbv:function(){return"Leyfa"},
 gbz:function(){return"Ekki leyfa"},
 gbA:function(){return"Velja upp\xe1haldseftirr\xe9tt"},
 gbx:function(){return"Veldu upp\xe1haldseftirr\xe9ttinn \xfeinn af listanum h\xe9r a\xf0 ne\xf0an. \xdea\xf0 sem \xfe\xfa velur ver\xf0ur nota\xf0 til a\xf0 s\xe9rsn\xed\xf0a till\xf6gulista fyrir mats\xf6lusta\xf0i \xe1 \xfe\xednu sv\xe6\xf0i."},
-gas:function(){return"Ostakaka"},
-gat:function(){return"Tiramisu"},
-gar:function(){return"Eplabaka"},
+gar:function(){return"Ostakaka"},
+gas:function(){return"Tiramisu"},
+gaq:function(){return"Eplabaka"},
 gbw:function(){return"Sk\xfaffukaka"},
 ghr:function(){return"S\xfdna vi\xf0v\xf6run"},
-gaq:function(){return"RAU\xd0UR"},
+gap:function(){return"RAU\xd0UR"},
 geS:function(){return"BLEIKUR"},
 gaD:function(){return"FJ\xd3LUBL\xc1R"},
 geN:function(){return"DJ\xdaPFJ\xd3LUBL\xc1R"},
-gao:function(){return"DIMMFJ\xd3LUBL\xc1R"},
+gan:function(){return"DIMMFJ\xd3LUBL\xc1R"},
 gaC:function(){return"BL\xc1R"},
 geP:function(){return"LJ\xd3SBL\xc1R"},
 gbo:function(){return"BL\xc1GR\xc6NN"},
 gbp:function(){return"GR\xc6NBL\xc1R"},
-gan:function(){return"GR\xc6NN"},
+gam:function(){return"GR\xc6NN"},
 geQ:function(){return"LJ\xd3SGR\xc6NN"},
 geR:function(){return"LJ\xd3SGR\xc6NN"},
 geT:function(){return"GULUR"},
 geJ:function(){return"RAFGULUR"},
-gap:function(){return"APPELS\xcdNUGULUR"},
+gao:function(){return"APPELS\xcdNUGULUR"},
 geM:function(){return"DJ\xdaPAPPELS\xcdNUGULUR"},
 geL:function(){return"BR\xdaNN"},
 geO:function(){return"GR\xc1R"},
@@ -693,8 +693,8 @@ gkE:function(){return"H\xf6nnu\xf0ir n\xfdta s\xe9r t\xe6knina til framlei\xf0sl
 gkF:function(){return"Fem\xednistar \xe1 m\xf3ti flokkshollustu"},
 gkD:function(){return"B\xfdflugur vantar \xed b\xfdflugnar\xe6kt"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(S.vI,X.O)})()
-H.bb(b.typeUniverse,JSON.parse('{"be":"C","bo":"C","bg":"aY","bf":"m","bv":"m","bx":"m","bd":"D","bp":"D","bB":"aW","bh":"M","bt":"M","by":"F","bn":"F","bq":"aU","bA":"aQ","bj":"aX","bm":"aT","bi":"Z","bz":"Z","bu":"b1","bs":"b0","br":"b_","bk":"av","bl":"aR","vI":{"O":[]}}'))
+y(S.vN,X.P)})()
+H.bc(b.typeUniverse,JSON.parse('{"be":"C","bo":"C","bg":"aZ","bf":"m","bv":"m","bw":"m","bd":"D","bp":"D","bA":"aW","bh":"M","bt":"M","bx":"F","bn":"F","bq":"aU","bz":"aQ","bj":"aX","bm":"aT","bi":"Y","by":"Y","bu":"b2","bs":"b0","br":"b_","bk":"av","bl":"aR","vN":{"P":[]}}'))
 0}
-$__dart_deferred_initializers__["rnhI+YaGi4sSdlTpDzVnAu7nH8U="] = $__dart_deferred_initializers__.current
+$__dart_deferred_initializers__["rAlst+3TtzOUgUlgPq/1VBSZHuc="] = $__dart_deferred_initializers__.current
 //# sourceMappingURL=main.dart.js_35.part.js.map

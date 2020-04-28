@@ -1,7 +1,7 @@
 self.$__dart_deferred_initializers__=self.$__dart_deferred_initializers__||Object.create(null)
 $__dart_deferred_initializers__.current=function(a,b,c,$){var C,H,J,P,W,U,Y={
-aYI:function(){return new Y.vF(T.ad("hu"))},
-vF:function vF(d){this.a=d}},L,M,N,R,B,A,G,V,S,T,D,Z,E,K,O,Q,X,F
+aZM:function(){return new Y.vK(T.ae("hu"))},
+vK:function vK(d){this.a=d}},L,M,N,R,B,A,G,V,S,T,D,Z,E,K,O,Q,X,F
 a.setFunctionNamesIfNecessary([Y])
 C=c[0]
 H=c[1]
@@ -28,7 +28,7 @@ O=c[21]
 Q=c[22]
 X=c[23]
 F=c[24]
-Y.vF.prototype={
+Y.vK.prototype={
 cB:function(d){return d+" GitHub-t\xe1rhely"},
 e5:function(d){return"Az alkalmaz\xe1s forr\xe1sk\xf3dj\xe1nak megtekint\xe9s\xe9hez keresse fel a k\xf6vetkez\u0151t: "+d+"."},
 ge_:function(){return"BEJELENTKEZ\xc9S"},
@@ -220,8 +220,8 @@ gaN:function(){return"Lollipop"},
 gaK:function(){return"Honeycomb"},
 gaG:function(){return"Donut"},
 gaE:function(){return"Apple pie"},
-ad:function(d){return d+" cukorral"},
-ac:function(d){return d+" m\xe9zzel"},
+ac:function(d){return d+" cukorral"},
+ab:function(d){return d+" m\xe9zzel"},
 giM:function(){return"P\xe1rbesz\xe9dpanelek"},
 giL:function(){return"Egyszer\u0171, \xe9rtes\xedt\u0151 \xe9s teljes k\xe9perny\u0151s"},
 gbD:function(){return"\xc9rtes\xedt\xe9s"},
@@ -254,7 +254,7 @@ gjr:function(){return"Tagolt men\xfc"},
 gjy:function(){return"Egyszer\u0171 men\xfc"},
 ghZ:function(){return"Ellen\u0151rz\u0151 list\xe1s men\xfc"},
 gjd:function(){return"Men\xfcgombok \xe9s egyszer\u0171 men\xfck"},
-gav:function(){return"Egy men\xfc v\xe1laszlehet\u0151s\xe9gek list\xe1j\xe1t jelen\xedti meg egy ideiglenes fel\xfcleten. Akkor jelenik meg, amikor a felhaszn\xe1l\xf3 valamilyen gombot, m\u0171veletet vagy m\xe1sf\xe9le vez\xe9rl\u0151elemet haszn\xe1l."},
+gau:function(){return"Egy men\xfc v\xe1laszlehet\u0151s\xe9gek list\xe1j\xe1t jelen\xedti meg egy ideiglenes fel\xfcleten. Akkor jelenik meg, amikor a felhaszn\xe1l\xf3 valamilyen gombot, m\u0171veletet vagy m\xe1sf\xe9le vez\xe9rl\u0151elemet haszn\xe1l."},
 gj9:function(){return"Els\u0151 men\xfcelem"},
 gjb:function(){return"M\xe1sodik men\xfcelem"},
 gja:function(){return"Harmadik men\xfcelem"},
@@ -286,7 +286,7 @@ gih:function(){return"iOS-st\xedlus\xfa gomb. \xc9rint\xe9sre megjelen\u0151 \xe
 gig:function(){return"\xc9rtes\xedt\xe9sek"},
 gie:function(){return"iOS-st\xedlus\xfa \xe9rtes\xedt\xe9si p\xe1rbesz\xe9dpanelek"},
 gbR:function(){return"Figyelmeztet\xe9s"},
-gau:function(){return"Egy p\xe1rbesz\xe9dpanel t\xe1j\xe9koztatja a felhaszn\xe1l\xf3t a figyelm\xe9t ig\xe9nyl\u0151 helyzetekr\u0151l. Az \xe9rtes\xedt\xe9si p\xe1rbesz\xe9dpanel nem k\xf6telez\u0151 c\xedmmel, nem k\xf6telez\u0151 tartalommal \xe9s nem k\xf6telez\u0151 m\u0171veletlist\xe1val rendelkezik. A c\xedm a tartalom felett, a m\u0171veletek pedig a tartalom alatt jelennek meg."},
+gat:function(){return"Egy p\xe1rbesz\xe9dpanel t\xe1j\xe9koztatja a felhaszn\xe1l\xf3t a figyelm\xe9t ig\xe9nyl\u0151 helyzetekr\u0151l. Az \xe9rtes\xedt\xe9si p\xe1rbesz\xe9dpanel nem k\xf6telez\u0151 c\xedmmel, nem k\xf6telez\u0151 tartalommal \xe9s nem k\xf6telez\u0151 m\u0171veletlist\xe1val rendelkezik. A c\xedm a tartalom felett, a m\u0171veletek pedig a tartalom alatt jelennek meg."},
 gbS:function(){return"\xc9rtes\xedt\xe9s c\xedmmel"},
 gbQ:function(){return"\xc9rtes\xedt\xe9s gombokkal"},
 gbP:function(){return"Csak \xe9rtes\xedt\u0151gombok"},
@@ -336,7 +336,7 @@ ghH:function(){return"P\xe1szt\xe1z\xe1s, nagy\xedt\xe1s/kicsiny\xedt\xe9s, forg
 ghE:function(){return"A mozaikok szerkeszt\xe9s\xe9hez koppintson, a jelenetben val\xf3 mozg\xe1shoz pedig haszn\xe1ljon k\xe9zmozdulatokat. H\xfazza ujj\xe1t a p\xe1szt\xe1z\xe1shoz, h\xfazza \xf6ssze ujjait a nagy\xedt\xe1shoz/kicsiny\xedt\xe9shez, \xe9s haszn\xe1lja k\xe9t ujj\xe1t a forgat\xe1shoz. Nyomja meg a vissza\xe1ll\xedt\xe1s gombot a kezd\u0151 t\xe1jol\xe1shoz val\xf3 visszat\xe9r\xe9shez."},
 ghG:function(){return"\xc1talak\xedt\xe1sok vissza\xe1ll\xedt\xe1sa"},
 ghF:function(){return"Mozaik szerkeszt\xe9se"},
-gaf:function(){return"GOMB"},
+gag:function(){return"GOMB"},
 ghU:function(){return"Als\xf3 lap"},
 ghT:function(){return"\xc1lland\xf3 \xe9s mod\xe1lis als\xf3 lapok"},
 gbL:function(){return"\xc1lland\xf3 als\xf3 lap"},
@@ -384,7 +384,7 @@ gcd:function(){return"Jel\xf6l\u0151n\xe9gyzet"},
 gjs:function(){return"A jel\xf6l\u0151n\xe9gyzetek lehet\u0151v\xe9 teszik a felhaszn\xe1l\xf3 sz\xe1m\xe1ra, hogy egy adott csoportb\xf3l t\xf6bb lehet\u0151s\xe9get is kiv\xe1lasszon. A norm\xe1l jel\xf6l\u0151n\xe9gyzetek \xe9rt\xe9ke igaz vagy hamis lehet, m\xedg a h\xe1rom\xe1llapot\xfa jel\xf6l\u0151n\xe9gyzetek a null \xe9rt\xe9ket is felvehetik."},
 gce:function(){return"V\xe1laszt\xf3gomb"},
 gjt:function(){return"A v\xe1laszt\xf3gombok lehet\u0151v\xe9 teszik, hogy a felhaszn\xe1l\xf3 kiv\xe1lassza a csoportban l\xe9v\u0151 valamelyik lehet\u0151s\xe9get. A v\xe1laszt\xf3gombok haszn\xe1lata kiz\xe1r\xf3lagos kiv\xe1laszt\xe1st eredm\xe9nyez, amelyet akkor \xe9rdemes haszn\xe1lnia, ha \xfagy gondolja, hogy a felhaszn\xe1l\xf3nak egyszerre kell l\xe1tnia az \xf6sszes v\xe1laszthat\xf3 lehet\u0151s\xe9get."},
-gae:function(){return"Kapcsol\xf3"},
+gaf:function(){return"Kapcsol\xf3"},
 gjv:function(){return"A be- \xe9s kikapcsol\xe1sra szolg\xe1l\xf3 gomb egyetlen be\xe1ll\xedt\xe1s \xe1llapot\xe1t m\xf3dos\xedtja. Annak a be\xe1ll\xedt\xe1snak, amelyet a kapcsol\xf3 vez\xe9rel, valamint annak, hogy \xe9ppen be- vagy kikapcsolt \xe1llapotban van-e a kapcsol\xf3, egy\xe9rtelm\u0171nek kell lennie a megfelel\u0151 sz\xf6vegk\xf6zi c\xedmk\xe9b\u0151l."},
 gb7:function(){return"Sz\xf6vegmez\u0151k"},
 gkb:function(){return"Egy sornyi szerkeszthet\u0151 sz\xf6veg \xe9s sz\xe1mok"},
@@ -449,7 +449,7 @@ gkv:function(){return"MENT\xc9S"},
 gku:function(){return"Teljes k\xe9perny\u0151s p\xe1rbesz\xe9dpanel dem\xf3ja"},
 ghp:function(){return"Gomb"},
 ghq:function(){return"H\xe1tt\xe9rrel"},
-gag:function(){return"M\xe9gse"},
+gah:function(){return"M\xe9gse"},
 gby:function(){return"Elvet\xe9s"},
 gho:function(){return"Enged\xe9lyezi a \u201eT\xe9rk\xe9p\u201d sz\xe1m\xe1ra a hozz\xe1f\xe9r\xe9st tart\xf3zkod\xe1si hely\xe9hez, am\xedg az alkalmaz\xe1st haszn\xe1lja?"},
 ghn:function(){return"Aktu\xe1lis tart\xf3zkod\xe1si helye megjelenik a t\xe9rk\xe9pen, \xe9s a rendszer felhaszn\xe1lja az \xfatvonaltervekhez, a k\xf6zelben l\xe9v\u0151 keres\xe9si eredm\xe9nyekhez \xe9s a becs\xfclt utaz\xe1si id\u0151kh\xf6z."},
@@ -457,26 +457,26 @@ gbv:function(){return"Enged\xe9lyez\xe9s"},
 gbz:function(){return"Tilt\xe1s"},
 gbA:function(){return"Kedvenc desszert kiv\xe1laszt\xe1sa"},
 gbx:function(){return"V\xe1laszd ki kedvenc desszertfajt\xe1dat az al\xe1bbi list\xe1b\xf3l. A kiv\xe1lasztott \xe9telek alapj\xe1n a rendszer szem\xe9lyre szabja a k\xf6zeli \xe9tkez\xe9si lehet\u0151s\xe9gek javasolt list\xe1j\xe1t."},
-gas:function(){return"Sajttorta"},
-gat:function(){return"Tiramisu"},
-gar:function(){return"Alm\xe1s pite"},
+gar:function(){return"Sajttorta"},
+gas:function(){return"Tiramisu"},
+gaq:function(){return"Alm\xe1s pite"},
 gbw:function(){return"Csokol\xe1d\xe9s brownie"},
 ghr:function(){return"\xc9rtes\xedt\xe9s megjelen\xedt\xe9se"},
-gaq:function(){return"PIROS"},
+gap:function(){return"PIROS"},
 geS:function(){return"R\xd3ZSASZ\xcdN"},
 gaD:function(){return"LILA"},
 geN:function(){return"M\xc9LYLILA"},
-gao:function(){return"INDIG\xd3K\xc9K"},
+gan:function(){return"INDIG\xd3K\xc9K"},
 gaC:function(){return"K\xc9K"},
 geP:function(){return"VIL\xc1GOSK\xc9K"},
 gbo:function(){return"Z\xd6LDESK\xc9K"},
 gbp:function(){return"P\xc1VAK\xc9K"},
-gan:function(){return"Z\xd6LD"},
+gam:function(){return"Z\xd6LD"},
 geQ:function(){return"VIL\xc1GOSZ\xd6LD"},
 geR:function(){return"CITROMZ\xd6LD"},
 geT:function(){return"S\xc1RGA"},
 geJ:function(){return"BOROSTY\xc1NS\xc1RGA"},
-gap:function(){return"NARANCSS\xc1RGA"},
+gao:function(){return"NARANCSS\xc1RGA"},
 geM:function(){return"M\xc9LYNARANCSS\xc1RGA"},
 geL:function(){return"BARNA"},
 geO:function(){return"SZ\xdcRKE"},
@@ -693,8 +693,8 @@ gkE:function(){return"A tervez\u0151k a technol\xf3gi\xe1t h\xedvj\xe1k seg\xedt
 gkF:function(){return"A feminist\xe1k p\xe1rtot v\xe1lasztanak"},
 gkD:function(){return"Kev\xe9s a m\xe9h a gazdas\xe1gokban"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(Y.vF,X.O)})()
-H.bb(b.typeUniverse,JSON.parse('{"be":"C","bo":"C","bg":"aY","bf":"m","bv":"m","bx":"m","bd":"D","bp":"D","bB":"aW","bh":"M","bt":"M","by":"F","bn":"F","bq":"aU","bA":"aQ","bj":"aX","bm":"aT","bi":"Z","bz":"Z","bu":"b1","bs":"b0","br":"b_","bk":"av","bl":"aR","vF":{"O":[]}}'))
+y(Y.vK,X.P)})()
+H.bc(b.typeUniverse,JSON.parse('{"be":"C","bo":"C","bg":"aZ","bf":"m","bv":"m","bw":"m","bd":"D","bp":"D","bA":"aW","bh":"M","bt":"M","bx":"F","bn":"F","bq":"aU","bz":"aQ","bj":"aX","bm":"aT","bi":"Y","by":"Y","bu":"b2","bs":"b0","br":"b_","bk":"av","bl":"aR","vK":{"P":[]}}'))
 0}
-$__dart_deferred_initializers__["XF9jjtw2HB/2yO5Q/lJbkoAtla0="] = $__dart_deferred_initializers__.current
+$__dart_deferred_initializers__["8P15uuSL+qQBIZu/wfnPUGxd1Dc="] = $__dart_deferred_initializers__.current
 //# sourceMappingURL=main.dart.js_32.part.js.map

@@ -1,7 +1,7 @@
 self.$__dart_deferred_initializers__=self.$__dart_deferred_initializers__||Object.create(null)
 $__dart_deferred_initializers__.current=function(a,b,c,$){var C,H,J,P,W,U,Y,L,M,N,R,B,A,G,V,S,T,D,Z,E,K,O,Q,X,F={
-aZ7:function(){return new F.w4(T.ad("pl"))},
-w4:function w4(d){this.a=d}}
+b_b:function(){return new F.w9(T.ae("pl"))},
+w9:function w9(d){this.a=d}}
 a.setFunctionNamesIfNecessary([F])
 C=c[0]
 H=c[1]
@@ -28,7 +28,7 @@ O=c[21]
 Q=c[22]
 X=c[23]
 F=a.updateHolder(c[24],F)
-F.w4.prototype={
+F.w9.prototype={
 cB:function(d){return"repozytorium "+d+" na GitHubie"},
 e5:function(d){return"Aby zobaczy\u0107 kod \u017ar\xf3d\u0142owy tej aplikacji, odwied\u017a "+d+"."},
 ge_:function(){return"ZALOGUJ SI\u0118"},
@@ -220,8 +220,8 @@ gaN:function(){return"Lizak"},
 gaK:function(){return"Plaster miodu"},
 gaG:function(){return"P\u0105czek"},
 gaE:function(){return"Szarlotka"},
-ad:function(d){return d+" z\xa0cukrem"},
-ac:function(d){return d+" z\xa0miodem"},
+ac:function(d){return d+" z\xa0cukrem"},
+ab:function(d){return d+" z\xa0miodem"},
 giM:function(){return"Okna"},
 giL:function(){return"Proste, alertu i\xa0pe\u0142noekranowe"},
 gbD:function(){return"Alert"},
@@ -254,7 +254,7 @@ gjr:function(){return"Menu z podzia\u0142em na sekcje"},
 gjy:function(){return"Proste menu"},
 ghZ:function(){return"Menu listy kontrolnej"},
 gjd:function(){return"Przyciski menu i proste menu"},
-gav:function(){return"Menu wy\u015bwietla list\u0119 opcji w tymczasowym interfejsie. Opcje wy\u015bwietlaj\u0105 si\u0119, gdy u\u017cytkownik wejdzie w interakcj\u0119 z przyciskiem, opcj\u0105 lub innym elementem steruj\u0105cym."},
+gau:function(){return"Menu wy\u015bwietla list\u0119 opcji w tymczasowym interfejsie. Opcje wy\u015bwietlaj\u0105 si\u0119, gdy u\u017cytkownik wejdzie w interakcj\u0119 z przyciskiem, opcj\u0105 lub innym elementem steruj\u0105cym."},
 gj9:function(){return"Pierwsza pozycja menu"},
 gjb:function(){return"Druga pozycja menu"},
 gja:function(){return"Trzecia pozycja menu"},
@@ -286,7 +286,7 @@ gih:function(){return"Przycisk w\xa0stylu iOS. Przyjmuje tekst lub ikon\u0119, k
 gig:function(){return"Alerty"},
 gie:function(){return"Okna alert\xf3w w\xa0stylu iOS"},
 gbR:function(){return"Alert"},
-gau:function(){return"Okno alertu informuje u\u017cytkownika o\xa0sytuacjach wymagaj\u0105cych potwierdzenia. Okno alertu ma opcjonalny tytu\u0142, opcjonaln\u0105 tre\u015b\u0107 i\xa0opcjonaln\u0105 list\u0119 dzia\u0142a\u0144. Tytu\u0142 jest wy\u015bwietlany nad tre\u015bci\u0105, a\xa0dzia\u0142ania pod tre\u015bci\u0105."},
+gat:function(){return"Okno alertu informuje u\u017cytkownika o\xa0sytuacjach wymagaj\u0105cych potwierdzenia. Okno alertu ma opcjonalny tytu\u0142, opcjonaln\u0105 tre\u015b\u0107 i\xa0opcjonaln\u0105 list\u0119 dzia\u0142a\u0144. Tytu\u0142 jest wy\u015bwietlany nad tre\u015bci\u0105, a\xa0dzia\u0142ania pod tre\u015bci\u0105."},
 gbS:function(){return"Alert z\xa0tytu\u0142em"},
 gbQ:function(){return"Alert z\xa0przyciskami"},
 gbP:function(){return"Tylko przyciski alertu"},
@@ -336,7 +336,7 @@ ghH:function(){return"Przesuni\u0119cie, powi\u0119kszenie, obr\xf3t"},
 ghE:function(){return"Klikaj kafelki, by je edytowa\u0107, i\xa0u\u017cywaj gest\xf3w, by porusza\u0107 si\u0119 po scenie. Przeci\u0105gnij palcem, by przesun\u0105\u0107 widok, \u015bci\u0105gnij palce do siebie, by go powi\u0119kszy\u0107, i\xa0przesu\u0144 dwoma palcami, by go obr\xf3ci\u0107. Naci\u015bnij przycisk resetowania, by wr\xf3ci\u0107 do widoku pocz\u0105tkowego."},
 ghG:function(){return"Resetuj przekszta\u0142cenia"},
 ghF:function(){return"Edytuj kafelek"},
-gaf:function(){return"PRZYCISK"},
+gag:function(){return"PRZYCISK"},
 ghU:function(){return"Plansza dolna"},
 ghT:function(){return"Trwa\u0142e i\xa0modalne plansze dolne"},
 gbL:function(){return"Trwa\u0142a plansza dolna"},
@@ -384,7 +384,7 @@ gcd:function(){return"Pole wyboru"},
 gjs:function(){return"Pola wyboru pozwalaj\u0105 u\u017cytkownikowi na wybranie jednej lub kilku opcji z\xa0wielu dost\u0119pnych. Zazwyczaj pole wyboru ma warto\u015b\u0107 \u201eprawda\u201d i \u201efa\u0142sz\u201d. Pole tr\xf3jstanowe mo\u017ce mie\u0107 te\u017c warto\u015b\u0107 zerow\u0105 (null)."},
 gce:function(){return"Przycisk opcji"},
 gjt:function(){return"Przyciski opcji pozwalaj\u0105 na wybranie jednej z\xa0kilku dost\u0119pnych opcji. Nale\u017cy ich u\u017cywa\u0107, by u\u017cytkownik wybra\u0142 tylko jedn\u0105 opcj\u0119, ale m\xf3g\u0142 zobaczy\u0107 wszystkie pozosta\u0142e."},
-gae:function(){return"Prze\u0142\u0105cznik"},
+gaf:function(){return"Prze\u0142\u0105cznik"},
 gjv:function(){return"Prze\u0142\u0105czniki s\u0142u\u017c\u0105 do w\u0142\u0105czania i\xa0wy\u0142\u0105czania opcji w\xa0ustawieniach. Opcja zwi\u0105zana z\xa0prze\u0142\u0105cznikiem oraz jej stan powinny by\u0107 w\xa0jasny spos\xf3b opisane za pomoc\u0105 etykiety tekstowej."},
 gb7:function(){return"Pola tekstowe"},
 gkb:function(){return"Pojedynczy, edytowalny wiersz tekstowo-liczbowy"},
@@ -449,7 +449,7 @@ gkv:function(){return"ZAPISZ"},
 gku:function(){return"Prezentacja okna pe\u0142noekranowego"},
 ghp:function(){return"Przycisk"},
 ghq:function(){return"Z\xa0t\u0142em"},
-gag:function(){return"Anuluj"},
+gah:function(){return"Anuluj"},
 gby:function(){return"Odrzu\u0107"},
 gho:function(){return"Zezwoli\u0107 \u201eMapom\u201d na dost\u0119p do Twojej lokalizacji, gdy u\u017cywasz aplikacji?"},
 ghn:function(){return"Twoja bie\u017c\u0105ca lokalizacja b\u0119dzie wy\u015bwietlana na mapie i\xa0u\u017cywana do pokazywania trasy, wynik\xf3w wyszukiwania w\xa0pobli\u017cu oraz szacunkowych czas\xf3w podr\xf3\u017cy."},
@@ -457,26 +457,26 @@ gbv:function(){return"Zezw\xf3l"},
 gbz:function(){return"Nie zezwalaj"},
 gbA:function(){return"Wybierz ulubiony deser"},
 gbx:function(){return"Wybierz z\xa0poni\u017cszej listy sw\xf3j ulubiony rodzaj deseru. Na tej podstawie dostosujemy list\u0119 sugerowanych punkt\xf3w gastronomicznych w\xa0Twojej okolicy."},
-gas:function(){return"Sernik"},
-gat:function(){return"Tiramisu"},
-gar:function(){return"Szarlotka"},
+gar:function(){return"Sernik"},
+gas:function(){return"Tiramisu"},
+gaq:function(){return"Szarlotka"},
 gbw:function(){return"Brownie czekoladowe"},
 ghr:function(){return"Poka\u017c alert"},
-gaq:function(){return"CZERWONY"},
+gap:function(){return"CZERWONY"},
 geS:function(){return"R\xd3\u017bOWY"},
 gaD:function(){return"FIOLETOWY"},
 geN:function(){return"G\u0141\u0118BOKI FIOLETOWY"},
-gao:function(){return"INDYGO"},
+gan:function(){return"INDYGO"},
 gaC:function(){return"NIEBIESKI"},
 geP:function(){return"JASNONIEBIESKI"},
 gbo:function(){return"CYJAN"},
 gbp:function(){return"MORSKI"},
-gan:function(){return"ZIELONY"},
+gam:function(){return"ZIELONY"},
 geQ:function(){return"JASNOZIELONY"},
 geR:function(){return"LIMONKOWY"},
 geT:function(){return"\u017b\xd3\u0141TY"},
 geJ:function(){return"BURSZTYNOWY"},
-gap:function(){return"POMARA\u0143CZOWY"},
+gao:function(){return"POMARA\u0143CZOWY"},
 geM:function(){return"G\u0141\u0118BOKI POMARA\u0143CZOWY"},
 geL:function(){return"BR\u0104ZOWY"},
 geO:function(){return"SZARY"},
@@ -691,8 +691,8 @@ gkE:function(){return"Projektanci tworz\u0105 futurystyczne materia\u0142y za po
 gkF:function(){return"Feministki a\xa0stronniczo\u015b\u0107"},
 gkD:function(){return"Coraz mniej pszcz\xf3\u0142 na polach uprawnych"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(F.w4,X.O)})()
-H.bb(b.typeUniverse,JSON.parse('{"be":"C","bo":"C","bg":"aY","bf":"m","bv":"m","bx":"m","bd":"D","bp":"D","bB":"aW","bh":"M","bt":"M","by":"F","bn":"F","bq":"aU","bA":"aQ","bj":"aX","bm":"aT","bi":"Z","bz":"Z","bu":"b1","bs":"b0","br":"b_","bk":"av","bl":"aR","w4":{"O":[]}}'))
+y(F.w9,X.P)})()
+H.bc(b.typeUniverse,JSON.parse('{"be":"C","bo":"C","bg":"aZ","bf":"m","bv":"m","bw":"m","bd":"D","bp":"D","bA":"aW","bh":"M","bt":"M","bx":"F","bn":"F","bq":"aU","bz":"aQ","bj":"aX","bm":"aT","bi":"Y","by":"Y","bu":"b2","bs":"b0","br":"b_","bk":"av","bl":"aR","w9":{"P":[]}}'))
 0}
-$__dart_deferred_initializers__["xSr0QHbcpLWk3K2ZV1sQzRH6Tro="] = $__dart_deferred_initializers__.current
+$__dart_deferred_initializers__["cYnmzPaOEIpOdd8vqp+gAiIv/Qk="] = $__dart_deferred_initializers__.current
 //# sourceMappingURL=main.dart.js_58.part.js.map

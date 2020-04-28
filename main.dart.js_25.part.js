@@ -1,7 +1,7 @@
 self.$__dart_deferred_initializers__=self.$__dart_deferred_initializers__||Object.create(null)
 $__dart_deferred_initializers__.current=function(a,b,c,$){var C,H,J,P,W,U,Y,L,M,N,R,B,A,G,V,S,T,D,Z,E,K,O={
-aYy:function(){return new O.vw(T.ad("fil"))},
-vw:function vw(d){this.a=d}},Q,X,F
+aZC:function(){return new O.vB(T.ae("fil"))},
+vB:function vB(d){this.a=d}},Q,X,F
 a.setFunctionNamesIfNecessary([O])
 C=c[0]
 H=c[1]
@@ -28,7 +28,7 @@ O=a.updateHolder(c[21],O)
 Q=c[22]
 X=c[23]
 F=c[24]
-O.vw.prototype={
+O.vB.prototype={
 cB:function(d){return"Repository ng GitHub ng "+d},
 e5:function(d){return"Para makita ang source code para sa app na ito, pakibisita ang "+d+"."},
 ge_:function(){return"MAG-SIGN IN"},
@@ -220,8 +220,8 @@ gaN:function(){return"Lollipop"},
 gaK:function(){return"Honeycomb"},
 gaG:function(){return"Donut"},
 gaE:function(){return"Apple pie"},
-ad:function(d){return d+" na may asukal"},
-ac:function(d){return d+" na may honey"},
+ac:function(d){return d+" na may asukal"},
+ab:function(d){return d+" na may honey"},
 giM:function(){return"Mga Dialog"},
 giL:function(){return"Simple, alerto, at fullscreen"},
 gbD:function(){return"Alerto"},
@@ -254,7 +254,7 @@ gjr:function(){return"Nakaseksyong menu"},
 gjy:function(){return"Simpleng menu"},
 ghZ:function(){return"Checklist na menu"},
 gjd:function(){return"Mga button ng menu at simpleng menu"},
-gav:function(){return"Nagpapakita ang menu ng listahan ng mga pagpipilian sa isang pansamantalang lugar. Lumalabas ang mga ito kapag nakipag-ugnayan ang mga user gamit ang button, pagkilos, o iba pang kontrol."},
+gau:function(){return"Nagpapakita ang menu ng listahan ng mga pagpipilian sa isang pansamantalang lugar. Lumalabas ang mga ito kapag nakipag-ugnayan ang mga user gamit ang button, pagkilos, o iba pang kontrol."},
 gj9:function(){return"Unang item sa menu"},
 gjb:function(){return"Pangalawang item sa menu"},
 gja:function(){return"Pangatlong item sa menu"},
@@ -286,7 +286,7 @@ gih:function(){return"Button na may istilong pang-iOS. Kumukuha ito ng text at/o
 gig:function(){return"Mga Alerto"},
 gie:function(){return"Mga dialog ng alerto na may istilong pang-iOS"},
 gbR:function(){return"Alerto"},
-gau:function(){return"Ipinapaalam ng dialog ng alerto sa user ang tungkol sa mga sitwasyong nangangailangan ng pagkilala. May opsyonal na pamagat, opsyonal na content, at opsyonal na listahan ng mga pagkilos ang dialog ng alerto. Ipapakita ang pamagat sa itaas ng content at ipapakita ang mga pagkilos sa ibaba ng content."},
+gat:function(){return"Ipinapaalam ng dialog ng alerto sa user ang tungkol sa mga sitwasyong nangangailangan ng pagkilala. May opsyonal na pamagat, opsyonal na content, at opsyonal na listahan ng mga pagkilos ang dialog ng alerto. Ipapakita ang pamagat sa itaas ng content at ipapakita ang mga pagkilos sa ibaba ng content."},
 gbS:function(){return"Alertong May Pamagat"},
 gbQ:function(){return"Alertong May Mga Button"},
 gbP:function(){return"Mga Button ng Alerto Lang"},
@@ -336,7 +336,7 @@ ghH:function(){return"I-pan, i-zoom, i-rotate"},
 ghE:function(){return"I-tap para i-edit ang mga tile, at gumamit ng mga galaw para magpalipat-lipat ng lugar. I-drag para i-pan, i-pinch para i-zoom, i-rotate gamit ang dalawang daliri. Pindutin ang button na i-reset para bumalik sa panimulang oryentasyon."},
 ghG:function(){return"I-reset ang mga pagbabago"},
 ghF:function(){return"I-edit ang tile"},
-gaf:function(){return"BUTTON"},
+gag:function(){return"BUTTON"},
 ghU:function(){return"Bottom sheet"},
 ghT:function(){return"Mga persistent at modal na bottom sheet"},
 gbL:function(){return"Persistent na bottom sheet"},
@@ -384,7 +384,7 @@ gcd:function(){return"Checkbox"},
 gjs:function(){return"Nagbibigay-daan sa user ang mga checkbox na pumili ng maraming opsyon sa isang hanay. True o false ang value ng isang normal na checkbox at puwede ring null ang value ng isang tristate checkbox."},
 gce:function(){return"Radio"},
 gjt:function(){return"Nagbibigay-daan sa user ang mga radio button na pumili ng isang opsyon sa isang hanay. Gamitin ang mga radio button para sa paisa-isang pagpili kung sa tingin mo ay dapat magkakatabing makita ng user ang lahat ng available na opsyon."},
-gae:function(){return"Switch"},
+gaf:function(){return"Switch"},
 gjv:function(){return"Tina-toggle ng mga on/off na switch ang status ng isang opsyon sa mga setting. Dapat malinaw na nakasaad sa inline na label ang opsyong kinokontrol ng switch, pati na rin ang kasalukuyang status nito."},
 gb7:function(){return"Mga field ng text"},
 gkb:function(){return"Isang linya ng mae-edit na text at mga numero"},
@@ -449,7 +449,7 @@ gkv:function(){return"I-SAVE"},
 gku:function(){return"Demo ng full screen na dialog"},
 ghp:function(){return"Button"},
 ghq:function(){return"May Background"},
-gag:function(){return"Kanselahin"},
+gah:function(){return"Kanselahin"},
 gby:function(){return"I-discard"},
 gho:function(){return'Payagan ang "Maps" na i-access ang iyong lokasyon habang ginagamit mo ang app?'},
 ghn:function(){return"Ipapakita sa mapa ang kasalukuyan mong lokasyon at gagamitin ito para sa mga direksyon, resulta ng paghahanap sa malapit, at tinatantyang tagal ng pagbiyahe."},
@@ -457,26 +457,26 @@ gbv:function(){return"Payagan"},
 gbz:function(){return"Huwag Payagan"},
 gbA:function(){return"Piliin ang Paboritong Panghimagas"},
 gbx:function(){return"Pakipili ang paborito mong uri ng panghimagas sa listahan sa ibaba. Gagamitin ang pipiliin mo para i-customize ang iminumungkahing listahan ng mga kainan sa iyong lugar."},
-gas:function(){return"Cheesecake"},
-gat:function(){return"Tiramisu"},
-gar:function(){return"Apple Pie"},
+gar:function(){return"Cheesecake"},
+gas:function(){return"Tiramisu"},
+gaq:function(){return"Apple Pie"},
 gbw:function(){return"Chocolate Brownie"},
 ghr:function(){return"Ipakita ang Alerto"},
-gaq:function(){return"PULA"},
+gap:function(){return"PULA"},
 geS:function(){return"PINK"},
 gaD:function(){return"PURPLE"},
 geN:function(){return"DEEP PURPLE"},
-gao:function(){return"INDIGO"},
+gan:function(){return"INDIGO"},
 gaC:function(){return"ASUL"},
 geP:function(){return"LIGHT BLUE"},
 gbo:function(){return"CYAN"},
 gbp:function(){return"TEAL"},
-gan:function(){return"BERDE"},
+gam:function(){return"BERDE"},
 geQ:function(){return"LIGHT GREEN"},
 geR:function(){return"LIME"},
 geT:function(){return"DILAW"},
 geJ:function(){return"AMBER"},
-gap:function(){return"ORANGE"},
+gao:function(){return"ORANGE"},
 geM:function(){return"DEEP ORANGE"},
 geL:function(){return"BROWN"},
 geO:function(){return"GREY"},
@@ -693,8 +693,8 @@ gkE:function(){return"Gumagamit ng Teknolohiya ang Mga Designer para Gumawa ng M
 gkF:function(){return"Kinakaharap ng Mga Peminista ang Pagkiling"},
 gkD:function(){return"Kaunti na Lang ang Mga Pambukid na Bubuyog"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(O.vw,X.O)})()
-H.bb(b.typeUniverse,JSON.parse('{"be":"C","bo":"C","bg":"aY","bf":"m","bv":"m","bx":"m","bd":"D","bp":"D","bB":"aW","bh":"M","bt":"M","by":"F","bn":"F","bq":"aU","bA":"aQ","bj":"aX","bm":"aT","bi":"Z","bz":"Z","bu":"b1","bs":"b0","br":"b_","bk":"av","bl":"aR","vw":{"O":[]}}'))
+y(O.vB,X.P)})()
+H.bc(b.typeUniverse,JSON.parse('{"be":"C","bo":"C","bg":"aZ","bf":"m","bv":"m","bw":"m","bd":"D","bp":"D","bA":"aW","bh":"M","bt":"M","bx":"F","bn":"F","bq":"aU","bz":"aQ","bj":"aX","bm":"aT","bi":"Y","by":"Y","bu":"b2","bs":"b0","br":"b_","bk":"av","bl":"aR","vB":{"P":[]}}'))
 0}
-$__dart_deferred_initializers__["apLrvTMjeg82o2oOS5IVP73NbGw="] = $__dart_deferred_initializers__.current
+$__dart_deferred_initializers__["mFeLoAuif6A0BQxlCRLkdx2S5gg="] = $__dart_deferred_initializers__.current
 //# sourceMappingURL=main.dart.js_25.part.js.map

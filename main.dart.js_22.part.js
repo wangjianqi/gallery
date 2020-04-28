@@ -1,7 +1,7 @@
 self.$__dart_deferred_initializers__=self.$__dart_deferred_initializers__||Object.create(null)
 $__dart_deferred_initializers__.current=function(a,b,c,$){var C,H,J,P,W,U,Y,L,M,N,R,B,A,G,V,S,T,D,Z,E={
-aYv:function(){return new E.vt(T.ad("eu"))},
-vt:function vt(d){this.a=d}},K,O,Q,X,F
+aZz:function(){return new E.vy(T.ae("eu"))},
+vy:function vy(d){this.a=d}},K,O,Q,X,F
 a.setFunctionNamesIfNecessary([E])
 C=c[0]
 H=c[1]
@@ -28,7 +28,7 @@ O=c[21]
 Q=c[22]
 X=c[23]
 F=c[24]
-E.vt.prototype={
+E.vy.prototype={
 cB:function(d){return d+" GitHub biltegia"},
 e5:function(d){return"Aplikazio honen iturburu-kodea ikusteko, joan hona: "+d+"."},
 ge_:function(){return"HASI SAIOA"},
@@ -220,8 +220,8 @@ gaN:function(){return"Txupatxusa"},
 gaK:function(){return"Abaraska"},
 gaG:function(){return"Donuta"},
 gaE:function(){return"Sagar-tarta"},
-ad:function(d){return d+" azukrearekin"},
-ac:function(d){return d+" eztiarekin"},
+ac:function(d){return d+" azukrearekin"},
+ab:function(d){return d+" eztiarekin"},
 giM:function(){return"Leihoak"},
 giL:function(){return"Arrunta, alerta eta pantaila osoa"},
 gbD:function(){return"Alerta"},
@@ -254,7 +254,7 @@ gjr:function(){return"Menu sekzioduna"},
 gjy:function(){return"Menu sinplea"},
 ghZ:function(){return"Egiaztapen-zerrendaren menua"},
 gjd:function(){return"Menuko botoiak eta menu sinpleak"},
-gav:function(){return"Menuek aukera-zerrenda bat erakusten dute aldi batez. Erabiltzaileek botoi, ekintza edo bestelako kontrol-aukera batekin interakzioan jarduten dutenean agertzen dira menuak."},
+gau:function(){return"Menuek aukera-zerrenda bat erakusten dute aldi batez. Erabiltzaileek botoi, ekintza edo bestelako kontrol-aukera batekin interakzioan jarduten dutenean agertzen dira menuak."},
 gj9:function(){return"Menuko lehen aukera"},
 gjb:function(){return"Menuko bigarren aukera"},
 gja:function(){return"Menuko hirugarren aukera"},
@@ -286,7 +286,7 @@ gih:function(){return"iOS estiloko botoia. Ukitzean lausotzen eta berriro agertz
 gig:function(){return"Alertak"},
 gie:function(){return"iOS estiloko alerta-leihoak"},
 gbR:function(){return"Alerta"},
-gau:function(){return"Kontuan hartu beharreko egoeren berri ematen diote alerta-leihoek erabiltzaileari. Aukeran, izenburua, edukia eta ekintza-zerrendak izan ditzakete alerta-leihoek. Izenburua edukiaren gainean bistaratuko da; ekintzak, berriz, edukiaren azpian."},
+gat:function(){return"Kontuan hartu beharreko egoeren berri ematen diote alerta-leihoek erabiltzaileari. Aukeran, izenburua, edukia eta ekintza-zerrendak izan ditzakete alerta-leihoek. Izenburua edukiaren gainean bistaratuko da; ekintzak, berriz, edukiaren azpian."},
 gbS:function(){return"Alerta izenburuduna"},
 gbQ:function(){return"Alerta botoiduna"},
 gbP:function(){return"Alerta-botoiak bakarrik"},
@@ -336,7 +336,7 @@ ghH:function(){return"Mugitu, aplikatu zooma eta biratu"},
 ghE:function(){return"Sakatu hau lauzak editatzeko eta erabili keinuak eszenaren barruan mugitzeko. Arrastatu mugitzeko, atximurkatu zooma aplikatzeko eta erabili bi hatz biratzeko. Hasierako orientaziora itzultzeko, sakatu berrezartzeko botoia."},
 ghG:function(){return"Berrezarri bihurketak"},
 ghF:function(){return"Editatu lauza"},
-gaf:function(){return"BOTOIA"},
+gag:function(){return"BOTOIA"},
 ghU:function(){return"Beheko orria"},
 ghT:function(){return"Beheko orri finko eta modalak"},
 gbL:function(){return"Beheko orri finkoa"},
@@ -384,7 +384,7 @@ gcd:function(){return"Kontrol-laukia"},
 gjs:function(){return"Kontrol-laukiei esker, multzo bereko aukera bat baino gehiago hauta ditzake erabiltzaileak. Kontrol-laukiek Egia eta Gezurra balioak izan ohi dituzte. Hiru aukerakoak badira, aldiz, balio nulua izan ohi dute bi horiez gain."},
 gce:function(){return"Aukera-botoia"},
 gjt:function(){return"Aukera-botoiei esker, multzo bateko aukera bakarra hauta dezakete erabiltzaileek. Erabili aukera-botoiak erabiltzaileei aukera guztiak ondoz ondo erakutsi nahi badizkiezu, ondoren haietako bat hauta dezaten."},
-gae:function(){return"Etengailua"},
+gaf:function(){return"Etengailua"},
 gjv:function(){return"Aktibatu eta desaktibatzeko etengailuak ezarpen-aukera bakarraren egoera aldatzen du. Etiketa txertatuek argi adierazi behar dute etengailuak zer aukera kontrolatzen duen eta hura zein egoeratan dagoen."},
 gb7:function(){return"Testu-eremuak"},
 gkb:function(){return"Testu eta zenbakien lerro editagarri bakarra"},
@@ -449,7 +449,7 @@ gkv:function(){return"GORDE"},
 gku:function(){return"Pantaila osoko leiho baten demoa"},
 ghp:function(){return"Botoia"},
 ghq:function(){return"Atzeko planoarekin"},
-gag:function(){return"Utzi"},
+gah:function(){return"Utzi"},
 gby:function(){return"Baztertu"},
 gho:function(){return"Aplikazioa erabili bitartean kokapena atzitzeko baimena eman nahi diozu Maps-i?"},
 ghn:function(){return"Uneko kokapena mapan bistaratuko da, eta jarraibideak, inguruko bilaketa-emaitzak eta bidaien gutxi gorabeherako iraupena emango dira."},
@@ -457,26 +457,26 @@ gbv:function(){return"Baimendu"},
 gbz:function(){return"Ez baimendu"},
 gbA:function(){return"Aukeratu postrerik gogokoena"},
 gbx:function(){return"Beheko zerrendan, aukeratu gehien gustatzen zaizun postrea. Inguruko jatetxeen iradokizunak pertsonalizatzeko erabiliko da hautapen hori."},
-gas:function(){return"Gazta-tarta"},
-gat:function(){return"Tiramisua"},
-gar:function(){return"Sagar-tarta"},
+gar:function(){return"Gazta-tarta"},
+gas:function(){return"Tiramisua"},
+gaq:function(){return"Sagar-tarta"},
 gbw:function(){return"Txokolatezko brownie-a"},
 ghr:function(){return"Erakutsi alerta"},
-gaq:function(){return"GORRIA"},
+gap:function(){return"GORRIA"},
 geS:function(){return"ARROSA"},
 gaD:function(){return"MOREA"},
 geN:function(){return"MORE BIZIA"},
-gao:function(){return"INDIGOA"},
+gan:function(){return"INDIGOA"},
 gaC:function(){return"URDINA"},
 geP:function(){return"URDIN ARGIA"},
 gbo:function(){return"ZIANA"},
 gbp:function(){return"ANILA"},
-gan:function(){return"BERDEA"},
+gam:function(){return"BERDEA"},
 geQ:function(){return"BERDE ARGIA"},
 geR:function(){return"LIMA-KOLOREA"},
 geT:function(){return"HORIA"},
 geJ:function(){return"HORIXKA"},
-gap:function(){return"LARANJA"},
+gao:function(){return"LARANJA"},
 geM:function(){return"LARANJA BIZIA"},
 geL:function(){return"MARROIA"},
 geO:function(){return"GRISA"},
@@ -693,8 +693,8 @@ gkE:function(){return"Diseinatzaileek teknologia erabiltzen dute ehun futuristak
 gkF:function(){return"Feministak alderdi baten alde jarri dira"},
 gkD:function(){return"Soroetako erleak desagertzen ari dira"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(E.vt,X.O)})()
-H.bb(b.typeUniverse,JSON.parse('{"be":"C","bo":"C","bg":"aY","bf":"m","bv":"m","bx":"m","bd":"D","bp":"D","bB":"aW","bh":"M","bt":"M","by":"F","bn":"F","bq":"aU","bA":"aQ","bj":"aX","bm":"aT","bi":"Z","bz":"Z","bu":"b1","bs":"b0","br":"b_","bk":"av","bl":"aR","vt":{"O":[]}}'))
+y(E.vy,X.P)})()
+H.bc(b.typeUniverse,JSON.parse('{"be":"C","bo":"C","bg":"aZ","bf":"m","bv":"m","bw":"m","bd":"D","bp":"D","bA":"aW","bh":"M","bt":"M","bx":"F","bn":"F","bq":"aU","bz":"aQ","bj":"aX","bm":"aT","bi":"Y","by":"Y","bu":"b2","bs":"b0","br":"b_","bk":"av","bl":"aR","vy":{"P":[]}}'))
 0}
-$__dart_deferred_initializers__["GFCaB3rWaW/cLcVVHRzbHyl2gdg="] = $__dart_deferred_initializers__.current
+$__dart_deferred_initializers__["izGCsxtNokPN27wl74AJNiEsNyI="] = $__dart_deferred_initializers__.current
 //# sourceMappingURL=main.dart.js_22.part.js.map

@@ -1,7 +1,7 @@
 self.$__dart_deferred_initializers__=self.$__dart_deferred_initializers__||Object.create(null)
 $__dart_deferred_initializers__.current=function(a,b,c,$){var C,H,J,P,W,U,Y,L={
-aZ2:function(){return new L.w_(T.ad("nb"))},
-w_:function w_(d){this.a=d}},M,N,R,B,A,G,V,S,T,D,Z,E,K,O,Q,X,F
+b_6:function(){return new L.w4(T.ae("nb"))},
+w4:function w4(d){this.a=d}},M,N,R,B,A,G,V,S,T,D,Z,E,K,O,Q,X,F
 a.setFunctionNamesIfNecessary([L])
 C=c[0]
 H=c[1]
@@ -28,7 +28,7 @@ O=c[21]
 Q=c[22]
 X=c[23]
 F=c[24]
-L.w_.prototype={
+L.w4.prototype={
 cB:function(d){return d+" GitHub-repositorium"},
 e5:function(d){return"For \xe5 se kildekoden for denne appen, g\xe5 til "+d+"."},
 ge_:function(){return"LOGG P\xc5"},
@@ -220,8 +220,8 @@ gaN:function(){return"Kj\xe6rlighet p\xe5 pinne"},
 gaK:function(){return"Bikake"},
 gaG:function(){return"Smultring"},
 gaE:function(){return"Eplekake"},
-ad:function(d){return d+" med sukker"},
-ac:function(d){return d+" med honning"},
+ac:function(d){return d+" med sukker"},
+ab:function(d){return d+" med honning"},
 giM:function(){return"Dialogbokser"},
 giL:function(){return"Enkel, varsel og fullskjerm"},
 gbD:function(){return"Varsel"},
@@ -254,7 +254,7 @@ gjr:function(){return"Inndelt meny"},
 gjy:function(){return"Enkel meny"},
 ghZ:function(){return"Sjekklistemeny"},
 gjd:function(){return"Menyknapper og enkle menyer"},
-gav:function(){return"Menyer viser lister over valg p\xe5 en midlertidig overflate. De vises n\xe5r brukere samhandler med en knapp, handling eller annen kontroll."},
+gau:function(){return"Menyer viser lister over valg p\xe5 en midlertidig overflate. De vises n\xe5r brukere samhandler med en knapp, handling eller annen kontroll."},
 gj9:function(){return"Menyelement \xe9n"},
 gjb:function(){return"Menyelement to"},
 gja:function(){return"Menyelement tre"},
@@ -286,7 +286,7 @@ gih:function(){return"En knapp i iOS-stil. Den bruker tekst og/eller et ikon som
 gig:function(){return"Varsler"},
 gie:function(){return"Dialogbokser for varsler i iOS-stil"},
 gbR:function(){return"Varsel"},
-gau:function(){return"En varseldialogboks som informerer brukeren om situasjoner som krever bekreftelse. Varseldialogbokser har en valgfri tittel, valgfritt innhold og en valgfri liste over handlinger. Tittelen vises over innholdet, og handlingene vises under innholdet."},
+gat:function(){return"En varseldialogboks som informerer brukeren om situasjoner som krever bekreftelse. Varseldialogbokser har en valgfri tittel, valgfritt innhold og en valgfri liste over handlinger. Tittelen vises over innholdet, og handlingene vises under innholdet."},
 gbS:function(){return"Varsel med tittel"},
 gbQ:function(){return"Varsel med knapper"},
 gbP:function(){return"Bare varselknapper"},
@@ -336,7 +336,7 @@ ghH:function(){return"Panorer, zoom, rot\xe9r"},
 ghE:function(){return"Trykk for \xe5 endre infobrikker, og bruk bevegelser til \xe5 navigere rundt p\xe5 skjermen. Dra for \xe5 panorere, klyp for \xe5 zoome, rot\xe9r med to fingre. Trykk p\xe5 tilbakestillingsknappen for \xe5 g\xe5 tilbake til opprinnelig retning."},
 ghG:function(){return"Tilbakestill transformasjoner"},
 ghF:function(){return"Rediger tittelen"},
-gaf:function(){return"KNAPP"},
+gag:function(){return"KNAPP"},
 ghU:function(){return"Felt nederst"},
 ghT:function(){return"Vedvarende felt og modalfelt nederst"},
 gbL:function(){return"Vedvarende felt nederst"},
@@ -384,7 +384,7 @@ gcd:function(){return"Avmerkingsboks"},
 gjs:function(){return"Brukere kan bruke avmerkingsbokser til \xe5 velge flere alternativer fra et sett. Verdien til en normal avmerkingsboks er sann eller usann, og verdien til en avmerkingsboks med tre tilstander kan ogs\xe5 v\xe6re null."},
 gce:function(){return"Radio"},
 gjt:function(){return"Brukere kan bruke alternativknapper til \xe5 velge ett alternativ fra et sett. Bruk alternativknapper til eksklusive valg hvis du mener at brukeren m\xe5 se alle tilgjengelige alternativer ved siden av hverandre."},
-gae:function(){return"Bryter"},
+gaf:function(){return"Bryter"},
 gjv:function(){return"Av/p\xe5-brytere sl\xe5r tilstanden til ett enkelt alternativ i innstillingene av/p\xe5. Alternativet for at bryterkontrollene, samt tilstanden de er i, skal v\xe6re klart basert p\xe5 den samsvarende innebygde etiketten."},
 gb7:function(){return"Tekstfelter"},
 gkb:function(){return"Enkel linje med redigerbar tekst og redigerbare tall"},
@@ -449,7 +449,7 @@ gkv:function(){return"LAGRE"},
 gku:function(){return"En demonstrasjon av dialogboks i fullskjerm"},
 ghp:function(){return"Knapp"},
 ghq:function(){return"Med bakgrunn"},
-gag:function(){return"Avbryt"},
+gah:function(){return"Avbryt"},
 gby:function(){return"Forkast"},
 gho:function(){return"Vil du gi \xabMaps\xbb tilgang til posisjonen din n\xe5r du bruker appen?"},
 ghn:function(){return"Den n\xe5v\xe6rende posisjonen din vises p\xe5 kartet og brukes til veibeskrivelser, s\xf8keresultater i n\xe6rheten og beregnede reisetider."},
@@ -457,26 +457,26 @@ gbv:function(){return"Tillat"},
 gbz:function(){return"Ikke tillat"},
 gbA:function(){return"Velg favorittdessert"},
 gbx:function(){return"Velg favorittdesserten din fra listen nedenfor. Valget ditt brukes til \xe5 tilpasse listen over foresl\xe5tte spisesteder i omr\xe5det ditt."},
-gas:function(){return"Ostekake"},
-gat:function(){return"Tiramisu"},
-gar:function(){return"Eplekake"},
+gar:function(){return"Ostekake"},
+gas:function(){return"Tiramisu"},
+gaq:function(){return"Eplekake"},
 gbw:function(){return"Sjokolade-brownie"},
 ghr:function(){return"Vis varsel"},
-gaq:function(){return"R\xd8D"},
+gap:function(){return"R\xd8D"},
 geS:function(){return"ROSA"},
 gaD:function(){return"LILLA"},
 geN:function(){return"M\xd8RK LILLA"},
-gao:function(){return"INDIGO"},
+gan:function(){return"INDIGO"},
 gaC:function(){return"BL\xc5"},
 geP:function(){return"LYSEBL\xc5"},
 gbo:function(){return"TURKIS"},
 gbp:function(){return"BL\xc5GR\xd8NN"},
-gan:function(){return"GR\xd8NN"},
+gam:function(){return"GR\xd8NN"},
 geQ:function(){return"LYSEGR\xd8NN"},
 geR:function(){return"LIME"},
 geT:function(){return"GUL"},
 geJ:function(){return"RAVGUL"},
-gap:function(){return"ORANSJE"},
+gao:function(){return"ORANSJE"},
 geM:function(){return"M\xd8RK ORANSJE"},
 geL:function(){return"BRUN"},
 geO:function(){return"GR\xc5"},
@@ -693,8 +693,8 @@ gkE:function(){return"Designere bruker teknologi til \xe5 lage futuristisk stoff
 gkF:function(){return"Feministers mening om partiskhet"},
 gkD:function(){return"Mangel p\xe5 bier til jordbruket"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(L.w_,X.O)})()
-H.bb(b.typeUniverse,JSON.parse('{"be":"C","bo":"C","bg":"aY","bf":"m","bv":"m","bx":"m","bd":"D","bp":"D","bB":"aW","bh":"M","bt":"M","by":"F","bn":"F","bq":"aU","bA":"aQ","bj":"aX","bm":"aT","bi":"Z","bz":"Z","bu":"b1","bs":"b0","br":"b_","bk":"av","bl":"aR","w_":{"O":[]}}'))
+y(L.w4,X.P)})()
+H.bc(b.typeUniverse,JSON.parse('{"be":"C","bo":"C","bg":"aZ","bf":"m","bv":"m","bw":"m","bd":"D","bp":"D","bA":"aW","bh":"M","bt":"M","bx":"F","bn":"F","bq":"aU","bz":"aQ","bj":"aX","bm":"aT","bi":"Y","by":"Y","bu":"b2","bs":"b0","br":"b_","bk":"av","bl":"aR","w4":{"P":[]}}'))
 0}
-$__dart_deferred_initializers__["M1AQkZbDzZo0FGcCcx3+cCI223U="] = $__dart_deferred_initializers__.current
+$__dart_deferred_initializers__["IU6mSD9sqznNmw6BaUXlq3Paaps="] = $__dart_deferred_initializers__.current
 //# sourceMappingURL=main.dart.js_53.part.js.map

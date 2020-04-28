@@ -1,7 +1,7 @@
 self.$__dart_deferred_initializers__=self.$__dart_deferred_initializers__||Object.create(null)
 $__dart_deferred_initializers__.current=function(a,b,c,$){var C,H,J,P,W,U,Y,L,M,N,R,B,A,G,V,S,T,D,Z,E,K,O={
-aXV:function(){return new O.uW(T.ad("cs"))},
-uW:function uW(d){this.a=d}},Q,X,F
+aYZ:function(){return new O.v0(T.ae("cs"))},
+v0:function v0(d){this.a=d}},Q,X,F
 a.setFunctionNamesIfNecessary([O])
 C=c[0]
 H=c[1]
@@ -28,7 +28,7 @@ O=a.updateHolder(c[21],O)
 Q=c[22]
 X=c[23]
 F=c[24]
-O.uW.prototype={
+O.v0.prototype={
 cB:function(d){return"Repozit\xe1\u0159 GitHub "+d},
 e5:function(d){return"Chcete-li zobrazit zdrojov\xfd k\xf3d t\xe9to aplikace, p\u0159ejd\u011bte na "+d+"."},
 ge_:function(){return"P\u0158IHL\xc1SIT SE"},
@@ -220,8 +220,8 @@ gaN:function(){return"L\xedz\xe1tko"},
 gaK:function(){return"Medov\xe1 pl\xe1stev"},
 gaG:function(){return"Kobliha"},
 gaE:function(){return"Jable\u010dn\xfd kol\xe1\u010d"},
-ad:function(d){return d+" s\xa0cukrem"},
-ac:function(d){return d+" s\xa0medem"},
+ac:function(d){return d+" s\xa0cukrem"},
+ab:function(d){return d+" s\xa0medem"},
 giM:function(){return"Dialogov\xe1 okna"},
 giL:function(){return"Jednoduch\xe9, s\xa0upozorn\u011bn\xedm a\xa0na celou obrazovku"},
 gbD:function(){return"Upozorn\u011bn\xed"},
@@ -254,7 +254,7 @@ gjr:function(){return"\u010clen\u011bn\xe1 nab\xeddka"},
 gjy:function(){return"Jednoduch\xe1 nab\xeddka"},
 ghZ:function(){return"Nab\xeddka se za\u0161krt\xe1vac\xedmi polo\u017ekami"},
 gjd:function(){return"Tla\u010d\xedtka nab\xeddek a\xa0jednoduch\xe9 nab\xeddky"},
-gav:function(){return"Nab\xeddka obsahuje seznam voleb na do\u010dasn\xe9 plo\u0161e. Zobraz\xed se, kdy\u017e u\u017eivatel interaguje s\xa0tla\u010d\xedtkem, p\u0159\xedkazem nebo jin\xfdm ovl\xe1dac\xedm prvkem."},
+gau:function(){return"Nab\xeddka obsahuje seznam voleb na do\u010dasn\xe9 plo\u0161e. Zobraz\xed se, kdy\u017e u\u017eivatel interaguje s\xa0tla\u010d\xedtkem, p\u0159\xedkazem nebo jin\xfdm ovl\xe1dac\xedm prvkem."},
 gj9:function(){return"1.\xa0polo\u017eka nab\xeddky"},
 gjb:function(){return"2.\xa0polo\u017eka nab\xeddky"},
 gja:function(){return"3.\xa0polo\u017eka nab\xeddky"},
@@ -286,7 +286,7 @@ gih:function(){return"Tla\u010d\xedtko ve stylu syst\xe9mu iOS. Jedn\xe1 se o\xa
 gig:function(){return"Upozorn\u011bn\xed"},
 gie:function(){return"Dialogov\xe1 okna s\xa0upozorn\u011bn\xedm ve stylu iOS"},
 gbR:function(){return"Upozorn\u011bn\xed"},
-gau:function(){return"Dialogov\xe9 okno s\xa0upozorn\u011bn\xedm u\u017eivatele informuje o\xa0situac\xedch, kter\xe9 vy\u017eaduj\xed pozornost. Dialogov\xe9 okno s\xa0upozorn\u011bn\xedm m\xe1 voliteln\xfd n\xe1zev, voliteln\xfd obsah a\xa0voliteln\xfd seznam akc\xed. N\xe1zev je zobrazen nad obsahem a\xa0akce jsou zobrazeny pod obsahem."},
+gat:function(){return"Dialogov\xe9 okno s\xa0upozorn\u011bn\xedm u\u017eivatele informuje o\xa0situac\xedch, kter\xe9 vy\u017eaduj\xed pozornost. Dialogov\xe9 okno s\xa0upozorn\u011bn\xedm m\xe1 voliteln\xfd n\xe1zev, voliteln\xfd obsah a\xa0voliteln\xfd seznam akc\xed. N\xe1zev je zobrazen nad obsahem a\xa0akce jsou zobrazeny pod obsahem."},
 gbS:function(){return"Upozorn\u011bn\xed s\xa0n\xe1zvem"},
 gbQ:function(){return"Upozorn\u011bn\xed s\xa0tla\u010d\xedtky"},
 gbP:function(){return"Pouze tla\u010d\xedtka s\xa0upozorn\u011bn\xedm"},
@@ -336,7 +336,7 @@ ghH:function(){return"Posunut\xed, p\u0159ibl\xed\u017een\xed, oto\u010den\xed"}
 ghE:function(){return"Klepnut\xedm upravujte pole a\xa0pomoc\xed gest se pohybujte po sc\xe9n\u011b. P\u0159eta\u017een\xedm posunete, sta\u017een\xedm prst\u016f p\u0159ibl\xed\u017e\xedte, dv\u011bma prsty oto\u010d\xedte. Pomoc\xed tla\u010d\xedtka resetov\xe1n\xed obnov\xedte p\u016fvodn\xed orientaci."},
 ghG:function(){return"Resetovat transformace"},
 ghF:function(){return"Upravit pole"},
-gaf:function(){return"TLA\u010c\xcdTKO"},
+gag:function(){return"TLA\u010c\xcdTKO"},
 ghU:function(){return"Spodn\xed tabulka"},
 ghT:function(){return"Trval\xe9 a\xa0mod\xe1ln\xed spodn\xed tabulky"},
 gbL:function(){return"Trval\xe1 spodn\xed tabulka"},
@@ -384,7 +384,7 @@ gcd:function(){return"Za\u0161krt\xe1vac\xed pol\xed\u010dko"},
 gjs:function(){return"Za\u0161krt\xe1vac\xed pol\xed\u010dka umo\u017e\u0148uj\xed u\u017eivatel\u016fm vybrat n\u011bkolik mo\u017enost\xed z\xa0cel\xe9 sady. B\u011b\u017en\xe1 hodnota za\u0161krt\xe1vac\xedho pol\xed\u010dka je True nebo False, ale za\u0161krt\xe1vac\xed pol\xed\u010dko se t\u0159emi stavy m\u016f\u017ee m\xedt tak\xe9 hodnotu Null."},
 gce:function(){return"Tla\u010d\xedtkov\xfd p\u0159ep\xedna\u010d"},
 gjt:function(){return"Tla\u010d\xedtkov\xe9 p\u0159ep\xedna\u010de umo\u017e\u0148uj\xed u\u017eivatel\u016fm vybrat jednu mo\u017enost z\xa0cel\xe9 sady. Tla\u010d\xedtkov\xe9 p\u0159ep\xedna\u010de pou\u017eijte pro v\xfdb\u011br, pokud se domn\xedv\xe1te, \u017ee u\u017eivatel pot\u0159ebuje vid\u011bt v\u0161echny dostupn\xe9 mo\u017enosti vedle sebe."},
-gae:function(){return"P\u0159ep\xedna\u010d"},
+gaf:function(){return"P\u0159ep\xedna\u010d"},
 gjv:function(){return"P\u0159ep\xedna\u010de m\u011bn\xed stav jedn\xe9 mo\u017enosti nastaven\xed. Mo\u017enost, kterou p\u0159ep\xedna\u010d ovl\xe1d\xe1, i\xa0stav, ve kter\xe9m se nach\xe1z\xed, musej\xed b\xfdt z\u0159ejm\xe9 z\xa0p\u0159\xedslu\u0161n\xe9ho textov\xe9ho \u0161t\xedtku."},
 gb7:function(){return"Textov\xe1 pole"},
 gkb:function(){return"Jeden \u0159\xe1dek s\xa0upraviteln\xfdm textem a\xa0\u010d\xedsly"},
@@ -449,7 +449,7 @@ gkv:function(){return"ULO\u017dIT"},
 gku:function(){return"Uk\xe1zka dialogov\xe9ho okna na celou obrazovku"},
 ghp:function(){return"Tla\u010d\xedtko"},
 ghq:function(){return"S\xa0pozad\xedm"},
-gag:function(){return"Zru\u0161it"},
+gah:function(){return"Zru\u0161it"},
 gby:function(){return"Zahodit"},
 gho:function(){return"Povolit Map\xe1m p\u0159\xedstup k\xa0poloze, kdy\u017e budete aplikaci pou\u017e\xedvat?"},
 ghn:function(){return"Va\u0161e aktu\xe1ln\xed poloha se bude zobrazovat na map\u011b a\xa0bude slou\u017eit k\xa0zobrazen\xed tras, v\xfdsledk\u016f vyhled\xe1v\xe1n\xed v\xa0okol\xed a\xa0odhadovan\xfdch \u010das\u016f cesty."},
@@ -457,26 +457,26 @@ gbv:function(){return"Povolit"},
 gbz:function(){return"Nepovolovat"},
 gbA:function(){return"Vyberte obl\xedben\xfd z\xe1kusek"},
 gbx:function(){return"Ze seznamu n\xed\u017ee vyberte sv\u016fj obl\xedben\xfd z\xe1kusek. Na z\xe1klad\u011b v\xfdb\u011bru v\xe1m p\u0159izp\u016fsob\xedme navrhovan\xfd seznam stravovac\xedch za\u0159\xedzen\xed ve va\u0161em okol\xed."},
-gas:function(){return"Cheesecake"},
-gat:function(){return"Tiramisu"},
-gar:function(){return"Jable\u010dn\xfd kol\xe1\u010d"},
+gar:function(){return"Cheesecake"},
+gas:function(){return"Tiramisu"},
+gaq:function(){return"Jable\u010dn\xfd kol\xe1\u010d"},
 gbw:function(){return"\u010cokol\xe1dov\xe9 brownie"},
 ghr:function(){return"Zobrazit upozorn\u011bn\xed"},
-gaq:function(){return"\u010cERVEN\xc1"},
+gap:function(){return"\u010cERVEN\xc1"},
 geS:function(){return"R\u016e\u017dOV\xc1"},
 gaD:function(){return"NACHOV\xc1"},
 geN:function(){return"TMAV\u011a NACHOV\xc1"},
-gao:function(){return"INDIGOV\xc1"},
+gan:function(){return"INDIGOV\xc1"},
 gaC:function(){return"MODR\xc1"},
 geP:function(){return"SV\u011aTLE MODR\xc1"},
 gbo:function(){return"AZUROV\xc1"},
 gbp:function(){return"\u0160EDOZELEN\xc1"},
-gan:function(){return"ZELEN\xc1"},
+gam:function(){return"ZELEN\xc1"},
 geQ:function(){return"SV\u011aTLE ZELEN\xc1"},
 geR:function(){return"LIMETKOV\xc1"},
 geT:function(){return"\u017dLUT\xc1"},
 geJ:function(){return"JANTAROV\xc1"},
-gap:function(){return"ORAN\u017dOV\xc1"},
+gao:function(){return"ORAN\u017dOV\xc1"},
 geM:function(){return"TMAV\u011a ORAN\u017dOV\xc1"},
 geL:function(){return"HN\u011aD\xc1"},
 geO:function(){return"\u0160ED\xc1"},
@@ -692,8 +692,8 @@ gkE:function(){return"Design\xe9\u0159i vyu\u017e\xedvaj\xed technologie k\xa0vy
 gkF:function(){return"Feministky broj\xed proti p\u0159edpojatosti"},
 gkD:function(){return"N\xedzk\xe9 stavy v\u010delstev pro opylov\xe1n\xed zem\u011bd\u011blsk\xfdch plodin"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(O.uW,X.O)})()
-H.bb(b.typeUniverse,JSON.parse('{"be":"C","bo":"C","bg":"aY","bf":"m","bv":"m","bx":"m","bd":"D","bp":"D","bB":"aW","bh":"M","bt":"M","by":"F","bn":"F","bq":"aU","bA":"aQ","bj":"aX","bm":"aT","bi":"Z","bz":"Z","bu":"b1","bs":"b0","br":"b_","bk":"av","bl":"aR","uW":{"O":[]}}'))
+y(O.v0,X.P)})()
+H.bc(b.typeUniverse,JSON.parse('{"be":"C","bo":"C","bg":"aZ","bf":"m","bv":"m","bw":"m","bd":"D","bp":"D","bA":"aW","bh":"M","bt":"M","bx":"F","bn":"F","bq":"aU","bz":"aQ","bj":"aX","bm":"aT","bi":"Y","by":"Y","bu":"b2","bs":"b0","br":"b_","bk":"av","bl":"aR","v0":{"P":[]}}'))
 0}
-$__dart_deferred_initializers__["JLaFPAhUuPKp1gKxosGpXV45ku8="] = $__dart_deferred_initializers__.current
+$__dart_deferred_initializers__["odvAwZreQAd+4suomzU8+0TRayE="] = $__dart_deferred_initializers__.current
 //# sourceMappingURL=main.dart.js_18.part.js.map

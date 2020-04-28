@@ -1,7 +1,7 @@
 self.$__dart_deferred_initializers__=self.$__dart_deferred_initializers__||Object.create(null)
 $__dart_deferred_initializers__.current=function(a,b,c,$){var C,H,J,P,W,U,Y,L,M,N,R,B,A,G,V,S,T,D,Z,E,K,O,Q,X,F={
-aYC:function(){return new F.vz(T.ad("gl"))},
-vz:function vz(d){this.a=d}}
+aZG:function(){return new F.vE(T.ae("gl"))},
+vE:function vE(d){this.a=d}}
 a.setFunctionNamesIfNecessary([F])
 C=c[0]
 H=c[1]
@@ -28,7 +28,7 @@ O=c[21]
 Q=c[22]
 X=c[23]
 F=a.updateHolder(c[24],F)
-F.vz.prototype={
+F.vE.prototype={
 cB:function(d){return"almac\xe9n de GitHub de "+d},
 e5:function(d){return"Para ver o c\xf3digo fonte desta aplicaci\xf3n, accede ao "+d+"."},
 ge_:function(){return"INICIAR SESI\xd3N"},
@@ -220,8 +220,8 @@ gaN:function(){return"Piruleta"},
 gaK:function(){return"Panal"},
 gaG:function(){return"Rosca"},
 gaE:function(){return"Torta de maz\xe1"},
-ad:function(d){return d+" con azucre"},
-ac:function(d){return d+" con mel"},
+ac:function(d){return d+" con azucre"},
+ab:function(d){return d+" con mel"},
 giM:function(){return"Cadros de di\xe1logo"},
 giL:function(){return"Simple, alerta e pantalla completa"},
 gbD:function(){return"Alerta"},
@@ -254,7 +254,7 @@ gjr:function(){return"Men\xfa con secci\xf3ns"},
 gjy:function(){return"Men\xfa simple"},
 ghZ:function(){return"Men\xfa con lista de comprobaci\xf3n"},
 gjd:function(){return"Bot\xf3ns de men\xfa e men\xfas simples"},
-gav:function(){return"Un men\xfa mostra unha lista de opci\xf3ns nunha superficie temporal e aparece cando os usuarios interact\xfaan cun bot\xf3n, cunha acci\xf3n ou con outro control."},
+gau:function(){return"Un men\xfa mostra unha lista de opci\xf3ns nunha superficie temporal e aparece cando os usuarios interact\xfaan cun bot\xf3n, cunha acci\xf3n ou con outro control."},
 gj9:function(){return"Elemento do men\xfa un"},
 gjb:function(){return"Elemento do men\xfa dous"},
 gja:function(){return"Elemento do men\xfa tres"},
@@ -286,7 +286,7 @@ gih:function(){return"Un bot\xf3n de tipo iOS. Util\xedzase en texto ou nunha ic
 gig:function(){return"Alertas"},
 gie:function(){return"Cadros de di\xe1logo de alertas de tipo iOS"},
 gbR:function(){return"Alerta"},
-gau:function(){return"Un cadro de di\xe1logo de alerta informa ao usuario das situaci\xf3ns que requiren unha confirmaci\xf3n. Un cadro de di\xe1logo de alerta ten un t\xedtulo opcional, contido opcional e unha lista opcional de acci\xf3ns. O t\xedtulo m\xf3strase enriba do contido, mentres que as acci\xf3ns aparecen debaixo."},
+gat:function(){return"Un cadro de di\xe1logo de alerta informa ao usuario das situaci\xf3ns que requiren unha confirmaci\xf3n. Un cadro de di\xe1logo de alerta ten un t\xedtulo opcional, contido opcional e unha lista opcional de acci\xf3ns. O t\xedtulo m\xf3strase enriba do contido, mentres que as acci\xf3ns aparecen debaixo."},
 gbS:function(){return"Alerta con t\xedtulo"},
 gbQ:function(){return"Alerta con bot\xf3ns"},
 gbP:function(){return"S\xf3 bot\xf3ns de alerta"},
@@ -336,7 +336,7 @@ ghH:function(){return"Despraza, usa o zoom e xira"},
 ghE:function(){return"Toca para editar os mosaicos e utiliza xestos para moverte pola escena. Arrastra para desprazarte, belisca para usar o zoom e xira con dous dedos. Toca o bot\xf3n de restablecer para volver \xe1 orientaci\xf3n inicial."},
 ghG:function(){return"Restablecer as transformaci\xf3ns"},
 ghF:function(){return"Editar o mosaico"},
-gaf:function(){return"BOT\xd3N"},
+gag:function(){return"BOT\xd3N"},
 ghU:function(){return"Folla inferior"},
 ghT:function(){return"Follas mostradas de xeito permanente e de modo situadas na parte inferior"},
 gbL:function(){return"Folla situada na parte inferior que se mostra de xeito permanente"},
@@ -384,7 +384,7 @@ gcd:function(){return"Caixa de verificaci\xf3n"},
 gjs:function(){return"As caixas de verificaci\xf3n permiten que os usuarios seleccionen varias opci\xf3ns dun conxunto e adoitan ter dous valores (verdadeiro ou falso), pero tam\xe9n poden inclu\xedr un terceiro (nulo)."},
 gce:function(){return"Bot\xf3n de opci\xf3n"},
 gjt:function(){return"Os bot\xf3ns de opci\xf3n permiten que os usuarios seleccionen unha opci\xf3n dun conxunto. Util\xedzaos se queres que os usuarios escollan unha \xfanica opci\xf3n, pero \xe1 vez queres mostrarlles todas as opci\xf3ns dispo\xf1ibles."},
-gae:function(){return"Interruptor"},
+gaf:function(){return"Interruptor"},
 gjv:function(){return"Os interruptores de activaci\xf3n e desactivaci\xf3n controlan o estado dunha soa opci\xf3n de axuste. A etiqueta inserida do interruptor correspondente deber\xeda indicar de forma clara a opci\xf3n que controla e o estado no que se atopa."},
 gb7:function(){return"Campos de texto"},
 gkb:function(){return"Unha soa li\xf1a de texto editable e n\xfameros"},
@@ -449,7 +449,7 @@ gkv:function(){return"GARDAR"},
 gku:function(){return"Unha demostraci\xf3n dun cadro de di\xe1logo de pantalla completa"},
 ghp:function(){return"Bot\xf3n"},
 ghq:function(){return"Con fondo"},
-gag:function(){return"Cancelar"},
+gah:function(){return"Cancelar"},
 gby:function(){return"Descartar"},
 gho:function(){return"Queres permitir que Maps acceda \xe1 t\xfaa localizaci\xf3n mentres utilizas a aplicaci\xf3n?"},
 ghn:function(){return"A t\xfaa localizaci\xf3n actual mostrarase no mapa e utilizarase para obter indicaci\xf3ns, resultados de busca pr\xf3ximos e duraci\xf3ns estimadas de viaxes."},
@@ -457,26 +457,26 @@ gbv:function(){return"Permitir"},
 gbz:function(){return"Non permitir"},
 gbA:function(){return"Seleccionar sobremesa favorita"},
 gbx:function(){return"Selecciona o teu tipo de sobremesa preferido na lista que aparece a continuaci\xf3n. A escolla utilizarase para personalizar a lista de restaurantes recomendados da t\xfaa zona."},
-gas:function(){return"Torta de queixo"},
-gat:function(){return"Tiramis\xfa"},
-gar:function(){return"Gr\xe1fico circular"},
+gar:function(){return"Torta de queixo"},
+gas:function(){return"Tiramis\xfa"},
+gaq:function(){return"Gr\xe1fico circular"},
 gbw:function(){return"Biscoito de chocolate"},
 ghr:function(){return"Mostrar alerta"},
-gaq:function(){return"VERMELLO"},
+gap:function(){return"VERMELLO"},
 geS:function(){return"ROSA"},
 gaD:function(){return"VIOLETA"},
 geN:function(){return"VIOLETA INTENSO"},
-gao:function(){return"\xcdNDIGO"},
+gan:function(){return"\xcdNDIGO"},
 gaC:function(){return"AZUL"},
 geP:function(){return"AZUL CLARO"},
 gbo:function(){return"CIANO"},
 gbp:function(){return"TURQUESA"},
-gan:function(){return"VERDE"},
+gam:function(){return"VERDE"},
 geQ:function(){return"VERDE CLARO"},
 geR:function(){return"VERDE LIMA"},
 geT:function(){return"AMARELO"},
 geJ:function(){return"\xc1MBAR"},
-gap:function(){return"LARANXA"},
+gao:function(){return"LARANXA"},
 geM:function(){return"LARANXA INTENSO"},
 geL:function(){return"MARR\xd3N"},
 geO:function(){return"GRIS"},
@@ -693,8 +693,8 @@ gkE:function(){return"Os dese\xf1adores utilizan a tecnolox\xeda para crear teci
 gkF:function(){return"O feminismo \xfanese \xe1 causa"},
 gkD:function(){return"As abellas das terras de cultivo est\xe1n en perigo de extinci\xf3n"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(F.vz,X.O)})()
-H.bb(b.typeUniverse,JSON.parse('{"be":"C","bo":"C","bg":"aY","bf":"m","bv":"m","bx":"m","bd":"D","bp":"D","bB":"aW","bh":"M","bt":"M","by":"F","bn":"F","bq":"aU","bA":"aQ","bj":"aX","bm":"aT","bi":"Z","bz":"Z","bu":"b1","bs":"b0","br":"b_","bk":"av","bl":"aR","vz":{"O":[]}}'))
+y(F.vE,X.P)})()
+H.bc(b.typeUniverse,JSON.parse('{"be":"C","bo":"C","bg":"aZ","bf":"m","bv":"m","bw":"m","bd":"D","bp":"D","bA":"aW","bh":"M","bt":"M","bx":"F","bn":"F","bq":"aU","bz":"aQ","bj":"aX","bm":"aT","bi":"Y","by":"Y","bu":"b2","bs":"b0","br":"b_","bk":"av","bl":"aR","vE":{"P":[]}}'))
 0}
-$__dart_deferred_initializers__["/twN8hMHP8mim4vDxamVxOdfjaQ="] = $__dart_deferred_initializers__.current
+$__dart_deferred_initializers__["qNskt6hmNiX7ygBoToAF6OyJIYw="] = $__dart_deferred_initializers__.current
 //# sourceMappingURL=main.dart.js_26.part.js.map

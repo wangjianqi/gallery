@@ -1,7 +1,7 @@
 self.$__dart_deferred_initializers__=self.$__dart_deferred_initializers__||Object.create(null)
 $__dart_deferred_initializers__.current=function(a,b,c,$){var C,H,J,P,W,U,Y,L,M,N,R,B={
-aZj:function(){return new B.we(T.ad("sv"))},
-we:function we(d){this.a=d}},A,G,V,S,T,D,Z,E,K,O,Q,X,F
+b_n:function(){return new B.wj(T.ae("sv"))},
+wj:function wj(d){this.a=d}},A,G,V,S,T,D,Z,E,K,O,Q,X,F
 a.setFunctionNamesIfNecessary([B])
 C=c[0]
 H=c[1]
@@ -28,7 +28,7 @@ O=c[21]
 Q=c[22]
 X=c[23]
 F=c[24]
-B.we.prototype={
+B.wj.prototype={
 cB:function(d){return"GitHub-lagringsplats "+d},
 e5:function(d){return"Bes\xf6k "+d+" om du vill se k\xe4llkoden f\xf6r den h\xe4r appen."},
 ge_:function(){return"LOGGA IN"},
@@ -220,8 +220,8 @@ gaN:function(){return"Klubba"},
 gaK:function(){return"Honeycomb"},
 gaG:function(){return"Ring"},
 gaE:function(){return"\xc4ppelpaj"},
-ad:function(d){return d+" med socker"},
-ac:function(d){return d+" med honung"},
+ac:function(d){return d+" med socker"},
+ab:function(d){return d+" med honung"},
 giM:function(){return"Dialogruta"},
 giL:function(){return"Enkel, avisering och helsk\xe4rm"},
 gbD:function(){return"Varning"},
@@ -254,7 +254,7 @@ gjr:function(){return"Meny med avsnitt"},
 gjy:function(){return"Enkel meny"},
 ghZ:function(){return"Meny med checklista"},
 gjd:function(){return"Menyknappar och enkla menyer"},
-gav:function(){return"En meny visar en lista \xf6ver alternativ p\xe5 en tillf\xe4llig yta. De syns n\xe4r anv\xe4ndare interagerar med en knapp, \xe5tg\xe4rd eller annan kontroll."},
+gau:function(){return"En meny visar en lista \xf6ver alternativ p\xe5 en tillf\xe4llig yta. De syns n\xe4r anv\xe4ndare interagerar med en knapp, \xe5tg\xe4rd eller annan kontroll."},
 gj9:function(){return"Menyalternativ ett"},
 gjb:function(){return"Menyalternativ tv\xe5"},
 gja:function(){return"Menyalternativ tre"},
@@ -286,7 +286,7 @@ gih:function(){return"En knapp i iOS-stil. Den har en text och/eller ikon som to
 gig:function(){return"Aviseringar"},
 gie:function(){return"Varningsrutor i iOS-stil"},
 gbR:function(){return"Varning"},
-gau:function(){return"Med en varningsruta uppm\xe4rksammas anv\xe4ndaren p\xe5 saker som beh\xf6ver bekr\xe4ftas. Titeln, inneh\xe5llet och listan p\xe5 \xe5tg\xe4rder i varningsruta \xe4r valfria. Titeln visas ovanf\xf6r inneh\xe5llet och \xe5tg\xe4rderna nedanf\xf6r inneh\xe5llet."},
+gat:function(){return"Med en varningsruta uppm\xe4rksammas anv\xe4ndaren p\xe5 saker som beh\xf6ver bekr\xe4ftas. Titeln, inneh\xe5llet och listan p\xe5 \xe5tg\xe4rder i varningsruta \xe4r valfria. Titeln visas ovanf\xf6r inneh\xe5llet och \xe5tg\xe4rderna nedanf\xf6r inneh\xe5llet."},
 gbS:function(){return"Varning med titel"},
 gbQ:function(){return"Avisering med knappar"},
 gbP:function(){return"Endast aviseringsknappar"},
@@ -336,7 +336,7 @@ ghH:function(){return"Panorera, zooma, rotera"},
 ghE:function(){return"Tryck f\xf6r att redigera ramar och anv\xe4nd r\xf6relser f\xf6r att navigera i bilden. Dra f\xf6r att panorera, rotera och nypa f\xf6r att zooma in med tv\xe5 fingrar. \xc5terg\xe5 till startriktningen genom att trycka p\xe5 \xe5terst\xe4llningsknappen."},
 ghG:function(){return"\xc5terst\xe4ll transformationerna"},
 ghF:function(){return"Redigera ram"},
-gaf:function(){return"KNAPP"},
+gag:function(){return"KNAPP"},
 ghU:function(){return"Ark p\xe5 nedre delen av sk\xe4rmen"},
 ghT:function(){return"Permanent och modalt ark p\xe5 nedre delen av sk\xe4rmen"},
 gbL:function(){return"Permanent ark p\xe5 nedre delen av sk\xe4rmen"},
@@ -384,7 +384,7 @@ gcd:function(){return"Kryssruta"},
 gjs:function(){return"Med kryssrutor kan anv\xe4ndaren v\xe4lja mellan flera alternativ fr\xe5n en upps\xe4ttning. V\xe4rdet f\xf6r en normal kryssruta \xe4r sant eller falskt. F\xf6r en kryssruta med tre l\xe4gen kan v\xe4rdet \xe4ven vara tomt."},
 gce:function(){return"Alternativknapp"},
 gjt:function(){return"Med hj\xe4lp av alternativknapparna kan anv\xe4ndarna v\xe4lja ett alternativ fr\xe5n en upps\xe4ttning. Anv\xe4nd alternativknapparna f\xf6r \xf6msesidig uteslutning om du tror att anv\xe4ndaren beh\xf6ver se alla tillg\xe4ngliga alternativ sida vid sida."},
-gae:function(){return"Reglage"},
+gaf:function(){return"Reglage"},
 gjv:function(){return"P\xe5/av-reglage som anv\xe4nds f\xf6r att aktivera eller inaktivera en inst\xe4llning. Det alternativ som reglaget styr samt det aktuella l\xe4get ska framg\xe5 av motsvarande infogad etikett."},
 gb7:function(){return"Textf\xe4lt"},
 gkb:function(){return"Enkelrad med text och siffror som kan redigeras"},
@@ -449,7 +449,7 @@ gkv:function(){return"SPARA"},
 gku:function(){return"En dialogrutedemo i helsk\xe4rm"},
 ghp:function(){return"Knapp"},
 ghq:function(){return"Med bakgrund"},
-gag:function(){return"Avbryt"},
+gah:function(){return"Avbryt"},
 gby:function(){return"Sl\xe4ng"},
 gho:function(){return"Vill du till\xe5ta att Maps f\xe5r \xe5tkomst till din plats n\xe4r du anv\xe4nder appen?"},
 ghn:function(){return"Din aktuella plats visas p\xe5 kartan och anv\xe4nds f\xf6r v\xe4gbeskrivningar, s\xf6kresultat i n\xe4rheten och ber\xe4knade resetider."},
@@ -457,26 +457,26 @@ gbv:function(){return"Till\xe5t"},
 gbz:function(){return"Till\xe5t inte"},
 gbA:function(){return"V\xe4lj favoritefterr\xe4tt"},
 gbx:function(){return"V\xe4lj din favoritefterr\xe4tt i listan nedan. Valet anv\xe4nds f\xf6r att anpassa listan \xf6ver f\xf6rslag p\xe5 matst\xe4llen i ditt omr\xe5de."},
-gas:function(){return"Cheesecake"},
-gat:function(){return"Tiramisu"},
-gar:function(){return"\xc4ppelpaj"},
+gar:function(){return"Cheesecake"},
+gas:function(){return"Tiramisu"},
+gaq:function(){return"\xc4ppelpaj"},
 gbw:function(){return"Chokladbrownie"},
 ghr:function(){return"Visa avisering"},
-gaq:function(){return"R\xd6D"},
+gap:function(){return"R\xd6D"},
 geS:function(){return"ROSA"},
 gaD:function(){return"LILA"},
 geN:function(){return"M\xd6RKLILA"},
-gao:function(){return"INDIGOBL\xc5"},
+gan:function(){return"INDIGOBL\xc5"},
 gaC:function(){return"BL\xc5"},
 geP:function(){return"LJUSBL\xc5"},
 gbo:function(){return"CYANBL\xc5"},
 gbp:function(){return"BL\xc5GR\xd6N"},
-gan:function(){return"GR\xd6N"},
+gam:function(){return"GR\xd6N"},
 geQ:function(){return"LJUSGR\xd6N"},
 geR:function(){return"LIME"},
 geT:function(){return"GUL"},
 geJ:function(){return"B\xc4RNSTEN"},
-gap:function(){return"ORANGE"},
+gao:function(){return"ORANGE"},
 geM:function(){return"M\xd6RKORANGE"},
 geL:function(){return"BRUN"},
 geO:function(){return"GR\xc5"},
@@ -693,8 +693,8 @@ gkE:function(){return"Formgivare skapar futuristiska tyger med hj\xe4lp av tekni
 gkF:function(){return"Feminister tar upp kampen mot partipolitiken"},
 gkD:function(){return"Bina f\xf6rsvinner fr\xe5n jordbruksmarker"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(B.we,X.O)})()
-H.bb(b.typeUniverse,JSON.parse('{"be":"C","bo":"C","bg":"aY","bf":"m","bv":"m","bx":"m","bd":"D","bp":"D","bB":"aW","bh":"M","bt":"M","by":"F","bn":"F","bq":"aU","bA":"aQ","bj":"aX","bm":"aT","bi":"Z","bz":"Z","bu":"b1","bs":"b0","br":"b_","bk":"av","bl":"aR","we":{"O":[]}}'))
+y(B.wj,X.P)})()
+H.bc(b.typeUniverse,JSON.parse('{"be":"C","bo":"C","bg":"aZ","bf":"m","bv":"m","bw":"m","bd":"D","bp":"D","bA":"aW","bh":"M","bt":"M","bx":"F","bn":"F","bq":"aU","bz":"aQ","bj":"aX","bm":"aT","bi":"Y","by":"Y","bu":"b2","bs":"b0","br":"b_","bk":"av","bl":"aR","wj":{"P":[]}}'))
 0}
-$__dart_deferred_initializers__["r9Y2mKidFoAGl9CGvj2vlLCLaP4="] = $__dart_deferred_initializers__.current
+$__dart_deferred_initializers__["2L6c+yp5mACPWNVYLXURpZp9PjQ="] = $__dart_deferred_initializers__.current
 //# sourceMappingURL=main.dart.js_65.part.js.map

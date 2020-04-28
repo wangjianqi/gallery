@@ -1,7 +1,7 @@
 self.$__dart_deferred_initializers__=self.$__dart_deferred_initializers__||Object.create(null)
 $__dart_deferred_initializers__.current=function(a,b,c,$){var C,H,J,P,W,U,Y,L,M,N={
-aYV:function(){return new N.vS(T.ad("lt"))},
-vS:function vS(d){this.a=d}},R,B,A,G,V,S,T,D,Z,E,K,O,Q,X,F
+aZZ:function(){return new N.vX(T.ae("lt"))},
+vX:function vX(d){this.a=d}},R,B,A,G,V,S,T,D,Z,E,K,O,Q,X,F
 a.setFunctionNamesIfNecessary([N])
 C=c[0]
 H=c[1]
@@ -28,7 +28,7 @@ O=c[21]
 Q=c[22]
 X=c[23]
 F=c[24]
-N.vS.prototype={
+N.vX.prototype={
 cB:function(d){return"\u201e"+d+"\u201c: \u201eGitHub\u201c saugykla"},
 e5:function(d){return"Nor\u0117dami per\u017ei\u016br\u0117ti \u0161ios programos \u0161altinio kod\u0105 apsilankykite adresu "+d+"."},
 ge_:function(){return"PRISIJUNGTI"},
@@ -220,8 +220,8 @@ gaN:function(){return"Lollipop"},
 gaK:function(){return"Honeycomb"},
 gaG:function(){return"Donut"},
 gaE:function(){return"Apple Pie"},
-ad:function(d){return d+" su cukrumi"},
-ac:function(d){return d+" su medumi"},
+ac:function(d){return d+" su cukrumi"},
+ab:function(d){return d+" su medumi"},
 giM:function(){return"Dialog\u0173 langai"},
 giL:function(){return"Paprasti, \u012fsp\u0117jimo ir viso ekrano"},
 gbD:function(){return"\u012esp\u0117jimas"},
@@ -254,7 +254,7 @@ gjr:function(){return"\u012e skiltis suskirstytas meniu"},
 gjy:function(){return"Paprastas meniu"},
 ghZ:function(){return"Kontrolinio s\u0105ra\u0161o meniu"},
 gjd:function(){return"Meniu mygtukai ir paprasti meniu"},
-gav:function(){return"Meniu pateikiamas laikinai rodom\u0173 pasirinkim\u0173 s\u0105ra\u0161as. Jie rodomi naudotojams naudojant mygtuk\u0105, atliekant veiksm\u0105 ar naudojant kit\u0105 valdikl\u012f."},
+gau:function(){return"Meniu pateikiamas laikinai rodom\u0173 pasirinkim\u0173 s\u0105ra\u0161as. Jie rodomi naudotojams naudojant mygtuk\u0105, atliekant veiksm\u0105 ar naudojant kit\u0105 valdikl\u012f."},
 gj9:function(){return"Pirmas meniu elementas"},
 gjb:function(){return"Antras meniu elementas"},
 gja:function(){return"Tre\u010dias meniu elementas"},
@@ -286,7 +286,7 @@ gih:function(){return"\u201eiOS\u201c stiliaus mygtukas. Jis rodomas tekste ir (
 gig:function(){return"\u012esp\u0117jimai"},
 gie:function(){return"\u201eiOS\u201c stiliaus \u012fsp\u0117jimo dialog\u0173 langai"},
 gbR:function(){return"\u012esp\u0117jimas"},
-gau:function(){return"\u012esp\u0117jimo dialogo lange naudotojas informuojamas apie situacijas, kurias reikia patvirtinti. Nurodomi \u012fsp\u0117jimo dialogo lango pasirenkamas pavadinimas, pasirenkamas turinys ir pasirenkamas veiksm\u0173 s\u0105ra\u0161as. Pavadinimas pateikiamas vir\u0161 turinio, o veiksmai \u2013 po juo."},
+gat:function(){return"\u012esp\u0117jimo dialogo lange naudotojas informuojamas apie situacijas, kurias reikia patvirtinti. Nurodomi \u012fsp\u0117jimo dialogo lango pasirenkamas pavadinimas, pasirenkamas turinys ir pasirenkamas veiksm\u0173 s\u0105ra\u0161as. Pavadinimas pateikiamas vir\u0161 turinio, o veiksmai \u2013 po juo."},
 gbS:function(){return"\u012esp\u0117jimas su pavadinimu"},
 gbQ:function(){return"\u012esp\u0117jimas su mygtukais"},
 gbP:function(){return"Tik \u012fsp\u0117jimo mygtukai"},
@@ -336,7 +336,7 @@ ghH:function(){return"Stumdymas, mastelio keitimas, pasukimas"},
 ghE:function(){return"Palieskite, kad redaguotum\u0117te i\u0161klotin\u0117s elementus, ir naudokite gestus, kad gal\u0117tum\u0117te jud\u0117ti. Vilkite, kad pastumtum\u0117te, suimkite, kad pakeistum\u0117te mastel\u012f, pasukite dviem pir\u0161tais. Paspauskite nustatymo i\u0161 naujo mygtuk\u0105, kad gr\u012f\u017etum\u0117te \u012f pradin\u0119 orientacij\u0105."},
 ghG:function(){return"Nustatyti transformacijas i\u0161 naujo"},
 ghF:function(){return"Redaguoti i\u0161klotin\u0117s element\u0105"},
-gaf:function(){return"MYGTUKAS"},
+gag:function(){return"MYGTUKAS"},
 ghU:function(){return"Apatinio lapo mygtukas"},
 ghT:function(){return"Nuolatinis ir modalinis apatinio lapo mygtukai"},
 gbL:function(){return"Nuolatinis apatinio lapo mygtukas"},
@@ -384,7 +384,7 @@ gcd:function(){return"\u017dymimasis laukelis"},
 gjs:function(){return"Naudotojas \u017eymimaisiais laukeliais gali pasirinkti kelias parinktis i\u0161 rinkinio. \u012eprasto \u017eymimojo laukelio vert\u0117 yra \u201etrue\u201c (tiesa) arba \u201efalse\u201c (netiesa), o trij\u0173 parink\u010di\u0173 \u017eymimojo laukelio vert\u0117 b\u0117 min\u0117t\u0173j\u0173 gali b\u016bti ir nulis."},
 gce:function(){return"Akut\u0117"},
 gjt:function(){return"Naudotojas akut\u0117mis gali pasirinkti vien\u0105 parinkt\u012f i\u0161 rinkinio. Naudokite akutes i\u0161skirtiniams pasirinkimams, jei manote, kad naudotojui reikia per\u017ei\u016br\u0117ti visas galimas parinktis kartu."},
-gae:function(){return"Perjungti"},
+gaf:function(){return"Perjungti"},
 gjv:function(){return"\u012ejungimo ir i\u0161jungimo jungikliais galima keisti kiekvienos nustatymo parinkties b\u016bsen\u0105. Jungiklio valdoma parinktis ir nustatyta b\u016bsena turi b\u016bti ai\u0161kios be \u012fterptos etiket\u0117s."},
 gb7:function(){return"Teksto laukai"},
 gkb:function(){return"Viena redaguojamo teksto ar skai\u010di\u0173 eilut\u0117"},
@@ -449,7 +449,7 @@ gkv:function(){return"I\u0160SAUGOTI"},
 gku:function(){return"Viso ekrano dialogo lango demonstracin\u0117 versija"},
 ghp:function(){return"Mygtukas"},
 ghq:function(){return"Su fonu"},
-gag:function(){return"At\u0161aukti"},
+gah:function(){return"At\u0161aukti"},
 gby:function(){return"Atmesti"},
 gho:function(){return"Leisti \u017dem\u0117lapiams pasiekti vietov\u0119 jums naudojant program\u0105?"},
 ghn:function(){return"J\u016bs\u0173 dabartin\u0117 vietov\u0117 bus pateikta \u017eem\u0117lapyje ir naudojama nuorodoms, paie\u0161kos rezultatams netoliese ir apskai\u010diuotam kelion\u0117s laikui rodyti."},
@@ -457,26 +457,26 @@ gbv:function(){return"Leisti"},
 gbz:function(){return"Neleisti"},
 gbA:function(){return"M\u0117gstamiausio deserto pasirinkimas"},
 gbx:function(){return"Pasirinkite savo m\u0117gstamiausi\u0105 desert\u0105 i\u0161 toliau pateikto s\u0105ra\u0161o. Pagal pasirinkim\u0105 bus tinkinamas si\u016blomas valgykl\u0173 j\u016bs\u0173 regione s\u0105ra\u0161as."},
-gas:function(){return"S\u016brio pyragas"},
-gat:function(){return"Tiramisu"},
-gar:function(){return"Obuoli\u0173 pyragas"},
+gar:function(){return"S\u016brio pyragas"},
+gas:function(){return"Tiramisu"},
+gaq:function(){return"Obuoli\u0173 pyragas"},
 gbw:function(){return"\u0160okoladinis pyragas"},
 ghr:function(){return"Rodyti \u012fsp\u0117jim\u0105"},
-gaq:function(){return"RAUDONA"},
+gap:function(){return"RAUDONA"},
 geS:function(){return"RO\u017dIN\u0116"},
 gaD:function(){return"PURPURIN\u0116"},
 geN:function(){return"SODRI PURPURIN\u0116"},
-gao:function(){return"INDIGO"},
+gan:function(){return"INDIGO"},
 gaC:function(){return"M\u0116LYNA"},
 geP:function(){return"\u0160VIESIAI M\u0116LYNA"},
 gbo:function(){return"\u017dYDRA"},
 gbp:function(){return"TAMSIAI \u017dYDRA"},
-gan:function(){return"\u017dALIA"},
+gam:function(){return"\u017dALIA"},
 geQ:function(){return"\u0160VIESIAI \u017dALIA"},
 geR:function(){return"\u017dALI\u0172J\u0172 CITRIN\u0172"},
 geT:function(){return"GELTONA"},
 geJ:function(){return"GINTARO"},
-gap:function(){return"ORAN\u017dIN\u0116"},
+gao:function(){return"ORAN\u017dIN\u0116"},
 geM:function(){return"SODRI ORAN\u017dIN\u0116"},
 geL:function(){return"RUDA"},
 geO:function(){return"PILKA"},
@@ -693,8 +693,8 @@ gkE:function(){return"Dizaineriai kuria futuristinius audinius pasitelk\u0119 te
 gkF:function(){return"Feministai lieka \u0161ali\u0161ki"},
 gkD:function(){return"Bi\u010di\u0173 \u016bkiams tr\u016bksta i\u0161tekli\u0173"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(N.vS,X.O)})()
-H.bb(b.typeUniverse,JSON.parse('{"be":"C","bo":"C","bg":"aY","bf":"m","bv":"m","bx":"m","bd":"D","bp":"D","bB":"aW","bh":"M","bt":"M","by":"F","bn":"F","bq":"aU","bA":"aQ","bj":"aX","bm":"aT","bi":"Z","bz":"Z","bu":"b1","bs":"b0","br":"b_","bk":"av","bl":"aR","vS":{"O":[]}}'))
+y(N.vX,X.P)})()
+H.bc(b.typeUniverse,JSON.parse('{"be":"C","bo":"C","bg":"aZ","bf":"m","bv":"m","bw":"m","bd":"D","bp":"D","bA":"aW","bh":"M","bt":"M","bx":"F","bn":"F","bq":"aU","bz":"aQ","bj":"aX","bm":"aT","bi":"Y","by":"Y","bu":"b2","bs":"b0","br":"b_","bk":"av","bl":"aR","vX":{"P":[]}}'))
 0}
-$__dart_deferred_initializers__["KI2Yzc2+klV3COSwRCXDGnKbVrI="] = $__dart_deferred_initializers__.current
+$__dart_deferred_initializers__["nXA/iFafWkDMYormVMqsKO3D35w="] = $__dart_deferred_initializers__.current
 //# sourceMappingURL=main.dart.js_45.part.js.map

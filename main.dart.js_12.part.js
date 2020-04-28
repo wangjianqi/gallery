@@ -1,7 +1,7 @@
 self.$__dart_deferred_initializers__=self.$__dart_deferred_initializers__||Object.create(null)
 $__dart_deferred_initializers__.current=function(a,b,c,$){var C,H,J,P,W,U,Y,L,M,N,R,B,A,G,V,S,T,D={
-aXP:function(){return new D.uQ(T.ad("az"))},
-uQ:function uQ(d){this.a=d}},Z,E,K,O,Q,X,F
+aYT:function(){return new D.uV(T.ae("az"))},
+uV:function uV(d){this.a=d}},Z,E,K,O,Q,X,F
 a.setFunctionNamesIfNecessary([D])
 C=c[0]
 H=c[1]
@@ -28,7 +28,7 @@ O=c[21]
 Q=c[22]
 X=c[23]
 F=c[24]
-D.uQ.prototype={
+D.uV.prototype={
 cB:function(d){return d+" GitHub yadda\u015f\u0131"},
 e5:function(d){return"Bu t\u0259tbiqin m\u0259nb\u0259 koduna baxmaq \xfc\xe7\xfcn "+d+" \xfcnvan\u0131na daxil olun."},
 ge_:function(){return"G\u0130R\u0130\u015e"},
@@ -220,8 +220,8 @@ gaN:function(){return"Nabat"},
 gaK:function(){return"Ar\u0131 \u015fan\u0131 konfeti"},
 gaG:function(){return"Pon\xe7ik"},
 gaE:function(){return"Alma piroqu"},
-ad:function(d){return"\u015e\u0259k\u0259rli "+d},
-ac:function(d){return"Ball\u0131 "+d},
+ac:function(d){return"\u015e\u0259k\u0259rli "+d},
+ab:function(d){return"Ball\u0131 "+d},
 giM:function(){return"Dialoqlar"},
 giL:function(){return"Sad\u0259, x\u0259b\u0259rdarl\u0131q v\u0259 tam ekran"},
 gbD:function(){return"X\u0259b\u0259rdarl\u0131q"},
@@ -254,7 +254,7 @@ gjr:function(){return"B\xf6lm\u0259li menyu"},
 gjy:function(){return"Sad\u0259 menyu"},
 ghZ:function(){return"Yoxlama siyah\u0131s\u0131 menyusu"},
 gjd:function(){return"Menyu d\xfcym\u0259l\u0259ri v\u0259 sad\u0259 menyular"},
-gav:function(){return"Menyu m\xfcv\u0259qq\u0259ti s\u0259thd\u0259 se\xe7iml\u0259rin siyah\u0131s\u0131n\u0131 g\xf6st\u0259rir. \u0130stifad\u0259\xe7il\u0259r d\xfcym\u0259y\u0259 toxunduqda, \u0259m\u0259liyyat etdikd\u0259 v\u0259 ya ba\u015fqa nizamlay\u0131c\u0131ya toxunduqda onlar g\xf6r\xfcn\xfcr."},
+gau:function(){return"Menyu m\xfcv\u0259qq\u0259ti s\u0259thd\u0259 se\xe7iml\u0259rin siyah\u0131s\u0131n\u0131 g\xf6st\u0259rir. \u0130stifad\u0259\xe7il\u0259r d\xfcym\u0259y\u0259 toxunduqda, \u0259m\u0259liyyat etdikd\u0259 v\u0259 ya ba\u015fqa nizamlay\u0131c\u0131ya toxunduqda onlar g\xf6r\xfcn\xfcr."},
 gj9:function(){return"Birinci menyu elementi"},
 gjb:function(){return"\u0130kinci menyu elementi"},
 gja:function(){return"\xdc\xe7\xfcnc\xfc menyu elementi"},
@@ -286,7 +286,7 @@ gih:function(){return"iOS \xfcslublu d\xfcym\u0259. O, toxunduqda sol\u011funla\
 gig:function(){return"X\u0259b\u0259rdarl\u0131qlar"},
 gie:function(){return"iOS \xfcslubunda x\u0259b\u0259rdarl\u0131q dialoqlar\u0131"},
 gbR:function(){return"X\u0259b\u0259rdarl\u0131q"},
-gau:function(){return"X\u0259b\u0259rdarl\u0131q dialoqu istifad\u0259\xe7iy\u0259 raz\u0131l\u0131q t\u0259l\u0259b ed\u0259n m\u0259qamlar bar\u0259d\u0259 bildirir. X\u0259b\u0259rdarl\u0131q dialoqunda \u015f\u0259rti ba\u015fl\u0131q, \u015f\u0259rti m\u0259zmun v\u0259 \u0259m\u0259liyyatlar\u0131n \u015f\u0259rti siyah\u0131s\u0131 olur. Ba\u015fl\u0131q m\u0259zmunun yuxar\u0131s\u0131nda, \u0259m\u0259liyyatlar is\u0259 m\u0259zmunun a\u015fa\u011f\u0131s\u0131nda g\xf6st\u0259rilir."},
+gat:function(){return"X\u0259b\u0259rdarl\u0131q dialoqu istifad\u0259\xe7iy\u0259 raz\u0131l\u0131q t\u0259l\u0259b ed\u0259n m\u0259qamlar bar\u0259d\u0259 bildirir. X\u0259b\u0259rdarl\u0131q dialoqunda \u015f\u0259rti ba\u015fl\u0131q, \u015f\u0259rti m\u0259zmun v\u0259 \u0259m\u0259liyyatlar\u0131n \u015f\u0259rti siyah\u0131s\u0131 olur. Ba\u015fl\u0131q m\u0259zmunun yuxar\u0131s\u0131nda, \u0259m\u0259liyyatlar is\u0259 m\u0259zmunun a\u015fa\u011f\u0131s\u0131nda g\xf6st\u0259rilir."},
 gbS:function(){return"Ba\u015fl\u0131ql\u0131 X\u0259b\u0259rdarl\u0131q"},
 gbQ:function(){return"D\xfcym\u0259l\u0259rl\u0259 X\u0259b\u0259rdarl\u0131q"},
 gbP:function(){return"Yaln\u0131z X\u0259b\u0259rdarl\u0131q D\xfcym\u0259l\u0259ri"},
@@ -336,7 +336,7 @@ ghH:function(){return"K\u0259narlar\u0131 y\u0131\u011fma, miqyas\u0131 d\u0259y
 ghE:function(){return"L\xf6vh\u0259cikl\u0259r\u0259 d\xfcz\u0259li\u015f etm\u0259k \xfc\xe7\xfcn toxunun v\u0259 kadr\u0131 \xe7evirm\u0259k \xfc\xe7\xfcn jestl\u0259rd\u0259n istifad\u0259 edin. \xc7\u0259k\u0259r\u0259k k\u0259narlar\u0131 y\u0131\u011f\u0131n, barmaqlar\u0131 birl\u0259\u015fdir\u0259r\u0259k miqyas\u0131 d\u0259yi\u015fin, iki barmaqla f\u0131rlad\u0131n. Ba\u015flan\u011f\u0131c oriyentasiyaya qay\u0131tmaq \xfc\xe7\xfcn s\u0131f\u0131rlama d\xfcym\u0259sini bas\u0131n."},
 ghG:function(){return"Transformasiyan\u0131 s\u0131f\u0131rlay\u0131n"},
 ghF:function(){return"L\xf6vh\u0259ciy\u0259 d\xfcz\u0259li\u015f edin"},
-gaf:function(){return"D\xdcYM\u018f"},
+gag:function(){return"D\xdcYM\u018f"},
 ghU:function(){return"A\u015fa\u011f\u0131dak\u0131 v\u0259r\u0259q"},
 ghT:function(){return"Sabit v\u0259 modal alt v\u0259r\u0259ql\u0259r"},
 gbL:function(){return"Sabit alt v\u0259r\u0259q"},
@@ -384,7 +384,7 @@ gcd:function(){return"Qeyd xanas\u0131"},
 gjs:function(){return"Qeyd xanalar\u0131 istifad\u0259\xe7iy\u0259 d\u0259std\u0259n bir ne\xe7\u0259 se\xe7im etm\u0259k imkan\u0131 verir. Adi qeyd xanas\u0131ndak\u0131 d\u0259y\u0259r do\u011fru v\u0259 ya yanl\u0131\u015f olur, \xfc\xe7 v\u0259ziyy\u0259tli qeyd xanas\u0131ndak\u0131 d\u0259y\u0259r is\u0259 bo\u015f da ola bil\u0259r."},
 gce:function(){return"Radio"},
 gjt:function(){return"Radio d\xfcym\u0259l\u0259ri istifad\u0259\xe7iy\u0259 d\u0259std\u0259n bir se\xe7im etm\u0259k imkan\u0131 verir. \u0130stifad\u0259\xe7inin b\xfct\xfcn \u0259l\xe7atan se\xe7iml\u0259ri yan-yana g\xf6rm\u0259li oldu\u011funu d\xfc\u015f\xfcns\u0259niz, ekskl\xfcziv se\xe7im \xfc\xe7\xfcn radio d\xfcym\u0259l\u0259rind\u0259n istifad\u0259 edin."},
-gae:function(){return"D\u0259yi\u015fdirici"},
+gaf:function(){return"D\u0259yi\u015fdirici"},
 gjv:function(){return"Aktiv/deaktiv etm\u0259 d\u0259yi\u015fdiricil\u0259ri bir ayarlar se\xe7iminin v\u0259ziyy\u0259tini d\u0259yi\u015fir. D\u0259yi\u015fdirici vasit\u0259sil\u0259 idar\u0259 edil\u0259n se\xe7im v\u0259 onun oldu\u011fu v\u0259ziyy\u0259t m\xfcvafiq daxili ni\u015fandan ayd\u0131n olmal\u0131d\u0131r."},
 gb7:function(){return"M\u0259tn sah\u0259l\u0259ri"},
 gkb:function(){return"Redakt\u0259 edil\u0259 bil\u0259n m\u0259tn v\u0259 r\u0259q\u0259ml\u0259rd\u0259n ibar\u0259t t\u0259k s\u0131ra"},
@@ -449,7 +449,7 @@ gkv:function(){return"YADDA SAXLAYIN"},
 gku:function(){return"Tam ekran dialoq demosu"},
 ghp:function(){return"D\xfcym\u0259"},
 ghq:function(){return"Arxa fonlu"},
-gag:function(){return"L\u0259\u011fv edin"},
+gah:function(){return"L\u0259\u011fv edin"},
 gby:function(){return"\u0130mtina edin"},
 gho:function(){return'T\u0259tbiqd\u0259n istifad\u0259 etdiyiniz zaman "X\u0259rit\u0259"y\u0259 m\u0259kan\u0131n\u0131za giri\u015f imkan\u0131 verilsin?'},
 ghn:function(){return"Cari m\u0259kan\u0131n\u0131z x\u0259rit\u0259d\u0259 g\xf6st\u0259ril\u0259c\u0259k v\u0259 istiqam\u0259tl\u0259r, yax\u0131nl\u0131qdak\u0131 axtar\u0131\u015f n\u0259tic\u0259l\u0259ri v\u0259 t\u0259qribi s\u0259yah\u0259t vaxtlar\u0131 \xfc\xe7\xfcn istifad\u0259 edil\u0259c\u0259k."},
@@ -457,26 +457,26 @@ gbv:function(){return"\u0130caz\u0259 verin"},
 gbz:function(){return"\u0130caz\u0259 verm\u0259yin"},
 gbA:function(){return"Sevimli Desertinizi Se\xe7in"},
 gbx:function(){return"A\u015fa\u011f\u0131dak\u0131 siyah\u0131dan sevimli desert n\xf6v\xfcn\xfcz\xfc se\xe7in. Se\xe7iminiz \u0259razinizd\u0259 t\u0259klif edil\u0259n restoranlardan ibar\u0259t siyah\u0131n\u0131 f\u0259rdil\u0259\u015fdirm\u0259k \xfc\xe7\xfcn istifad\u0259 edil\u0259c\u0259k."},
-gas:function(){return"\xc7izkeyk"},
-gat:function(){return"Tiramisu"},
-gar:function(){return"Alma Piroqu"},
+gar:function(){return"\xc7izkeyk"},
+gas:function(){return"Tiramisu"},
+gaq:function(){return"Alma Piroqu"},
 gbw:function(){return"\u015eokoladl\u0131 Brauni"},
 ghr:function(){return"X\u0259b\u0259rdarl\u0131\u011f\u0131 G\xf6st\u0259rin"},
-gaq:function(){return"QIRMIZI"},
+gap:function(){return"QIRMIZI"},
 geS:function(){return"\xc7\u018fHRAYI"},
 gaD:function(){return"B\u018fN\xd6V\u015e\u018fY\u0130"},
 geN:function(){return"T\xdcND B\u018fN\xd6V\u015e\u018fY\u0130"},
-gao:function(){return"G\xd6Y R\u018fNG"},
+gan:function(){return"G\xd6Y R\u018fNG"},
 gaC:function(){return"MAV\u0130"},
 geP:function(){return"A\xc7IQ MAV\u0130"},
 gbo:function(){return"MAV\u0130"},
 gbp:function(){return"F\u0130RUZ\u018fY\u0130"},
-gan:function(){return"YA\u015eIL"},
+gam:function(){return"YA\u015eIL"},
 geQ:function(){return"A\xc7IQ YA\u015eIL"},
 geR:function(){return"A\xc7IQ YA\u015eIL"},
 geT:function(){return"SARI"},
 geJ:function(){return"K\u018fHR\u018fBA"},
-gap:function(){return"NARINCI"},
+gao:function(){return"NARINCI"},
 geM:function(){return"T\xdcND NARINCI"},
 geL:function(){return"Q\u018fHV\u018fY\u0130"},
 geO:function(){return"BOZ"},
@@ -693,8 +693,8 @@ gkE:function(){return"Dizaynerl\u0259r m\xfcasir par\xe7alar haz\u0131rlamaq \xf
 gkF:function(){return"Feministl\u0259r partiya t\u0259r\u0259fin\u0259 ke\xe7m\u0259si"},
 gkD:function(){return"\xc7i\xe7\u0259kl\u0259m\u0259 d\xf6vr\xfcn\xfcn ar\u0131lara t\u0259siri"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(D.uQ,X.O)})()
-H.bb(b.typeUniverse,JSON.parse('{"be":"C","bo":"C","bg":"aY","bf":"m","bv":"m","bx":"m","bd":"D","bp":"D","bB":"aW","bh":"M","bt":"M","by":"F","bn":"F","bq":"aU","bA":"aQ","bj":"aX","bm":"aT","bi":"Z","bz":"Z","bu":"b1","bs":"b0","br":"b_","bk":"av","bl":"aR","uQ":{"O":[]}}'))
+y(D.uV,X.P)})()
+H.bc(b.typeUniverse,JSON.parse('{"be":"C","bo":"C","bg":"aZ","bf":"m","bv":"m","bw":"m","bd":"D","bp":"D","bA":"aW","bh":"M","bt":"M","bx":"F","bn":"F","bq":"aU","bz":"aQ","bj":"aX","bm":"aT","bi":"Y","by":"Y","bu":"b2","bs":"b0","br":"b_","bk":"av","bl":"aR","uV":{"P":[]}}'))
 0}
-$__dart_deferred_initializers__["nYbTCeGe0z+oyWTjMe15I3TF6eg="] = $__dart_deferred_initializers__.current
+$__dart_deferred_initializers__["iP4qklHQUAU8MEwQvC5pL7Y1Vf8="] = $__dart_deferred_initializers__.current
 //# sourceMappingURL=main.dart.js_12.part.js.map

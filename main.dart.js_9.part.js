@@ -1,7 +1,7 @@
 self.$__dart_deferred_initializers__=self.$__dart_deferred_initializers__||Object.create(null)
 $__dart_deferred_initializers__.current=function(a,b,c,$){var C,H,J,P,W,U,Y,L,M,N,R,B={
-aXH:function(){return new B.uJ(T.ad("af"))},
-uJ:function uJ(d){this.a=d}},A,G,V,S,T,D,Z,E,K,O,Q,X,F
+aYL:function(){return new B.uO(T.ae("af"))},
+uO:function uO(d){this.a=d}},A,G,V,S,T,D,Z,E,K,O,Q,X,F
 a.setFunctionNamesIfNecessary([B])
 C=c[0]
 H=c[1]
@@ -28,7 +28,7 @@ O=c[21]
 Q=c[22]
 X=c[23]
 F=c[24]
-B.uJ.prototype={
+B.uO.prototype={
 cB:function(d){return"GitHub-bewaarplek "+d},
 e5:function(d){return"Besoek die "+d+" om hierdie program se bronkode te sien."},
 ge_:function(){return"MELD AAN"},
@@ -220,8 +220,8 @@ gaN:function(){return"Stokkielekker"},
 gaK:function(){return"Heuningkoek"},
 gaG:function(){return"Oliebol"},
 gaE:function(){return"Appeltert"},
-ad:function(d){return d+" met suiker"},
-ac:function(d){return d+" met heuning"},
+ac:function(d){return d+" met suiker"},
+ab:function(d){return d+" met heuning"},
 giM:function(){return"Dialo\xeb"},
 giL:function(){return"Eenvoudig, opletberig, en volskerm"},
 gbD:function(){return"Opletberig"},
@@ -254,7 +254,7 @@ gjr:function(){return"Verdeelde kieslys"},
 gjy:function(){return"Eenvoudige kieslys"},
 ghZ:function(){return"Kontrolelyskieslys"},
 gjd:function(){return"Kielysknoppies en eenvoudige kieslyste"},
-gav:function(){return"'n Kieslys wys 'n lys keuses op 'n tydelike oppervlakte. Hulle verskyn wanneer 'n gebruiker interaksie met 'n knoppie, handeling of ander kontrole het."},
+gau:function(){return"'n Kieslys wys 'n lys keuses op 'n tydelike oppervlakte. Hulle verskyn wanneer 'n gebruiker interaksie met 'n knoppie, handeling of ander kontrole het."},
 gj9:function(){return"Kieslysitem een"},
 gjb:function(){return"Kieslysitem twee"},
 gja:function(){return"Kieslysitem drie"},
@@ -286,7 +286,7 @@ gih:function(){return"'n Knoppie in iOS-styl. Dit bring teks en/of 'n ikoon in w
 gig:function(){return"Opletberigte"},
 gie:function(){return"Opletberigdialo\xeb in iOS-styl"},
 gbR:function(){return"Opletberig"},
-gau:function(){return"'n Opletberigdialoog lig die gebruiker in oor situasies wat erkenning nodig het. 'n Opletberigdialoog het 'n opsionele titel, opsionele inhoud en 'n opsionele lys handelinge. Die titel word bo die inhoud vertoon en die handelinge word onder die inhoud vertoon."},
+gat:function(){return"'n Opletberigdialoog lig die gebruiker in oor situasies wat erkenning nodig het. 'n Opletberigdialoog het 'n opsionele titel, opsionele inhoud en 'n opsionele lys handelinge. Die titel word bo die inhoud vertoon en die handelinge word onder die inhoud vertoon."},
 gbS:function(){return"Opletberig met titel"},
 gbQ:function(){return"Opletberig met knoppies"},
 gbP:function(){return"Net opletberigknoppies"},
@@ -336,7 +336,7 @@ ghH:function(){return"Beeldrol, zoem en draai"},
 ghE:function(){return"Tik om te\xebls te wysig en gebruik gebare om op die toneel rond te beweeg. Sleep om te beeldrol, knyp om te zoem, gebruik twee vingers om te draai. Druk die terugstellingknoppie om na die aanvanklike ori\xebntasie terug te keer."},
 ghG:function(){return"Stel transformasies terug"},
 ghF:function(){return"Wysig te\xebl"},
-gaf:function(){return"KNOPPIE"},
+gag:function(){return"KNOPPIE"},
 ghU:function(){return"Blad onder"},
 ghT:function(){return"Blywende en modale blaaie onder"},
 gbL:function(){return"Blywende blad onder"},
@@ -384,7 +384,7 @@ gcd:function(){return"Merkblokkie"},
 gjs:function(){return"Merkblokkies maak dit vir die gebruiker moontlik om veelvuldige opsies uit 'n stel te kies. 'n Normale merkblokkie se waarde is waar of vals, en 'n driestaatmerkblokkie se waarde kan ook nul wees."},
 gce:function(){return"Radio"},
 gjt:function(){return"Klinkknoppies maak dit vir die gebruiker moontlik om een opsie uit 'n stel te kies. Gebruik klinkknoppies vir 'n uitsluitende keuse as jy dink dat die gebruiker alle beskikbare opsies langs mekaar moet sien."},
-gae:function(){return"Wissel"},
+gaf:function(){return"Wissel"},
 gjv:function(){return"Aan/af-skakelaar wissel die staat van 'n enkele instellingsopsie. Die opsie wat die skakelaar beheer, asook die staat waarin dit is, moet uit die ooreenstemmende inlynetiket duidelik wees."},
 gb7:function(){return"Teksvelde"},
 gkb:function(){return"Een re\xebl met redigeerbare teks en syfers"},
@@ -449,7 +449,7 @@ gkv:function(){return"STOOR"},
 gku:function(){return"'n Volskermdialoogdemonstrasie"},
 ghp:function(){return"Knoppie"},
 ghq:function(){return"Met agtergrond"},
-gag:function(){return"Kanselleer"},
+gah:function(){return"Kanselleer"},
 gby:function(){return"Gooi weg"},
 gho:function(){return'Laat "Maps" toe om toegang tot jou ligging te kry terwyl jy die program gebruik?'},
 ghn:function(){return"Jou huidige ligging sal op die kaart gewys word en gebruik word vir aanwysings, soekresultate in die omtrek, en geskatte reistye."},
@@ -457,26 +457,26 @@ gbv:function(){return"Laat toe"},
 gbz:function(){return"Moenie toelaat nie"},
 gbA:function(){return"Kies gunstelingnagereg"},
 gbx:function(){return"Kies asseblief jou gunstelingsoort nagereg op die lys hieronder. Jou keuse sal gebruik word om die voorgestelde lys eetplekke in jou omgewing te pasmaak."},
-gas:function(){return"Kaaskoek"},
-gat:function(){return"Tiramisu"},
-gar:function(){return"Appeltert"},
+gar:function(){return"Kaaskoek"},
+gas:function(){return"Tiramisu"},
+gaq:function(){return"Appeltert"},
 gbw:function(){return"Sjokoladebruintjie"},
 ghr:function(){return"Wys opletberig"},
-gaq:function(){return"ROOI"},
+gap:function(){return"ROOI"},
 geS:function(){return"PIENK"},
 gaD:function(){return"PERS"},
 geN:function(){return"DIEPPERS"},
-gao:function(){return"INDIGO"},
+gan:function(){return"INDIGO"},
 gaC:function(){return"BLOU"},
 geP:function(){return"LIGBLOU"},
 gbo:function(){return"GROENBLOU"},
 gbp:function(){return"BLOUGROEN"},
-gan:function(){return"GROEN"},
+gam:function(){return"GROEN"},
 geQ:function(){return"LIGGROEN"},
 geR:function(){return"LEMMETJIEGROEN"},
 geT:function(){return"GEEL"},
 geJ:function(){return"GEELBRUIN"},
-gap:function(){return"ORANJE"},
+gao:function(){return"ORANJE"},
 geM:function(){return"DIEPORANJE"},
 geL:function(){return"BRUIN"},
 geO:function(){return"GRYS"},
@@ -693,8 +693,8 @@ gkE:function(){return"Ontwerpers gebruik tegnologie om futuristiese materiale te
 gkF:function(){return"Feministe takel partydigheid"},
 gkD:function(){return"Terkort aan landboubye"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(B.uJ,X.O)})()
-H.bb(b.typeUniverse,JSON.parse('{"be":"C","bo":"C","bg":"aY","bf":"m","bv":"m","bx":"m","bd":"D","bp":"D","bB":"aW","bh":"M","bt":"M","by":"F","bn":"F","bq":"aU","bA":"aQ","bj":"aX","bm":"aT","bi":"Z","bz":"Z","bu":"b1","bs":"b0","br":"b_","bk":"av","bl":"aR","uJ":{"O":[]}}'))
+y(B.uO,X.P)})()
+H.bc(b.typeUniverse,JSON.parse('{"be":"C","bo":"C","bg":"aZ","bf":"m","bv":"m","bw":"m","bd":"D","bp":"D","bA":"aW","bh":"M","bt":"M","bx":"F","bn":"F","bq":"aU","bz":"aQ","bj":"aX","bm":"aT","bi":"Y","by":"Y","bu":"b2","bs":"b0","br":"b_","bk":"av","bl":"aR","uO":{"P":[]}}'))
 0}
-$__dart_deferred_initializers__["6vchIMXQnSaTKOn9qEXo/3tSfzs="] = $__dart_deferred_initializers__.current
+$__dart_deferred_initializers__["ryzcZxgcRXed9nAej3mUrttNHPI="] = $__dart_deferred_initializers__.current
 //# sourceMappingURL=main.dart.js_9.part.js.map

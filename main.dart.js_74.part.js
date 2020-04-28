@@ -1,7 +1,7 @@
 self.$__dart_deferred_initializers__=self.$__dart_deferred_initializers__||Object.create(null)
 $__dart_deferred_initializers__.current=function(a,b,c,$){var C,H,J,P,W,U,Y,L,M,N,R,B,A,G,V,S,T={
-aZs:function(){return new T.wn(T.ad("uz"))},
-wn:function wn(d){this.a=d}},D,Z,E,K,O,Q,X,F
+b_w:function(){return new T.ws(T.ae("uz"))},
+ws:function ws(d){this.a=d}},D,Z,E,K,O,Q,X,F
 a.setFunctionNamesIfNecessary([T])
 C=c[0]
 H=c[1]
@@ -28,7 +28,7 @@ O=c[21]
 Q=c[22]
 X=c[23]
 F=c[24]
-T.wn.prototype={
+T.ws.prototype={
 cB:function(d){return d+" GitHub repozitoriysi"},
 e5:function(d){return"Bu ilovaning manba kodini ko\u02bbrish uchun bu yerga kiring: "+d+"."},
 ge_:function(){return"KIRISH"},
@@ -220,8 +220,8 @@ gaN:function(){return"Obakidandon"},
 gaK:function(){return"Asalari uyasi"},
 gaG:function(){return"Yog\u02bbli kulcha"},
 gaE:function(){return"Olmali pirog"},
-ad:function(d){return d+" shakar bilan"},
-ac:function(d){return d+" asal bilan"},
+ac:function(d){return d+" shakar bilan"},
+ab:function(d){return d+" asal bilan"},
 giM:function(){return"Muloqot oynalari"},
 giL:function(){return"Oddiy, bildirishnoma va butun ekran"},
 gbD:function(){return"Bildirishnoma"},
@@ -254,7 +254,7 @@ gjr:function(){return"Qismli menyular"},
 gjy:function(){return"Oddiy menyu"},
 ghZ:function(){return"Nazoratli ro\u02bbyxatlar menyusi"},
 gjd:function(){return"Menyu tugmalari va oddiy menyular"},
-gav:function(){return"Menyuda alohida blokda joylashgan variantlar ro\u02bbyxati mavjud bo\u02bbladi. Foydalanuvchi tugmaga bosganda, biror amalni bajarganda yoki boshqa boshqaruv elementlaridan foydalanganda ro\u02bbyxat chiqadi."},
+gau:function(){return"Menyuda alohida blokda joylashgan variantlar ro\u02bbyxati mavjud bo\u02bbladi. Foydalanuvchi tugmaga bosganda, biror amalni bajarganda yoki boshqa boshqaruv elementlaridan foydalanganda ro\u02bbyxat chiqadi."},
 gj9:function(){return"Menyuning birinchi bandi"},
 gjb:function(){return"Menyuning ikkinchi bandi"},
 gja:function(){return"Menyuning uchinchi bandi"},
@@ -286,7 +286,7 @@ gih:function(){return"iOS uslubidagi tugma. Unda bosganda chiqadigan va yo\u02bb
 gig:function(){return"Bildirishnomalar"},
 gie:function(){return"iOS uslubidagi bildirishnomali muloqot oynasi"},
 gbR:function(){return"Bildirishnoma"},
-gau:function(){return"Ogohlantiruvchi muloqot oynasi foydalanuvchini u e\u02bctibor qaratishi lozim bo\u02bblgan voqealar yuz berganda ogohlantiradi. Unda sarlavha, kontent va mavjud harakatlar ro\u02bbyxati bo\u02bblishi mumkin. Sarlavha matn tepasida, harakatlar esa ularning ostida joylashadi."},
+gat:function(){return"Ogohlantiruvchi muloqot oynasi foydalanuvchini u e\u02bctibor qaratishi lozim bo\u02bblgan voqealar yuz berganda ogohlantiradi. Unda sarlavha, kontent va mavjud harakatlar ro\u02bbyxati bo\u02bblishi mumkin. Sarlavha matn tepasida, harakatlar esa ularning ostida joylashadi."},
 gbS:function(){return"Sarlavhali bildirishnoma"},
 gbQ:function(){return"Tugmali bildirishnomalar"},
 gbP:function(){return"Faqat bildirishnoma tugmalari"},
@@ -336,7 +336,7 @@ ghH:function(){return"Panorama, masshtab, burish"},
 ghE:function(){return"Katakchalarni tahrirlash uchun bosing va sahnalarga surish uchun ishoralardan foydalaning. Panoramalash uchun suring, miqyosni o\u02bbzgartirish uchun chimding, ikkita barmoq yordamida buring. Dastlabki joylashuviga qaytarish uchun tiklash tugmasini bosing."},
 ghG:function(){return"Transformatsiyalarni tiklash"},
 ghF:function(){return"Katakchani tahrirlash"},
-gaf:function(){return"TUGMA"},
+gag:function(){return"TUGMA"},
 ghU:function(){return"Quyi ekran"},
 ghT:function(){return"Doimiy va modal quyi ekranlar"},
 gbL:function(){return"Doimiy quyi ekran"},
@@ -384,7 +384,7 @@ gcd:function(){return"Belgilash katakchasi"},
 gjs:function(){return"Belgilash katakchasi bilan foydalanuvchi ro\u02bbyxatdagi bir nechta elementni tanlay oladi. Katakchalar ikki qiymatda bo\u02bbladi, ayrim vaqtlarda uchinchi qiymat ham ishlatiladi."},
 gce:function(){return"Radiotugma"},
 gjt:function(){return"Radiotugma faqat bir tanlov imkonini beradi. Ular mavjud tanlovlarni bir ro\u02bbyxatda chiqarish uchun qulay."},
-gae:function(){return"Almashtirgich"},
+gaf:function(){return"Almashtirgich"},
 gjv:function(){return"Almashtirgich tugmasi yordamida foydalanuvchilar biror sozlamani yoqishi yoki faolsizlantirishi mumkin. Almashtirgich yonida doim sozlama nomi va holati chiqadi."},
 gb7:function(){return"Matn maydonchalari"},
 gkb:function(){return"Harf va raqamlarni tahrirlash uchun bitta qator"},
@@ -449,7 +449,7 @@ gkv:function(){return"SAQLASH"},
 gku:function(){return"Butun ekran rejimidagi muloqot oynasining demo versiyasi"},
 ghp:function(){return"Tugma"},
 ghq:function(){return"Orqa fon bilan"},
-gag:function(){return"Bekor qilish"},
+gah:function(){return"Bekor qilish"},
 gby:function(){return"Bekor qilish"},
 gho:function(){return"Ilovalardan foydalanishdan oldin \u201cXaritalar\u201d ilovasiga joylashuv axborotidan foydalanishga ruxsat berasizmi?"},
 ghn:function(){return"Joriy joylashuvingiz xaritada chiqadi va yo\u02bbnalishlarni aniqlash, yaqin-atrofdagi qidiruv natijalari, qolgan sayohat vaqtlarini chiqarish uchun kerak bo\u02bbladi."},
@@ -457,26 +457,26 @@ gbv:function(){return"Ruxsat berish"},
 gbz:function(){return"Ruxsat berilmasin"},
 gbA:function(){return"Sevimli desertingizni tanlang"},
 gbx:function(){return"Quyidagi ro\u02bbyxatdan sevimli desertingizni tanlang. Tanlovingiz asosida biz yaqin-atrofdagi tavsiya etiladigan yemakxonalar ro\u02bbyxatini tuzamiz."},
-gas:function(){return"Chizkeyk"},
-gat:function(){return"Tiramisu"},
-gar:function(){return"Olmali pirog"},
+gar:function(){return"Chizkeyk"},
+gas:function(){return"Tiramisu"},
+gaq:function(){return"Olmali pirog"},
 gbw:function(){return"Shokoladli brauni"},
 ghr:function(){return"Bildirishnomani ko\u02bbrsatish"},
-gaq:function(){return"QIZIL"},
+gap:function(){return"QIZIL"},
 geS:function(){return"PUSHTI"},
 gaD:function(){return"BINAFSHARANG"},
 geN:function(){return"TO\u02bbQ SIYOHRANG"},
-gao:function(){return"TO\u02bbQ KO\u02bbK"},
+gan:function(){return"TO\u02bbQ KO\u02bbK"},
 gaC:function(){return"KO\u02bbK"},
 geP:function(){return"HAVORANG"},
 gbo:function(){return"ZANGORI"},
 gbp:function(){return"MOVIY"},
-gan:function(){return"YASHIL"},
+gam:function(){return"YASHIL"},
 geQ:function(){return"OCH YASHIL"},
 geR:function(){return"OCH YASHIL"},
 geT:function(){return"SARIQ"},
 geJ:function(){return"QAHRABO RANG"},
-gap:function(){return"TO\u02bbQ SARIQ"},
+gao:function(){return"TO\u02bbQ SARIQ"},
 geM:function(){return"TO\u02bbQ APELSINRANG"},
 geL:function(){return"JIGARRANG"},
 geO:function(){return"KULRANG"},
@@ -693,8 +693,8 @@ gkE:function(){return"Dizaynerlar futuristik liboslar yaratishda foydalanadigan 
 gkF:function(){return"Feministlar partizanlikka o\u02bbtmoqda"},
 gkD:function(){return"Fermalardagi arilar ta\u02bcminoti yetishmayapti"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(T.wn,X.O)})()
-H.bb(b.typeUniverse,JSON.parse('{"be":"C","bo":"C","bg":"aY","bf":"m","bv":"m","bx":"m","bd":"D","bp":"D","bB":"aW","bh":"M","bt":"M","by":"F","bn":"F","bq":"aU","bA":"aQ","bj":"aX","bm":"aT","bi":"Z","bz":"Z","bu":"b1","bs":"b0","br":"b_","bk":"av","bl":"aR","wn":{"O":[]}}'))
+y(T.ws,X.P)})()
+H.bc(b.typeUniverse,JSON.parse('{"be":"C","bo":"C","bg":"aZ","bf":"m","bv":"m","bw":"m","bd":"D","bp":"D","bA":"aW","bh":"M","bt":"M","bx":"F","bn":"F","bq":"aU","bz":"aQ","bj":"aX","bm":"aT","bi":"Y","by":"Y","bu":"b2","bs":"b0","br":"b_","bk":"av","bl":"aR","ws":{"P":[]}}'))
 0}
-$__dart_deferred_initializers__["wPyLpm+v9NBE3ud1c3QkAkBOE/U="] = $__dart_deferred_initializers__.current
+$__dart_deferred_initializers__["bmFH7Nlp7dnMLnpiUWoCPI5PLMU="] = $__dart_deferred_initializers__.current
 //# sourceMappingURL=main.dart.js_74.part.js.map

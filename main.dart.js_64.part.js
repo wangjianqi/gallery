@@ -1,7 +1,7 @@
 self.$__dart_deferred_initializers__=self.$__dart_deferred_initializers__||Object.create(null)
 $__dart_deferred_initializers__.current=function(a,b,c,$){var C,H,J,P,W,U,Y,L,M,N,R,B,A,G,V,S,T={
-aZg:function(){return new T.wc(T.ad("sq"))},
-wc:function wc(d){this.a=d}},D,Z,E,K,O,Q,X,F
+b_k:function(){return new T.wh(T.ae("sq"))},
+wh:function wh(d){this.a=d}},D,Z,E,K,O,Q,X,F
 a.setFunctionNamesIfNecessary([T])
 C=c[0]
 H=c[1]
@@ -28,7 +28,7 @@ O=c[21]
 Q=c[22]
 X=c[23]
 F=c[24]
-T.wc.prototype={
+T.wh.prototype={
 cB:function(d){return"Depoja "+d+" e GitHub"},
 e5:function(d){return"P\xebr t\xeb par\xeb kodin burimor p\xebr k\xebt\xeb aplikacion, vizito "+d+"."},
 ge_:function(){return"IDENTIFIKOHU"},
@@ -220,8 +220,8 @@ gaN:function(){return"L\xebpir\xebse"},
 gaK:function(){return"Hoje blete"},
 gaG:function(){return"Petull"},
 gaE:function(){return"\xcbmb\xeblsir\xeb me moll\xeb"},
-ad:function(d){return d+" me sheqer"},
-ac:function(d){return d+" me mjalt\xeb"},
+ac:function(d){return d+" me sheqer"},
+ab:function(d){return d+" me mjalt\xeb"},
 giM:function(){return"Dialog\xebt"},
 giL:function(){return"I thjesht\xeb, sinjalizim dhe ekran i plot\xeb"},
 gbD:function(){return"Sinjalizim"},
@@ -254,7 +254,7 @@ gjr:function(){return"Menyja me seksione"},
 gjy:function(){return"Menyja e thjesht\xeb"},
 ghZ:function(){return"Menyja me list\xeb me zgjedhje"},
 gjd:function(){return"Butonat e menys\xeb dhe menyt\xeb e thjeshta"},
-gav:function(){return"Nj\xeb meny shfaq nj\xeb list\xeb zgjedhjesh n\xeb nj\xeb sip\xebrfaqe t\xeb p\xebrkohshme. Ato shfaqen kur p\xebrdoruesit nd\xebrveprojn\xeb me nj\xeb buton, veprim ose nj\xeb kontroll tjet\xebr."},
+gau:function(){return"Nj\xeb meny shfaq nj\xeb list\xeb zgjedhjesh n\xeb nj\xeb sip\xebrfaqe t\xeb p\xebrkohshme. Ato shfaqen kur p\xebrdoruesit nd\xebrveprojn\xeb me nj\xeb buton, veprim ose nj\xeb kontroll tjet\xebr."},
 gj9:function(){return"Artikulli i par\xeb i menys\xeb"},
 gjb:function(){return"Artikulli i dyt\xeb i menys\xeb"},
 gja:function(){return"Artikulli i tret\xeb i menys\xeb"},
@@ -286,7 +286,7 @@ gih:function(){return"Nj\xeb buton n\xeb stilin e iOS. P\xebrfshin tekstin dhe/o
 gig:function(){return"Sinjalizime"},
 gie:function(){return"Dialog\xeb sinjalizimi n\xeb stilin e iOS"},
 gbR:function(){return"Sinjalizim"},
-gau:function(){return"Nj\xeb dialog sinjalizues informon p\xebrdoruesin rreth situatave q\xeb k\xebrkojn\xeb konfirmim. Nj\xeb dialog sinjalizimi ka nj\xeb titull opsional, p\xebrmbajtje opsionale dhe nj\xeb list\xeb opsionale veprimesh. Titulli shfaqet mbi p\xebrmbajtje dhe veprimet shfaqen posht\xeb p\xebrmbajtjes."},
+gat:function(){return"Nj\xeb dialog sinjalizues informon p\xebrdoruesin rreth situatave q\xeb k\xebrkojn\xeb konfirmim. Nj\xeb dialog sinjalizimi ka nj\xeb titull opsional, p\xebrmbajtje opsionale dhe nj\xeb list\xeb opsionale veprimesh. Titulli shfaqet mbi p\xebrmbajtje dhe veprimet shfaqen posht\xeb p\xebrmbajtjes."},
 gbS:function(){return"Sinjalizo me titullin"},
 gbQ:function(){return"Sinjalizimi me butonat"},
 gbP:function(){return"Vet\xebm butonat e sinjalizimit"},
@@ -336,7 +336,7 @@ ghH:function(){return"Zgjero, zmadho, rrotullo"},
 ghE:function(){return'Trokit p\xebr t\xeb modifikuar pllak\xebzat dhe p\xebrdor gjestet p\xebr t\xeb l\xebvizur n\xeb sken\xeb. Zvarrit p\xebr ta zgjeruar, afro gishtat p\xebr ta zmadhuar, rrotulloje me dy gishta. Shtyp butonin "Rivendos" p\xebr t\'u kthyer tek orientimi fillestar.'},
 ghG:function(){return"Rivendos transformimet"},
 ghF:function(){return"Modifiko pllak\xebz\xebn"},
-gaf:function(){return"BUTONI"},
+gag:function(){return"BUTONI"},
 ghU:function(){return"Fleta e poshtme"},
 ghT:function(){return"Flet\xebt e p\xebrkohshme dhe modale t\xeb poshtme"},
 gbL:function(){return"Flet\xeb e poshtme e p\xebrhershme"},
@@ -384,7 +384,7 @@ gcd:function(){return"Kutia e zgjedhjes"},
 gjs:function(){return'Kutit\xeb e kontrollit e lejojn\xeb p\xebrdoruesin t\xeb zgjedh\xeb shum\xeb opsione nga nj\xeb grup. Vlera e nj\xeb kutie normale kontrolli \xebsht\xeb "E v\xebrtet\xeb" ose "E gabuar" dhe vlera e nj\xeb kutie zgjedhjeje me tre gjendje mund t\xeb jet\xeb edhe "Zero".'},
 gce:function(){return"Radio"},
 gjt:function(){return"Butonat e radios e lejojn\xeb p\xebrdoruesin t\xeb zgjedh\xeb nj\xeb opsion nga nj\xeb grup. P\xebrdor butonat e radios p\xebr p\xebrzgjedhje ekskluzive n\xebse mendon se p\xebrdoruesi ka nevoj\xeb t\xeb shikoj\xeb t\xeb gjitha opsionet e disponueshme p\xebrkrah nj\xebri-tjetrit."},
-gae:function(){return"\xc7el\xebs"},
+gaf:function(){return"\xc7el\xebs"},
 gjv:function(){return"\xc7el\xebsat e ndezjes/fikjes nd\xebrrojn\xeb gjendjen e nj\xeb opsioni t\xeb vet\xebm cil\xebsimesh. Opsioni q\xeb kontrollon \xe7el\xebsi, si edhe gjendja n\xeb t\xeb cil\xebn \xebsht\xeb, duhet t\xeb b\xebhet e qart\xeb nga etiketa korresponduese brenda faqes."},
 gb7:function(){return"Fushat me tekst"},
 gkb:function(){return"Nj\xeb rresht me tekst dhe numra t\xeb redaktuesh\xebm"},
@@ -449,7 +449,7 @@ gkv:function(){return"RUAJ"},
 gku:function(){return"Nj\xeb demonstrim dialogu me ekran t\xeb plot\xeb"},
 ghp:function(){return"Butoni"},
 ghq:function(){return"Me sfond"},
-gag:function(){return"Anulo"},
+gah:function(){return"Anulo"},
 gby:function(){return"Hidh posht\xeb"},
 gho:function(){return'D\xebshiron t\xeb lejosh q\xeb "Maps" t\xeb ket\xeb qasje te vendndodhja jote nd\xebrkoh\xeb q\xeb je duke p\xebrdorur aplikacionin?'},
 ghn:function(){return"Vendndodhja jote aktuale do t\xeb shfaqet n\xeb hart\xeb dhe do t\xeb p\xebrdoret p\xebr udh\xebzime, rezultate t\xeb k\xebrkimeve n\xeb af\xebrsi dhe koh\xebn e p\xebraf\xebrt t\xeb udh\xebtimit."},
@@ -457,26 +457,26 @@ gbv:function(){return"Lejo"},
 gbz:function(){return"Mos lejo"},
 gbA:function(){return"Zgjidh \xebmb\xeblsir\xebn e preferuar"},
 gbx:function(){return"Zgjidh llojin t\xebnd t\xeb preferuar t\xeb \xebmb\xeblsir\xebs nga lista m\xeb posht\xeb. Zgjedhja jote do t\xeb p\xebrdoret p\xebr t\xeb personalizuar list\xebn e sugjeruar t\xeb restoranteve n\xeb zon\xebn t\xebnde."},
-gas:function(){return"Kek bulmeti"},
-gat:function(){return"Tiramisu"},
-gar:function(){return"\xcbmb\xeblsir\xeb me moll\xeb"},
+gar:function(){return"Kek bulmeti"},
+gas:function(){return"Tiramisu"},
+gaq:function(){return"\xcbmb\xeblsir\xeb me moll\xeb"},
 gbw:function(){return"\xcbmb\xeblsir\xeb me \xe7okollat\xeb"},
 ghr:function(){return"Shfaq sinjalizimin"},
-gaq:function(){return"I KUQ"},
+gap:function(){return"I KUQ"},
 geS:function(){return"ROZ\xcb"},
 gaD:function(){return"VJOLLC\xcb"},
 geN:function(){return"E PURPURT E THELL\xcb"},
-gao:function(){return"INDIGO"},
+gan:function(){return"INDIGO"},
 gaC:function(){return"BLU"},
 geP:function(){return"BLU E \xc7ELUR"},
 gbo:function(){return"I KALT\xcbR"},
 gbp:function(){return"GURKALI"},
-gan:function(){return"E GJELB\xcbR"},
+gam:function(){return"E GJELB\xcbR"},
 geQ:function(){return"E GJELB\xcbR E \xc7ELUR"},
 geR:function(){return"LIMONI"},
 geT:function(){return"E VERDH\xcb"},
 geJ:function(){return"E VERDH\xcb PORTOKALLI"},
-gap:function(){return"PORTOKALLI"},
+gao:function(){return"PORTOKALLI"},
 geM:function(){return"PORTOKALLI E THELL\xcb"},
 geL:function(){return"KAFE"},
 geO:function(){return"GRI"},
@@ -693,8 +693,8 @@ gkE:function(){return"Stilist\xebt p\xebrdorin teknologjin\xeb p\xebr t\xeb krij
 gkF:function(){return"Feminist\xebt kund\xebr kampeve partiake"},
 gkD:function(){return"Blet\xebt braktisin tokat bujq\xebsore"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(T.wc,X.O)})()
-H.bb(b.typeUniverse,JSON.parse('{"be":"C","bo":"C","bg":"aY","bf":"m","bv":"m","bx":"m","bd":"D","bp":"D","bB":"aW","bh":"M","bt":"M","by":"F","bn":"F","bq":"aU","bA":"aQ","bj":"aX","bm":"aT","bi":"Z","bz":"Z","bu":"b1","bs":"b0","br":"b_","bk":"av","bl":"aR","wc":{"O":[]}}'))
+y(T.wh,X.P)})()
+H.bc(b.typeUniverse,JSON.parse('{"be":"C","bo":"C","bg":"aZ","bf":"m","bv":"m","bw":"m","bd":"D","bp":"D","bA":"aW","bh":"M","bt":"M","bx":"F","bn":"F","bq":"aU","bz":"aQ","bj":"aX","bm":"aT","bi":"Y","by":"Y","bu":"b2","bs":"b0","br":"b_","bk":"av","bl":"aR","wh":{"P":[]}}'))
 0}
-$__dart_deferred_initializers__["1lRHbo7M8RwTC8qcQAvRVV55gh0="] = $__dart_deferred_initializers__.current
+$__dart_deferred_initializers__["utqzCkM/kOP+kf7ZclxNIf3I8Mw="] = $__dart_deferred_initializers__.current
 //# sourceMappingURL=main.dart.js_64.part.js.map

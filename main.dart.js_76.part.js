@@ -1,7 +1,7 @@
 self.$__dart_deferred_initializers__=self.$__dart_deferred_initializers__||Object.create(null)
 $__dart_deferred_initializers__.current=function(a,b,c,$){var C,H,J,P,W,U,Y,L,M,N,R,B,A,G,V,S,T,D,Z,E,K,O,Q,X,F={
-aZy:function(){return new F.ws(T.ad("zu"))},
-ws:function ws(d){this.a=d}}
+b_C:function(){return new F.wx(T.ae("zu"))},
+wx:function wx(d){this.a=d}}
 a.setFunctionNamesIfNecessary([F])
 C=c[0]
 H=c[1]
@@ -28,7 +28,7 @@ O=c[21]
 Q=c[22]
 X=c[23]
 F=a.updateHolder(c[24],F)
-F.ws.prototype={
+F.wx.prototype={
 cB:function(d){return d+" Ikhosombe le-GitHub"},
 e5:function(d){return"Ukuze ubone ikhodi yomthombo yalolu hlelo lokusebenza, sicela uvakashele i-"+d+"."},
 ge_:function(){return"NGENA NGEMVUME"},
@@ -220,8 +220,8 @@ gaN:function(){return"I-Lollipop"},
 gaK:function(){return"Ikhekheba lezinyosi"},
 gaG:function(){return"Idonadi"},
 gaE:function(){return"Uphaya we-apula"},
-ad:function(d){return d+" enoshukela"},
-ac:function(d){return d+" enoju"},
+ac:function(d){return d+" enoshukela"},
+ab:function(d){return d+" enoju"},
 giM:function(){return"Amabhokisi"},
 giL:function(){return"Ilula, isexwayiso, nesikrini esigcwele"},
 gbD:function(){return"Isexwayiso"},
@@ -254,7 +254,7 @@ gjr:function(){return"Imenyu efakwe kusigaba"},
 gjy:function(){return"Imenyu elula"},
 ghZ:function(){return"Imenyu yohlu lokuhlola"},
 gjd:function(){return"Izinkinobho zemenyu namamenyu alula"},
-gav:function(){return"Imenyu ibonisa uhlu lwezinketho kundawo yangokwesikhashana. Zivela uma abasebenzisi bahlanganyela nenkinobho, isenzo, noma esinye isilawuli."},
+gau:function(){return"Imenyu ibonisa uhlu lwezinketho kundawo yangokwesikhashana. Zivela uma abasebenzisi bahlanganyela nenkinobho, isenzo, noma esinye isilawuli."},
 gj9:function(){return"Into yemenyu yokuqala"},
 gjb:function(){return"Into yemenyu yesibili"},
 gja:function(){return"Into yemenyu yesithathu"},
@@ -286,7 +286,7 @@ gih:function(){return"Inkinobho yesitayela se-iOS. Ithatha ifake ngaphakathi umb
 gig:function(){return"Izexwayiso"},
 gie:function(){return"amabhokisi esexwayiso sesitayela se-iOS"},
 gbR:function(){return"Isexwayiso"},
-gau:function(){return"Ibhokisi lesexwayiso lazisa umsebenzisi mayelana nezimo ezidinga ukuvunywa. Ibhokisi lesexwayiso linesihloko ongasikhetha, okuqukethwe ongakukhetha, kanye nohlu ongalukhetha lwezenzo. Isihloko siboniswa ngaphezulu kokuqukethwe futhi izenzo ziboniswa ngaphansi kokuqukethwe."},
+gat:function(){return"Ibhokisi lesexwayiso lazisa umsebenzisi mayelana nezimo ezidinga ukuvunywa. Ibhokisi lesexwayiso linesihloko ongasikhetha, okuqukethwe ongakukhetha, kanye nohlu ongalukhetha lwezenzo. Isihloko siboniswa ngaphezulu kokuqukethwe futhi izenzo ziboniswa ngaphansi kokuqukethwe."},
 gbS:function(){return"Isexwayiso esinesihloko"},
 gbQ:function(){return"Isexwayiso esinezinkinobho"},
 gbP:function(){return"Izinkinobho zesexwayiso kuphela"},
@@ -336,7 +336,7 @@ ghH:function(){return"Nyakaza, sondeza, phendukisa"},
 ghE:function(){return"Thepha ukuze uhlele amathayela, futhi usebenzise ukuthinta ukuze uzulazule esigcawini. Hudula ukuze unyakazise, nciza ukuze usondeze, phendukisa ngeminwe emibili. Cindezela inkinobho yokusetha kabusha ukuze ubuyele ekuqaleni komumo wesikrini."},
 ghG:function(){return"Setha kabusha ukuguqula"},
 ghF:function(){return"Hlela uthayela"},
-gaf:function(){return"INKINOBHO"},
+gag:function(){return"INKINOBHO"},
 ghU:function(){return"Ishidi eliphansi"},
 ghT:function(){return"Amashidi waphansi aphoqelelayo nawe-modal"},
 gbL:function(){return"ishidi eliphansi eliphoqelelayo"},
@@ -384,7 +384,7 @@ gcd:function(){return"Ibhokisi lokuthikha"},
 gjs:function(){return"Amabhokisi okuhlola avumela umsebenzisi ukuthi akhethe izinketho eziningi kusukela kusethi. Inani elijwayelekile lebhokisi lokuhlola liyiqiniso noma lingamanga futhi inani lebhokisi lokuhlola le-tristate nalo lingaba ngelingavumelekile."},
 gce:function(){return"Irediyo"},
 gjt:function(){return"Izinkinobho zerediyo zivumela umsebenzisi ukuthi akhethe inketho eyodwa kusukela kusethi. Sebenzisa izinkinobho zerediyo zokukhethwa okukhethekile uma ucabanga ukuthi umsebenzisi kumele abone zonke izinketho ezikhethekile uhlangothi ukuya kolunye."},
-gae:function(){return"Iswishi"},
+gaf:function(){return"Iswishi"},
 gjv:function(){return"Amaswishi okuvula/ukuvala aguqula isimo senketho eyodwa yezilungiselelo. Inketho elawulwa iswishi kanye nesimo ekuyo, kumele kwenziwe kube sobala kusukela kulebula engaphakathi komugqa ehambisanayo."},
 gb7:function(){return"Izinkambu zombhalo"},
 gkb:function(){return"Umugqa owodwa wombhalo ohlelekayo nezinombolo"},
@@ -449,7 +449,7 @@ gkv:function(){return"LONDOLOZA"},
 gku:function(){return"Idemo yebhokisi lesikrini esigcwele"},
 ghp:function(){return"Inkinobho"},
 ghq:function(){return"Nengemuva"},
-gag:function(){return"Khansela"},
+gah:function(){return"Khansela"},
 gby:function(){return"Lahla"},
 gho:function(){return'Vumela okuthi "Amamephu" ukuze ufinyelele kundawo yakho ngenkathi usebenzisa uhlelo lokusebenza?'},
 ghn:function(){return"Indawo yakho yamanje izoboniswa kumephu iphinde isetshenziselwe izikhombisi-ndlela, imiphumela yosesho oluseduze, nezikhathi zokuvakasha ezilinganisiwe."},
@@ -457,26 +457,26 @@ gbv:function(){return"Vumela"},
 gbz:function(){return"Ungavumeli"},
 gbA:function(){return"Khetha isidlo sokwehlisa esiyintandokazi"},
 gbx:function(){return"Sicela ukhethe uhlobo lwakho oluyintandokazi lwesidlo sokwehlisa kusukela kuhlu olungezansi. Ukukhethwa kwakho kuzosetshenziselwa ukwenza kube ngokwakho uhlu oluphakanyisiwe lwezindawo zokudlela endaweni yangakini."},
-gas:function(){return"I-Cheesecake"},
-gat:function(){return"I-Tiramisu"},
-gar:function(){return"Uphaya we-apula"},
+gar:function(){return"I-Cheesecake"},
+gas:function(){return"I-Tiramisu"},
+gaq:function(){return"Uphaya we-apula"},
 gbw:function(){return"I-Chocolate brownie"},
 ghr:function(){return"Bonisa isexwayiso"},
-gaq:function(){return"OKUBOMVU"},
+gap:function(){return"OKUBOMVU"},
 geS:function(){return"OKUPHINKI"},
 gaD:function(){return"OKUPHEPHULI"},
 geN:function(){return"OKUPHEPHULI OKUJULILE"},
-gao:function(){return"I-INDIGO"},
+gan:function(){return"I-INDIGO"},
 gaC:function(){return"OKULUHLAZA OKWESIBHAKABHAKA"},
 geP:function(){return"OKULUHLAZA OKWESIBHAKABHAKA NGOKUKHANYAYO"},
 gbo:function(){return"I-CYAN"},
 gbp:function(){return"I-TEAL"},
-gan:function(){return"OKULUHLAZA OKOTSHANI"},
+gam:function(){return"OKULUHLAZA OKOTSHANI"},
 geQ:function(){return"OKULUHLAZA OKUKHANYAYO"},
 geR:function(){return"I-LIME"},
 geT:function(){return"OKULIPHUZI"},
 geJ:function(){return"I-AMBER"},
-gap:function(){return"IWOLINTSHI"},
+gao:function(){return"IWOLINTSHI"},
 geM:function(){return"OKUWOLINTSHI OKUJULILE"},
 geL:function(){return"OKUMPOFU"},
 geO:function(){return"OKUMPUNGA"},
@@ -693,8 +693,8 @@ gkE:function(){return"Abadizayinayo Basebenzisa Ubuchwepheshe Ukuze Benze Izindw
 gkF:function(){return"Ama-Ferminist Athatha i-Partisanship"},
 gkD:function(){return"Izinyosi Zendawo Yefamu Zinokunikezwa Okumfushane"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(F.ws,X.O)})()
-H.bb(b.typeUniverse,JSON.parse('{"be":"C","bo":"C","bg":"aY","bf":"m","bv":"m","bx":"m","bd":"D","bp":"D","bB":"aW","bh":"M","bt":"M","by":"F","bn":"F","bq":"aU","bA":"aQ","bj":"aX","bm":"aT","bi":"Z","bz":"Z","bu":"b1","bs":"b0","br":"b_","bk":"av","bl":"aR","ws":{"O":[]}}'))
+y(F.wx,X.P)})()
+H.bc(b.typeUniverse,JSON.parse('{"be":"C","bo":"C","bg":"aZ","bf":"m","bv":"m","bw":"m","bd":"D","bp":"D","bA":"aW","bh":"M","bt":"M","bx":"F","bn":"F","bq":"aU","bz":"aQ","bj":"aX","bm":"aT","bi":"Y","by":"Y","bu":"b2","bs":"b0","br":"b_","bk":"av","bl":"aR","wx":{"P":[]}}'))
 0}
-$__dart_deferred_initializers__["K/zHpyjKMPImfXrq43BKJZhWwsM="] = $__dart_deferred_initializers__.current
+$__dart_deferred_initializers__["Sq+EB+ZsQFsafbCDgp26aCBMxJc="] = $__dart_deferred_initializers__.current
 //# sourceMappingURL=main.dart.js_76.part.js.map

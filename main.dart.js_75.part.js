@@ -1,7 +1,7 @@
 self.$__dart_deferred_initializers__=self.$__dart_deferred_initializers__||Object.create(null)
 $__dart_deferred_initializers__.current=function(a,b,c,$){var C,H,J,P,W,U,Y,L,M,N,R={
-aZt:function(){return new R.wo(T.ad("vi"))},
-wo:function wo(d){this.a=d}},B,A,G,V,S,T,D,Z,E,K,O,Q,X,F
+b_x:function(){return new R.wt(T.ae("vi"))},
+wt:function wt(d){this.a=d}},B,A,G,V,S,T,D,Z,E,K,O,Q,X,F
 a.setFunctionNamesIfNecessary([R])
 C=c[0]
 H=c[1]
@@ -28,7 +28,7 @@ O=c[21]
 Q=c[22]
 X=c[23]
 F=c[24]
-R.wo.prototype={
+R.wt.prototype={
 cB:function(d){return"Kho l\u01b0u tr\u1eef "+d+" tr\xean GitHub"},
 e5:function(d){return"\u0110\u1ec3 xem m\xe3 ngu\u1ed3n c\u1ee7a \u1ee9ng d\u1ee5ng n\xe0y, vui l\xf2ng truy c\u1eadp v\xe0o "+d+"."},
 ge_:function(){return"\u0110\u0102NG NH\u1eacP"},
@@ -220,8 +220,8 @@ gaN:function(){return"Lollipop"},
 gaK:function(){return"Honeycomb"},
 gaG:function(){return"Donut"},
 gaE:function(){return"B\xe1nh t\xe1o"},
-ad:function(d){return d+" ph\u1ee7 \u0111\u01b0\u1eddng"},
-ac:function(d){return d+" ph\u1ee7 m\u1eadt ong"},
+ac:function(d){return d+" ph\u1ee7 \u0111\u01b0\u1eddng"},
+ab:function(d){return d+" ph\u1ee7 m\u1eadt ong"},
 giM:function(){return"H\u1ed9p tho\u1ea1i"},
 giL:function(){return"H\u1ed9p tho\u1ea1i \u0111\u01a1n gi\u1ea3n, c\u1ea3nh b\xe1o v\xe0 to\xe0n m\xe0n h\xecnh"},
 gbD:function(){return"C\u1ea3nh b\xe1o"},
@@ -254,7 +254,7 @@ gjr:function(){return"Tr\xecnh \u0111\u01a1n theo ph\u1ea7n"},
 gjy:function(){return"Tr\xecnh \u0111\u01a1n \u0111\u01a1n gi\u1ea3n"},
 ghZ:function(){return"Tr\xecnh \u0111\u01a1n danh s\xe1ch ki\u1ec3m tra"},
 gjd:function(){return"N\xfat tr\xecnh \u0111\u01a1n v\xe0 tr\xecnh \u0111\u01a1n \u0111\u01a1n gi\u1ea3n"},
-gav:function(){return"Tr\xecnh \u0111\u01a1n s\u1ebd hi\u1ec3n th\u1ecb m\u1ed9t danh s\xe1ch c\xe1c l\u1ef1a ch\u1ecdn tr\xean giao di\u1ec7n t\u1ea1m th\u1eddi. C\xe1c l\u1ef1a ch\u1ecdn s\u1ebd xu\u1ea5t hi\u1ec7n khi ng\u01b0\u1eddi d\xf9ng t\u01b0\u01a1ng t\xe1c v\u1edbi m\u1ed9t n\xfat, h\xe0nh \u0111\u1ed9ng ho\u1eb7c t\xf9y ch\u1ecdn ki\u1ec3m so\xe1t kh\xe1c."},
+gau:function(){return"Tr\xecnh \u0111\u01a1n s\u1ebd hi\u1ec3n th\u1ecb m\u1ed9t danh s\xe1ch c\xe1c l\u1ef1a ch\u1ecdn tr\xean giao di\u1ec7n t\u1ea1m th\u1eddi. C\xe1c l\u1ef1a ch\u1ecdn s\u1ebd xu\u1ea5t hi\u1ec7n khi ng\u01b0\u1eddi d\xf9ng t\u01b0\u01a1ng t\xe1c v\u1edbi m\u1ed9t n\xfat, h\xe0nh \u0111\u1ed9ng ho\u1eb7c t\xf9y ch\u1ecdn ki\u1ec3m so\xe1t kh\xe1c."},
 gj9:function(){return"M\u1ee5c \u0111\u1ea7u ti\xean trong tr\xecnh \u0111\u01a1n"},
 gjb:function(){return"M\u1ee5c th\u1ee9 hai trong tr\xecnh \u0111\u01a1n"},
 gja:function(){return"M\u1ee5c th\u1ee9 ba trong tr\xecnh \u0111\u01a1n"},
@@ -286,7 +286,7 @@ gih:function(){return"\u0110\xe2y l\xe0 m\u1ed9t n\xfat theo ki\u1ec3u iOS. N\xf
 gig:function(){return"C\u1ea3nh b\xe1o"},
 gie:function(){return"H\u1ed9p tho\u1ea1i c\u1ea3nh b\xe1o theo ki\u1ec3u iOS"},
 gbR:function(){return"C\u1ea3nh b\xe1o"},
-gau:function(){return"H\u1ed9p tho\u1ea1i c\u1ea3nh b\xe1o th\xf4ng b\xe1o cho ng\u01b0\u1eddi d\xf9ng v\u1ec1 c\xe1c t\xecnh hu\u1ed1ng c\u1ea7n x\xe1c nh\u1eadn. H\u1ed9p tho\u1ea1i c\u1ea3nh b\xe1o kh\xf4ng nh\u1ea5t thi\u1ebft ph\u1ea3i c\xf3 ti\xeau \u0111\u1ec1, n\u1ed9i dung c\u0169ng nh\u01b0 danh s\xe1ch c\xe1c h\xe0nh \u0111\u1ed9ng. B\u1ea1n s\u1ebd th\u1ea5y ti\xeau \u0111\u1ec1 \u1edf ph\xeda tr\xean n\u1ed9i dung c\xf2n c\xe1c h\xe0nh \u0111\u1ed9ng th\xec \u1edf ph\xeda d\u01b0\u1edbi."},
+gat:function(){return"H\u1ed9p tho\u1ea1i c\u1ea3nh b\xe1o th\xf4ng b\xe1o cho ng\u01b0\u1eddi d\xf9ng v\u1ec1 c\xe1c t\xecnh hu\u1ed1ng c\u1ea7n x\xe1c nh\u1eadn. H\u1ed9p tho\u1ea1i c\u1ea3nh b\xe1o kh\xf4ng nh\u1ea5t thi\u1ebft ph\u1ea3i c\xf3 ti\xeau \u0111\u1ec1, n\u1ed9i dung c\u0169ng nh\u01b0 danh s\xe1ch c\xe1c h\xe0nh \u0111\u1ed9ng. B\u1ea1n s\u1ebd th\u1ea5y ti\xeau \u0111\u1ec1 \u1edf ph\xeda tr\xean n\u1ed9i dung c\xf2n c\xe1c h\xe0nh \u0111\u1ed9ng th\xec \u1edf ph\xeda d\u01b0\u1edbi."},
 gbS:function(){return"C\u1ea3nh b\xe1o c\xf3 ti\xeau \u0111\u1ec1"},
 gbQ:function(){return"C\u1ea3nh b\xe1o \u0111i k\xe8m c\xe1c n\xfat"},
 gbP:function(){return"Ch\u1ec9 n\xfat c\u1ea3nh b\xe1o"},
@@ -336,7 +336,7 @@ ghH:function(){return"D\u1ecbch chuy\u1ec3n, thu ph\xf3ng, xoay"},
 ghE:function(){return"Nh\u1ea5n \u0111\u1ec3 ch\u1ec9nh s\u1eeda th\u1ebb th\xf4ng tin r\u1ed3i d\xf9ng c\u1eed ch\u1ec9 \u0111\u1ec3 di chuy\u1ec3n xung quanh c\u1ea3nh. K\xe9o \u0111\u1ec3 di chuy\u1ec3n, chu\u0323m \u0111\u1ec3 thu ph\xf3ng, xoay b\u1eb1ng 2 ng\xf3n tay. Nh\u1ea5n n\xfat \u0111\u1eb7t l\u1ea1i \u0111\u1ec3 tr\u1edf v\u1ec1 h\u01b0\u1edbng b\u1eaft \u0111\u1ea7u."},
 ghG:function(){return"\u0110\u1eb7t l\u1ea1i ph\xe9p bi\u1ebfn \u0111\u1ed5i"},
 ghF:function(){return"Ch\u1ec9nh s\u1eeda th\u1ebb th\xf4ng tin"},
-gaf:function(){return"N\xdaT"},
+gag:function(){return"N\xdaT"},
 ghU:function(){return"B\u1ea3ng d\u01b0\u1edbi c\xf9ng"},
 ghT:function(){return"B\u1ea3ng c\xe1ch \u0111i\u1ec7u v\xe0 b\u1ea3ng c\u1ed1 \u0111\u1ecbnh d\u01b0\u1edbi c\xf9ng"},
 gbL:function(){return"B\u1ea3ng c\u1ed1 \u0111\u1ecbnh d\u01b0\u1edbi c\xf9ng"},
@@ -384,7 +384,7 @@ gcd:function(){return"H\u1ed9p ki\u1ec3m"},
 gjs:function(){return"C\xe1c h\u1ed9p ki\u1ec3m cho ph\xe9p ng\u01b0\u1eddi d\xf9ng ch\u1ecdn nhi\u1ec1u t\xf9y ch\u1ecdn trong m\u1ed9t t\u1eadp h\u1ee3p. Gi\xe1 tr\u1ecb th\xf4ng th\u01b0\u1eddng c\u1ee7a h\u1ed9p ki\u1ec3m l\xe0 true ho\u1eb7c false v\xe0 gi\xe1 tr\u1ecb 3 tr\u1ea1ng th\xe1i c\u1ee7a h\u1ed9p ki\u1ec3m c\u0169ng c\xf3 th\u1ec3 l\xe0 null."},
 gce:function(){return"N\xfat radio"},
 gjt:function(){return"C\xe1c n\xfat radio cho ph\xe9p ng\u01b0\u1eddi d\xf9ng ch\u1ecdn m\u1ed9t t\xf9y ch\u1ecdn trong m\u1ed9t t\u1eadp h\u1ee3p. H\xe3y d\xf9ng n\xfat radio \u0111\u1ec3 l\u1ef1a ch\u1ecdn ri\xeang n\u1ebfu b\u1ea1n cho r\u1eb1ng ng\u01b0\u1eddi d\xf9ng c\u1ea7n xem song song t\u1ea5t c\u1ea3 c\xe1c t\xf9y ch\u1ecdn c\xf3 s\u1eb5n."},
-gae:function(){return"C\xf4ng t\u1eafc"},
+gaf:function(){return"C\xf4ng t\u1eafc"},
 gjv:function(){return"C\xe1c c\xf4ng t\u1eafc b\u1eadt/t\u1eaft chuy\u1ec3n \u0111\u1ed5i tr\u1ea1ng th\xe1i c\u1ee7a m\u1ed9t t\xf9y ch\u1ecdn c\xe0i \u0111\u1eb7t. T\xf9y ch\u1ecdn m\xe0 c\xf4ng t\u1eafc \u0111i\u1ec1u khi\u1ec3n, c\u0169ng nh\u01b0 tr\u1ea1ng th\xe1i c\u1ee7a t\xf9y ch\u1ecdn, ph\u1ea3i \u0111\u01b0\u1ee3c hi\u1ec7n r\xf5 b\u1eb1ng nh\xe3n n\u1ed9i tuy\u1ebfn t\u01b0\u01a1ng \u1ee9ng."},
 gb7:function(){return"Tr\u01b0\u1eddng v\u0103n b\u1ea3n"},
 gkb:function(){return"M\u1ed9t d\xf2ng g\u1ed3m ch\u1eef v\xe0 s\u1ed1 ch\u1ec9nh s\u1eeda \u0111\u01b0\u1ee3c"},
@@ -449,7 +449,7 @@ gkv:function(){return"L\u01afU"},
 gku:function(){return"Minh h\u1ecda h\u1ed9p tho\u1ea1i to\xe0n m\xe0n h\xecnh"},
 ghp:function(){return"N\xfat"},
 ghq:function(){return"C\xf3 n\u1ec1n"},
-gag:function(){return"H\u1ee7y"},
+gah:function(){return"H\u1ee7y"},
 gby:function(){return"H\u1ee7y"},
 gho:function(){return'Cho ph\xe9p "Maps" s\u1eed d\u1ee5ng th\xf4ng tin v\u1ecb tr\xed c\u1ee7a b\u1ea1n khi b\u1ea1n \u0111ang d\xf9ng \u1ee9ng d\u1ee5ng?'},
 ghn:function(){return"V\u1ecb tr\xed hi\u1ec7n t\u1ea1i c\u1ee7a b\u1ea1n s\u1ebd hi\u1ec3n th\u1ecb tr\xean b\u1ea3n \u0111\u1ed3 v\xe0 d\xf9ng \u0111\u1ec3 x\xe1c \u0111\u1ecbnh \u0111\u01b0\u1eddng \u0111i, k\u1ebft qu\u1ea3 t\xecm ki\u1ebfm \u1edf g\u1ea7n v\xe0 th\u1eddi gian \u0111i l\u1ea1i \u01b0\u1edbc \u0111o\xe1n."},
@@ -457,26 +457,26 @@ gbv:function(){return"Cho ph\xe9p"},
 gbz:function(){return"Kh\xf4ng cho ph\xe9p"},
 gbA:function(){return"Ch\u1ecdn m\xf3n tr\xe1ng mi\u1ec7ng y\xeau th\xedch"},
 gbx:function(){return"Vui l\xf2ng ch\u1ecdn m\xf3n tr\xe1ng mi\u1ec7ng y\xeau th\xedch t\u1eeb danh s\xe1ch b\xean d\u01b0\u1edbi. M\xf3n tr\xe1ng mi\u1ec7ng b\u1ea1n ch\u1ecdn s\u1ebd d\xf9ng \u0111\u1ec3 t\xf9y ch\u1ec9nh danh s\xe1ch c\xe1c qu\xe1n \u0103n \u0111\u1ec1 xu\u1ea5t trong khu v\u1ef1c c\u1ee7a b\u1ea1n."},
-gas:function(){return"B\xe1nh ph\xf4 mai"},
-gat:function(){return"Tiramisu"},
-gar:function(){return"B\xe1nh t\xe1o"},
+gar:function(){return"B\xe1nh ph\xf4 mai"},
+gas:function(){return"Tiramisu"},
+gaq:function(){return"B\xe1nh t\xe1o"},
 gbw:function(){return"B\xe1nh brownie s\xf4-c\xf4-la"},
 ghr:function(){return"Hi\u1ec3n th\u1ecb c\u1ea3nh b\xe1o"},
-gaq:function(){return"M\xc0U \u0110\u1ece"},
+gap:function(){return"M\xc0U \u0110\u1ece"},
 geS:function(){return"M\xc0U H\u1ed2NG"},
 gaD:function(){return"M\xc0U T\xcdM"},
 geN:function(){return"M\xc0U T\xcdM \u0110\u1eacM"},
-gao:function(){return"M\xc0U CH\xc0M"},
+gan:function(){return"M\xc0U CH\xc0M"},
 gaC:function(){return"M\xc0U XANH LAM"},
 geP:function(){return"M\xc0U XANH LAM NH\u1ea0T"},
 gbo:function(){return"M\xc0U XANH L\u01a0"},
 gbp:function(){return"M\xc0U M\xd2NG K\xc9T"},
-gan:function(){return"M\xc0U XANH L\u1ee4C"},
+gam:function(){return"M\xc0U XANH L\u1ee4C"},
 geQ:function(){return"M\xc0U XANH L\u1ee4C NH\u1ea0T"},
 geR:function(){return"M\xc0U V\xc0NG CHANH"},
 geT:function(){return"M\xc0U V\xc0NG"},
 geJ:function(){return"M\xc0U H\u1ed4 PH\xc1CH"},
-gap:function(){return"M\xc0U CAM"},
+gao:function(){return"M\xc0U CAM"},
 geM:function(){return"M\xc0U CAM \u0110\u1eacM"},
 geL:function(){return"M\xc0U N\xc2U"},
 geO:function(){return"M\xc0U X\xc1M"},
@@ -693,8 +693,8 @@ gkE:function(){return"Nhi\u1ec1u nh\xe0 thi\u1ebft k\u1ebf d\xf9ng c\xf4ng ngh\u
 gkF:function(){return"Ch\u1ee7 ngh\u0129a n\u1eef quy\u1ec1n th\xe1ch th\u1ee9c c\xe1c \u0111\u1ea3ng ch\xednh tr\u1ecb"},
 gkD:function(){return"Thi\u1ebfu h\u1ee5t ngu\u1ed3n cung ong nu\xf4i"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(R.wo,X.O)})()
-H.bb(b.typeUniverse,JSON.parse('{"be":"C","bo":"C","bg":"aY","bf":"m","bv":"m","bx":"m","bd":"D","bp":"D","bB":"aW","bh":"M","bt":"M","by":"F","bn":"F","bq":"aU","bA":"aQ","bj":"aX","bm":"aT","bi":"Z","bz":"Z","bu":"b1","bs":"b0","br":"b_","bk":"av","bl":"aR","wo":{"O":[]}}'))
+y(R.wt,X.P)})()
+H.bc(b.typeUniverse,JSON.parse('{"be":"C","bo":"C","bg":"aZ","bf":"m","bv":"m","bw":"m","bd":"D","bp":"D","bA":"aW","bh":"M","bt":"M","bx":"F","bn":"F","bq":"aU","bz":"aQ","bj":"aX","bm":"aT","bi":"Y","by":"Y","bu":"b2","bs":"b0","br":"b_","bk":"av","bl":"aR","wt":{"P":[]}}'))
 0}
-$__dart_deferred_initializers__["czIly5ZN7I/3Q+Hk7tl5o+RMvj4="] = $__dart_deferred_initializers__.current
+$__dart_deferred_initializers__["VQsNlNUtHFH6br15mwsOXri8rjo="] = $__dart_deferred_initializers__.current
 //# sourceMappingURL=main.dart.js_75.part.js.map

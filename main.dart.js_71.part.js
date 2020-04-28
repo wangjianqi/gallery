@@ -1,7 +1,7 @@
 self.$__dart_deferred_initializers__=self.$__dart_deferred_initializers__||Object.create(null)
 $__dart_deferred_initializers__.current=function(a,b,c,$){var C,H,J,P,W,U,Y,L,M,N,R,B,A={
-aZp:function(){return new A.wk(T.ad("tr"))},
-wk:function wk(d){this.a=d}},G,V,S,T,D,Z,E,K,O,Q,X,F
+b_t:function(){return new A.wp(T.ae("tr"))},
+wp:function wp(d){this.a=d}},G,V,S,T,D,Z,E,K,O,Q,X,F
 a.setFunctionNamesIfNecessary([A])
 C=c[0]
 H=c[1]
@@ -28,7 +28,7 @@ O=c[21]
 Q=c[22]
 X=c[23]
 F=c[24]
-A.wk.prototype={
+A.wp.prototype={
 cB:function(d){return d+" GitHub havuzu"},
 e5:function(d){return"Bu uygulaman\u0131n kaynak kodunu g\xf6rmek i\xe7in l\xfctfen "+d+" sayfas\u0131n\u0131 ziyaret edin."},
 ge_:function(){return"OTURUM A\xc7"},
@@ -220,8 +220,8 @@ gaN:function(){return"Lolipop"},
 gaK:function(){return"Bal pete\u011fi"},
 gaG:function(){return"Simit"},
 gaE:function(){return"Elmal\u0131 turta"},
-ad:function(d){return"\u015eekerli "+d},
-ac:function(d){return"Ball\u0131 "+d},
+ac:function(d){return"\u015eekerli "+d},
+ab:function(d){return"Ball\u0131 "+d},
 giM:function(){return"\u0130leti\u015fim kutular\u0131"},
 giL:function(){return"Basit, uyar\u0131 ve tam ekran"},
 gbD:function(){return"Uyar\u0131"},
@@ -254,7 +254,7 @@ gjr:function(){return"B\xf6l\xfcmlere ayr\u0131lm\u0131\u015f men\xfc"},
 gjy:function(){return"Basit men\xfc"},
 ghZ:function(){return"Liste men\xfc"},
 gjd:function(){return"Men\xfc d\xfc\u011fmeleri ve basit men\xfcler"},
-gav:function(){return"Men\xfc, ge\xe7ici bir y\xfczeyde se\xe7enekler listesini g\xf6r\xfcnt\xfcler. Men\xfcler, kullan\u0131c\u0131lar bir d\xfc\u011fme, i\u015flem veya ba\u015fka bir kontrolle etkile\u015fimde bulundu\u011funda g\xf6r\xfcn\xfcr."},
+gau:function(){return"Men\xfc, ge\xe7ici bir y\xfczeyde se\xe7enekler listesini g\xf6r\xfcnt\xfcler. Men\xfcler, kullan\u0131c\u0131lar bir d\xfc\u011fme, i\u015flem veya ba\u015fka bir kontrolle etkile\u015fimde bulundu\u011funda g\xf6r\xfcn\xfcr."},
 gj9:function(){return"Men\xfc \xf6\u011fesi bir"},
 gjb:function(){return"Men\xfc \xf6\u011fesi iki"},
 gja:function(){return"Men\xfc \xf6\u011fesi \xfc\xe7"},
@@ -286,7 +286,7 @@ gih:function(){return"iOS tarz\u0131 d\xfc\u011fme. Dokunuldu\u011funda rengi a\
 gig:function(){return"Uyar\u0131lar"},
 gie:function(){return"iOS tarz\u0131 uyar\u0131 ileti\u015fim kutular\u0131"},
 gbR:function(){return"Uyar\u0131"},
-gau:function(){return"Uyar\u0131 ileti\u015fim kutusu, kullan\u0131c\u0131y\u0131 onay gerektiren durumlar hakk\u0131nda bilgilendirir. Uyar\u0131 ileti\u015fim kutusunun iste\u011fe ba\u011fl\u0131 ba\u015fl\u0131\u011f\u0131, iste\u011fe ba\u011fl\u0131 i\xe7eri\u011fi ve iste\u011fe ba\u011fl\u0131 i\u015flemler listesi vard\u0131r. Ba\u015fl\u0131k i\xe7eri\u011fin \xfczerinde g\xf6r\xfcnt\xfclenir ve i\u015flemler i\xe7eri\u011fin alt\u0131nda g\xf6r\xfcnt\xfclenir."},
+gat:function(){return"Uyar\u0131 ileti\u015fim kutusu, kullan\u0131c\u0131y\u0131 onay gerektiren durumlar hakk\u0131nda bilgilendirir. Uyar\u0131 ileti\u015fim kutusunun iste\u011fe ba\u011fl\u0131 ba\u015fl\u0131\u011f\u0131, iste\u011fe ba\u011fl\u0131 i\xe7eri\u011fi ve iste\u011fe ba\u011fl\u0131 i\u015flemler listesi vard\u0131r. Ba\u015fl\u0131k i\xe7eri\u011fin \xfczerinde g\xf6r\xfcnt\xfclenir ve i\u015flemler i\xe7eri\u011fin alt\u0131nda g\xf6r\xfcnt\xfclenir."},
 gbS:function(){return"Ba\u015fl\u0131kl\u0131 Uyar\u0131"},
 gbQ:function(){return"D\xfc\u011fmeli Uyar\u0131"},
 gbP:function(){return"Yaln\u0131zca Uyar\u0131 D\xfc\u011fmeleri"},
@@ -336,7 +336,7 @@ ghH:function(){return"Kayd\u0131rma, yak\u0131nla\u015ft\u0131rma, d\xf6nd\xfcrm
 ghE:function(){return"Bloklar\u0131 d\xfczenlemek i\xe7in dokunun ve sahnede farkl\u0131 yerlere ta\u015f\u0131mak i\xe7in hareketleri kullan\u0131n. Kayd\u0131rmak i\xe7in s\xfcr\xfckleyin, yak\u0131nla\u015ft\u0131rmak i\xe7in s\u0131k\u0131\u015ft\u0131r\u0131n, iki parma\u011f\u0131n\u0131zla d\xf6nd\xfcr\xfcn. Ba\u015flang\u0131\xe7 y\xf6n\xfcne geri d\xf6nd\xfcrmek i\xe7in s\u0131f\u0131rlama d\xfc\u011fmesine bas\u0131n."},
 ghG:function(){return"D\xf6n\xfc\u015f\xfcmleri s\u0131f\u0131rla"},
 ghF:function(){return"Blo\u011fu d\xfczenle"},
-gaf:function(){return"D\xdc\u011eME"},
+gag:function(){return"D\xdc\u011eME"},
 ghU:function(){return"Alt sayfa"},
 ghT:function(){return"S\xfcrekli ve kal\u0131c\u0131 alt sayfalar"},
 gbL:function(){return"S\xfcrekli g\xf6r\xfcnt\xfclenen alt sayfa"},
@@ -384,7 +384,7 @@ gcd:function(){return"Onay Kutusu"},
 gjs:function(){return"Onay kutular\u0131, kullan\u0131c\u0131ya bir dizi se\xe7enek aras\u0131ndan birden fazlas\u0131n\u0131 belirlemesine olanak sa\u011flar. Normal bir onay kutusunun de\u011feri true (do\u011fru) veya false (yanl\u0131\u015f) olur. \xdc\xe7 durumlu onay kutusunun de\u011feri bo\u015f da olabilir."},
 gce:function(){return"Radyo d\xfc\u011fmesi"},
 gjt:function(){return"Radyo d\xfc\u011fmeleri, kullan\u0131c\u0131n\u0131n bir dizi se\xe7enek aras\u0131ndan birini belirlemesine olanak sa\u011flar. Kullan\u0131c\u0131n\u0131n t\xfcm mevcut se\xe7enekleri yan yana g\xf6rmesi gerekti\u011fini d\xfc\u015f\xfcn\xfcyorsan\u0131z \xf6zel se\xe7im i\xe7in radyo d\xfc\u011fmelerini kullan\u0131n."},
-gae:function(){return"Anahtar"},
+gaf:function(){return"Anahtar"},
 gjv:function(){return"A\xe7\u0131k/kapal\u0131 anahtarlar\u0131, tek bir ayarlar se\xe7ene\u011finin durumunu a\xe7ar veya kapat\u0131r. Anahtar\u0131n kontrol etti\u011fi se\xe7ene\u011fin yan\u0131 s\u0131ra se\xe7ene\u011fin bulundu\u011fu durum, kar\u015f\u0131l\u0131k gelen sat\u0131r i\xe7i etikette a\xe7\u0131k\xe7a belirtilmelidir."},
 gb7:function(){return"Metin-alanlar\u0131"},
 gkb:function(){return"Tek sat\u0131r d\xfczenlenebilir metin ve say\u0131lar"},
@@ -449,7 +449,7 @@ gkv:function(){return"KAYDET"},
 gku:function(){return"Tam ekran ileti\u015fim kutusu demosu"},
 ghp:function(){return"D\xfc\u011fme"},
 ghq:function(){return"Arka Plan\u0131 Olan"},
-gag:function(){return"\u0130ptal"},
+gah:function(){return"\u0130ptal"},
 gby:function(){return"Sil"},
 gho:function(){return'Uygulamay\u0131 kullan\u0131rken "Haritalar"\u0131n konumunuza eri\u015fmesine izin verilsin mi?'},
 ghn:function(){return"Ge\xe7erli konumunuz haritada g\xf6sterilecek, yol tarifleri, yak\u0131ndaki arama sonu\xe7lar\u0131 ve tahmini seyahat s\xfcreleri i\xe7in kullan\u0131lacak."},
@@ -457,26 +457,26 @@ gbv:function(){return"\u0130zin ver"},
 gbz:function(){return"\u0130zin Verme"},
 gbA:function(){return"Select Favorite Dessert"},
 gbx:function(){return"L\xfctfen a\u015fa\u011f\u0131daki listeden en sevdi\u011finiz tatl\u0131 t\xfcr\xfcn\xfc se\xe7in. Se\xe7iminiz, b\xf6lgenizdeki \xf6nerilen restoranlar listesini \xf6zelle\u015ftirmek i\xe7in kullan\u0131lacak."},
-gas:function(){return"Cheesecake"},
-gat:function(){return"Tiramisu"},
-gar:function(){return"Elmal\u0131 Turta"},
+gar:function(){return"Cheesecake"},
+gas:function(){return"Tiramisu"},
+gaq:function(){return"Elmal\u0131 Turta"},
 gbw:function(){return"\xc7ikolatal\u0131 Browni"},
 ghr:function(){return"Uyar\u0131y\u0131 G\xf6ster"},
-gaq:function(){return"KIRMIZI"},
+gap:function(){return"KIRMIZI"},
 geS:function(){return"PEMBE"},
 gaD:function(){return"MOR"},
 geN:function(){return"KOYU MOR"},
-gao:function(){return"\xc7\u0130V\u0130T MAV\u0130S\u0130"},
+gan:function(){return"\xc7\u0130V\u0130T MAV\u0130S\u0130"},
 gaC:function(){return"MAV\u0130"},
 geP:function(){return"A\xc7IK MAV\u0130"},
 gbo:function(){return"CAMG\xd6BE\u011e\u0130"},
 gbp:function(){return"TURKUAZ"},
-gan:function(){return"YE\u015e\u0130L"},
+gam:function(){return"YE\u015e\u0130L"},
 geQ:function(){return"A\xc7IK YE\u015e\u0130L"},
 geR:function(){return"K\xdcF YE\u015e\u0130L\u0130"},
 geT:function(){return"SARI"},
 geJ:function(){return"KEHR\u0130BAR RENNG\u0130"},
-gap:function(){return"TURUNCU"},
+gao:function(){return"TURUNCU"},
 geM:function(){return"KOYU TURUNCU"},
 geL:function(){return"KAHVERENG\u0130"},
 geO:function(){return"GR\u0130"},
@@ -693,8 +693,8 @@ gkE:function(){return"Tasar\u0131mc\u0131lar Modern Fabrikalar \u0130n\u015fa Et
 gkF:function(){return"Partizanl\u0131kta Feministler \xd6ne \xc7\u0131k\u0131yor"},
 gkD:function(){return"\xc7iftlik Ar\u0131lar\u0131nda Azalma"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.wk,X.O)})()
-H.bb(b.typeUniverse,JSON.parse('{"be":"C","bo":"C","bg":"aY","bf":"m","bv":"m","bx":"m","bd":"D","bp":"D","bB":"aW","bh":"M","bt":"M","by":"F","bn":"F","bq":"aU","bA":"aQ","bj":"aX","bm":"aT","bi":"Z","bz":"Z","bu":"b1","bs":"b0","br":"b_","bk":"av","bl":"aR","wk":{"O":[]}}'))
+y(A.wp,X.P)})()
+H.bc(b.typeUniverse,JSON.parse('{"be":"C","bo":"C","bg":"aZ","bf":"m","bv":"m","bw":"m","bd":"D","bp":"D","bA":"aW","bh":"M","bt":"M","bx":"F","bn":"F","bq":"aU","bz":"aQ","bj":"aX","bm":"aT","bi":"Y","by":"Y","bu":"b2","bs":"b0","br":"b_","bk":"av","bl":"aR","wp":{"P":[]}}'))
 0}
-$__dart_deferred_initializers__["gFZuBxZQ58PKljcFjUfjIEM0gC0="] = $__dart_deferred_initializers__.current
+$__dart_deferred_initializers__["kM7NlQhRfY2+qJv9OfSFgYTs+hY="] = $__dart_deferred_initializers__.current
 //# sourceMappingURL=main.dart.js_71.part.js.map

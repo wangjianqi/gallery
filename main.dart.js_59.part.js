@@ -1,7 +1,7 @@
 self.$__dart_deferred_initializers__=self.$__dart_deferred_initializers__||Object.create(null)
 $__dart_deferred_initializers__.current=function(a,b,c,$){var C,H,J,P,W,U,Y,L,M,N,R,B,A,G,V,S,T,D,Z,E,K,O={
-aZb:function(){return new O.w7(T.ad("ro"))},
-w7:function w7(d){this.a=d}},Q,X,F
+b_f:function(){return new O.wc(T.ae("ro"))},
+wc:function wc(d){this.a=d}},Q,X,F
 a.setFunctionNamesIfNecessary([O])
 C=c[0]
 H=c[1]
@@ -28,7 +28,7 @@ O=a.updateHolder(c[21],O)
 Q=c[22]
 X=c[23]
 F=c[24]
-O.w7.prototype={
+O.wc.prototype={
 cB:function(d){return"Directorul GitHub "+d},
 e5:function(d){return"Ca s\u0103 vede\u021bi codul surs\u0103 al acestei aplica\u021bii, accesa\u021bi "+d+"."},
 ge_:function(){return"CONECTA\u021aI-V\u0102"},
@@ -220,8 +220,8 @@ gaN:function(){return"Acadea"},
 gaK:function(){return"Fagure de miere"},
 gaG:function(){return"Gogoa\u0219\u0103"},
 gaE:function(){return"Pl\u0103cint\u0103 cu mere"},
-ad:function(d){return d+" cu zah\u0103r"},
-ac:function(d){return d+" cu miere"},
+ac:function(d){return d+" cu zah\u0103r"},
+ab:function(d){return d+" cu miere"},
 giM:function(){return"Casete de dialog"},
 giL:function(){return"Simple, pentru alerte \u0219i pe ecran complet"},
 gbD:function(){return"Alert\u0103"},
@@ -254,7 +254,7 @@ gjr:function(){return"Meniu cu sec\u021biuni"},
 gjy:function(){return"Meniu simplu"},
 ghZ:function(){return"Meniu cu list\u0103 de verificare"},
 gjd:function(){return"Butoane de meniu \u0219i meniuri simple"},
-gav:function(){return"Meniul afi\u0219eaz\u0103 o list\u0103 de op\u021biuni pe o suprafa\u021b\u0103 temporar\u0103. Acestea apar atunci c\xe2nd utilizatorii interac\u021bioneaz\u0103 cu un buton, o ac\u021biune sau alt\u0103 comand\u0103."},
+gau:function(){return"Meniul afi\u0219eaz\u0103 o list\u0103 de op\u021biuni pe o suprafa\u021b\u0103 temporar\u0103. Acestea apar atunci c\xe2nd utilizatorii interac\u021bioneaz\u0103 cu un buton, o ac\u021biune sau alt\u0103 comand\u0103."},
 gj9:function(){return"Elementul de meniu unu"},
 gjb:function(){return"Elementul de meniu doi"},
 gja:function(){return"Elementul de meniu trei"},
@@ -286,7 +286,7 @@ gih:function(){return"Buton \xeen stil iOS. Preia text \u0219i/sau o pictogram\u
 gig:function(){return"Alerte"},
 gie:function(){return"Casete de dialog pentru alerte \xeen stil iOS"},
 gbR:function(){return"Alert\u0103"},
-gau:function(){return"Caseta de dialog pentru alerte informeaz\u0103 utilizatorul despre situa\u021bii care necesit\u0103 confirmare. Caseta de dialog pentru alerte are un titlu op\u021bional, con\u021binut op\u021bional \u0219i o list\u0103 de ac\u021biuni op\u021bional\u0103. Titlul este afi\u0219at deasupra con\u021binutului, iar ac\u021biunile sub con\u021binut."},
+gat:function(){return"Caseta de dialog pentru alerte informeaz\u0103 utilizatorul despre situa\u021bii care necesit\u0103 confirmare. Caseta de dialog pentru alerte are un titlu op\u021bional, con\u021binut op\u021bional \u0219i o list\u0103 de ac\u021biuni op\u021bional\u0103. Titlul este afi\u0219at deasupra con\u021binutului, iar ac\u021biunile sub con\u021binut."},
 gbS:function(){return"Alert\u0103 cu titlu"},
 gbQ:function(){return"Alert\u0103 cu butoane"},
 gbP:function(){return"Doar butoane pentru alerte"},
@@ -336,7 +336,7 @@ ghH:function(){return"Deplasa\u021bi, m\u0103ri\u021bi/mic\u0219ora\u021bi, roti
 ghE:function(){return"Atinge\u021bi pentru a edita filele \u0219i folosi\u021bi gesturi pentru a deplasa cadrul. Trage\u021bi pentru a deplasa, ciupi\u021bi pentru a m\u0103ri sau mic\u0219ora, roti\u021bi cu dou\u0103 degete. Ap\u0103sa\u021bi butonul de resetare pentru a reveni la orientarea ini\u021bial\u0103."},
 ghG:function(){return"Reseta\u021bi transform\u0103rile"},
 ghF:function(){return"Edita\u021bi fila"},
-gaf:function(){return"BUTON"},
+gag:function(){return"BUTON"},
 ghU:function(){return"Foaia din partea de jos"},
 ghT:function(){return"Foile persistente \u0219i modale din partea de jos"},
 gbL:function(){return"Foaia persistent\u0103 din partea de jos"},
@@ -384,7 +384,7 @@ gcd:function(){return"Caset\u0103 de selectare"},
 gjs:function(){return"Cu ajutorul casetelor de selectare, utilizatorii pot s\u0103 aleag\u0103 mai multe op\u021biuni dintr-un set. Valoarea normal\u0103 a unei casete este true sau false. O caset\u0103 cu trei st\u0103ri poate avea \u0219i valoarea null."},
 gce:function(){return"Radio"},
 gjt:function(){return"Cu ajutorul butoanelor radio, utilizatorul poate s\u0103 selecteze o singur\u0103 op\u021biune dintr-un set. Folosi\u021bi-le pentru select\u0103ri exclusive dac\u0103 crede\u021bi c\u0103 utilizatorul trebuie s\u0103 vad\u0103 toate op\u021biunile disponibile al\u0103turate."},
-gae:function(){return"Comutatoare"},
+gaf:function(){return"Comutatoare"},
 gjv:function(){return"Comutatoarele activat/dezactivat schimb\u0103 starea unei op\u021biuni pentru set\u0103ri. Op\u021biunea controlat\u0103 de comutator \u0219i starea acesteia trebuie s\u0103 fie indicate clar de eticheta inline corespunz\u0103toare."},
 gb7:function(){return"C\xe2mpuri de text"},
 gkb:function(){return"Un singur r\xe2nd de text \u0219i cifre editabile"},
@@ -449,7 +449,7 @@ gkv:function(){return"SALVA\u021aI"},
 gku:function(){return"Exemplu de caset\u0103 de dialog pe ecran complet"},
 ghp:function(){return"Buton"},
 ghq:function(){return"Cu fundal"},
-gag:function(){return"Anula\u021bi"},
+gah:function(){return"Anula\u021bi"},
 gby:function(){return"Renun\u021ba\u021bi"},
 gho:function(){return"Permite\u021bi ca Maps s\u0103 v\u0103 acceseze loca\u021bia c\xe2nd folosi\u021bi aplica\u021bia?"},
 ghn:function(){return"Loca\u021bia dvs. actual\u0103 va fi afi\u0219at\u0103 pe hart\u0103 \u0219i folosit\u0103 pentru indica\u021bii de orientare, rezultate ale c\u0103ut\u0103rii din apropiere \u0219i duratele de c\u0103l\u0103torie estimate."},
@@ -457,26 +457,26 @@ gbv:function(){return"Permite\u021bi"},
 gbz:function(){return"Nu permite\u021bi"},
 gbA:function(){return"Alege\u021bi desertul preferat"},
 gbx:function(){return"Alege\u021bi desertul preferat din lista de mai jos. Op\u021biunea va fi folosit\u0103 pentru a personaliza lista de restaurante sugerate din zona dvs."},
-gas:function(){return"Cheesecake"},
-gat:function(){return"Tiramisu"},
-gar:function(){return"Pl\u0103cint\u0103 cu mere"},
+gar:function(){return"Cheesecake"},
+gas:function(){return"Tiramisu"},
+gaq:function(){return"Pl\u0103cint\u0103 cu mere"},
 gbw:function(){return"Negres\u0103 cu ciocolat\u0103"},
 ghr:function(){return"Afi\u0219eaz\u0103 alerta"},
-gaq:function(){return"RO\u0218U"},
+gap:function(){return"RO\u0218U"},
 geS:function(){return"ROZ"},
 gaD:function(){return"MOV"},
 geN:function(){return"MOV INTENS"},
-gao:function(){return"INDIGO"},
+gan:function(){return"INDIGO"},
 gaC:function(){return"ALBASTRU"},
 geP:function(){return"ALBASTRU DESCHIS"},
 gbo:function(){return"CYAN"},
 gbp:function(){return"TURCOAZ"},
-gan:function(){return"VERDE"},
+gam:function(){return"VERDE"},
 geQ:function(){return"VERDE DESCHIS"},
 geR:function(){return"VERDE DESCHIS"},
 geT:function(){return"GALBEN"},
 geJ:function(){return"CHIHLIMBAR"},
-gap:function(){return"PORTOCALIU"},
+gao:function(){return"PORTOCALIU"},
 geM:function(){return"PORTOCALIU INTENS"},
 geL:function(){return"MARO"},
 geO:function(){return"GRI"},
@@ -692,8 +692,8 @@ gkE:function(){return"Designerii creeaz\u0103 materiale futuriste cu ajutorul te
 gkF:function(){return"Feministele devin partizane"},
 gkD:function(){return"Num\u0103rul albinelor este \xeen sc\u0103dere"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(O.w7,X.O)})()
-H.bb(b.typeUniverse,JSON.parse('{"be":"C","bo":"C","bg":"aY","bf":"m","bv":"m","bx":"m","bd":"D","bp":"D","bB":"aW","bh":"M","bt":"M","by":"F","bn":"F","bq":"aU","bA":"aQ","bj":"aX","bm":"aT","bi":"Z","bz":"Z","bu":"b1","bs":"b0","br":"b_","bk":"av","bl":"aR","w7":{"O":[]}}'))
+y(O.wc,X.P)})()
+H.bc(b.typeUniverse,JSON.parse('{"be":"C","bo":"C","bg":"aZ","bf":"m","bv":"m","bw":"m","bd":"D","bp":"D","bA":"aW","bh":"M","bt":"M","bx":"F","bn":"F","bq":"aU","bz":"aQ","bj":"aX","bm":"aT","bi":"Y","by":"Y","bu":"b2","bs":"b0","br":"b_","bk":"av","bl":"aR","wc":{"P":[]}}'))
 0}
-$__dart_deferred_initializers__["O1aC7eg/ivys5SNpCPi8H20ZhGE="] = $__dart_deferred_initializers__.current
+$__dart_deferred_initializers__["zVX4mCv2bQLstE8ZQCprcImyQq8="] = $__dart_deferred_initializers__.current
 //# sourceMappingURL=main.dart.js_59.part.js.map

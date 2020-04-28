@@ -1,7 +1,7 @@
 self.$__dart_deferred_initializers__=self.$__dart_deferred_initializers__||Object.create(null)
 $__dart_deferred_initializers__.current=function(a,b,c,$){var C,H,J,P,W,U={
-aZk:function(){return new U.wf(T.ad("sw"))},
-wf:function wf(d){this.a=d}},Y,L,M,N,R,B,A,G,V,S,T,D,Z,E,K,O,Q,X,F
+b_o:function(){return new U.wk(T.ae("sw"))},
+wk:function wk(d){this.a=d}},Y,L,M,N,R,B,A,G,V,S,T,D,Z,E,K,O,Q,X,F
 a.setFunctionNamesIfNecessary([U])
 C=c[0]
 H=c[1]
@@ -28,7 +28,7 @@ O=c[21]
 Q=c[22]
 X=c[23]
 F=c[24]
-U.wf.prototype={
+U.wk.prototype={
 cB:function(d){return d+" Hazina ya GitHub"},
 e5:function(d){return"Ili uangalie msimbo wa programu hii, tafadhali tembelea "+d+"."},
 ge_:function(){return"INGIA KATIKA AKAUNTI"},
@@ -220,8 +220,8 @@ gaN:function(){return"Lollipop"},
 gaK:function(){return"Honeycomb"},
 gaG:function(){return"Donut"},
 gaE:function(){return"Apple pie"},
-ad:function(d){return d+" yenye sukari"},
-ac:function(d){return d+" yenye asali"},
+ac:function(d){return d+" yenye sukari"},
+ab:function(d){return d+" yenye asali"},
 giM:function(){return"Vidirisha"},
 giL:function(){return"Rahisi, arifa na skrini nzima"},
 gbD:function(){return"Arifa"},
@@ -254,7 +254,7 @@ gjr:function(){return"Menyu yenye vijisehemu"},
 gjy:function(){return"Menyu sahili"},
 ghZ:function(){return"Menyu ya orodha hakikishi"},
 gjd:function(){return"Vitufe vya menyu na menyu sahili"},
-gav:function(){return"Menyu huonyesha orodha ya chaguo kwenye sehemu ya muda mfupi. Huonekana watumiaji wanapotumia kitufe, kitendo au kidhibiti kingine."},
+gau:function(){return"Menyu huonyesha orodha ya chaguo kwenye sehemu ya muda mfupi. Huonekana watumiaji wanapotumia kitufe, kitendo au kidhibiti kingine."},
 gj9:function(){return"Kipengee cha kwanza cha menyu"},
 gjb:function(){return"Kipengee cha pili cha menyu"},
 gja:function(){return"Kipengee cha tatu cha menyu"},
@@ -286,7 +286,7 @@ gih:function(){return"Kitufe cha muundo wa iOS. Huchukua maandishi na/au aikoni 
 gig:function(){return"Arifa"},
 gie:function(){return"Vidirisha vya arifa vya muundo wa iOS."},
 gbR:function(){return"Arifa"},
-gau:function(){return"Kidirisha cha arifa humjulisha mtumiaji kuhusu hali zinazohitaji uthibitisho. Kidirisha cha arifa kina kichwa kisicho cha lazima, maudhui yasiyo ya lazima na orodha isiyo ya lazima ya vitendo. Kichwa huonyeshwa juu ya maudhui na vitendo huonyeshwa chini ya maudhui."},
+gat:function(){return"Kidirisha cha arifa humjulisha mtumiaji kuhusu hali zinazohitaji uthibitisho. Kidirisha cha arifa kina kichwa kisicho cha lazima, maudhui yasiyo ya lazima na orodha isiyo ya lazima ya vitendo. Kichwa huonyeshwa juu ya maudhui na vitendo huonyeshwa chini ya maudhui."},
 gbS:function(){return"Arifa Yenye Kichwa"},
 gbQ:function(){return"Arifa Zenye Vitufe"},
 gbP:function(){return"Vitufe vya Arifa Pekee"},
@@ -336,7 +336,7 @@ ghH:function(){return"Geuza upande, kuza, zungusha"},
 ghE:function(){return"Gusa ili ubadilishe vigae na utumie ishara kusogea hapa na pale kwenye tukio. Buruta ili ugeuze upande, bana ili ukuze, zungusha ukitumia vidole viwili. Bonyeza kitufe cha kuweka upya ili urejeshe kwenye mkao wa kuanza."},
 ghG:function(){return"Weka upya ubadilishaji"},
 ghF:function(){return"Badilisha kigae"},
-gaf:function(){return"KITUFE"},
+gag:function(){return"KITUFE"},
 ghU:function(){return"Laha ya chini"},
 ghT:function(){return"Laha za kawaida na endelevu za chini"},
 gbL:function(){return"Laha endelevu ya chini"},
@@ -384,7 +384,7 @@ gcd:function(){return"Kisanduku cha kuteua"},
 gjs:function(){return"Visanduku vya kuteua humruhusu mtumiaji kuteua chaguo nyingi kwenye seti. Thamani ya kawaida ya kisanduku cha kuteua ni ndivyo au saivyo na thamani ya hali tatu ya kisanduku cha kuteua pia inaweza kuwa batili."},
 gce:function(){return"Redio"},
 gjt:function(){return"Vitufe vya mviringo humruhusu mtumiaji kuteua chaguo moja kwenye seti. Tumia vitufe vya mviringo kwa uteuzi wa kipekee ikiwa unafikiri kuwa mtumiaji anahitaji kuona chaguo zote upande kwa upande."},
-gae:function(){return"Swichi"},
+gaf:function(){return"Swichi"},
 gjv:function(){return"Swichi za kuwasha/kuzima hugeuza hali ya chaguo moja la mipangilio. Chaguo ambalo swichi inadhibiti na pia hali ambayo chaguo hilo limo inafaa kubainishwa wazi kwenye lebo inayolingana na maandishi."},
 gb7:function(){return"Sehemu za maandishi"},
 gkb:function(){return"Mstari mmoja wa maandishi na nambari zinazoweza kubadilishwa"},
@@ -449,7 +449,7 @@ gkv:function(){return"HIFADHI"},
 gku:function(){return"Onyesho la kidirisha cha skrini nzima"},
 ghp:function(){return"Kitufe"},
 ghq:function(){return"Na Mandharinyuma"},
-gag:function(){return"Ghairi"},
+gah:function(){return"Ghairi"},
 gby:function(){return"Ondoa"},
 gho:function(){return'Ungependa kuruhusu "Ramani" zifikie maelezo ya mahali ulipo unapotumia programu?'},
 ghn:function(){return"Mahali ulipo sasa pataonyeshwa kwenye ramani na kutumiwa kwa maelekezo, matokeo ya utafutaji wa karibu na muda uliokadiriwa wa kusafiri."},
@@ -457,26 +457,26 @@ gbv:function(){return"Ruhusu"},
 gbz:function(){return"Usiruhusu"},
 gbA:function(){return"Chagua Kitindamlo Unachopenda"},
 gbx:function(){return"Tafadhali chagua aina unayoipenda ya kitindamlo kwenye orodha iliyo hapa chini. Uteuzi wako utatumiwa kuweka mapendeleo kwenye orodha iliyopendekezwa ya mikahawa katika eneo lako."},
-gas:function(){return"Keki ya jibini"},
-gat:function(){return"Tiramisu"},
-gar:function(){return"Mkate wa Tufaha"},
+gar:function(){return"Keki ya jibini"},
+gas:function(){return"Tiramisu"},
+gaq:function(){return"Mkate wa Tufaha"},
 gbw:function(){return"Keki ya Chokoleti"},
 ghr:function(){return"Onyesha Arifa"},
-gaq:function(){return"NYEKUNDU"},
+gap:function(){return"NYEKUNDU"},
 geS:function(){return"WARIDI"},
 gaD:function(){return"ZAMBARAU"},
 geN:function(){return"ZAMBARAU ILIYOKOLEA"},
-gao:function(){return"NILI"},
+gan:function(){return"NILI"},
 gaC:function(){return"SAMAWATI"},
 geP:function(){return"SAMAWATI ISIYOKOLEA"},
 gbo:function(){return"SAMAWATI-KIJANI"},
 gbp:function(){return"SAMAWATI YA KIJANI"},
-gan:function(){return"KIJANI"},
+gam:function(){return"KIJANI"},
 geQ:function(){return"KIJANI KISICHOKOLEA"},
 geR:function(){return"RANGI YA NDIMU"},
 geT:function(){return"MANJANO"},
 geJ:function(){return"KAHARABU"},
-gap:function(){return"RANGI YA MACHUNGWA"},
+gao:function(){return"RANGI YA MACHUNGWA"},
 geM:function(){return"RANGI YA MACHUNGWA ILIYOKOLEA"},
 geL:function(){return"HUDHURUNGI"},
 geO:function(){return"KIJIVU"},
@@ -693,8 +693,8 @@ gkE:function(){return"Wanamitindo Wanatumia Teknolojia Kutengeneza Vitambaa vya 
 gkF:function(){return"Watetezi wa Nadharia ya Haki na Usawa wa Wanawake Wanavyopambana na Ubaguzi"},
 gkD:function(){return"Upungufu wa Nyuki wa Shambani"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(U.wf,X.O)})()
-H.bb(b.typeUniverse,JSON.parse('{"be":"C","bo":"C","bg":"aY","bf":"m","bv":"m","bx":"m","bd":"D","bp":"D","bB":"aW","bh":"M","bt":"M","by":"F","bn":"F","bq":"aU","bA":"aQ","bj":"aX","bm":"aT","bi":"Z","bz":"Z","bu":"b1","bs":"b0","br":"b_","bk":"av","bl":"aR","wf":{"O":[]}}'))
+y(U.wk,X.P)})()
+H.bc(b.typeUniverse,JSON.parse('{"be":"C","bo":"C","bg":"aZ","bf":"m","bv":"m","bw":"m","bd":"D","bp":"D","bA":"aW","bh":"M","bt":"M","bx":"F","bn":"F","bq":"aU","bz":"aQ","bj":"aX","bm":"aT","bi":"Y","by":"Y","bu":"b2","bs":"b0","br":"b_","bk":"av","bl":"aR","wk":{"P":[]}}'))
 0}
-$__dart_deferred_initializers__["dS+QaoMvfkfwG1I2SDSZR5k782E="] = $__dart_deferred_initializers__.current
+$__dart_deferred_initializers__["OLBUPQnzkVpaS9MLGGF5WgKVUTI="] = $__dart_deferred_initializers__.current
 //# sourceMappingURL=main.dart.js_66.part.js.map

@@ -1,7 +1,7 @@
 self.$__dart_deferred_initializers__=self.$__dart_deferred_initializers__||Object.create(null)
 $__dart_deferred_initializers__.current=function(a,b,c,$){var C,H,J,P,W,U,Y,L,M,N,R,B,A={
-aYu:function(){return new A.vs(T.ad("et"))},
-vs:function vs(d){this.a=d}},G,V,S,T,D,Z,E,K,O,Q,X,F
+aZy:function(){return new A.vx(T.ae("et"))},
+vx:function vx(d){this.a=d}},G,V,S,T,D,Z,E,K,O,Q,X,F
 a.setFunctionNamesIfNecessary([A])
 C=c[0]
 H=c[1]
@@ -28,7 +28,7 @@ O=c[21]
 Q=c[22]
 X=c[23]
 F=c[24]
-A.vs.prototype={
+A.vx.prototype={
 cB:function(d){return d+" GitHubi andmehoidla"},
 e5:function(d){return"Selle rakenduse l\xe4htekoodi n\xe4gemiseks vaadake siia: "+d+"."},
 ge_:function(){return"LOGI SISSE"},
@@ -220,8 +220,8 @@ gaN:function(){return"Pulgakomm"},
 gaK:function(){return"K\xe4rjekomm"},
 gaG:function(){return"S\xf5\xf5rik"},
 gaE:function(){return"\xd5unakook"},
-ad:function(d){return d+" koos suhkruga"},
-ac:function(d){return d+" koos meega"},
+ac:function(d){return d+" koos suhkruga"},
+ab:function(d){return d+" koos meega"},
 giM:function(){return"Dialoogid"},
 giL:function(){return"Lihtne, hoiatus ja t\xe4isekraan"},
 gbD:function(){return"Hoiatus"},
@@ -254,7 +254,7 @@ gjr:function(){return"Jaotistega men\xfc\xfc"},
 gjy:function(){return"Lihtne men\xfc\xfc"},
 ghZ:function(){return"Kontroll-lehe men\xfc\xfc"},
 gjd:function(){return"Men\xfc\xfcnupud ja lihtsad men\xfc\xfcd"},
-gav:function(){return"Men\xfc\xfc kuvab ajutisel pinnal valikute loendi. Need kuvatakse siis, kui kasutajad nuppe, toiminguid v\xf5i muid juhtelemente kasutavad."},
+gau:function(){return"Men\xfc\xfc kuvab ajutisel pinnal valikute loendi. Need kuvatakse siis, kui kasutajad nuppe, toiminguid v\xf5i muid juhtelemente kasutavad."},
 gj9:function(){return"Men\xfc\xfc-\xfcksus 1"},
 gjb:function(){return"Men\xfc\xfc-\xfcksus 2"},
 gja:function(){return"Men\xfc\xfc-\xfcksus 3"},
@@ -286,7 +286,7 @@ gih:function(){return"iOS-i stiilis nupp. See t\xf5mbab sisse teksti ja/v\xf5i i
 gig:function(){return"Hoiatused"},
 gie:function(){return"iOS-i stiilis teatisedialoogid"},
 gbR:function(){return"M\xe4rguanne"},
-gau:function(){return"Hoiatusdialoog teavitab kasutajat olukordadest, mis n\xf5uavad t\xe4helepanu. Hoiatusdialoogil on valikuline pealkiri, valikuline sisu ja valikuline toimingute loend. Pealkiri kuvatakse sisu kohal ja toimingud sisu all."},
+gat:function(){return"Hoiatusdialoog teavitab kasutajat olukordadest, mis n\xf5uavad t\xe4helepanu. Hoiatusdialoogil on valikuline pealkiri, valikuline sisu ja valikuline toimingute loend. Pealkiri kuvatakse sisu kohal ja toimingud sisu all."},
 gbS:function(){return"Hoiatus koos pealkirjaga"},
 gbQ:function(){return"Hoiatus koos nuppudega"},
 gbP:function(){return"Ainult hoiatusnupud"},
@@ -336,7 +336,7 @@ ghH:function(){return"Paanimine, suumimine, p\xf6\xf6ramine"},
 ghE:function(){return"Puudutage paanide muutmiseks ja kasutage stseenis liikumiseks liigutusi. Lohistage paanimiseks, liigutage s\xf5rmi suumimiseks kokku-lahku, p\xf6\xf6rake kahe s\xf5rmega. Algsesse suunda naasmiseks vajutage l\xe4htestusnuppu."},
 ghG:function(){return"Teisendamiste l\xe4htestamine"},
 ghF:function(){return"Paani muutmine"},
-gaf:function(){return"NUPP"},
+gag:function(){return"NUPP"},
 ghU:function(){return"Alumine leht"},
 ghT:function(){return"P\xfcsivad ja modaalsed alumised lehed"},
 gbL:function(){return"P\xfcsiv alumine leht"},
@@ -384,7 +384,7 @@ gcd:function(){return"M\xe4rkeruut"},
 gjs:function(){return"M\xe4rkeruudud v\xf5imaldavad kasutajal teha komplektis mitu valikut. Tavap\xe4rane m\xe4rkeruudu v\xe4\xe4rtus on T\xf5ene v\xf5i V\xe4\xe4r. Kolme valikuga m\xe4rkeruudu \xfcks v\xe4\xe4rtustest v\xf5ib olla ka Null."},
 gce:function(){return"Raadio"},
 gjt:function(){return"Raadionupud v\xf5imaldavad kasutajal teha komplektis \xfche valiku. Kasutage raadionuppe eksklusiivse valiku pakkumiseks, kui arvate, et kasutaja peab n\xe4gema k\xf5iki saadaolevaid valikuid k\xf5rvuti."},
-gae:function(){return"L\xfcliti"},
+gaf:function(){return"L\xfcliti"},
 gjv:function(){return"Sees-/v\xe4ljas-l\xfclititega saab reguleerida konkreetse seade olekut. Valik, mida l\xfclitiga juhitakse, ja ka selle olek, tuleb vastava tekstisisese sildiga s\xf5naselgelt \xe4ra m\xe4rkida."},
 gb7:function(){return"Tekstiv\xe4ljad"},
 gkb:function(){return"\xdcks rida muudetavat teksti ja numbreid"},
@@ -449,7 +449,7 @@ gkv:function(){return"SALVESTA"},
 gku:function(){return"T\xe4isekraanil kuvatud dialoogi demo"},
 ghp:function(){return"Nupp"},
 ghq:function(){return"Koos taustaga"},
-gag:function(){return"T\xfchista"},
+gah:function(){return"T\xfchista"},
 gby:function(){return"Loobu"},
 gho:function(){return'Kas anda rakendusele \u201eMaps" juurdep\xe4\xe4s teie asukohale, kui rakendust kasutate?'},
 ghn:function(){return"Teie praegune asukoht kuvatakse kaardil ja seda kasutatakse juhiste, l\xe4heduses leiduvate otsingutulemuste ning hinnanguliste reisiaegade pakkumiseks."},
@@ -457,26 +457,26 @@ gbv:function(){return"Luba"},
 gbz:function(){return"\xc4ra luba"},
 gbA:function(){return"Valige lemmikmagustoit"},
 gbx:function(){return"Valige allolevast loendist oma lemmikmagustoit. Teie valikut kasutatakse teie piirkonnas soovitatud toidukohtade loendi kohandamiseks."},
-gas:function(){return"Juustukook"},
-gat:function(){return"Tiramisu"},
-gar:function(){return"\xd5unakook"},
+gar:function(){return"Juustukook"},
+gas:function(){return"Tiramisu"},
+gaq:function(){return"\xd5unakook"},
 gbw:function(){return"\u0160okolaadikook"},
 ghr:function(){return"Kuva hoiatus"},
-gaq:function(){return"PUNANE"},
+gap:function(){return"PUNANE"},
 geS:function(){return"ROOSA"},
 gaD:function(){return"LILLA"},
 geN:function(){return"S\xdcGAVLILLA"},
-gao:function(){return"INDIGO"},
+gan:function(){return"INDIGO"},
 gaC:function(){return"SININE"},
 geP:function(){return"HELESININE"},
 gbo:function(){return"TS\xdcAAN"},
 gbp:function(){return"SINAKASROHELINE"},
-gan:function(){return"ROHELINE"},
+gam:function(){return"ROHELINE"},
 geQ:function(){return"HELEROHELINE"},
 geR:function(){return"LAIMIROHELINE"},
 geT:function(){return"KOLLANE"},
 geJ:function(){return"MEREVAIGUKOLLANE"},
-gap:function(){return"ORAN\u017d"},
+gao:function(){return"ORAN\u017d"},
 geM:function(){return"S\xdcGAV ORAN\u017d"},
 geL:function(){return"PRUUN"},
 geO:function(){return"HALL"},
@@ -693,8 +693,8 @@ gkE:function(){return"Disainerid loovad tehnoloogia abil futuristlikke kangaid"}
 gkF:function(){return"Feministid astuvad partisanluse vastu"},
 gkD:function(){return"Mesilasi on p\xf5llumaadel v\xe4he"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.vs,X.O)})()
-H.bb(b.typeUniverse,JSON.parse('{"be":"C","bo":"C","bg":"aY","bf":"m","bv":"m","bx":"m","bd":"D","bp":"D","bB":"aW","bh":"M","bt":"M","by":"F","bn":"F","bq":"aU","bA":"aQ","bj":"aX","bm":"aT","bi":"Z","bz":"Z","bu":"b1","bs":"b0","br":"b_","bk":"av","bl":"aR","vs":{"O":[]}}'))
+y(A.vx,X.P)})()
+H.bc(b.typeUniverse,JSON.parse('{"be":"C","bo":"C","bg":"aZ","bf":"m","bv":"m","bw":"m","bd":"D","bp":"D","bA":"aW","bh":"M","bt":"M","bx":"F","bn":"F","bq":"aU","bz":"aQ","bj":"aX","bm":"aT","bi":"Y","by":"Y","bu":"b2","bs":"b0","br":"b_","bk":"av","bl":"aR","vx":{"P":[]}}'))
 0}
-$__dart_deferred_initializers__["LLKJfi+P1QcV+wngehrW8vDokso="] = $__dart_deferred_initializers__.current
+$__dart_deferred_initializers__["0XeIQTOvh7C3FWxGHVNJFiPCQJE="] = $__dart_deferred_initializers__.current
 //# sourceMappingURL=main.dart.js_21.part.js.map

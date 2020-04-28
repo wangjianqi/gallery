@@ -1,7 +1,7 @@
 self.$__dart_deferred_initializers__=self.$__dart_deferred_initializers__||Object.create(null)
 $__dart_deferred_initializers__.current=function(a,b,c,$){var C,H,J,P,W,U,Y,L,M,N,R,B,A,G,V,S={
-aYD:function(){return new S.vA(T.ad("gsw"))},
-vA:function vA(d){this.a=d}},T,D,Z,E,K,O,Q,X,F
+aZH:function(){return new S.vF(T.ae("gsw"))},
+vF:function vF(d){this.a=d}},T,D,Z,E,K,O,Q,X,F
 a.setFunctionNamesIfNecessary([S])
 C=c[0]
 H=c[1]
@@ -28,7 +28,7 @@ O=c[21]
 Q=c[22]
 X=c[23]
 F=c[24]
-S.vA.prototype={
+S.vF.prototype={
 cB:function(d){return d+" GitHub-Repository"},
 e5:function(d){return"Den Quellcode dieser App findest du hier: "+d+"."},
 ge_:function(){return"ANMELDEN"},
@@ -220,8 +220,8 @@ gaN:function(){return"Lutscher"},
 gaK:function(){return"Honeycomb"},
 gaG:function(){return"Donut"},
 gaE:function(){return"Apfelkuchen"},
-ad:function(d){return d+" mit Zucker"},
-ac:function(d){return d+" mit Honig"},
+ac:function(d){return d+" mit Zucker"},
+ab:function(d){return d+" mit Honig"},
 giM:function(){return"Dialogfelder"},
 giL:function(){return"Einfach, Benachrichtigung und Vollbild"},
 gbD:function(){return"Benachrichtigung"},
@@ -254,7 +254,7 @@ gjr:function(){return"Men\xfc mit Abschnitten"},
 gjy:function(){return"Einfaches Men\xfc"},
 ghZ:function(){return"Checklistenmen\xfc"},
 gjd:function(){return"Men\xfcschaltfl\xe4chen und einfache Men\xfcs"},
-gav:function(){return"Ein Men\xfc wird vor\xfcbergehend eingeblendet und enth\xe4lt eine Liste mit Auswahlm\xf6glichkeiten. Men\xfcs erscheinen, wenn Nutzer mit Steuerelementen wie Schaltfl\xe4chen interagieren."},
+gau:function(){return"Ein Men\xfc wird vor\xfcbergehend eingeblendet und enth\xe4lt eine Liste mit Auswahlm\xf6glichkeiten. Men\xfcs erscheinen, wenn Nutzer mit Steuerelementen wie Schaltfl\xe4chen interagieren."},
 gj9:function(){return"Men\xfcpunkt eins"},
 gjb:function(){return"Men\xfcpunkt zwei"},
 gja:function(){return"Men\xfcpunkt drei"},
@@ -286,7 +286,7 @@ gih:function(){return"Eine Schaltfl\xe4che im Stil von iOS. Sie kann Text und/od
 gig:function(){return"Benachrichtigungen"},
 gie:function(){return"Dialogfelder f\xfcr Benachrichtigungen im Stil von iOS"},
 gbR:function(){return"Benachrichtigung"},
-gau:function(){return"Ein Benachrichtigungsdialog informiert den Nutzer \xfcber Situationen, die seine Aufmerksamkeit erfordern. Optional kann er einen Titel, Inhalt und eine Liste mit Aktionen enthalten. Der Titel wird \xfcber dem Inhalt angezeigt, die Aktionen darunter."},
+gat:function(){return"Ein Benachrichtigungsdialog informiert den Nutzer \xfcber Situationen, die seine Aufmerksamkeit erfordern. Optional kann er einen Titel, Inhalt und eine Liste mit Aktionen enthalten. Der Titel wird \xfcber dem Inhalt angezeigt, die Aktionen darunter."},
 gbS:function(){return"Benachrichtigung mit Titel"},
 gbQ:function(){return"Benachrichtigung mit Schaltfl\xe4chen"},
 gbP:function(){return"Nur Schaltfl\xe4chen f\xfcr Benachrichtigungen"},
@@ -336,7 +336,7 @@ ghH:function(){return"Schwenken, zoomen, drehen"},
 ghE:function(){return"Tippe, um Kacheln zu bearbeiten, und nutze Touch-Gesten, um dich in der Szene zu bewegen: zum Schwenken ziehen, zum Zoomen auseinander- und zusammenziehen, und zum Drehen eine entsprechende Bewegung mit zwei Fingern machen. Dr\xfcck auf die Taste zum Zur\xfccksetzen, um zur anf\xe4nglichen Ausrichtung zur\xfcckzukehren."},
 ghG:function(){return"Transformationen zur\xfccksetzen"},
 ghF:function(){return"Kachel bearbeiten"},
-gaf:function(){return"SCHALTFL\xc4CHE"},
+gag:function(){return"SCHALTFL\xc4CHE"},
 ghU:function(){return"Blatt am unteren Rand"},
 ghT:function(){return"Persistente und modale Bl\xe4tter am unteren Rand"},
 gbL:function(){return"Persistentes Blatt am unteren Rand"},
@@ -384,7 +384,7 @@ gcd:function(){return"K\xe4stchen"},
 gjs:function(){return'\xdcber K\xe4stchen k\xf6nnen Nutzer mehrere Optionen gleichzeitig ausw\xe4hlen. \xdcblicherweise ist der Wert eines K\xe4stchens entweder "true" (ausgew\xe4hlt) oder "false" (nicht ausgew\xe4hlt)\xa0\u2013 K\xe4stchen mit drei Auswahlm\xf6glichkeiten k\xf6nnen jedoch auch den Wert "null" haben.'},
 gce:function(){return"Optionsfeld"},
 gjt:function(){return"\xdcber Optionsfelder k\xf6nnen Nutzer eine Option ausw\xe4hlen. Optionsfelder sind ideal, wenn nur eine einzige Option ausgew\xe4hlt werden kann, aber alle verf\xfcgbaren Auswahlm\xf6glichkeiten auf einen Blick erkennbar sein sollen."},
-gae:function(){return"Schieberegler"},
+gaf:function(){return"Schieberegler"},
 gjv:function(){return"Mit Schiebereglern k\xf6nnen Nutzer den Status einzelner Einstellungen \xe4ndern. Anhand des verwendeten Inline-Labels sollte man erkennen k\xf6nnen, um welche Einstellung es sich handelt und wie der aktuelle Status ist."},
 gb7:function(){return"Textfelder"},
 gkb:function(){return"Einzelne Linie mit Text und Zahlen, die bearbeitet werden k\xf6nnen"},
@@ -449,7 +449,7 @@ gkv:function(){return"SPEICHERN"},
 gku:function(){return"Demo eines Vollbild-Dialogfelds"},
 ghp:function(){return"Schaltfl\xe4che"},
 ghq:function(){return"Mit Hintergrund"},
-gag:function(){return"Abbrechen"},
+gah:function(){return"Abbrechen"},
 gby:function(){return"Verwerfen"},
 gho:function(){return"Maps erlauben, w\xe4hrend der Nutzung der App auf deinen Standort zuzugreifen?"},
 ghn:function(){return"Dein aktueller Standort wird auf der Karte angezeigt und f\xfcr Wegbeschreibungen, Suchergebnisse f\xfcr Dinge in der N\xe4he und zur Einsch\xe4tzung von Fahrtzeiten verwendet."},
@@ -457,26 +457,26 @@ gbv:function(){return"Zulassen"},
 gbz:function(){return"Nicht zulassen"},
 gbA:function(){return"Lieblingsdessert ausw\xe4hlen"},
 gbx:function(){return"Bitte w\xe4hle in der Liste unten dein Lieblingsdessert aus. Mithilfe deiner Auswahl wird die Liste der Restaurantvorschl\xe4ge in deiner N\xe4he personalisiert."},
-gas:function(){return"K\xe4sekuchen"},
-gat:function(){return"Tiramisu"},
-gar:function(){return"Apfelkuchen"},
+gar:function(){return"K\xe4sekuchen"},
+gas:function(){return"Tiramisu"},
+gaq:function(){return"Apfelkuchen"},
 gbw:function(){return"Schokoladenbrownie"},
 ghr:function(){return"Benachrichtigung anzeigen"},
-gaq:function(){return"ROT"},
+gap:function(){return"ROT"},
 geS:function(){return"PINK"},
 gaD:function(){return"LILA"},
 geN:function(){return"DUNKLES LILA"},
-gao:function(){return"INDIGO"},
+gan:function(){return"INDIGO"},
 gaC:function(){return"BLAU"},
 geP:function(){return"HELLBLAU"},
 gbo:function(){return"CYAN"},
 gbp:function(){return"BLAUGR\xdcN"},
-gan:function(){return"GR\xdcN"},
+gam:function(){return"GR\xdcN"},
 geQ:function(){return"HELLGR\xdcN"},
 geR:function(){return"GELBGR\xdcN"},
 geT:function(){return"GELB"},
 geJ:function(){return"BERNSTEINGELB"},
-gap:function(){return"ORANGE"},
+gao:function(){return"ORANGE"},
 geM:function(){return"DUNKLES ORANGE"},
 geL:function(){return"BRAUN"},
 geO:function(){return"GRAU"},
@@ -693,8 +693,8 @@ gkE:function(){return"Designer nutzen Technologie zur Entwicklung futuristischer
 gkF:function(){return"Feministinnen bek\xe4mpfen Vetternwirtschaft"},
 gkD:function(){return"Bienen auf dem Land in Gefahr"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(S.vA,X.O)})()
-H.bb(b.typeUniverse,JSON.parse('{"be":"C","bo":"C","bg":"aY","bf":"m","bv":"m","bx":"m","bd":"D","bp":"D","bB":"aW","bh":"M","bt":"M","by":"F","bn":"F","bq":"aU","bA":"aQ","bj":"aX","bm":"aT","bi":"Z","bz":"Z","bu":"b1","bs":"b0","br":"b_","bk":"av","bl":"aR","vA":{"O":[]}}'))
+y(S.vF,X.P)})()
+H.bc(b.typeUniverse,JSON.parse('{"be":"C","bo":"C","bg":"aZ","bf":"m","bv":"m","bw":"m","bd":"D","bp":"D","bA":"aW","bh":"M","bt":"M","bx":"F","bn":"F","bq":"aU","bz":"aQ","bj":"aX","bm":"aT","bi":"Y","by":"Y","bu":"b2","bs":"b0","br":"b_","bk":"av","bl":"aR","vF":{"P":[]}}'))
 0}
-$__dart_deferred_initializers__["KIz5p6D7IaJR/d/z7Do6i+lqi44="] = $__dart_deferred_initializers__.current
+$__dart_deferred_initializers__["QQG5pOmN7GNch4hbECJSdk4NsdI="] = $__dart_deferred_initializers__.current
 //# sourceMappingURL=main.dart.js_27.part.js.map

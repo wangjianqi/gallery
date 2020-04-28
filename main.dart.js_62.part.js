@@ -1,7 +1,7 @@
 self.$__dart_deferred_initializers__=self.$__dart_deferred_initializers__||Object.create(null)
 $__dart_deferred_initializers__.current=function(a,b,c,$){var C,H,J,P,W,U,Y,L,M,N,R,B={
-aZe:function(){return new B.wa(T.ad("sk"))},
-wa:function wa(d){this.a=d}},A,G,V,S,T,D,Z,E,K,O,Q,X,F
+b_i:function(){return new B.wf(T.ae("sk"))},
+wf:function wf(d){this.a=d}},A,G,V,S,T,D,Z,E,K,O,Q,X,F
 a.setFunctionNamesIfNecessary([B])
 C=c[0]
 H=c[1]
@@ -28,7 +28,7 @@ O=c[21]
 Q=c[22]
 X=c[23]
 F=c[24]
-B.wa.prototype={
+B.wf.prototype={
 cB:function(d){return"Odkladac\xed priestor GitHub "+d},
 e5:function(d){return"Ak si chcete zobrazi\u0165 zdrojov\xfd k\xf3d tejto aplik\xe1cie, prejdite na "+d+"."},
 ge_:function(){return"PRIHL\xc1SI\u0164 SA"},
@@ -220,8 +220,8 @@ gaN:function(){return"Lollipop"},
 gaK:function(){return"Honeycomb"},
 gaG:function(){return"Donut"},
 gaE:function(){return"Apple pie"},
-ad:function(d){return d+" s\xa0cukrom"},
-ac:function(d){return d+" s\xa0medom"},
+ac:function(d){return d+" s\xa0cukrom"},
+ab:function(d){return d+" s\xa0medom"},
 giM:function(){return"Dial\xf3gov\xe9 okn\xe1"},
 giL:function(){return"Jednoduch\xe9, upozornenie a\xa0cel\xe1 obrazovka"},
 gbD:function(){return"Upozornenie"},
@@ -254,7 +254,7 @@ gjr:function(){return"Rozdelen\xe1 ponuka"},
 gjy:function(){return"Jednoduch\xe1 ponuka"},
 ghZ:function(){return"Ponuka kontroln\xe9ho zoznamu"},
 gjd:function(){return"Tla\u010didl\xe1 ponuky a\xa0jednoduch\xe9 ponuky"},
-gav:function(){return"Ponuka zobrazuje zoznam mo\u017enost\xed v\xa0do\u010dasnom okne. Spust\xed sa pri interakcii pou\u017e\xedvate\u013eov s\xa0tla\u010didlom, akciou alebo in\xfdm ovl\xe1dac\xedm prvkom."},
+gau:function(){return"Ponuka zobrazuje zoznam mo\u017enost\xed v\xa0do\u010dasnom okne. Spust\xed sa pri interakcii pou\u017e\xedvate\u013eov s\xa0tla\u010didlom, akciou alebo in\xfdm ovl\xe1dac\xedm prvkom."},
 gj9:function(){return"Prv\xe1 polo\u017eka ponuky"},
 gjb:function(){return"Druh\xe1 polo\u017eka ponuky"},
 gja:function(){return"Tretia polo\u017eka ponuky"},
@@ -286,7 +286,7 @@ gih:function(){return"Tla\u010didlo v\xa0\u0161t\xfdle syst\xe9mu iOS. Zah\u0155
 gig:function(){return"Upozornenia"},
 gie:function(){return"Dial\xf3gov\xe9 okn\xe1 upozornen\xed v\xa0\u0161t\xfdle syst\xe9mu iOS"},
 gbR:function(){return"Upozornenie"},
-gau:function(){return"Dial\xf3gov\xe9 okno upozornenia informuje pou\u017e\xedvate\u013ea o\xa0situ\xe1ci\xe1ch, ktor\xe9 vy\u017eaduj\xfa potvrdenie. Dial\xf3gov\xe9 okno upozornenia m\xe1 volite\u013en\xfd n\xe1zov, obsah aj zoznam akci\xed. N\xe1zov sa zobrazuje nad obsahom a\xa0akcie pod obsahom."},
+gat:function(){return"Dial\xf3gov\xe9 okno upozornenia informuje pou\u017e\xedvate\u013ea o\xa0situ\xe1ci\xe1ch, ktor\xe9 vy\u017eaduj\xfa potvrdenie. Dial\xf3gov\xe9 okno upozornenia m\xe1 volite\u013en\xfd n\xe1zov, obsah aj zoznam akci\xed. N\xe1zov sa zobrazuje nad obsahom a\xa0akcie pod obsahom."},
 gbS:function(){return"Upozornenie s\xa0n\xe1zvom"},
 gbQ:function(){return"Upozornenie s\xa0tla\u010didlami"},
 gbP:function(){return"Iba tla\u010didl\xe1 upozornen\xed"},
@@ -336,7 +336,7 @@ ghH:function(){return"Posunutie, pribl\xed\u017eenie a\xa0oto\u010denie"},
 ghE:function(){return"Klepnut\xedm upavujte dla\u017edice a\xa0gestami sa pohybujte po okol\xed. Pos\xfavajte presunut\xedm, pribli\u017eujte stiahnut\xedm prstov a\xa0ot\xe1\u010dajte dvoma prstami. Na za\u010diato\u010dn\xfa orient\xe1ciu sa vr\xe1tite stla\u010den\xedm tla\u010didla Resetova\u0165."},
 ghG:function(){return"Resetova\u0165 transform\xe1cie"},
 ghF:function(){return"Upravi\u0165 dla\u017edicu"},
-gaf:function(){return"TLA\u010cIDLO"},
+gag:function(){return"TLA\u010cIDLO"},
 ghU:function(){return"Doln\xfd h\xe1rok"},
 ghT:function(){return"Trval\xe9 a\xa0mod\xe1lne doln\xe9 h\xe1rky"},
 gbL:function(){return"Trval\xfd doln\xfd h\xe1rok"},
@@ -384,7 +384,7 @@ gcd:function(){return"Za\u010diarkavacie pol\xed\u010dko"},
 gjs:function(){return"Za\u010diarkavacie pol\xed\u010dka umo\u017e\u0148uj\xfa pou\u017e\xedvate\u013eovi vybra\u0165 viacero mo\u017enost\xed zo skupiny mo\u017enost\xed. Hodnota be\u017en\xe9ho za\u010diarkavacieho pol\xed\u010dka je pravda alebo nepravda. Hodnota za\u010diarkavacieho pol\xed\u010dka s\xa0troma stavmi m\xf4\u017ee by\u0165 tie\u017e nulov\xe1."},
 gce:function(){return"Prep\xedna\u010d"},
 gjt:function(){return"Prep\xedna\u010de umo\u017e\u0148uj\xfa pou\u017e\xedvate\u013eovi vybra\u0165 jednu polo\u017eku zo skupiny mo\u017enost\xed. Prep\xedna\u010de pou\u017eite na v\xfdhradn\xfd v\xfdber, ak sa domnievate, \u017ee pou\u017e\xedvate\u013e by mal vidie\u0165 v\u0161etky dostupn\xe9 mo\u017enosti ved\u013ea seba."},
-gae:function(){return"Prep\xedna\u010d"},
+gaf:function(){return"Prep\xedna\u010d"},
 gjv:function(){return"Prep\xedna\u010de na zapnutie alebo vypnutie stavu jednej mo\u017enosti nastaven\xed. Pr\xedslu\u0161n\xe1 mo\u017enos\u0165, ktor\xfa prep\xedna\u010d ovl\xe1da, ako aj stav, v\xa0ktorom sa nach\xe1dza, by mali jasne vypl\xfdva\u0165 zo zodpovedaj\xfaceho vlo\u017een\xe9ho \u0161t\xedtka."},
 gb7:function(){return"Textov\xe9 polia"},
 gkb:function(){return"Jeden riadok upravite\u013en\xe9ho textu a\xa0\u010d\xedsel"},
@@ -449,7 +449,7 @@ gkv:function(){return"ULO\u017dI\u0164"},
 gku:function(){return"Uk\xe1\u017eka dial\xf3gov\xe9ho okna na cel\xfa obrazovku"},
 ghp:function(){return"Tla\u010didlo"},
 ghq:function(){return"S\xa0pozad\xedm"},
-gag:function(){return"Zru\u0161i\u0165"},
+gah:function(){return"Zru\u0161i\u0165"},
 gby:function(){return"Zahodi\u0165"},
 gho:function(){return"Chcete povoli\u0165 Map\xe1m pr\xedstup k\xa0va\u0161ej polohe, ke\u010f t\xfato aplik\xe1ciu pou\u017e\xedvate?"},
 ghn:function(){return"Va\u0161a aktu\xe1lna poloha sa zobraz\xed na mape a\xa0bud\xfa sa pomocou nej vyh\u013ead\xe1va\u0165 trasy, v\xfdsledky vyh\u013ead\xe1vania v\xa0okol\xed a\xa0odhadovan\xe9 \u010dasy cesty."},
@@ -457,26 +457,26 @@ gbv:function(){return"Povoli\u0165"},
 gbz:function(){return"Nepovoli\u0165"},
 gbA:function(){return"V\xfdber ob\u013e\xfaben\xe9ho dezertu"},
 gbx:function(){return"Vyberte si v\xa0zozname ni\u017e\u0161ie svoj ob\u013e\xfaben\xfd typ dezertu. Na z\xe1klade v\xe1\u0161ho v\xfdberu sa prisp\xf4sob\xed zoznam navrhovan\xfdch re\u0161taur\xe1ci\xed vo va\u0161om okol\xed."},
-gas:function(){return"Tvarohov\xfd kol\xe1\u010d"},
-gat:function(){return"Tiramisu"},
-gar:function(){return"Jablkov\xfd kol\xe1\u010d"},
+gar:function(){return"Tvarohov\xfd kol\xe1\u010d"},
+gas:function(){return"Tiramisu"},
+gaq:function(){return"Jablkov\xfd kol\xe1\u010d"},
 gbw:function(){return"\u010cokol\xe1dov\xfd kol\xe1\u010d"},
 ghr:function(){return"Zobrazi\u0165 upozornenie"},
-gaq:function(){return"\u010cERVEN\xc1"},
+gap:function(){return"\u010cERVEN\xc1"},
 geS:function(){return"RU\u017dOV\xc1"},
 gaD:function(){return"FIALOV\xc1"},
 geN:function(){return"TMAVOFIALOV\xc1"},
-gao:function(){return"INDIGOV\xc1"},
+gan:function(){return"INDIGOV\xc1"},
 gaC:function(){return"MODR\xc1"},
 geP:function(){return"SVETLOMODR\xc1"},
 gbo:function(){return"TYRKYSOV\xc1"},
 gbp:function(){return"MODROZELEN\xc1"},
-gan:function(){return"ZELEN\xc1"},
+gam:function(){return"ZELEN\xc1"},
 geQ:function(){return"SVETLOZELEN\xc1"},
 geR:function(){return"\u017dLTOZELEN\xc1"},
 geT:function(){return"\u017dLT\xc1"},
 geJ:function(){return"\u017dLTOHNED\xc1"},
-gap:function(){return"ORAN\u017dOV\xc1"},
+gao:function(){return"ORAN\u017dOV\xc1"},
 geM:function(){return"TMAVOORAN\u017dOV\xc1"},
 geL:function(){return"HNED\xc1"},
 geO:function(){return"SIV\xc1"},
@@ -691,8 +691,8 @@ gkE:function(){return"Pomocou technol\xf3gi\xed vyr\xe1baj\xfa n\xe1vrh\xe1ri fu
 gkF:function(){return"Feministky sa vrhli na partiz\xe1nstvo"},
 gkD:function(){return"Nedostatok po\u013enohospod\xe1rskych v\u010diel"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(B.wa,X.O)})()
-H.bb(b.typeUniverse,JSON.parse('{"be":"C","bo":"C","bg":"aY","bf":"m","bv":"m","bx":"m","bd":"D","bp":"D","bB":"aW","bh":"M","bt":"M","by":"F","bn":"F","bq":"aU","bA":"aQ","bj":"aX","bm":"aT","bi":"Z","bz":"Z","bu":"b1","bs":"b0","br":"b_","bk":"av","bl":"aR","wa":{"O":[]}}'))
+y(B.wf,X.P)})()
+H.bc(b.typeUniverse,JSON.parse('{"be":"C","bo":"C","bg":"aZ","bf":"m","bv":"m","bw":"m","bd":"D","bp":"D","bA":"aW","bh":"M","bt":"M","bx":"F","bn":"F","bq":"aU","bz":"aQ","bj":"aX","bm":"aT","bi":"Y","by":"Y","bu":"b2","bs":"b0","br":"b_","bk":"av","bl":"aR","wf":{"P":[]}}'))
 0}
-$__dart_deferred_initializers__["EDtBaWDLUCgkIc7dCQDGHeqbVFE="] = $__dart_deferred_initializers__.current
+$__dart_deferred_initializers__["ssvikPPLkVlaIIsiIsCQtWqCUGg="] = $__dart_deferred_initializers__.current
 //# sourceMappingURL=main.dart.js_62.part.js.map

@@ -1,7 +1,7 @@
 self.$__dart_deferred_initializers__=self.$__dart_deferred_initializers__||Object.create(null)
 $__dart_deferred_initializers__.current=function(a,b,c,$){var C,H,J,P,W,U,Y,L,M,N,R,B,A={
-aYM:function(){return new A.vJ(T.ad("it"))},
-vJ:function vJ(d){this.a=d}},G,V,S,T,D,Z,E,K,O,Q,X,F
+aZQ:function(){return new A.vO(T.ae("it"))},
+vO:function vO(d){this.a=d}},G,V,S,T,D,Z,E,K,O,Q,X,F
 a.setFunctionNamesIfNecessary([A])
 C=c[0]
 H=c[1]
@@ -28,7 +28,7 @@ O=c[21]
 Q=c[22]
 X=c[23]
 F=c[24]
-A.vJ.prototype={
+A.vO.prototype={
 cB:function(d){return"repository GitHub "+d},
 e5:function(d){return"Per visualizzare il codice sorgente di questa app, visita il "+d+"."},
 ge_:function(){return"ACCEDI"},
@@ -220,8 +220,8 @@ gaN:function(){return"Lecca lecca"},
 gaK:function(){return"Croccante a nido d'ape"},
 gaG:function(){return"Ciambella"},
 gaE:function(){return"Torta di mele"},
-ad:function(d){return d+" con zucchero"},
-ac:function(d){return d+" con miele"},
+ac:function(d){return d+" con zucchero"},
+ab:function(d){return d+" con miele"},
 giM:function(){return"Finestre di dialogo"},
 giL:function(){return"Semplice, di avviso e a schermo intero"},
 gbD:function(){return"Avviso"},
@@ -254,7 +254,7 @@ gjr:function(){return"Menu a sezioni"},
 gjy:function(){return"Menu semplice"},
 ghZ:function(){return"Menu con elenco di controllo"},
 gjd:function(){return"Pulsanti di menu e menu semplici"},
-gav:function(){return"Un menu visualizza un elenco di opzioni su una superficie temporanea, che vengono mostrate quando gli utenti interagiscono con un pulsante, un'azione o un altro controllo."},
+gau:function(){return"Un menu visualizza un elenco di opzioni su una superficie temporanea, che vengono mostrate quando gli utenti interagiscono con un pulsante, un'azione o un altro controllo."},
 gj9:function(){return"Voce di menu uno"},
 gjb:function(){return"Voce di menu due"},
 gja:function(){return"Voce di menu tre"},
@@ -286,7 +286,7 @@ gih:function(){return"Un pulsante in stile iOS. \xc8 costituito da testo e/o da 
 gig:function(){return"Avvisi"},
 gie:function(){return"Finestre di avviso in stile iOS"},
 gbR:function(){return"Avviso"},
-gau:function(){return"Una finestra di dialogo di avviso segnala all'utente situazioni che richiedono l'accettazione. Una finestra di dialogo di avviso include un titolo facoltativo e un elenco di azioni tra cui scegliere. Il titolo viene mostrato sopra i contenuti e le azioni sono mostrate sotto i contenuti."},
+gat:function(){return"Una finestra di dialogo di avviso segnala all'utente situazioni che richiedono l'accettazione. Una finestra di dialogo di avviso include un titolo facoltativo e un elenco di azioni tra cui scegliere. Il titolo viene mostrato sopra i contenuti e le azioni sono mostrate sotto i contenuti."},
 gbS:function(){return"Avviso con titolo"},
 gbQ:function(){return"Avvisi con pulsanti"},
 gbP:function(){return"Solo pulsanti di avviso"},
@@ -336,7 +336,7 @@ ghH:function(){return"Panoramica, zoom ruota,"},
 ghE:function(){return"Tocca per modificare i riquadri e usa i gesti per spostarti nella scena. Trascina per la panoramica, pizzica per lo zoom e ruota con due dita. Premi il pulsante di ripristino per tornare all'orientamento iniziale."},
 ghG:function(){return"Reimposta trasformazioni"},
 ghF:function(){return"Modifica riquadro"},
-gaf:function(){return"PULSANTE"},
+gag:function(){return"PULSANTE"},
 ghU:function(){return"Foglio inferiore"},
 ghT:function(){return"Fogli inferiori permanenti e modali"},
 gbL:function(){return"Foglio inferiore permanente"},
@@ -384,7 +384,7 @@ gcd:function(){return"Casella di controllo"},
 gjs:function(){return"Le caselle di controllo consentono all'utente di selezionare diverse opzioni da un gruppo di opzioni. Il valore di una casella di controllo standard \xe8 true o false, mentre il valore di una casella di controllo a tre stati pu\xf2 essere anche null."},
 gce:function(){return"Pulsante di opzione"},
 gjt:function(){return"I pulsanti di opzione consentono all'utente di selezionare un'opzione da un gruppo di opzioni. Usa i pulsanti di opzione per la selezione esclusiva se ritieni che l'utente debba vedere tutte le opzioni disponibili affiancate."},
-gae:function(){return"Opzione"},
+gaf:function(){return"Opzione"},
 gjv:function(){return"Le opzioni on/off consentono di attivare/disattivare lo stato di una singola opzione di impostazioni. La funzione e lo stato corrente dell'opzione devono essere chiariti dall'etichetta incorporata corrispondente."},
 gb7:function(){return"Campi di testo"},
 gkb:function(){return"Singola riga di testo modificabile e numeri"},
@@ -449,7 +449,7 @@ gkv:function(){return"SALVA"},
 gku:function(){return"Finestra di dialogo demo a schermo intero"},
 ghp:function(){return"Pulsante"},
 ghq:function(){return"Con sfondo"},
-gag:function(){return"Annulla"},
+gah:function(){return"Annulla"},
 gby:function(){return"Annulla"},
 gho:function(){return'Consentire a "Maps" di accedere alla tua posizione mentre usi l\'app?'},
 ghn:function(){return"La tua posizione corrente verr\xe0 mostrata sulla mappa e usata per le indicazioni stradali, i risultati di ricerca nelle vicinanze e i tempi di percorrenza stimati."},
@@ -457,26 +457,26 @@ gbv:function(){return"Consenti"},
 gbz:function(){return"Non consentire"},
 gbA:function(){return"Seleziona il dolce che preferisci"},
 gbx:function(){return"Seleziona il tuo dolce preferito nell'elenco indicato di seguito. La tua selezione verr\xe0 usata per personalizzare l'elenco di locali gastronomici suggeriti nella tua zona."},
-gas:function(){return"Cheesecake"},
-gat:function(){return"Tiramis\xf9"},
-gar:function(){return"Torta di mele"},
+gar:function(){return"Cheesecake"},
+gas:function(){return"Tiramis\xf9"},
+gaq:function(){return"Torta di mele"},
 gbw:function(){return"Brownie al cioccolato"},
 ghr:function(){return"Mostra avviso"},
-gaq:function(){return"ROSSO"},
+gap:function(){return"ROSSO"},
 geS:function(){return"ROSA"},
 gaD:function(){return"VIOLA"},
 geN:function(){return"VIOLA SCURO"},
-gao:function(){return"INDACO"},
+gan:function(){return"INDACO"},
 gaC:function(){return"BLU"},
 geP:function(){return"AZZURRO"},
 gbo:function(){return"CIANO"},
 gbp:function(){return"VERDE ACQUA"},
-gan:function(){return"VERDE"},
+gam:function(){return"VERDE"},
 geQ:function(){return"VERDE CHIARO"},
 geR:function(){return"VERDE LIME"},
 geT:function(){return"GIALLO"},
 geJ:function(){return"AMBRA"},
-gap:function(){return"ARANCIONE"},
+gao:function(){return"ARANCIONE"},
 geM:function(){return"ARANCIONE SCURO"},
 geL:function(){return"MARRONE"},
 geO:function(){return"GRIGIO"},
@@ -693,8 +693,8 @@ gkE:function(){return"I designer usano la tecnologia per realizzare tessuti futu
 gkF:function(){return"Punto di vista delle femministe sulla partigianeria"},
 gkD:function(){return"Le api scarseggiano"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.vJ,X.O)})()
-H.bb(b.typeUniverse,JSON.parse('{"be":"C","bo":"C","bg":"aY","bf":"m","bv":"m","bx":"m","bd":"D","bp":"D","bB":"aW","bh":"M","bt":"M","by":"F","bn":"F","bq":"aU","bA":"aQ","bj":"aX","bm":"aT","bi":"Z","bz":"Z","bu":"b1","bs":"b0","br":"b_","bk":"av","bl":"aR","vJ":{"O":[]}}'))
+y(A.vO,X.P)})()
+H.bc(b.typeUniverse,JSON.parse('{"be":"C","bo":"C","bg":"aZ","bf":"m","bv":"m","bw":"m","bd":"D","bp":"D","bA":"aW","bh":"M","bt":"M","bx":"F","bn":"F","bq":"aU","bz":"aQ","bj":"aX","bm":"aT","bi":"Y","by":"Y","bu":"b2","bs":"b0","br":"b_","bk":"av","bl":"aR","vO":{"P":[]}}'))
 0}
-$__dart_deferred_initializers__["U5Bfo0veYrI2y/mvDfb5zzIziBA="] = $__dart_deferred_initializers__.current
+$__dart_deferred_initializers__["15Fh7Q+8LG5Fy+42sG9a3t9ly8A="] = $__dart_deferred_initializers__.current
 //# sourceMappingURL=main.dart.js_36.part.js.map

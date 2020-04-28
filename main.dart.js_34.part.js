@@ -1,7 +1,7 @@
 self.$__dart_deferred_initializers__=self.$__dart_deferred_initializers__||Object.create(null)
 $__dart_deferred_initializers__.current=function(a,b,c,$){var C,H,J,P,W,U,Y,L,M,N,R,B,A={
-aYK:function(){return new A.vH(T.ad("id"))},
-vH:function vH(d){this.a=d}},G,V,S,T,D,Z,E,K,O,Q,X,F
+aZO:function(){return new A.vM(T.ae("id"))},
+vM:function vM(d){this.a=d}},G,V,S,T,D,Z,E,K,O,Q,X,F
 a.setFunctionNamesIfNecessary([A])
 C=c[0]
 H=c[1]
@@ -28,7 +28,7 @@ O=c[21]
 Q=c[22]
 X=c[23]
 F=c[24]
-A.vH.prototype={
+A.vM.prototype={
 cB:function(d){return"Repositori GitHub "+d},
 e5:function(d){return"Untuk melihat kode sumber aplikasi ini, buka "+d+"."},
 ge_:function(){return"LOGIN"},
@@ -220,8 +220,8 @@ gaN:function(){return"Lollipop"},
 gaK:function(){return"Sarang lebah"},
 gaG:function(){return"Donat"},
 gaE:function(){return"Pai apel"},
-ad:function(d){return d+" dengan gula"},
-ac:function(d){return d+" dengan madu"},
+ac:function(d){return d+" dengan gula"},
+ab:function(d){return d+" dengan madu"},
 giM:function(){return"Dialog"},
 giL:function(){return"Sederhana, notifikasi, dan layar penuh"},
 gbD:function(){return"Notifikasi"},
@@ -254,7 +254,7 @@ gjr:function(){return"Menu dengan bagian"},
 gjy:function(){return"Menu sederhana"},
 ghZ:function(){return"Menu checklist"},
 gjd:function(){return"Tombol menu dan menu sederhana"},
-gav:function(){return"Menu menampilkan daftar pilihan pada permukaan sementara Daftar tersebut muncul ketika pengguna berinteraksi dengan tombol, tindakan, atau kontrol lainnya."},
+gau:function(){return"Menu menampilkan daftar pilihan pada permukaan sementara Daftar tersebut muncul ketika pengguna berinteraksi dengan tombol, tindakan, atau kontrol lainnya."},
 gj9:function(){return"Item menu satu"},
 gjb:function(){return"Item menu dua"},
 gja:function(){return"Item menu tiga"},
@@ -286,7 +286,7 @@ gih:function(){return"Tombol gaya iOS. Tombol ini berisi teks dan/atau ikon yang
 gig:function(){return"Notifikasi"},
 gie:function(){return"Dialog notifikasi gaya iOS"},
 gbR:function(){return"Notifikasi"},
-gau:function(){return"Dialog notifikasi akan memberitahukan situasi yang memerlukan konfirmasi kepada pengguna. Dialog notifikasi memiliki judul, konten, dan daftar tindakan yang opsional. Judul ditampilkan di atas konten dan tindakan ditampilkan di bawah konten."},
+gat:function(){return"Dialog notifikasi akan memberitahukan situasi yang memerlukan konfirmasi kepada pengguna. Dialog notifikasi memiliki judul, konten, dan daftar tindakan yang opsional. Judul ditampilkan di atas konten dan tindakan ditampilkan di bawah konten."},
 gbS:function(){return"Notifikasi dengan Judul"},
 gbQ:function(){return"Notifikasi dengan Tombol"},
 gbP:function(){return"Hanya Tombol Notifikasi"},
@@ -336,7 +336,7 @@ ghH:function(){return"Geser, zoom, putar"},
 ghE:function(){return"Ketuk untuk mengedit potongan foto, dan gunakan gestur untuk berpindah antar-adegan. Tarik untuk menggeser, cubit untuk zoom, putar dengan dua jari. Tekan tombol setel ulang untuk kembali ke orientasi awal."},
 ghG:function(){return"Setel ulang transformasi"},
 ghF:function(){return"Edit potongan foto"},
-gaf:function(){return"TOMBOL"},
+gag:function(){return"TOMBOL"},
 ghU:function(){return"Sheet bawah"},
 ghT:function(){return"Sheet bawah persisten dan modal"},
 gbL:function(){return"Sheet bawah persisten"},
@@ -384,7 +384,7 @@ gcd:function(){return"Kotak centang"},
 gjs:function(){return"Kotak centang memungkinkan pengguna memilih beberapa opsi dari suatu kumpulan. Nilai kotak centang normal adalah true atau false dan nilai kotak centang tristate juga dapat null."},
 gce:function(){return"Radio"},
 gjt:function(){return"Tombol pilihan memungkinkan pengguna memilih salah satu opsi dari kumpulan. Gunakan tombol pilihan untuk pilihan eksklusif jika Anda merasa bahwa pengguna perlu melihat semua opsi yang tersedia secara berdampingan."},
-gae:function(){return"Tombol Akses"},
+gaf:function(){return"Tombol Akses"},
 gjv:function(){return"Tombol akses on/off mengalihkan status opsi setelan tunggal. Opsi yang dikontrol tombol akses, serta statusnya, harus dijelaskan dari label inline yang sesuai."},
 gb7:function(){return"Kolom teks"},
 gkb:function(){return"Baris tunggal teks dan angka yang dapat diedit"},
@@ -449,7 +449,7 @@ gkv:function(){return"SIMPAN"},
 gku:function(){return"Demo dialog layar penuh"},
 ghp:function(){return"Tombol"},
 ghq:function(){return"Dengan Latar Belakang"},
-gag:function(){return"Batal"},
+gah:function(){return"Batal"},
 gby:function(){return"Hapus"},
 gho:function(){return'Izinkan "Maps" mengakses lokasi Anda selagi Anda menggunakan aplikasi?'},
 ghn:function(){return"Lokasi Anda saat ini akan ditampilkan di peta dan digunakan untuk rute, hasil penelusuran di sekitar, dan estimasi waktu tempuh."},
@@ -457,26 +457,26 @@ gbv:function(){return"Izinkan"},
 gbz:function(){return"Jangan Izinkan"},
 gbA:function(){return"Pilih Makanan Penutup Favorit"},
 gbx:function(){return"Silakan pilih jenis makanan penutup favorit Anda dari daftar di bawah ini. Pilihan Anda akan digunakan untuk menyesuaikan daftar saran tempat makan di area Anda."},
-gas:function(){return"Kue Keju"},
-gat:function(){return"Tiramisu"},
-gar:function(){return"Pai Apel"},
+gar:function(){return"Kue Keju"},
+gas:function(){return"Tiramisu"},
+gaq:function(){return"Pai Apel"},
 gbw:function(){return"Brownies Cokelat"},
 ghr:function(){return"Tampilkan Notifikasi"},
-gaq:function(){return"MERAH"},
+gap:function(){return"MERAH"},
 geS:function(){return"MERAH MUDA"},
 gaD:function(){return"UNGU"},
 geN:function(){return"UNGU TUA"},
-gao:function(){return"NILA"},
+gan:function(){return"NILA"},
 gaC:function(){return"BIRU"},
 geP:function(){return"BIRU MUDA"},
 gbo:function(){return"BIRU KEHIJAUAN"},
 gbp:function(){return"HIJAU KEBIRUAN"},
-gan:function(){return"HIJAU"},
+gam:function(){return"HIJAU"},
 geQ:function(){return"HIJAU MUDA"},
 geR:function(){return"HIJAU LIMAU"},
 geT:function(){return"KUNING"},
 geJ:function(){return"AMBER"},
-gap:function(){return"ORANYE"},
+gao:function(){return"ORANYE"},
 geM:function(){return"ORANYE TUA"},
 geL:function(){return"COKELAT"},
 geO:function(){return"ABU-ABU"},
@@ -693,8 +693,8 @@ gkE:function(){return"Desainer Menggunakan Teknologi untuk Membuat Kain Futurist
 gkF:function(){return"Keberpihakan Kaum Feminis"},
 gkD:function(){return"Rendahnya Pasokan Lebah Pertanian"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.vH,X.O)})()
-H.bb(b.typeUniverse,JSON.parse('{"be":"C","bo":"C","bg":"aY","bf":"m","bv":"m","bx":"m","bd":"D","bp":"D","bB":"aW","bh":"M","bt":"M","by":"F","bn":"F","bq":"aU","bA":"aQ","bj":"aX","bm":"aT","bi":"Z","bz":"Z","bu":"b1","bs":"b0","br":"b_","bk":"av","bl":"aR","vH":{"O":[]}}'))
+y(A.vM,X.P)})()
+H.bc(b.typeUniverse,JSON.parse('{"be":"C","bo":"C","bg":"aZ","bf":"m","bv":"m","bw":"m","bd":"D","bp":"D","bA":"aW","bh":"M","bt":"M","bx":"F","bn":"F","bq":"aU","bz":"aQ","bj":"aX","bm":"aT","bi":"Y","by":"Y","bu":"b2","bs":"b0","br":"b_","bk":"av","bl":"aR","vM":{"P":[]}}'))
 0}
-$__dart_deferred_initializers__["KgyUdGs69+IwrB+UpB8H1uTXw2o="] = $__dart_deferred_initializers__.current
+$__dart_deferred_initializers__["cqMYrMzOkj9cNE8AJBSNfEhRclY="] = $__dart_deferred_initializers__.current
 //# sourceMappingURL=main.dart.js_34.part.js.map
