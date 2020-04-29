@@ -95378,7 +95378,7 @@ m:function(a){var t=null,s=G.c_(a)===C.N?C.azB:C.azC,r=K.z(a,!1).G,q=Y.aKP(a).mA
 l=X.mH(t,t,new V.nk(t,C.n,0,q,t,t),t,t,t,t,t,t,t,t,t,C.aq,t,t,t,t,C.n,C.n,t,r.arN(o,p,n,B.aPa(14,C.a1,C.aw,r.f),m,l),t,t).vH(a.M(k).f.d.f)
 m=P.b9(["/fortnightly",new S.aeA(s)],u.N,u.Ab)
 k=a.M(k).f.d
-return S.EQ(t,!1,new K.ec(s,t),"/fortnightly",k.goB(k),t,C.kq,t,t,m,C.eX,l,C.cK,"")}}
+return S.EQ(t,!1,new K.ec(s,t),"/fortnightly",k.goB(k),t,C.kq,t,t,m,C.eX,l,C.cK,"Fortnightly")}}
 S.aeA.prototype={
 $1:function(a){return new K.ec(this.a,null)},
 $S:128}
