@@ -156,22 +156,23 @@ class _BackdropState extends State<Backdrop>
     final Widget settingsPage = ValueListenableBuilder<bool>(
       valueListenable: _isSettingsOpenNotifier,
       builder: (context, isSettingsOpen, child) {
-        return ExcludeSemantics(
-          excluding: !isSettingsOpen,
-          child: isSettingsOpen
-              ? RawKeyboardListener(
-                  // TODO: Implement RawKeyboardListener.includeSemantics
-                  // includeSemantics: false,
-                  focusNode: _settingsPageFocusNode,
-                  onKey: (event) {
-                    if (event.logicalKey == LogicalKeyboardKey.escape) {
-                      _toggleSettings();
-                    }
-                  },
-                  child: FocusScope(child: _settingsPage),
-                )
-              : ExcludeFocus(child: _settingsPage),
-        );
+        return Container();
+//        return ExcludeSemantics(
+//          excluding: !isSettingsOpen,
+//          child: isSettingsOpen
+//              ? RawKeyboardListener(
+//                  // TODO: Implement RawKeyboardListener.includeSemantics
+//                  // includeSemantics: false,
+//                  focusNode: _settingsPageFocusNode,
+//                  onKey: (event) {
+//                    if (event.logicalKey == LogicalKeyboardKey.escape) {
+//                      _toggleSettings();
+//                    }
+//                  },
+//                  child: FocusScope(child: _settingsPage),
+//                )
+//              : ExcludeFocus(child: _settingsPage),
+//        );
       },
     );
 
